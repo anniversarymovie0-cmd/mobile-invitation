@@ -60,6 +60,8 @@ export default function Location({ data }) {
     document.head.appendChild(script);
   }, [lat, lng]);
 
+  const addressLines = address?.split('\n');
+
   return (
     <div style={{ padding: '60px 20px', backgroundColor: '#fff' }}>
       <h2
@@ -75,7 +77,15 @@ export default function Location({ data }) {
         >
           {name}
         </h3>
-        <p style={{ fontSize: '0.9rem', color: '#666' }}>{address}</p>
+       {/* 층/홀 (강조) */}
+<p style={{ fontSize: '0.95rem', color: '#111', marginBottom: '4px',fontWeight: 'bold' }}>
+  {addressLines?.[0]}
+</p>
+
+{/* 주소 (연하게) */}
+<p style={{ fontSize: '0.9rem', color: '#555', marginTop: '8px' }}>
+  {addressLines?.[1]}
+</p>
       </div>
 
       {/* 지도 영역 */}
