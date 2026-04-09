@@ -1,0 +1,8 @@
+/* src/App.css */
+
+/* 기존에 있던 root, logo 관련 설정들 다 지우세요. 
+   그래야 우리가 작성한 style={{...}}이 방해받지 않고 100% 적용됩니다. */
+   
+.text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}

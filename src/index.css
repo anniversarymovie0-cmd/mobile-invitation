@@ -1,0 +1,229 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum:wght@400;700&family=Gowun+Batang:wght@400;700&family=Great+Vibes&display=swap');
+
+/* 기본 리셋 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gowun Dodum', sans-serif;
+  word-break: keep-all;
+}
+
+/* 확대 대응 */
+html {
+  -webkit-text-size-adjust: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gowun Dodum', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+
+  display: block;
+  min-height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* 전체 컨테이너 */
+#root {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  min-height: 100dvh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* 이미지 기본 안정화 */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* 버튼 / 링크 */
+button,
+a {
+  white-space: normal;
+  word-break: keep-all;
+  min-height: 44px;
+}
+
+/* 필기체 */
+.script-font {
+  font-family: 'Great Vibes', cursive;
+}
+
+/* 메인 배경 */
+.main-bg {
+  background-color: #f4f4f4;
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  height: auto;
+  overflow: visible;
+}
+
+/* 아치 프레임 */
+.arch-frame {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: auto;
+  max-height: 70%;
+  border-radius: 50% 50% 0 0;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* 타이틀 */
+.horizontal-title {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  font-size: 2.2rem;
+  font-weight: 300;
+  letter-spacing: 8px;
+  color: #333;
+  margin: 0;
+}
+
+/* 하단 텍스트 */
+.bottom-text {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+  color: #fff;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* 메인 이미지 컨테이너 */
+.fullscreen-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+/* 메인 이미지 */
+.fullscreen-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 오버레이 */
+.overlay-dark {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+/* 메인 타이틀 */
+.main-title-white {
+  position: absolute;
+  top: 12%;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  font-size: 2.2rem;
+  font-weight: 300;
+  letter-spacing: 8px;
+  color: #fff;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  margin: 0;
+}
+
+/* 메인 정보 */
+.main-info-white {
+  position: absolute;
+  bottom: 8%;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  color: #fff;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* 영어 타이틀 */
+.english-title {
+  font-family: 'Gowun Batang', serif !important;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* 애니메이션 */
+.fade-up {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 로딩 */
+.loader {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #eee;
+  border-top: 3px solid #999;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 음악 바 */
+.music-bar {
+  width: 3px;
+  height: 14px;
+  background: #aaa;
+  animation: musicBounce 1s infinite ease-in-out;
+}
+
+.music-bar.delay1 {
+  animation-delay: 0.2s;
+}
+
+.music-bar.delay2 {
+  animation-delay: 0.4s;
+}
+
+@keyframes musicBounce {
+  0%, 100% {
+    transform: scaleY(0.4);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
