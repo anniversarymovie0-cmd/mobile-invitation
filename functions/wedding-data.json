@@ -344,7 +344,7 @@
 }
   },
   "omhb0620": {
-    "open": false,
+    "open": true,
     "keepForever": false,
     "bgm": "07",
     "settings": {
@@ -356,10 +356,10 @@
       "brideName": "박혜빈",
       "date": "2026년 6월 20일 토요일 오후 3시 30분",
       "location": "웨스턴베니비스 영등포",
-      "message": "맛있는 것을 먹고 좋은 풍경을 볼때면\n서로가 가장 먼저 생각나는 사람이 되었습니다\n\n혼자 걷던 길의 작은 즐거움들을\n이제 둘이 나누려 합니다\n\n저희의 두 사람의 다정한 일상이 시작되는 날,\n늘 곁에서 아껴주셨던 고마운 분들을 모십니다",
-      "mainImage": "/images/sjde0704/main.jpg",
-      "thumbnail": "/images/sjde0704/thumbnail.jpg",
-      "kakaoThumbnail": "/images/sjde0704/thumbnail_kakao.jpg"
+      "message": "맛있는 것을 먹고 좋은 풍경을 볼 때면\n서로가 가장 먼저 생각나는 사람이 되었습니다\n\n혼자 걷던 길의 작은 즐거움들을\n이제 둘이 나누려 합니다\n\n저희 두 사람의 다정한 일상이 시작되는 날,\n늘 곁에서 아껴주셨던 고마운 분들을 모십니다",
+      "mainImage": "/images/omhb0620/main.jpg",
+      "thumbnail": "/images/omhb0620/thumbnail.jpg",
+      "kakaoThumbnail": "/images/omhb0620/thumbnail_kakao.jpg"
     },
   "parents": {
   "groom": {
@@ -394,33 +394,24 @@
       ],
       "bride": [
         { "name": "박혜빈", "relation": "신부", "phone": "010-2089-4122" },
-        { "name": "박현태", "relation": "아버님", "phone": "010-3350-3122" }
+        { "name": "박현태", "relation": "아버님", "phone": "010-3350-4122" }
       ]
     },
     "calendar": {
       "date": "2026-06-20T15:30:00+09:00"
     },
     "gallery": [
-      "/images/sjde0704/gallery1.jpg",
-      "/images/sjde0704/gallery2.jpg",
-      "/images/sjde0704/gallery3.jpg",
-      "/images/sjde0704/gallery4.jpg",
-      "/images/sjde0704/gallery5.jpg",
-      "/images/sjde0704/gallery6.jpg",
-      "/images/sjde0704/gallery7.jpg",
-      "/images/sjde0704/gallery8.jpg",
-      "/images/sjde0704/gallery9.jpg",
-      "/images/sjde0704/gallery10.jpg",
-      "/images/sjde0704/gallery11.jpg",
-      "/images/sjde0704/gallery12.jpg",
-      "/images/sjde0704/gallery13.jpg",
-      "/images/sjde0704/gallery14.jpg",
-      "/images/sjde0704/gallery15.jpg",
-      "/images/sjde0704/gallery16.jpg",
-      "/images/sjde0704/gallery17.jpg",
-      "/images/sjde0704/gallery18.jpg",
-      "/images/sjde0704/gallery19.jpg",
-      "/images/sjde0704/gallery20.jpg"
+      "/images/omhb0620/gallery1.jpg",
+      "/images/omhb0620/gallery2.jpg",
+      "/images/omhb0620/gallery3.jpg",
+      "/images/omhb0620/gallery4.jpg",
+      "/images/omhb0620/gallery5.jpg",
+      "/images/omhb0620/gallery6.jpg",
+      "/images/omhb0620/gallery7.jpg",
+      "/images/omhb0620/gallery8.jpg",
+      "/images/omhb0620/gallery9.jpg",
+      "/images/omhb0620/gallery10.jpg",
+      "/images/omhb0620/gallery11.jpg"
     ],
     "video": {
 "enabled": false
@@ -431,9 +422,9 @@
   "lat": 37.527747377026635,
   "lng": 126.89612380542675,
   "transport": {
-    "car": "제 1주차장 서울 영등포구 당산로 141, 현대해상 강서사옥\n제 2주차장 서울 영등포구 국회대로 559, 에이원타워 당산",
+    "car": "제 1주차장 : 서울 영등포구 당산로 141, 현대해상 강서사옥\n제 2주차장 : 서울 영등포구 국회대로 559, 에이원타워 당산",
     "subway": "2, 5호선 영등포구청역 3번 출구 (도보 200m)",
-    "bus": "5, 70-3, 5620, 6637\n영등포 02, 영등포 12",
+    "bus": "5, 70-3, 5620, 6637, 6631\n영등포 02, 영등포 12",
     "shuttle": "",
     "parking": "웨딩홀 1층 안내데스크에서 주차 등록 (2시간 무료)\n웨딩홀 본 건물에는 주차장이 없습니다."
   }
