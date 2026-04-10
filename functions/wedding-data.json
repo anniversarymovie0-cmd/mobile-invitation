@@ -401,17 +401,18 @@
       "date": "2026-06-20T15:30:00+09:00"
     },
     "gallery": [
-      "/images/omhb0620/gallery1.jpg",
-      "/images/omhb0620/gallery2.jpg",
-      "/images/omhb0620/gallery3.jpg",
-      "/images/omhb0620/gallery4.jpg",
-      "/images/omhb0620/gallery5.jpg",
-      "/images/omhb0620/gallery6.jpg",
-      "/images/omhb0620/gallery7.jpg",
-      "/images/omhb0620/gallery8.jpg",
-      "/images/omhb0620/gallery9.jpg",
-      "/images/omhb0620/gallery10.jpg",
-      "/images/omhb0620/gallery11.jpg"
+      "/images/omhb0620/gallery1.jpg?v=1",
+      "/images/omhb0620/gallery2.jpg?v=1",
+      "/images/omhb0620/gallery3.jpg?v=1",
+      "/images/omhb0620/gallery4.jpg?v=1",
+      "/images/omhb0620/gallery5.jpg?v=1",
+      "/images/omhb0620/gallery6.jpg?v=1",
+      "/images/omhb0620/gallery7.jpg?v=1",
+      "/images/omhb0620/gallery8.jpg?v=1",
+      "/images/omhb0620/gallery9.jpg?v=1",
+      "/images/omhb0620/gallery10.jpg?v=1",
+      "/images/omhb0620/gallery11.jpg?v=1",
+      "/images/omhb0620/gallery12.jpg?v=1"
     ],
     "video": {
 "enabled": false
@@ -438,6 +439,7 @@
     "accounts": {
       "groom": [
         { "name": "권오민", "bank": "신한은행", "number": "110-438-598687" },
+        { "name": "권영호", "bank": "농협은행", "number": "351-1141-2533-93" },
         { "name": "조미자", "bank": "기업은행", "number": "206-040866-03-016" }
       ],
       "bride": [
@@ -448,6 +450,120 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1pugjzUuX6pOnnUEm7n_adODVwO5gIYyVy9WfGAROwws"
+}
+  },
+  "bhmj0613": {
+    "open": false,
+    "keepForever": false,
+    "bgm": "03",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "전병훈 & 우민지 결혼식에 초대합니다",
+      "groomName": "전병훈",
+      "brideName": "우민지",
+      "date": "2026년 6월 13일 토요일 오후 3시",
+      "location": "수원 노블레스웨딩컨벤션",
+      "message": "새로운 시작을 담는 그 순간,\n당신을 초대합니다.\n\n병훈이라는 확신과 민지라는 설렘이 만나\n훈훈한 사랑의 결실을 맺습니다.\n\n지나온 모든 시간보다\n함께할 내일이 더 기대되는 오늘,\n저희의 첫걸음에 힘찬 박수를 보내주세요.",
+      "mainImage": "/images/bhmj0613/main.jpg",
+      "thumbnail": "/images/bhmj0613/thumbnail.jpg",
+      "kakaoThumbnail": "/images/bhmj0613/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "전명수",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박분옥",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "우병진",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "고영자",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "전병훈", "relation": "신랑", "phone": "010-7743-1104" },
+        { "name": "전명수", "relation": "아버님", "phone": "010-2257-5269" },
+        { "name": "박분옥", "relation": "어머님", "phone": "010-5201-5269" }
+      ],
+      "bride": [
+        { "name": "우민지", "relation": "신부", "phone": "010-7907-7103" },
+        { "name": "우병진", "relation": "아버님", "phone": "010-2224-7483" },
+        { "name": "고영자", "relation": "어머님", "phone": "010-2101-1317" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-06-13T15:00:00+09:00"
+    },
+    "gallery": [
+      "/images/bhmj0613/gallery1.jpg",
+      "/images/bhmj0613/gallery2.jpg",
+      "/images/bhmj0613/gallery3.jpg",
+      "/images/bhmj0613/gallery4.jpg",
+      "/images/bhmj0613/gallery5.jpg",
+      "/images/bhmj0613/gallery6.jpg",
+      "/images/bhmj0613/gallery7.jpg",
+      "/images/bhmj0613/gallery8.jpg",
+      "/images/bhmj0613/gallery9.jpg",
+      "/images/bhmj0613/gallery10.jpg",
+      "/images/bhmj0613/gallery11.jpg",
+      "/images/bhmj0613/gallery12.jpg",
+      "/images/bhmj0613/gallery13.jpg",
+      "/images/bhmj0613/gallery14.jpg",
+      "/images/bhmj0613/gallery15.jpg",
+      "/images/bhmj0613/gallery16.jpg",
+      "/images/bhmj0613/gallery17.jpg",
+      "/images/bhmj0613/gallery18.jpg",
+      "/images/bhmj0613/gallery19.jpg",
+      "/images/bhmj0613/gallery20.jpg"
+    ],
+    "video": {
+"enabled": false
+},
+    "map": {
+  "name": "수원 노블레스웨딩컨벤션",
+  "address": "7층 컨벤션홀\n경기 수원시 팔달구 팔달문로 128",
+  "lat": 37.281618619204146,
+  "lng": 127.03028788563364,
+  "transport": {
+    "car": "",
+    "subway": "",
+    "bus": "",
+    "shuttle": "",
+    "parking": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "박분옥", "bank": "농협은행", "number": "20717752130494" },
+        { "name": "전명수", "bank": "새마을금고", "number": "370809-022-1865" },
+        { "name": "전병훈", "bank": "신한은행", "number": "110-465-641007" }
+      ],
+      "bride": [
+        { "name": "고영자", "bank": "대구은행", "number": "508-14-6847072" },
+        { "name": "우병진", "bank": "농협은행", "number": "352-0258-3500-23" },
+        { "name": "우민지", "bank": "신한은행", "number": "110-608-269333" }
+      ]
+    },
+    "rsvp": {
+  "enabled": false,
+  "sheetId": ""
 }
   }
 }

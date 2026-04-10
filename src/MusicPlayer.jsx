@@ -1,12 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 export default function MusicPlayer({ bgm, isVideoPlaying }) {
+  if (!bgm) return null; 
   const audioRef = useRef(null);
   const fadeRef = useRef(null); // 🔥 interval 관리
   const [showToast, setShowToast] = useState(true);
   const [isPlaying, setIsPlaying] = useState(false);
 
-  const musicSrc = bgm?.includes('/')
+  const musicSrc = typeof bgm === 'string' && bgm.includes('/')
   ? bgm
   : `/music/bgm_${bgm}.mp3`;
 
