@@ -78,13 +78,18 @@ export default function Location({ data }) {
           {name}
         </h3>
        {/* 층/홀 (강조) */}
-<p style={{ fontSize: '0.95rem', color: '#111', marginBottom: '4px',fontWeight: 'bold' }}>
+<p style={{ fontSize: '0.95rem', color: '#111', marginBottom: '4px', fontWeight: 'bold' }}>
   {addressLines?.[0]}
 </p>
 
-{/* 주소 (연하게) */}
-<p style={{ fontSize: '0.9rem', color: '#555', marginTop: '8px' }}>
-  {addressLines?.[1]}
+{/* 주소 (여러 줄 대응) */}
+<p style={{
+  fontSize: '0.9rem',
+  color: '#555',
+  marginTop: '8px',
+  whiteSpace: 'pre-line'
+}}>
+  {addressLines?.slice(1).join('\n')}
 </p>
       </div>
 

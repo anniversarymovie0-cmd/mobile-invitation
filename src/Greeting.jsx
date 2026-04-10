@@ -71,8 +71,10 @@ export default function Greeting({ intro, parents }) {
             {renderParentName(parents.groom.father)} · {renderParentName(parents.groom.mother)}
           </span>
           <span style={{ fontSize: '1rem', color: '#999', margin: '0 5px' }}>
-            의 {parents.groom.relation}
-          </span>
+  의 <span style={{ display: 'inline-block', minWidth: '2.5em' }}>
+    {parents.groom.relation}
+  </span>
+</span>
           <span style={{ fontWeight: 'bold' }}>{intro.groomName}</span>
         </div>
 
@@ -80,9 +82,11 @@ export default function Greeting({ intro, parents }) {
           <span>
             {renderParentName(parents.bride.father)} · {renderParentName(parents.bride.mother)}
           </span>
-          <span style={{ fontSize: '1rem', color: '#999', margin: '0 5px' }}>
-            의 {parents.bride.relation}
-          </span>
+         <span style={{ fontSize: '1rem', color: '#999', margin: '0 5px' }}>
+  의 <span style={{ display: 'inline-block', minWidth: '2.5em' }}>
+    {parents.bride.relation}
+  </span>
+</span>
           <span style={{ fontWeight: 'bold' }}>{intro.brideName}</span>
         </div>
       </motion.div>

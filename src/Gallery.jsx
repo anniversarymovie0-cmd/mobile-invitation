@@ -19,7 +19,7 @@ export default function Gallery({ images }) {
         width: '100%',
         marginBottom: '40px',
         padding: '0 20px',
-        height: '420px',
+        height: '430px',
         display: 'flex',
         alignItems: 'center',
        justifyContent: 'center',
@@ -39,6 +39,7 @@ export default function Gallery({ images }) {
   display: 'block',
   objectFit: 'contain',
   backgroundColor: '#ffffff',
+  transform: 'scale(1.07)'
 }}
         />
       </div>
