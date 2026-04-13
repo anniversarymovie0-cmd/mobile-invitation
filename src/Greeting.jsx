@@ -32,6 +32,13 @@ export default function Greeting({ intro, parents }) {
     return parent.name;
   };
 
+  // ✅ 부모 존재 여부 체크
+  const hasGroomParents =
+    parents.groom.father?.name || parents.groom.mother?.name;
+
+  const hasBrideParents =
+    parents.bride.father?.name || parents.bride.mother?.name;
+
   return (
     <div style={{ padding: '80px 30px', backgroundColor: '#fff', textAlign: 'center' }}>
       
@@ -49,7 +56,13 @@ export default function Greeting({ intro, parents }) {
 
       {/* 인사말 */}
       <motion.p
-        style={{ fontSize: '1rem', lineHeight: '2.2', color: '#555', marginBottom: '50px', whiteSpace: 'pre-wrap' }}
+        style={{
+          fontSize: '1rem',
+          lineHeight: '2.2',
+          color: '#555',
+          marginBottom: '50px',
+          whiteSpace: 'pre-wrap'
+        }}
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.2 }}
@@ -66,29 +79,59 @@ export default function Greeting({ intro, parents }) {
         transition={{ duration: 1, delay: 0.4 }}
         viewport={{ once: true }}
       >
+
+        {/* 🔵 신랑 */}
         <div style={{ marginBottom: '10px' }}>
-          <span>
-            {renderParentName(parents.groom.father)} · {renderParentName(parents.groom.mother)}
-          </span>
-          <span style={{ fontSize: '1rem', color: '#999', margin: '0 5px' }}>
-  의 <span style={{ display: 'inline-block', minWidth: '2.5em' }}>
-    {parents.groom.relation}
-  </span>
-</span>
-          <span style={{ fontWeight: 'bold' }}>{intro.groomName}</span>
+          {hasGroomParents ? (
+            <>
+              <span>
+                {parents.groom.father?.name && renderParentName(parents.groom.father)}
+                {parents.groom.father?.name && parents.groom.mother?.name && ' · '}
+                {parents.groom.mother?.name && renderParentName(parents.groom.mother)}
+              </span>
+
+              <span style={{ fontSize: '1rem', color: '#999', margin: '0 5px' }}>
+                의 <span style={{ display: 'inline-block', minWidth: '2.5em' }}>
+                  {parents.groom.relation}
+                </span>
+              </span>
+
+              <span style={{ fontWeight: 'bold' }}>{intro.groomName}</span>
+            </>
+          ) : (
+            <>
+              <span style={{ color: '#999', marginRight: '6px' }}>신랑</span>
+              <span style={{ fontWeight: 'bold' }}>{intro.groomName}</span>
+            </>
+          )}
         </div>
 
+        {/* 🔴 신부 */}
         <div>
-          <span>
-            {renderParentName(parents.bride.father)} · {renderParentName(parents.bride.mother)}
-          </span>
-         <span style={{ fontSize: '1rem', color: '#999', margin: '0 5px' }}>
-  의 <span style={{ display: 'inline-block', minWidth: '2.5em' }}>
-    {parents.bride.relation}
-  </span>
-</span>
-          <span style={{ fontWeight: 'bold' }}>{intro.brideName}</span>
+          {hasBrideParents ? (
+            <>
+              <span>
+                {parents.bride.father?.name && renderParentName(parents.bride.father)}
+                {parents.bride.father?.name && parents.bride.mother?.name && ' · '}
+                {parents.bride.mother?.name && renderParentName(parents.bride.mother)}
+              </span>
+
+              <span style={{ fontSize: '1rem', color: '#999', margin: '0 5px' }}>
+                의 <span style={{ display: 'inline-block', minWidth: '2.5em' }}>
+                  {parents.bride.relation}
+                </span>
+              </span>
+
+              <span style={{ fontWeight: 'bold' }}>{intro.brideName}</span>
+            </>
+          ) : (
+            <>
+              <span style={{ color: '#999', marginRight: '6px' }}>신부</span>
+              <span style={{ fontWeight: 'bold' }}>{intro.brideName}</span>
+            </>
+          )}
         </div>
+
       </motion.div>
 
     </div>
