@@ -453,7 +453,7 @@
 }
   },
   "bhmj0613": {
-    "open": false,
+    "open": true,
     "keepForever": false,
     "bgm": "03",
     "settings": {
