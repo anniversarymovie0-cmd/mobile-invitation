@@ -13,7 +13,8 @@ export default function VideoSection({ data, setIsVideoPlaying }) {
     videoId = data.url.split('v=')[1]?.split('&')[0];
   }
 
-  const thumbnail = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+  const thumbnail = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+  const fallback = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
 
   const embedUrl = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&playsinline=1&rel=0`;
 
@@ -45,6 +46,9 @@ export default function VideoSection({ data, setIsVideoPlaying }) {
             {/* 썸네일 */}
             <img
               src={thumbnail}
+              onError={(e) => {
+                e.target.src = fallback;
+              }}
               alt="video thumbnail"
               style={{
                 width: '100%',

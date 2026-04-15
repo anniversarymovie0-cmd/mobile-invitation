@@ -61,6 +61,7 @@ export default function Location({ data }) {
   }, [lat, lng]);
 
   const addressLines = address?.split('\n');
+  const hasDetail = addressLines && addressLines.length > 1;
 
   return (
     <div style={{ padding: '60px 20px', backgroundColor: '#fff' }}>
@@ -77,20 +78,39 @@ export default function Location({ data }) {
         >
           {name}
         </h3>
-       {/* 층/홀 (강조) */}
-<p style={{ fontSize: '0.95rem', color: '#111', marginBottom: '4px', fontWeight: 'bold' }}>
-  {addressLines?.[0]}
-</p>
+{hasDetail ? (
+  <>
+    {/* 홀/층 */}
+    <p style={{
+      fontSize: '0.95rem',
+      color: '#111',
+      marginBottom: '4px',
+      fontWeight: 'bold'
+    }}>
+      {addressLines[0]}
+    </p>
 
-{/* 주소 (여러 줄 대응) */}
-<p style={{
-  fontSize: '0.9rem',
-  color: '#555',
-  marginTop: '8px',
-  whiteSpace: 'pre-line'
-}}>
-  {addressLines?.slice(1).join('\n')}
-</p>
+    {/* 주소 */}
+    <p style={{
+      fontSize: '0.9rem',
+      color: '#555',
+      marginTop: '8px',
+      whiteSpace: 'pre-line'
+    }}>
+      {addressLines.slice(1).join('\n')}
+    </p>
+  </>
+) : (
+  /* 주소만 있을 때 */
+  <p style={{
+    fontSize: '0.9rem',
+    color: '#555',
+    marginTop: '8px',
+    whiteSpace: 'pre-line'
+  }}>
+    {address}
+  </p>
+)}
       </div>
 
       {/* 지도 영역 */}
@@ -107,63 +127,51 @@ export default function Location({ data }) {
         <div id="kakao-map" style={{ width: '100%', height: '100%' }} />
       </div>
 
-     {/* 교통 안내 */}
+{/* 교통 안내 */}
 <div style={{ marginBottom: '30px', textAlign: 'left', paddingLeft: '10px' }}>
 
-  {transport?.car && (
-    <div style={{ marginBottom: '20px' }}>
-      <div style={{ fontWeight: '600', letterSpacing: '0.3px', color: '#111', marginBottom: '6px', fontSize: '1.05rem' }}>
-        자차
-      </div>
-      <div style={{ color: '#555', whiteSpace: 'pre-wrap', fontSize: '0.9rem' }}>
-        {transport.car}
-      </div>
-    </div>
-  )}
+  {transport && (() => {
+    const entries = Object.entries(transport).filter(([_, v]) => v);
 
-  {transport?.subway && (
-    <div style={{ marginBottom: '20px' }}>
-      <div style={{ fontWeight: '600', letterSpacing: '0.3px', color: '#111', marginBottom: '6px', fontSize: '1.05rem' }}>
-        지하철
-      </div>
-      <div style={{ color: '#555', whiteSpace: 'pre-wrap', fontSize: '0.9rem' }}>
-        {transport.subway}
-      </div>
-    </div>
-  )}
+    return entries.map(([key, value], index) => {
 
-  {transport?.bus && (
-    <div style={{ marginBottom: '20px' }}>
-     <div style={{ fontWeight: '600', letterSpacing: '0.3px', color: '#111', marginBottom: '6px', fontSize: '1.05rem' }}>
-        버스
-      </div>
-      <div style={{ color: '#555', whiteSpace: 'pre-wrap', fontSize: '0.9rem' }}>
-        {transport.bus}
-      </div>
-    </div>
-  )}
+      const titleMap = {
+        car: '자가용',
+        subway: '지하철',
+        bus: '버스',
+        train: '기차',
+        parking: '주차',
+        shuttle: '셔틀버스'
+      };
 
-  {transport?.parking && (
-    <div style={{ marginBottom: '20px' }}>
-     <div style={{ fontWeight: '600', letterSpacing: '0.3px', color: '#111', marginBottom: '6px', fontSize: '1.05rem' }}>
-        주차
-      </div>
-      <div style={{ color: '#555', whiteSpace: 'pre-wrap', fontSize: '0.9rem' }}>
-        {transport.parking}
-      </div>
-    </div>
-  )}
+      return (
+        <div
+          key={key}
+          style={{
+            marginBottom: index === entries.length - 1 ? '40px' : '20px'
+          }}
+        >
+          <div style={{
+            fontWeight: '600',
+            letterSpacing: '0.3px',
+            color: '#111',
+            marginBottom: '6px',
+            fontSize: '1.05rem'
+          }}>
+            {titleMap[key] || key}
+          </div>
 
-  {transport?.shuttle && (
-    <div style={{ marginBottom: '40px' }}>
-     <div style={{ fontWeight: '600', letterSpacing: '0.3px', color: '#111', marginBottom: '6px', fontSize: '1.05rem' }}>
-        셔틀버스
-      </div>
-      <div style={{ color: '#555', whiteSpace: 'pre-wrap', fontSize: '0.9rem' }}>
-        {transport.shuttle}
-      </div>
-    </div>
-  )}
+          <div style={{
+            color: '#555',
+            whiteSpace: 'pre-wrap',
+            fontSize: '0.9rem'
+          }}>
+            {value}
+          </div>
+        </div>
+      );
+    });
+  })()}
 
 </div>
 
@@ -180,12 +188,20 @@ export default function Location({ data }) {
         </button>
 
         <button
-          onClick={() =>
-            window.open(
-              `https://map.kakao.com/link/to/${encodeURIComponent(name)},${lat},${lng}`,
-              '_blank'
-            )
-          }
+          onClick={() => {
+  const safeName = name.replace(/,/g, ' '); // 쉼표 방어
+
+  const appUrl = `kakaomap://route?ep=${lat},${lng}&epName=${encodeURIComponent(safeName)}&by=CAR`;
+  const webUrl = `https://map.kakao.com/link/to/${encodeURIComponent(safeName)},${lat},${lng}`;
+
+  // 앱 실행
+  window.location.href = appUrl;
+
+  // fallback
+  setTimeout(() => {
+    window.location.href = webUrl;
+  }, 700);
+}}
           style={btnStyle}
         >
           <img src="/images/kakao_logo.png" alt="" style={{ width: '18px' }} />
