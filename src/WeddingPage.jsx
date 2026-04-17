@@ -52,7 +52,11 @@ export default function WeddingPage({ data }) {
   return (
     <div style={{ width: '100%', overflowX: 'hidden' }}>
 
-      <MusicPlayer bgm={data.bgm} isVideoPlaying={isVideoPlaying} />
+      <MusicPlayer
+  bgm={data.bgm}
+  bgmAutoPlay={data.bgmAutoPlay} // 🔥 이거 추가
+  isVideoPlaying={isVideoPlaying}
+/>
 
       <MainVisual data={intro} />
 

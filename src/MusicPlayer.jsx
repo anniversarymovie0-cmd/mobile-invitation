@@ -1,10 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-export default function MusicPlayer({ bgm, isVideoPlaying }) {
+export default function MusicPlayer({ bgm, isVideoPlaying, bgmAutoPlay }) {
   if (!bgm) return null; 
   const audioRef = useRef(null);
   const fadeRef = useRef(null); // 🔥 interval 관리
-  const [showToast, setShowToast] = useState(true);
+
+  const isAutoPlay = bgmAutoPlay === true; // ✅ 추가
+
+  const [showToast, setShowToast] = useState(!isAutoPlay); // ✅ 수정
   const [isPlaying, setIsPlaying] = useState(false);
 
   const musicSrc = typeof bgm === 'string' && bgm.includes('/')
@@ -35,11 +38,13 @@ export default function MusicPlayer({ bgm, isVideoPlaying }) {
 
   // 토스트
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowToast(false);
-    }, 2200);
-    return () => clearTimeout(timer);
-  }, []);
+    if (!isAutoPlay) { // ✅ 수정
+      const timer = setTimeout(() => {
+        setShowToast(false);
+      }, 2200);
+      return () => clearTimeout(timer);
+    }
+  }, [isAutoPlay]); // ✅ 수정
 
   // 🔥 영상 시작 시만 페이드아웃 (핵심 수정)
   useEffect(() => {
@@ -47,14 +52,31 @@ export default function MusicPlayer({ bgm, isVideoPlaying }) {
     if (!audio) return;
 
     if (isVideoPlaying) {
-      fadeOut(); // 👉 영상 시작 시만 작동
+      fadeOut();
     } else {
-      // 🔥 중요: 상태 초기화 (재생 가능하게)
       audio.volume = 1;
     }
   }, [isVideoPlaying]);
 
-  // 🔥 수동 버튼 (완전 안정 버전)
+  // 자동재생
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    if (isAutoPlay) { // ✅ 수정
+      audio.volume = 1;
+
+      audio.play()
+        .then(() => {
+          setIsPlaying(true);
+        })
+        .catch(() => {
+          // iOS 등 자동재생 막힘 대비
+        });
+    }
+  }, [isAutoPlay]); // ✅ 수정
+
+  // 🔥 수동 버튼
   const handlePlay = () => {
     const audio = audioRef.current;
     if (!audio) return;
@@ -65,7 +87,7 @@ export default function MusicPlayer({ bgm, isVideoPlaying }) {
       audio.pause();
       setIsPlaying(false);
     } else {
-      audio.volume = 1; // 🔥 핵심 (소리 안나는 문제 해결)
+      audio.volume = 1;
       audio.play()
         .then(() => {
           setIsPlaying(true);

@@ -3,6 +3,7 @@
     "open": true,
     "keepForever": true,
     "bgm": "01",
+    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -663,9 +664,10 @@
 }
   },
   "jhya0711": {
-    "open": false,
+    "open": true,
     "keepForever": false,
     "bgm": "01",
+    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -675,7 +677,7 @@
       "brideName": "이윤아",
       "date": "2026년 7월 11일 토요일 오후 2시",
       "location": "모든날 Wedding",
-      "message": "쉴 수 있는 나무가 되어주겠다던 재홍,\n그 나무 곁에 음악이 되어 머물겠다는 윤아.\n\n서로에게 나무와 음악이 된 두 사람,\n이제 평생의 즐거운 쉼터가 되려 합니다.\n\n즐거운 걸음으로 저희의 시작을 응원해주세요.",
+      "message": "함께 있을 때 가장 나다운 사람을 만나\n함께 맞이하는 여섯 번째 여름, 결혼합니다.\n\n평생 좋은 친구로, 사랑하는 연인으로\n서로 아껴주고 사랑하며 살겠습니다.\n\n저희의 새로운 시작을 축복해 주세요",
       "mainImage": "/images/jhya0711/main.jpg",
       "thumbnail": "/images/jhya0711/thumbnail.jpg",
       "kakaoThumbnail": "/images/jhya0711/thumbnail_kakao.jpg"
@@ -721,26 +723,26 @@
       "date": "2026-07-11T14:00:00+09:00"
     },
     "gallery": [
-      "/images/jhya0711/gallery1.jpg",
-      "/images/jhya0711/gallery2.jpg",
-      "/images/jhya0711/gallery3.jpg",
-      "/images/jhya0711/gallery4.jpg",
-      "/images/jhya0711/gallery5.jpg",
-      "/images/jhya0711/gallery6.jpg",
-      "/images/jhya0711/gallery7.jpg",
-      "/images/jhya0711/gallery8.jpg",
-      "/images/jhya0711/gallery9.jpg",
-      "/images/jhya0711/gallery10.jpg",
-      "/images/jhya0711/gallery11.jpg",
-      "/images/jhya0711/gallery12.jpg",
-      "/images/jhya0711/gallery13.jpg",
-      "/images/jhya0711/gallery14.jpg",
-      "/images/jhya0711/gallery15.jpg",
-      "/images/jhya0711/gallery16.jpg",
-      "/images/jhya0711/gallery17.jpg",
-      "/images/jhya0711/gallery18.jpg",
-      "/images/jhya0711/gallery19.jpg",
-      "/images/jhya0711/gallery20.jpg"
+      "/images/jhya0711/gallery1.jpg?v=1",
+      "/images/jhya0711/gallery2.jpg?v=1",
+      "/images/jhya0711/gallery3.jpg?v=1",
+      "/images/jhya0711/gallery4.jpg?v=1",
+      "/images/jhya0711/gallery5.jpg?v=1",
+      "/images/jhya0711/gallery6.jpg?v=1",
+      "/images/jhya0711/gallery7.jpg?v=1",
+      "/images/jhya0711/gallery8.jpg?v=1",
+      "/images/jhya0711/gallery9.jpg?v=1",
+      "/images/jhya0711/gallery10.jpg?v=1",
+      "/images/jhya0711/gallery11.jpg?v=1",
+      "/images/jhya0711/gallery12.jpg?v=1",
+      "/images/jhya0711/gallery13.jpg?v=1",
+      "/images/jhya0711/gallery14.jpg?v=1",
+      "/images/jhya0711/gallery15.jpg?v=1",
+      "/images/jhya0711/gallery16.jpg?v=1",
+      "/images/jhya0711/gallery17.jpg?v=1",
+      "/images/jhya0711/gallery18.jpg?v=1",
+      "/images/jhya0711/gallery19.jpg?v=1",
+      "/images/jhya0711/gallery20.jpg?v=1"
     ],
     "video": {
 "enabled": true,
@@ -769,7 +771,7 @@
   },
     {
     "title": "안내 사항",
-    "content": "예식은 1부와 2부로 구성되어 있습니다.\n식사는 식 시작 30분 전과 1부 종료 후\n하객석에서 가능하고,\n2층은 시간 상관없이 식사가 가능합니다."
+    "content": "예식은 1부와 2부로 구성되어 있습니다.\n\n식사는\n식 시작 30분 전과 1부 종료 후\n하객석에서 가능하고\n2층은 시간 상관없이 식사가 가능합니다."
   },
     {
     "title": "화환",
