@@ -801,5 +801,119 @@
   "enabled": true,
   "sheetId": "17wnAlzi3_i2dWBi1u4Xbdxbl88NabZGuG8Iyd4X6GoU"
 }
+  },
+  "gsya0620": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "유경식 & 최윤아 결혼식에 초대합니다",
+      "groomName": "유경식",
+      "brideName": "최윤아",
+      "date": "2026년 6월 20일 토요일 오후 2시 30분",
+      "location": "더채플앳 청담",
+      "message": "부부라는 이름의 첫 시작,\n그 설렘의 순간에 소중한 분들을 초대합니다.",
+      "mainImage": "/images/gsya0620/main.jpg",
+      "thumbnail": "/images/gsya0620/thumbnail.jpg",
+      "kakaoThumbnail": "/images/gsya0620/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "유장준",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박미선",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "최원영",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이명숙",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "유경식", "relation": "신랑", "phone": "010-8261-4517" },
+        { "name": "유장준", "relation": "아버님", "phone": "010-6682-6560" },
+        { "name": "박미선", "relation": "어머님", "phone": "010-4713-8114" }
+      ],
+      "bride": [
+        { "name": "최윤아", "relation": "신부", "phone": "010-9207-4574" },
+        { "name": "최원영", "relation": "아버님", "phone": "010-8507-4574" },
+        { "name": "이명숙", "relation": "어머님", "phone": "010-6785-4574" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-06-20T14:30:00+09:00"
+    },
+    "gallery": [
+      "/images/gsya0620/gallery1.jpg",
+      "/images/gsya0620/gallery2.jpg",
+      "/images/gsya0620/gallery3.jpg",
+      "/images/gsya0620/gallery4.jpg",
+      "/images/gsya0620/gallery5.jpg",
+      "/images/gsya0620/gallery6.jpg",
+      "/images/gsya0620/gallery7.jpg",
+      "/images/gsya0620/gallery8.jpg",
+      "/images/gsya0620/gallery9.jpg",
+      "/images/gsya0620/gallery10.jpg",
+      "/images/gsya0620/gallery11.jpg",
+      "/images/gsya0620/gallery12.jpg",
+      "/images/gsya0620/gallery13.jpg",
+      "/images/gsya0620/gallery14.jpg",
+      "/images/gsya0620/gallery15.jpg",
+      "/images/gsya0620/gallery16.jpg"
+    ],
+    "video": {
+"enabled": false
+},
+    "map": {
+  "name": "더채플앳 청담",
+  "address": "6층 채플홀\n서울 강남구 선릉로 757",
+  "lat": 37.5222202226399,
+  "lng": 127.03901617403403,
+  "transport": {
+    "car": "",
+    "subway": "강남구청역(7호선, 분당선) 3-1번 출구로 나와\n좌측 방향으로 570M 도보 후 좌측 건물",
+    "bus": "영동고교 앞 하차 후 학동사거리 방면 100M 내 건물\n간선 301, 342, 472\n지선 3011, 4412",
+    "shuttle": "강남구청역 3번 출구(7호선,분당선) 앞",
+    "parking": "건물 내 주차장 및 인근 외부 주차장 이용 가능"
+  }
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "5층 연회장에서 뷔페로 준비되어 있습니다.\n식권은 6층 축의대에서 수령해 주세요."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "유경식", "bank": "하나은행", "number": "267-910296-26607" },
+        { "name": "유장준", "bank": "새마을금고", "number": "9002-1834-5752-9" },
+        { "name": "박미선", "bank": "국민은행", "number": "488401-01-094681" }
+      ],
+      "bride": [
+        { "name": "최윤아", "bank": "하나은행", "number": "144-910470-10707" },
+        { "name": "최원영", "bank": "신한은행", "number": "312-06-221460 " },
+        { "name": "이명숙", "bank": "농협은행", "number": "735089-56-082207" }
+      ]
+    },
+    "rsvp": {
+  "enabled": false
+}
   }
 }
