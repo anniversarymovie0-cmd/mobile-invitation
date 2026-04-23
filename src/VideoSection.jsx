@@ -5,10 +5,15 @@ export default function VideoSection({ data, setIsVideoPlaying }) {
 
   if (!data || !data.url) return null;
 
+  // ✅ 세로 여부 체크 (추가)
+  const isVertical = data.ratio === 'vertical';
+
   let videoId = '';
 
   if (data.url.includes('youtu.be')) {
     videoId = data.url.split('/').pop();
+  } else if (data.url.includes('embed')) {
+    videoId = data.url.split('embed/')[1]?.split('?')[0];
   } else {
     videoId = data.url.split('v=')[1]?.split('&')[0];
   }
@@ -21,21 +26,24 @@ export default function VideoSection({ data, setIsVideoPlaying }) {
   return (
     <div style={{ padding: '60px 0', backgroundColor: '#fff' }}>
       
+      {/* ✅ 여기만 분기 */}
       <div
         style={{
-          width: '100%',
-          aspectRatio: '16 / 9',
+          width: isVertical ? '90%' : '100%',
+          aspectRatio: isVertical ? '9 / 16' : '16 / 9',
+          height: 'auto',
           position: 'relative',
-          overflow: 'hidden'
+          overflow: 'hidden',
+          margin: isVertical ? '0 auto' : '0'
         }}
       >
 
         {!isPlaying ? (
           <div
             onClick={() => {
-  setIsPlaying(true);
-  setIsVideoPlaying(true); // 🔥 이거 추가
-}}
+              setIsPlaying(true);
+              setIsVideoPlaying(true);
+            }}
             style={{
               width: '100%',
               height: '100%',
