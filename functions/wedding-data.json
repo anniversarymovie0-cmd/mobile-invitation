@@ -915,5 +915,133 @@
     "rsvp": {
   "enabled": false
 }
+  },
+  "jbjy0829": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김진범 & 김지영 결혼식에 초대합니다",
+      "groomName": "김진범",
+      "brideName": "김지영",
+      "date": "2026년 8월 29일 토요일 오후 5시 30분",
+      "location": "더파티움 여의도",
+      "message": "초록빛의 싱그러운 계절에\n저희 두 사람이 사랑의 결실을 맺고자 합니다.\n시원한 나무 그늘처럼\n언제나 편안하게 쉴 수 있는\n건강하고 유쾌한 가정을 꾸려가겠습니다.\n부디 함께 자리하시어 축복해 주시면\n더없는 기쁨으로 간직하겠습니다.",
+      "mainImage": "/images/jbjy0829/main.jpg",
+      "thumbnail": "/images/jbjy0829/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jbjy0829/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김영덕",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이세현",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "김진덕",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박선경",
+      "symbol": "none"
+    },
+    "relation": "차녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김진범", "relation": "신랑", "phone": "010-8507-4857" },
+        { "name": "김영덕", "relation": "아버님", "phone": "010-5284-4857" },
+        { "name": "이세현", "relation": "어머님", "phone": "010-6220-4857" }
+      ],
+      "bride": [
+        { "name": "김지영", "relation": "신부", "phone": "010-4235-8411" },
+        { "name": "김진덕", "relation": "아버님", "phone": "010-8967-8411" },
+        { "name": "박선경", "relation": "어머님", "phone": "010-9113-9361" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-08-29T17:30:00+09:00"
+    },
+    "gallery": [
+      "/images/jbjy0829/gallery1.jpg",
+      "/images/jbjy0829/gallery2.jpg",
+      "/images/jbjy0829/gallery3.jpg",
+      "/images/jbjy0829/gallery4.jpg",
+      "/images/jbjy0829/gallery5.jpg",
+      "/images/jbjy0829/gallery6.jpg",
+      "/images/jbjy0829/gallery7.jpg",
+      "/images/jbjy0829/gallery8.jpg",
+      "/images/jbjy0829/gallery9.jpg",
+      "/images/jbjy0829/gallery10.jpg",
+      "/images/jbjy0829/gallery11.jpg",
+      "/images/jbjy0829/gallery12.jpg",
+      "/images/jbjy0829/gallery13.jpg",
+      "/images/jbjy0829/gallery14.jpg",
+      "/images/jbjy0829/gallery15.jpg",
+      "/images/jbjy0829/gallery16.jpg",
+      "/images/jbjy0829/gallery17.jpg",
+      "/images/jbjy0829/gallery18.jpg",
+      "/images/jbjy0829/gallery19.jpg",
+      "/images/jbjy0829/gallery20.jpg",
+      "/images/jbjy0829/gallery21.jpg",
+      "/images/jbjy0829/gallery22.jpg"
+    ],
+    "video": {
+"enabled": true,
+"type": "youtube",
+"url": "https://www.youtube.com/watch?v=oq2dVfnc3kI",
+"position": "afterCalendar"
+},
+    "map": {
+  "name": "더파티움 여의도",
+  "address": "2층 파티움홀\n서울 영등포구 은행로 30",
+  "lat": 37.52809398153121,
+  "lng": 126.92278740200328,
+  "transport": {
+    "car": "",
+    "subway": "9호선 - 국회의사당역 3번 출구 (도보 5분)\n5호선 - 여의나루역 1번 출구 셔틀버스 이용",
+    "bus": "기계회관 - 일반[10], 마을[영등포10]\n산업은행본점 - 일반[10], 간선[463], 마을[영등포10]\n여의도순복음교회 - 일반[10], 간선[463], 지선[5633], 마을[영등포10]\n여의도 환승센터 - 일반[88], 간선[8600, 8601]\n여의도 환승센터 - 간선[N16, 160, 260, 360, 600, 662], 지선[5012, 6623, 6628]",
+    "shuttle": "여의나루역 → 더파티움여의도 무료 셔틀버스 운영 (여의나루역 1번 출구)",
+    "parking": "네비게이션 - 더파티움여의도\n(서울 영등포구 은행로 30)\n제1주차장 - 더파티움여의도 본관 주차장\n(중소기업중앙회)\n제2주차장 - 제2주차장 이용 시,\n반드시 본관에 들러 직원 안내 통해 주차"
+  }
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "지하 1층 연회장에서 식사하실 수 있습니다.\n식권은 2층 축의대에서 수령해 주세요."
+  },
+    {
+    "title": "포토부스",
+    "content": "홀에 포토부스가 설치되어 있으니,\n미리 오셔서 마음껏 이용하시기 바랍니다."
+  },
+    {
+    "title": "화환 안내",
+    "content": "화환은 정중히 사양하겠습니다.\n마음으로 감사히 받겠습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "김진범", "bank": "신한은행", "number": "110-398-471879" }
+      ],
+      "bride": [
+        { "name": "김지영", "bank": "국민은행", "number": "855601-00-067758" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1kptq94oZALGsX71pD6Wl7xZYmwTwq1bx9Z1_IFcTQRI"
+}
   }
 }
