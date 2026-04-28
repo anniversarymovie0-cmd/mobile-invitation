@@ -1043,5 +1043,123 @@
   "enabled": true,
   "sheetId": "1kptq94oZALGsX71pD6Wl7xZYmwTwq1bx9Z1_IFcTQRI"
 }
+  },
+  "cyde0711": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "정찬영 & 이다은 결혼식에 초대합니다",
+      "groomName": "정찬영",
+      "brideName": "이다은",
+      "date": "2026년 7월 11일 토요일 오전 11시",
+      "location": "트리웨딩",
+      "message": "여름 언덕을 오르면\n선선한 바람이 불고 머리칼이 흩날린단다\n이 언덕엔 마음을 기댈 풀 한 포기 나무 한 그루\n없지만 그래도 우린 충분히 흔들릴 수 있지\n\n많은 말들이 떠올랐다 가라앉는 동안\n세상은 조금도 변하지 않은 것 같고\n억겁의 시간이 흐른 것도 같다\n\n울지 않았는데도 언덕을 내려왔을 땐\n충분히 운 것 같은 느낌도 들고\n\n안희연, <여름 언덕에서 배운 것>\n시인의 말 중에서.\n\n\n일곱 번의 여름을 지내며 그래온 것처럼\n찬영과 다은이 평생토록\n서로의 여름 언덕이 되려 합니다\n\n찬영의 농담으로 바람 한 번 불고\n다은의 춤으로 바람 한 번 불고 나면\n세상이 조금도 변하지 않는다 해도\n우린 충분히 흔들릴 수 있으니까요\n\n더운 날, 둘이 이루는 여름 언덕에 올라\n기쁜 발자국 얹어주시면 감사하겠습니다\n\n2026년 7월, 찬영과 다은\n",
+      "mainImage": "/images/cyde0711/main.jpg",
+      "thumbnail": "/images/cyde0711/thumbnail.jpg",
+      "kakaoThumbnail": "/images/cyde0711/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "정해성",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "황현숙",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "이준의",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박종금",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "정찬영", "relation": "신랑", "phone": "010-2448-7253" },
+        { "name": "정해성", "relation": "아버님", "phone": "010-2460-7253" },
+        { "name": "황현숙", "relation": "어머님", "phone": "010-9800-0014" }
+      ],
+      "bride": [
+        { "name": "이다은", "relation": "신부", "phone": "010-9678-2972" },
+        { "name": "이준의", "relation": "아버님", "phone": "010-9498-3844" },
+        { "name": "박종금", "relation": "어머님", "phone": "010-9160-3844" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-07-11T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/cyde0711/gallery1.jpg",
+      "/images/cyde0711/gallery2.jpg",
+      "/images/cyde0711/gallery3.jpg",
+      "/images/cyde0711/gallery4.jpg",
+      "/images/cyde0711/gallery5.jpg",
+      "/images/cyde0711/gallery6.jpg",
+      "/images/cyde0711/gallery7.jpg",
+      "/images/cyde0711/gallery8.jpg",
+      "/images/cyde0711/gallery9.jpg",
+      "/images/cyde0711/gallery10.jpg",
+      "/images/cyde0711/gallery11.jpg",
+      "/images/cyde0711/gallery12.jpg",
+      "/images/cyde0711/gallery13.jpg",
+      "/images/cyde0711/gallery14.jpg",
+      "/images/cyde0711/gallery15.jpg",
+      "/images/cyde0711/gallery16.jpg",
+      "/images/cyde0711/gallery17.jpg",
+      "/images/cyde0711/gallery18.jpg",
+      "/images/cyde0711/gallery19.jpg",
+      "/images/cyde0711/gallery20.jpg"
+    ],
+    "video": {
+"enabled": true,
+"type": "youtube",
+"url": "https://www.youtube.com/watch?v=O9GE8obteIE",
+"position": "afterCalendar"
+},
+    "map": {
+  "name": "트리웨딩",
+  "address": "1층 단독홀\n충북 청주시 청원구 충청대로 255",
+  "lat": 36.6791147355065,
+  "lng": 127.498031866795,
+  "transport": {
+    "car": "",
+    "subway": "",
+    "bus": "",
+    "shuttle": "",
+    "parking": ""
+  }
+},
+"information": [
+  {
+    "title": "포토부스",
+    "content": "포토부스가 준비되어 있습니다.\n즐겁게 많이 찍으시고 추억으로 가져가세요!"
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "정찬영", "bank": "국민은행", "number": "630902-04-072110" }
+      ],
+      "bride": [
+        { "name": "이다은", "bank": "카카오뱅크", "number": "3333-18-5890990" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1q2LHtqUvNjE7Y_Gh67rMq97tFflul14WYGUpZZtbpjo"
+}
   }
 }
