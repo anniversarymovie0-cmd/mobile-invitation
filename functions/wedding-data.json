@@ -1163,5 +1163,113 @@
   "enabled": true,
   "sheetId": "1q2LHtqUvNjE7Y_Gh67rMq97tFflul14WYGUpZZtbpjo"
 }
+  },
+  "shjy0823": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "정성현 & 안지윤 결혼식에 초대합니다",
+      "groomName": "정성현",
+      "brideName": "안지윤",
+      "date": "2026년 8월 23일 일요일 오전 10시 20분",
+      "location": "노비아갈라 동촌",
+      "message": "성현 : will you marry me ? ♥\n지윤 : yessss !!!!!! ♡\n\n같이 있는 것만으로도 즐거운 사람과 함께\n설레는 마음을 안고 출발하려 합니다.\n저희 두사람이 첫 걸음을 내딛는 뜻깊은 자리에\n함께해 주시면 더없는 기쁨으로 간직하겠습니다.",
+      "mainImage": "/images/shjy0823/main.jpg",
+      "thumbnail": "/images/shjy0823/thumbnail.jpg",
+      "kakaoThumbnail": "/images/shjy0823/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "정환운",
+      "symbol": "flower"
+    },
+    "mother": {
+      "name": "황계순",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "안용현",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "하영숙",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-08-23T10:20:00+09:00"
+    },
+    "gallery": [
+      "/images/shjy0823/gallery1.jpg",
+      "/images/shjy0823/gallery2.jpg",
+      "/images/shjy0823/gallery3.jpg",
+      "/images/shjy0823/gallery4.jpg",
+      "/images/shjy0823/gallery5.jpg",
+      "/images/shjy0823/gallery6.jpg",
+      "/images/shjy0823/gallery7.jpg",
+      "/images/shjy0823/gallery8.jpg",
+      "/images/shjy0823/gallery9.jpg",
+      "/images/shjy0823/gallery10.jpg",
+      "/images/shjy0823/gallery11.jpg",
+      "/images/shjy0823/gallery12.jpg",
+      "/images/shjy0823/gallery13.jpg",
+      "/images/shjy0823/gallery14.jpg",
+      "/images/shjy0823/gallery15.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "노비아갈라 동촌",
+  "address": "5층 포레아홀\n대구 동구 동촌로 87",
+  "lat": 35.88794431816177,
+  "lng": 128.6517456699861,
+  "transport": {
+    "subway": "지하철 1호선 동촌역 1번 출구 도보 5분",
+    "bus": "",
+    "shuttle": "",
+    "car": "동대구 IC에서 차량 약 15분 내외",
+    "parking": "노비아갈라 동촌 주차장 이용"
+  }
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "3층 연회장에서 뷔페로 준비되어 있습니다.\n식권은 5층 축의대에서 수령해 주세요."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "정성현", "bank": "IM뱅크", "number": "508-15-981904-6" },
+        { "name": "황계순", "bank": "농협은행", "number": "150055-52-001000" }
+      ],
+      "bride": [
+        { "name": "안지윤", "bank": "IM뱅크", "number": "222-08-054268" },
+        { "name": "안용현", "bank": "국민은행", "number": "612902-04-144419" },
+        { "name": "하영숙", "bank": "농협은행", "number": "150037-52-018947" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1BdyD_qSl0Ev3HTQoBcdSnXK6FLDubb7aJC8xCdiv9KI"
+}
   }
 }

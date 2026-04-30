@@ -12,22 +12,30 @@ export default function Greeting({ intro, parents }) {
     }
 
     if (parent.symbol === 'flower') {
-      return (
-        <>
-          <img
-            src="/images/flower.png"
-            alt="국화"
-            style={{
-              width: '12px',
-              marginRight: '4px',
-              verticalAlign: 'middle',
-              opacity: 0.7
-            }}
-          />
-          {parent.name}
-        </>
-      );
-    }
+  return (
+    <span
+      style={{
+        position: 'relative',
+        display: 'inline-block'
+      }}
+    >
+      <img
+        src="/images/flower.png"
+        alt="국화"
+        style={{
+          width: '11px',
+          height: '11px',
+          position: 'absolute',
+          left: '-16px',
+          top: '50%',
+          transform: 'translateY(-50%)',
+          opacity: 1
+        }}
+      />
+      {parent.name}
+    </span>
+  );
+}
 
     return parent.name;
   };
