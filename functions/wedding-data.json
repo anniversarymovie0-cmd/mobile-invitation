@@ -1271,5 +1271,127 @@
   "enabled": true,
   "sheetId": "1BdyD_qSl0Ev3HTQoBcdSnXK6FLDubb7aJC8xCdiv9KI"
 }
+  },
+  "hwsy0606": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "07",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이현우 & 안수영 결혼식에 초대합니다",
+      "groomName": "이현우",
+      "brideName": "안수영",
+      "date": "2026년 6월 6일 토요일 오전 11시",
+      "location": "파라다이스웨딩컨벤션",
+      "message": "현우, 수영 결혼합니다.\n서로를 마주보며 키워온 사랑으로\n\n이제는 같은 곳을 바라보며\n함께 걸어가고자 합니다.\n\n저희가 함께 써 내려갈 시간에\n귀한 걸음 더해 주시어\n따뜻한 축복으로 함께해 주세요.",
+      "mainImage": "/images/hwsy0606/main.jpg",
+      "thumbnail": "/images/hwsy0606/thumbnail.jpg",
+      "kakaoThumbnail": "/images/hwsy0606/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이위국",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이송자",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "안병석",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "변추자",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [
+        { "name": "이현우", "relation": "신랑", "phone": "010-7404-2428" },
+        { "name": "이위국", "relation": "아버님", "phone": "010-8724-2428" },
+        { "name": "이송자", "relation": "어머님", "phone": "010-7753-2428" }
+      ],
+      "bride": [
+        { "name": "안수영", "relation": "신부", "phone": "010-7513-8525" },
+        { "name": "안병석", "relation": "아버님", "phone": "010-7517-8525" },
+        { "name": "변추자", "relation": "어머님", "phone": "010-7522-8524" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-06-06T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/hwsy0606/gallery1.jpg",
+      "/images/hwsy0606/gallery2.jpg",
+      "/images/hwsy0606/gallery3.jpg",
+      "/images/hwsy0606/gallery4.jpg",
+      "/images/hwsy0606/gallery5.jpg",
+      "/images/hwsy0606/gallery6.jpg",
+      "/images/hwsy0606/gallery7.jpg",
+      "/images/hwsy0606/gallery8.jpg",
+      "/images/hwsy0606/gallery9.jpg",
+      "/images/hwsy0606/gallery10.jpg",
+      "/images/hwsy0606/gallery11.jpg",
+      "/images/hwsy0606/gallery12.jpg",
+      "/images/hwsy0606/gallery13.jpg",
+      "/images/hwsy0606/gallery14.jpg",
+      "/images/hwsy0606/gallery15.jpg",
+      "/images/hwsy0606/gallery16.jpg",
+      "/images/hwsy0606/gallery17.jpg",
+      "/images/hwsy0606/gallery18.jpg",
+      "/images/hwsy0606/gallery19.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "파라다이스웨딩컨벤션",
+  "address": "3층 그랜드볼룸홀\n대구 달서구 구마로 52",
+  "lat": 35.836909187712926,
+  "lng": 128.53332523851802,
+  "transport": {
+    "train": "・ 동대구역에서 1호선 탑승 - 서부정류장 1번 출구 건너 환승버스 564번, 651번\n・ 서대구역 버스 이용 시 - 급행8(서대구역 남측1) 승차 - (학산공원1) 하차",
+    "subway": "・ 지하철 2호선 탑승 - 두류역 하차 후 156버스 승차 남대구 IC에서 하차",
+    "bus": "・ 남대구IC 하차 - 564번, 156번, 본리네거리 하차 - 651번, 501번",
+    "shuttle": "",
+    "car": "(서울, 부산에서 오시는 분)\n・ 남대구 IC 진입 후 본리네거리 방면으로 진입 - 1km 전방 우측",
+    "parking": "・ 1시간 30분 무료\n・ 본관 지하 2층까지 420대 가능\n・ 인근 외부 주차 이용 가능(도보 5~10분)"
+  }
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "결혼식 및 사진 촬영이 끝난 후\n웨딩홀 2층에서 뷔페식으로 제공됩니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "이현우", "bank": "농협은행", "number": "3021149160061" },
+        { "name": "이위국", "bank": "대구은행", "number": "08708061746" },
+        { "name": "이송자", "bank": "대구은행", "number": "25713188810" }
+      ],
+      "bride": [
+        { "name": "안수영", "bank": "농협은행", "number": "3520899436933" },
+        { "name": "안병석", "bank": "농협은행", "number": "3561436435343" },
+        { "name": "변추자", "bank": "부산은행", "number": "1122083909300" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "15s90KO7HhkUnUSpqZUz21yTcw7UNAPtJRFXcZeMlNE8"
+}
   }
 }
