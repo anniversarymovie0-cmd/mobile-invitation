@@ -1275,7 +1275,7 @@
   "hwsy0606": {
     "open": true,
     "keepForever": false,
-    "bgm": "07",
+    "bgm": "08",
     "settings": {
     "disableZoom": true
   },
@@ -1286,9 +1286,9 @@
       "date": "2026년 6월 6일 토요일 오전 11시",
       "location": "파라다이스웨딩컨벤션",
       "message": "현우, 수영 결혼합니다.\n서로를 마주보며 키워온 사랑으로\n\n이제는 같은 곳을 바라보며\n함께 걸어가고자 합니다.\n\n저희가 함께 써 내려갈 시간에\n귀한 걸음 더해 주시어\n따뜻한 축복으로 함께해 주세요.",
-      "mainImage": "/images/hwsy0606/main.jpg",
-      "thumbnail": "/images/hwsy0606/thumbnail.jpg",
-      "kakaoThumbnail": "/images/hwsy0606/thumbnail_kakao.jpg"
+      "mainImage": "/images/hwsy0606/main.jpg?v=1",
+      "thumbnail": "/images/hwsy0606/thumbnail.jpg?v=1",
+      "kakaoThumbnail": "/images/hwsy0606/thumbnail_kakao.jpg?v=1"
     },
   "parents": {
   "groom": {
@@ -1315,7 +1315,7 @@
   }
 },
     "contacts": {
-      "enabled": false,
+      "enabled": true,
       "groom": [
         { "name": "이현우", "relation": "신랑", "phone": "010-7404-2428" },
         { "name": "이위국", "relation": "아버님", "phone": "010-8724-2428" },
@@ -1349,7 +1349,8 @@
       "/images/hwsy0606/gallery16.jpg",
       "/images/hwsy0606/gallery17.jpg",
       "/images/hwsy0606/gallery18.jpg",
-      "/images/hwsy0606/gallery19.jpg"
+      "/images/hwsy0606/gallery19.jpg?v=1",
+      "/images/hwsy0606/gallery20.jpg"
     ],
     "video": {
 "enabled": false,
@@ -1392,6 +1393,125 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "15s90KO7HhkUnUSpqZUz21yTcw7UNAPtJRFXcZeMlNE8"
+}
+  },
+  "jssy0614": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "박준세 & 김서연 결혼식에 초대합니다",
+      "groomName": "박준세",
+      "brideName": "김서연",
+      "date": "2026년 6월 14일 일요일 오후 12시",
+      "location": "틸티드 한남",
+      "message": "당신을 원해요.\n오늘도, 내일도, 영원히\n\n저희 두 사람의 새로운 시작에\n귀한 걸음 하시어\n따뜻한 축복으로 함께해 주시면\n더없는 기쁨이 되겠습니다.",
+      "mainImage": "/images/jssy0614/main.jpg?v=2",
+      "thumbnail": "/images/jssy0614/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jssy0614/thumbnail_kakao.jpg?v=2"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "박문기",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정복연",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "최선진",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false
+    },
+    "calendar": {
+      "date": "2026-06-14T12:00:00+09:00"
+    },
+    "gallery": [
+      "/images/jssy0614/gallery1.jpg?v=2",
+      "/images/jssy0614/gallery2.jpg?v=2",
+      "/images/jssy0614/gallery3.jpg?v=2",
+      "/images/jssy0614/gallery4.jpg?v=2",
+      "/images/jssy0614/gallery5.jpg?v=2",
+      "/images/jssy0614/gallery6.jpg?v=2",
+      "/images/jssy0614/gallery7.jpg?v=2",
+      "/images/jssy0614/gallery8.jpg?v=2",
+      "/images/jssy0614/gallery9.jpg?v=2",
+      "/images/jssy0614/gallery10.jpg?v=2",
+      "/images/jssy0614/gallery11.jpg?v=2",
+      "/images/jssy0614/gallery12.jpg?v=2",
+      "/images/jssy0614/gallery13.jpg?v=2",
+      "/images/jssy0614/gallery14.jpg?v=2",
+      "/images/jssy0614/gallery15.jpg?v=2",
+      "/images/jssy0614/gallery16.jpg?v=2",
+      "/images/jssy0614/gallery17.jpg?v=2",
+      "/images/jssy0614/gallery18.jpg?v=2",
+      "/images/jssy0614/gallery19.jpg?v=2",
+      "/images/jssy0614/gallery20.jpg?v=2"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "틸티드 한남",
+  "address": "서울 용산구 한남대로 150-10",
+  "lat": 37.5421387312721,
+  "lng": 127.003824579479,
+  "transport": {
+    "train": "",
+    "subway": "6호선 한강진역 2번 출구 도보 3-4분",
+    "bus": "서울시중부기술교육원/블루스퀘어역 도보 40초",
+    "shuttle": "",
+    "car": "",
+    "parking": "한강진공영주차장, 한남볼보빌딩"
+  }
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "10:30부터 식사 가능하오니\n일찍 오셔서 브런치를 편하게 즐겨주세요."
+  },
+    {
+    "title": "화환 안내",
+    "content": "화환은 반입이 불가능하여\n감사한 마음만 받겠습니다."
+  },
+    {
+    "title": "주차 안내",
+    "content": "식장 앞에는 주차가 불가능하오니\n안내에 적혀있는 주차장을 이용해주세요."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "박준세", "bank": "신한은행", "number": "110-373-402109" },
+        { "name": "박문기", "bank": "국민은행", "number": "557902-93-110700" }
+      ],
+      "bride": [
+        { "name": "김서연", "bank": "기업은행", "number": "18608714602011" },
+        { "name": "최선진", "bank": "토스뱅크", "number": "1001-3928-7218" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "14oJHPXTn7D0Gao6KI4GdhnSIslAd52w45EvrU_ckQw0"
 }
   }
 }
