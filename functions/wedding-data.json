@@ -908,7 +908,7 @@
       ],
       "bride": [
         { "name": "최윤아", "bank": "하나은행", "number": "144-910470-10707" },
-        { "name": "최원영", "bank": "신한은행", "number": "312-06-221460 " },
+        { "name": "최원영", "bank": "신한은행", "number": "312-06-221460" },
         { "name": "이명숙", "bank": "농협은행", "number": "735089-56-082207" }
       ]
     },
@@ -1512,6 +1512,117 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "14oJHPXTn7D0Gao6KI4GdhnSIslAd52w45EvrU_ckQw0"
+}
+  },
+   "swya0627": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김시원 & 노윤아 결혼식에 초대합니다",
+      "groomName": "김시원",
+      "brideName": "노윤아",
+      "date": "2026년 6월 27일 토요일 오전 10시 30분",
+      "location": "전주 더메이 호텔",
+      "message": "초록빛이 싱그러운 계절에\n저희 두 사람이 사랑의 결실을 맺습니다.\n\n시원한 나무 그늘처럼 편안히 쉴 수 있는\n서로를 꼭 안아주는 따뜻한 가정을 만들어가려 합니다.\n\n서로를 비추고 감싸주며\n사랑이라는 이름으로 함께하겠습니다.\n\n부디 함께하시어 축복해 주시면\n더없는 기쁨으로 간직하겠습니다.",
+      "mainImage": "/images/swya0627/main.jpg",
+      "thumbnail": "/images/swya0627/thumbnail.jpg",
+      "kakaoThumbnail": "/images/swya0627/thumbnail_kakao.jpg?v=1"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김종윤",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박윤자",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "노병일",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김은혜",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김시원", "relation": "신랑", "phone": "010-6634-1722" },
+        { "name": "김종윤", "relation": "아버님", "phone": "010-3609-1722" },
+        { "name": "박윤자", "relation": "어머님", "phone": "010-5613-1722" }
+      ],
+      "bride": [
+        { "name": "노윤아", "relation": "신부", "phone": "010-9688-2577" },
+        { "name": "노병일", "relation": "아버님", "phone": "010-7532-1313" },
+        { "name": "김은혜", "relation": "어머님", "phone": "010-8772-1429" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-06-27T10:30:00+09:00"
+    },
+    "gallery": [
+      "/images/swya0627/gallery1.jpg?v=1",
+      "/images/swya0627/gallery2.jpg?v=1",
+      "/images/swya0627/gallery3.jpg?v=1",
+      "/images/swya0627/gallery4.jpg?v=1",
+      "/images/swya0627/gallery5.jpg?v=1",
+      "/images/swya0627/gallery6.jpg?v=1",
+      "/images/swya0627/gallery7.jpg?v=1",
+      "/images/swya0627/gallery8.jpg?v=1",
+      "/images/swya0627/gallery9.jpg?v=1",
+      "/images/swya0627/gallery10.jpg?v=1",
+      "/images/swya0627/gallery11.jpg?v=1",
+      "/images/swya0627/gallery12.jpg?v=1",
+      "/images/swya0627/gallery13.jpg?v=1",
+      "/images/swya0627/gallery14.jpg?v=1",
+      "/images/swya0627/gallery15.jpg?v=1",
+      "/images/swya0627/gallery16.jpg?v=1",
+      "/images/swya0627/gallery17.jpg?v=1",
+      "/images/swya0627/gallery18.jpg?v=1",
+      "/images/swya0627/gallery19.jpg?v=1",
+      "/images/swya0627/gallery20.jpg?v=1"
+    ],
+    "video": {
+"enabled": false
+},
+    "map": {
+  "name": "전주 더메이 호텔",
+  "address": "2층 마제스틱 볼룸홀\n전라북도 전주시 덕진구 기린대로 800",
+  "lat": 35.85983144682244,
+  "lng": 127.09570542867237,
+  "transport": {
+    "car": "",
+    "subway": "",
+    "bus": "",
+    "shuttle": "",
+    "parking": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "김시원", "bank": "농협은행", "number": "356-1502-9426-63" },
+        { "name": "김종윤", "bank": "농협은행", "number": "513067-52-016352 " }
+      ],
+      "bride": [
+        { "name": "노윤아", "bank": "국민은행", "number": "762502-00-042580" },
+        { "name": "노병일", "bank": "농협은행", "number": "176-031-56-017-456" }
+      ]
+    },
+    "rsvp": {
+  "enabled": false
 }
   }
 }
