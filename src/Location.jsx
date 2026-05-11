@@ -137,6 +137,7 @@ export default function Location({ data }) {
 
       const titleMap = {
         car: '자가용',
+        publicTransport: '대중교통',
         subway: '지하철',
         bus: '버스',
         train: '기차',

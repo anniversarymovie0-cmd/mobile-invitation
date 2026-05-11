@@ -1624,5 +1624,119 @@
     "rsvp": {
   "enabled": false
 }
+  },
+   "yhwdy0711": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "01",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김유호원 & 김다영 결혼식에 초대합니다",
+      "groomName": "김유호원",
+      "brideName": "김다영",
+      "date": "2026년 7월 11일 토요일 오전 11시",
+      "location": "대전 루이비스컨벤션",
+      "message": "세상에 와서\n내가 하는 말 가운데서\n가장 고운 말을\n너에게 들려주고 싶다\n\n세상에 와서\n내가 가진 생각 가운데서\n가장 예쁜 생각을\n너에게 주고 싶다\n\n나태주 <너를 두고>\n\n푸르른 여름날, 바람처럼 스며들어\n서로의 마음을 채웠습니다.\n사랑으로 하나 되는 저희의 새 출발에\n귀한 걸음 하시어 축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/yhwdy0711/main.jpg",
+      "thumbnail": "/images/yhwdy0711/thumbnail.jpg",
+      "kakaoThumbnail": "/images/yhwdy0711/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김재경",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이길문",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "김진철",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "모미선",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김유호원", "relation": "신랑", "phone": "010-8383-5737" },
+        { "name": "이길문", "relation": "어머님", "phone": "010-8254-2762" }
+      ],
+      "bride": [
+        { "name": "김다영", "relation": "신부", "phone": "010-5011-3308" },
+        { "name": "모미선", "relation": "어머님", "phone": "010-3653-8519" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-07-11T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/yhwdy0711/gallery1.jpg",
+      "/images/yhwdy0711/gallery2.jpg",
+      "/images/yhwdy0711/gallery3.jpg",
+      "/images/yhwdy0711/gallery4.jpg",
+      "/images/yhwdy0711/gallery5.jpg",
+      "/images/yhwdy0711/gallery6.jpg",
+      "/images/yhwdy0711/gallery7.jpg",
+      "/images/yhwdy0711/gallery8.jpg",
+      "/images/yhwdy0711/gallery9.jpg",
+      "/images/yhwdy0711/gallery10.jpg",
+      "/images/yhwdy0711/gallery11.jpg",
+      "/images/yhwdy0711/gallery12.jpg",
+      "/images/yhwdy0711/gallery13.jpg",
+      "/images/yhwdy0711/gallery14.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "대전 루이비스컨벤션",
+  "address": "1층 아모리스홀\n대전 유성구 테크노중앙로 161",
+  "lat": 36.424742806112064,
+  "lng": 127.39808007909602,
+  "transport": {
+    "car": "북대전IC -> 루이비스컨벤션\n신탄진IC -> 루이비스컨벤션",
+    "publicTransport": "대전역/복합터미널 에서 오는 법 :\n701번 버스 -> 대덕밸리용신교 하차 -> 도보 5분\n유성복합터미널에서 오는 법 :\n708번 버스 -> 롯데마트대덕점 하차 -> 도보 15분",
+    "subway": "",
+    "bus": "",
+    "shuttle": "",
+    "parking": "컨벤션&호텔 주차장, 현대프리미엄아울렛 북문 또는\n남문 주차장 이용 부탁드립니다."
+  }
+},
+"information": [
+  {
+    "title": "화환 안내",
+    "content": "화환은 정중히 사양하오니\n넓은 양해 부탁드립니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "김유호원", "bank": "국민은행", "number": "459002-04-178547" },
+        { "name": "이길문", "bank": "농협은행", "number": "302-0345-1187-81" }
+      ],
+      "bride": [
+        { "name": "김다영", "bank": "신한은행", "number": "110-401-078205" },
+        { "name": "모미선", "bank": "농협은행", "number": "531016-52-078761" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1QOKDH8thM0qBjeXfQUKsKhFiAK-dXicaiC_JceOvG3I"
+}
   }
 }
