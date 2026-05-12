@@ -1738,5 +1738,128 @@
   "enabled": true,
   "sheetId": "1QOKDH8thM0qBjeXfQUKsKhFiAK-dXicaiC_JceOvG3I"
 }
+  },
+   "ewhw0711": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_ohw.mp3",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "윤의원 & 오혜원 결혼식에 초대합니다",
+      "groomName": "윤의원",
+      "brideName": "오혜원",
+      "date": "2026년 7월 11일 토요일 오후 3시",
+      "location": "L65호텔웨딩컨벤션",
+      "message": "\"가장 사랑하는 사람과\n가장 평범한 하루를 보내고 싶어요.\"\n- 영화 <월터의 상상은 현실이 된다> 중에서\n\n이 평범하고도 벅찬 소망을\n함께 이룰 소중한 사람을 만났습니다.\n언제나 가장 나다운 모습으로 기댈 수 있는\n곁이 되어주며 평생을 나란히 걷겠습니다.\n\n저희의 첫걸음을\n함께 축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/ewhw0711/main.jpg",
+      "thumbnail": "/images/ewhw0711/thumbnail.jpg",
+      "kakaoThumbnail": "/images/ewhw0711/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "윤영대",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "유정희",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "오종석",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이은정",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "윤의원", "relation": "신랑", "phone": "010-3898-0069" },
+        { "name": "윤영대", "relation": "아버님", "phone": "010-6245-1194" },
+        { "name": "유정희", "relation": "어머님", "phone": "010-3541-0069" }
+      ],
+      "bride": [
+        { "name": "오혜원", "relation": "신부", "phone": "010-8653-0420" },
+        { "name": "오종석", "relation": "아버님", "phone": "010-8915-1208" },
+        { "name": "이은정", "relation": "어머님", "phone": "010-8985-7304" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-07-11T15:00:00+09:00"
+    },
+    "gallery": [
+      "/images/ewhw0711/gallery1.jpg",
+      "/images/ewhw0711/gallery2.jpg",
+      "/images/ewhw0711/gallery3.jpg",
+      "/images/ewhw0711/gallery4.jpg",
+      "/images/ewhw0711/gallery5.jpg",
+      "/images/ewhw0711/gallery6.jpg",
+      "/images/ewhw0711/gallery7.jpg",
+      "/images/ewhw0711/gallery8.jpg",
+      "/images/ewhw0711/gallery9.jpg",
+      "/images/ewhw0711/gallery10.jpg",
+      "/images/ewhw0711/gallery11.jpg",
+      "/images/ewhw0711/gallery12.jpg",
+      "/images/ewhw0711/gallery13.jpg",
+      "/images/ewhw0711/gallery14.jpg",
+      "/images/ewhw0711/gallery15.jpg",
+      "/images/ewhw0711/gallery16.jpg",
+      "/images/ewhw0711/gallery17.jpg",
+      "/images/ewhw0711/gallery18.jpg",
+      "/images/ewhw0711/gallery19.jpg",
+      "/images/ewhw0711/gallery20.jpg"
+    ],
+    "video": {
+"enabled": true,
+"type": "youtube",
+"url": "https://www.youtube.com/watch?v=OdBTle2Gq0s",
+"position": "afterMain"
+},
+    "map": {
+  "name": "L65호텔웨딩컨벤션",
+  "address": "6층 컨벤션홀\n서울 동대문구 왕산로 200 청량리역\n롯데캐슬 스카이-L65 타워동",
+  "lat": 37.5798905431439,
+  "lng": 127.046161517564,
+  "transport": {
+    "subway": "1호선 : 청량리역 5번 출구 → 바로 앞\n경의중앙, 수인분당, 경춘선 : 청량리역 1번 출구 → 바로 앞",
+    "bus": "청량리역환승센터 하차 → 바로 앞\n간선버스 : 105, 120, 121, 147, 202, 241, 260, 261, 270, 271, 272, 420, 720\n지선버스 : 1213, 1222, 1224, 1227, 2115, 2230, 3216, 3220\n일반버스 : 51, 65, 166, 170, 707\n좌석버스 : 330-1\n직행버스 : 1330-2, 1330-3, 1330-4, 1330-44, 3200, 8005\n공항버스 : 6002",
+    "car": "네비게이션 : \"L65호텔웨딩컨벤션\" 또는 \"청량리역 5번출구\" 검색\n주차 : 건물 내 지하 3, 4층 이용",
+    "publicTransport": "",
+    "shuttle": "",
+    "parking": ""
+  }
+},
+"information": [
+  {
+    "title": "주차 안내",
+    "content": "연회장 입구 태블릿에 차량번호 등록 시\n2시간 무료 적용 됩니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "윤의원", "bank": "우리은행", "number": "1002-143-143991" },
+        { "name": "윤영대", "bank": "우리은행", "number": "1002-633-776810" },
+        { "name": "유정희", "bank": "우리은행", "number": "162-08-132147" }
+      ],
+      "bride": [
+        { "name": "오혜원", "bank": "우리은행", "number": "1002-754-650701" },
+        { "name": "오종석", "bank": "농협은행", "number": "207032-56-110753" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1cRufvNOyB-sp-RXZZrIATwjb9BVSgtWCt1vSyn1BXS4"
+}
   }
 }
