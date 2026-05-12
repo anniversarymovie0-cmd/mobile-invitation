@@ -1861,5 +1861,116 @@
   "enabled": true,
   "sheetId": "1cRufvNOyB-sp-RXZZrIATwjb9BVSgtWCt1vSyn1BXS4"
 }
+  },
+   "kjhj0822": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "01",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "진국진 & 노희주 결혼식에 초대합니다",
+      "groomName": "진국진",
+      "brideName": "노희주",
+      "date": "2026년 8월 22일 토요일 오후 5시",
+      "location": "L7 광명 바이 롯데호텔",
+      "message": "함께 맞이하는 일곱 번째 해\n오랜 시간 단단해진 사랑을 믿고\n이제는 함께 걸어가려 합니다\n\n저희 두 사람이 미래를 약속하는 자리에 오셔서\n따뜻한 마음으로 축복해 주세요\n\n꽃처럼 예쁘게,\n햇살처럼 따뜻하게 사랑하며 살겠습니다",
+      "mainImage": "/images/kjhj0822/main.jpg?v=2",
+      "thumbnail": "/images/kjhj0822/thumbnail.jpg",
+      "kakaoThumbnail": "/images/kjhj0822/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "진종선",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "노광준",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "소희숙",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "진국진", "relation": "신랑", "phone": "010-3709-1770" },
+        { "name": "진종선", "relation": "아버님", "phone": "010-9616-5711" }
+      ],
+      "bride": [
+        { "name": "노희주", "relation": "신부", "phone": "010-5657-4271" },
+        { "name": "노광준", "relation": "아버님", "phone": "010-4278-4271" },
+        { "name": "소희숙", "relation": "어머님", "phone": "010-6400-4271" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-08-22T17:00:00+09:00"
+    },
+    "gallery": [
+      "/images/kjhj0822/gallery1.jpg",
+      "/images/kjhj0822/gallery2.jpg",
+      "/images/kjhj0822/gallery3.jpg",
+      "/images/kjhj0822/gallery4.jpg",
+      "/images/kjhj0822/gallery5.jpg",
+      "/images/kjhj0822/gallery6.jpg",
+      "/images/kjhj0822/gallery7.jpg",
+      "/images/kjhj0822/gallery8.jpg",
+      "/images/kjhj0822/gallery9.jpg",
+      "/images/kjhj0822/gallery10.jpg",
+      "/images/kjhj0822/gallery11.jpg",
+      "/images/kjhj0822/gallery12.jpg",
+      "/images/kjhj0822/gallery13.jpg",
+      "/images/kjhj0822/gallery14.jpg",
+      "/images/kjhj0822/gallery15.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "L7 광명 바이 롯데호텔",
+  "address": "3층 스튜디오홀\n경기 광명시 신기로 22",
+  "lat": 37.4191357213692,
+  "lng": 126.883218313961,
+  "transport": {
+    "subway": "• 1호선/KTX 광명역 : 1번 출구 (도보 5분)\n• 광명역 A 야외주차장을 가로질러 오시면 가깝습니다.\n• 셔틀버스(8507) : 사당역 ↔ 서울대입구역 ↔ 광명역",
+    "bus": "• 광명역 · 일직동 행정복지센터 하차\n• 일반 : 5627, 5633, 3001, 3002, G9633\n• 공항 : 6004, 6014, 6770",
+    "publicTransport": "",
+    "car": "• 네비 입력 : L7 광명 (경기도 광명시 신기로 22)\n• 주차 안내 : 호텔 지하 주차장 이용 (B4~B5층 권장)",
+    "shuttle": "",
+    "parking": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "진국진", "bank": "신한은행", "number": "110-459-384545" },
+        { "name": "진종선", "bank": "부산은행", "number": "053-12-053054-8" }
+      ],
+      "bride": [
+        { "name": "노희주", "bank": "카카오뱅크", "number": "3333-07-0728191" },
+        { "name": "노광준", "bank": "국민은행", "number": "471625-93-114025" },
+        { "name": "소희숙", "bank": "신한은행", "number": "110-020-712731" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1V9SJQ9PuZyciGWx733wrdnK73yIY3rEfD3r1-0FudvI"
+}
   }
 }
