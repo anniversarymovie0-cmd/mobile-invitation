@@ -2,11 +2,24 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 export default function Calendar({ date }) {
-  const weddingDate = new Date(date);
-  
-  const today = new Date();
-  const diff = weddingDate.getTime() - today.getTime();
-  const dDay = Math.ceil(diff / (1000 * 60 * 60 * 24));
+const weddingDate = new Date(date);
+
+// D-day는 시간 제외, 날짜 기준으로만 계산
+const today = new Date();
+const todayOnly = new Date(
+  today.getFullYear(),
+  today.getMonth(),
+  today.getDate()
+);
+
+const weddingDateOnly = new Date(
+  weddingDate.getFullYear(),
+  weddingDate.getMonth(),
+  weddingDate.getDate()
+);
+
+const diff = weddingDateOnly.getTime() - todayOnly.getTime();
+const dDay = Math.ceil(diff / (1000 * 60 * 60 * 24));
   
   const year = weddingDate.getFullYear();
   const month = weddingDate.getMonth();
