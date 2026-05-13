@@ -2204,5 +2204,122 @@
   "enabled": true,
   "sheetId": "1887qHyS06drL1h1Y43dHBLQXQeAdek8BYx8DlhrSoi4"
 }
+  },
+   "hyjy0705": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "송해용 & 조주연 결혼식에 초대합니다",
+      "groomName": "송해용",
+      "brideName": "조주연",
+      "date": "2026년 7월 5일 일요일 오후 12시 20분",
+      "location": "오펠리스 웨딩홀",
+      "message": "예쁜 예감이 들었다.\n우리는 언제나\n손을 잡고 있게 될 것이다.\n-이이체 '연인' 中-\n\n서로의 따뜻함을 닮아가며\n예쁘게 살겠습니다.\n귀한 발걸음 하시어\n축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/hyjy0705/main.jpg",
+      "thumbnail": "/images/hyjy0705/thumbnail.jpg",
+      "kakaoThumbnail": "/images/hyjy0705/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "",
+      "symbol": "none"
+    },
+    "relation": "신랑"
+  },
+  "bride": {
+    "father": {
+      "name": "",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "",
+      "symbol": "none"
+    },
+    "relation": "신부"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "송해용", "relation": "신랑", "phone": "010-6799-9213" }
+],
+      "bride": [
+        { "name": "조주연", "relation": "신부", "phone": "010-2238-3707" }
+]
+    },
+    "calendar": {
+      "date": "2026-07-05T12:20:00+09:00"
+    },
+    "gallery": [
+      "/images/hyjy0705/gallery1.jpg?v=1",
+      "/images/hyjy0705/gallery2.jpg?v=1",
+      "/images/hyjy0705/gallery3.jpg?v=1",
+      "/images/hyjy0705/gallery4.jpg?v=1",
+      "/images/hyjy0705/gallery5.jpg?v=1",
+      "/images/hyjy0705/gallery6.jpg?v=1",
+      "/images/hyjy0705/gallery7.jpg?v=1",
+      "/images/hyjy0705/gallery8.jpg?v=1",
+      "/images/hyjy0705/gallery9.jpg?v=2",
+      "/images/hyjy0705/gallery10.jpg?v=1",
+      "/images/hyjy0705/gallery11.jpg?v=1",
+      "/images/hyjy0705/gallery12.jpg?v=1",
+      "/images/hyjy0705/gallery13.jpg?v=1",
+      "/images/hyjy0705/gallery14.jpg?v=1",
+      "/images/hyjy0705/gallery15.jpg?v=1"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "오펠리스 웨딩홀",
+  "address": "20층 라비제홀\n서울특별시 중구 세종대로9길 41 퍼시픽타워",
+  "lat": 37.5612026084068,
+  "lng": 126.97290421418,
+  "transport": {
+    "shuttle": "",
+    "subway": "시청역 (1, 2호선) 9번 출구\n서울역 (1, 4호선) 3번 출구",
+    "bus": "",
+    "publicTransport": "",
+    "car": "\"오펠리스\" 또는 \"퍼시픽타워\" 또는\n\"세종대로9길 41\" 입력",
+    "parking": "숭례문 맞은편, 상공회의소 건물 뒤편\n퍼시픽타워 지하주차장 이용\n(3시간 무료주차 가능)"
+  }
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "20층 연회장에서 뷔페로 준비되어 있습니다.\n식권은 20층 축의대에서 수령해 주세요."
+  },
+  {
+    "title": "ATM 안내",
+    "content": "건물 내 ATM 기기가 없습니다.\n건물 후문으로 나가서\n국민은행 ATM 이용하시거나\n오시기 전 역 주변에 위치한\n은행 ATM 이용해주세요."
+  },
+    {
+    "title": "포토부스",
+    "content": "소중한 날을 기록할 수 있도록\n포토부스가 마련되어 있습니다.\n부담 없이 촬영하시고\n즐거운 추억으로 간직해 주세요."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "송해용", "bank": "신한은행", "number": "110-140-855238" }
+      ],
+      "bride": [
+        { "name": "조주연", "bank": "신한은행", "number": "110-304-389351" }
+      ]
+    },
+    "rsvp": {
+  "enabled": false
+}
   }
 }
