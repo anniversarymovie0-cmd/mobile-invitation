@@ -36,15 +36,16 @@ export default function MusicPlayer({ bgm, isVideoPlaying, bgmAutoPlay }) {
     }, 50);
   };
 
-  // 토스트
-  useEffect(() => {
-    if (!isAutoPlay) { // ✅ 수정
-      const timer = setTimeout(() => {
-        setShowToast(false);
-      }, 2200);
-      return () => clearTimeout(timer);
-    }
-  }, [isAutoPlay]); // ✅ 수정
+  // 토스트 자동 숨김
+useEffect(() => {
+  if (showToast) {
+    const timer = setTimeout(() => {
+      setShowToast(false);
+    }, 2200);
+
+    return () => clearTimeout(timer);
+  }
+}, [showToast]);
 
   // 🔥 영상 시작 시만 페이드아웃 (핵심 수정)
   useEffect(() => {
@@ -67,12 +68,14 @@ export default function MusicPlayer({ bgm, isVideoPlaying, bgmAutoPlay }) {
       audio.volume = 1;
 
       audio.play()
-        .then(() => {
-          setIsPlaying(true);
-        })
-        .catch(() => {
-          // iOS 등 자동재생 막힘 대비
-        });
+  .then(() => {
+    setIsPlaying(true);
+    setShowToast(false);
+  })
+  .catch(() => {
+    setIsPlaying(false);
+    setShowToast(true);
+  });
     }
   }, [isAutoPlay]); // ✅ 수정
 

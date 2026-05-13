@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Accounts({ data }) {
-  const [open, setOpen] = useState({ groom: false, bride: false });
+  const [open, setOpen] = useState({
+  groom: data?.defaultOpen === true,
+  bride: data?.defaultOpen === true
+});
   const toggle = (side) => setOpen({ ...open, [side]: !open[side] });
 
   // [수정됨] 강력한 복사 기능 (HTTP/HTTPS 모두 지원)

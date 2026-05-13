@@ -2099,5 +2099,110 @@
   "enabled": true,
   "sheetId": "16F-oNOt6p45WQ87HOrGSZ1JiEt3bkncNMkp3Qz3jNCo"
 }
+  },
+   "hery0613": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김하은 & 김란연 결혼식에 초대합니다",
+      "groomName": "김하은",
+      "brideName": "김란연",
+      "date": "2026년 6월 13일 토요일 오후 2시",
+      "location": "라한셀렉트",
+      "message": "저희 두 사람\n오랜 기다림 끝에 찾은 사람과 함께\n푸른 하늘 아래 새로운 계절을 시작하려 합니다.\n\n함께한 시간이 쌓여\n이제 하나의 이름으로 불리게 되었습니다.\n\n부족한 저희지만\n서로의 곁에서 채워가며 살겠습니다.\n시작의 자리에 함께 하셔서 축복해 주세요.",
+      "mainImage": "/images/hery0613/main.jpg",
+      "thumbnail": "/images/hery0613/thumbnail.jpg",
+      "kakaoThumbnail": "/images/hery0613/thumbnail_kakao.jpg?v=1"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김중석",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정영희",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "김인주",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박선옥",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-06-13T14:00:00+09:00"
+    },
+    "gallery": [
+      "/images/hery0613/gallery1.jpg",
+      "/images/hery0613/gallery2.jpg",
+      "/images/hery0613/gallery3.jpg",
+      "/images/hery0613/gallery4.jpg",
+      "/images/hery0613/gallery5.jpg",
+      "/images/hery0613/gallery6.jpg",
+      "/images/hery0613/gallery7.jpg",
+      "/images/hery0613/gallery8.jpg",
+      "/images/hery0613/gallery9.jpg",
+      "/images/hery0613/gallery10.jpg",
+      "/images/hery0613/gallery11.jpg",
+      "/images/hery0613/gallery12.jpg",
+      "/images/hery0613/gallery13.jpg",
+      "/images/hery0613/gallery14.jpg",
+      "/images/hery0613/gallery15.jpg",
+      "/images/hery0613/gallery16.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "라한셀렉트",
+  "address": "지하 2층 다이너스티홀\n경북 경주시 보문로 338",
+  "lat": 35.8503196784132,
+  "lng": 129.27702298089,
+  "transport": {
+    "shuttle": "",
+    "subway": "",
+    "bus": "",
+    "publicTransport": "",
+    "car": "",
+    "parking": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "defaultOpen": true,
+      "groom": [
+        { "name": "김하은", "bank": "카카오뱅크", "number": "3333-10-5395721" },
+        { "name": "김중석", "bank": "신한은행", "number": "110-493-818717" }
+      ],
+      "bride": [
+        { "name": "김란연", "bank": "카카오뱅크", "number": "3333-19-0989192" },
+        { "name": "김인주", "bank": "농협은행", "number": "177179-52-090265" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1887qHyS06drL1h1Y43dHBLQXQeAdek8BYx8DlhrSoi4"
+}
   }
 }
