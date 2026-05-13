@@ -62,6 +62,7 @@ export default function Location({ data }) {
 
   const addressLines = address?.split('\n');
   const hasDetail = addressLines && addressLines.length > 1;
+  const destinationName = name.replace(/,/g, ' ');
 
   return (
     <div style={{ padding: '60px 20px', backgroundColor: '#fff' }}>
@@ -175,12 +176,11 @@ export default function Location({ data }) {
   })()}
 
 </div>
-
       {/* 길찾기 버튼 */}
       <div style={{ display: 'flex', gap: '8px', justifyContent: 'center' }}>
         <button
           onClick={() =>
-            (window.location.href = `nmap://route/car?dlat=${lat}&dlng=${lng}&dname=${encodeURIComponent(name)}&appname=wedding`)
+            (window.location.href = `nmap://route/car?dlat=${lat}&dlng=${lng}&dname=${encodeURIComponent(destinationName)}&appname=wedding`)
           }
           style={btnStyle}
         >
@@ -190,10 +190,10 @@ export default function Location({ data }) {
 
         <button
           onClick={() => {
-  const safeName = name.replace(/,/g, ' '); // 쉼표 방어
 
-  const appUrl = `kakaomap://route?ep=${lat},${lng}&epName=${encodeURIComponent(safeName)}&by=CAR`;
-  const webUrl = `https://map.kakao.com/link/to/${encodeURIComponent(safeName)},${lat},${lng}`;
+
+  const appUrl = `kakaomap://route?ep=${lat},${lng}&epName=${encodeURIComponent(destinationName)}&by=CAR`;
+  const webUrl = `https://map.kakao.com/link/to/${encodeURIComponent(destinationName)},${lat},${lng}`;
 
   // 앱 실행
   window.location.href = appUrl;
@@ -211,7 +211,7 @@ export default function Location({ data }) {
 
         <button
           onClick={() =>
-            (window.location.href = `tmap://route?rGoName=${encodeURIComponent(name)}&rGoX=${lng}&rGoY=${lat}`)
+            (window.location.href = `tmap://route?rGoName=${encodeURIComponent(destinationName)}&rGoX=${lng}&rGoY=${lat}`)
           }
           style={btnStyle}
         >

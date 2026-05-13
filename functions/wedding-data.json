@@ -2050,8 +2050,8 @@
       "/images/skhi0621/gallery16.jpg",
       "/images/skhi0621/gallery17.jpg",
       "/images/skhi0621/gallery18.jpg",
-      "/images/skhi0621/gallery19.jpg",
-      "/images/skhi0621/gallery20.jpg"
+      "/images/skhi0621/gallery19.jpg?v=1",
+      "/images/skhi0621/gallery20.jpg?v=1"
     ],
     "video": {
 "enabled": true,
@@ -2067,7 +2067,7 @@
   "transport": {
     "shuttle": "학동역 8번출구, 신사역 1번출구에서 상시 운행",
     "subway": "학동역 8번출구에서 도보 7분",
-    "bus": "· 신사동고개 하차 후 도보 5분\n  (간선 145, 148, 440｜지선 4212)\n· 학동역 5번출구 하차 후 도보 10분\n  (간선401｜지선 3412, 6411)",
+    "bus": "· 신사동고개 하차 후 도보 5분\n  (간선 145, 148, 440｜지선 4212)\n· 학동역 5번출구 하차 후 도보 10분\n  (간선 401｜지선 3412, 6411)",
     "publicTransport": "",
     "car": "",
     "parking": "건물 주차장 이용 (만차 시 외부 주차장 안내)"
