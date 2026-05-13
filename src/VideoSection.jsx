@@ -24,7 +24,7 @@ export default function VideoSection({ data, setIsVideoPlaying }) {
   const embedUrl = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&playsinline=1&rel=0`;
 
   return (
-    <div style={{ padding: '60px 0 20px', backgroundColor: '#fff' }}>
+    <div style={{ padding: '50px 0 20px', backgroundColor: '#fff' }}>
       
       {/* ✅ 여기만 분기 */}
       <div

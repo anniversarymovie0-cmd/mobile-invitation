@@ -1693,7 +1693,7 @@
       "/images/yhwdy0711/gallery8.jpg",
       "/images/yhwdy0711/gallery9.jpg",
       "/images/yhwdy0711/gallery10.jpg",
-      "/images/yhwdy0711/gallery11.jpg",
+      "/images/yhwdy0711/gallery11.jpg?v=1",
       "/images/yhwdy0711/gallery12.jpg",
       "/images/yhwdy0711/gallery13.jpg",
       "/images/yhwdy0711/gallery14.jpg"
@@ -1971,6 +1971,133 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1V9SJQ9PuZyciGWx733wrdnK73yIY3rEfD3r1-0FudvI"
+}
+  },
+   "skhi0621": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이승규 & 정혜인 결혼식에 초대합니다",
+      "groomName": "이승규",
+      "brideName": "정혜인",
+      "date": "2026년 6월 21일 일요일 오후 2시",
+      "location": "루클라비 더화이트",
+      "message": "함께일 때\n가장 행복해지는 사람을 만났습니다.\n\n저희의 첫 순간에 소중한 분들을 초대합니다.",
+      "mainImage": "/images/skhi0621/main.jpg",
+      "thumbnail": "/images/skhi0621/thumbnail.jpg",
+      "kakaoThumbnail": "/images/skhi0621/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이정수",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "문연숙",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "정상훈",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "서봉선",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "이승규", "relation": "신랑", "phone": "010-5527-3066" },
+        { "name": "이정수", "relation": "아버님", "phone": "010-8830-3066" },
+        { "name": "문연숙", "relation": "어머님", "phone": "010-6402-3499" }
+      ],
+      "bride": [
+        { "name": "정혜인", "relation": "신부", "phone": "010-8650-1843" },
+        { "name": "정상훈", "relation": "아버님", "phone": "010-3171-1843" },
+        { "name": "서봉선", "relation": "어머님", "phone": "010-2073-1843" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-06-21T14:00:00+09:00"
+    },
+    "gallery": [
+      "/images/skhi0621/gallery1.jpg",
+      "/images/skhi0621/gallery2.jpg",
+      "/images/skhi0621/gallery3.jpg",
+      "/images/skhi0621/gallery4.jpg",
+      "/images/skhi0621/gallery5.jpg",
+      "/images/skhi0621/gallery6.jpg",
+      "/images/skhi0621/gallery7.jpg",
+      "/images/skhi0621/gallery8.jpg",
+      "/images/skhi0621/gallery9.jpg",
+      "/images/skhi0621/gallery10.jpg",
+      "/images/skhi0621/gallery11.jpg",
+      "/images/skhi0621/gallery12.jpg",
+      "/images/skhi0621/gallery13.jpg",
+      "/images/skhi0621/gallery14.jpg",
+      "/images/skhi0621/gallery15.jpg",
+      "/images/skhi0621/gallery16.jpg",
+      "/images/skhi0621/gallery17.jpg",
+      "/images/skhi0621/gallery18.jpg",
+      "/images/skhi0621/gallery19.jpg",
+      "/images/skhi0621/gallery20.jpg"
+    ],
+    "video": {
+"enabled": true,
+"type": "youtube",
+"url": "https://www.youtube.com/watch?v=zC4JQCNH3FY",
+"position": "afterGallery"
+},
+    "map": {
+  "name": "루클라비 더화이트",
+  "address": "2층 단독홀\n서울 강남구 논현로 742",
+  "lat": 37.5182838663077,
+  "lng": 127.029222699331,
+  "transport": {
+    "shuttle": "학동역 8번출구, 신사역 1번출구에서 상시 운행",
+    "subway": "학동역 8번출구에서 도보 7분",
+    "bus": "· 신사동고개 하차 후 도보 5분\n  (간선 145, 148, 440｜지선 4212)\n· 학동역 5번출구 하차 후 도보 10분\n  (간선401｜지선 3412, 6411)",
+    "publicTransport": "",
+    "car": "",
+    "parking": "건물 주차장 이용 (만차 시 외부 주차장 안내)"
+  }
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "4층 연회장에 뷔페로 준비되어 있습니다.\n식권은 2층 축의대에서 수령해 주세요."
+  },
+    {
+    "title": "화환",
+    "content": "예식장 규정에 따라 화환 반입이 불가합니다.\n마음만 감사히 받겠습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "이승규", "bank": "카카오뱅크", "number": "3333-04-3013010" },
+        { "name": "이정수", "bank": "국민은행", "number": "405-21-0459-563" },
+        { "name": "문연숙", "bank": "국민은행", "number": "405-21-0456-947" }
+      ],
+      "bride": [
+        { "name": "정혜인", "bank": "신한은행", "number": "110-561-936911" },
+        { "name": "정상훈", "bank": "우리은행", "number": "422-153778-02-001" },
+        { "name": "서봉선", "bank": "우리은행", "number": "303-07-137803" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "16F-oNOt6p45WQ87HOrGSZ1JiEt3bkncNMkp3Qz3jNCo"
 }
   }
 }
