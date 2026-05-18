@@ -2329,15 +2329,15 @@
     "disableZoom": true
   },
     "intro": {
-      "title": "임성곤 & 남예은 결혼식에 초대합니다",
+      "title": "남예은 & 임성곤 결혼식에 초대합니다",
       "groomName": "임성곤",
       "brideName": "남예은",
       "date": "2026년 9월 20일 일요일 오후 5시 30분",
       "location": "엘리에나호텔",
       "message": "소중한 날, 따뜻한 마음으로 함께해 주세요.",
-      "mainImage": "/images/sgye0920/main.jpg",
+      "mainImage": "/images/sgye0920/main.jpg?v=1",
       "thumbnail": "/images/sgye0920/thumbnail.jpg",
-      "kakaoThumbnail": "/images/sgye0920/thumbnail_kakao.jpg"
+      "kakaoThumbnail": "/images/sgye0920/thumbnail_kakao.jpg?v=1"
     },
   "parents": {
   "groom": {
@@ -2422,7 +2422,122 @@
       "bride": [
         { "name": "남예은", "bank": "카카오뱅크", "number": "3333372561790" },
         { "name": "남찬우", "bank": "하나은행", "number": "14989100073607" },
-        { "name": "이현순", "bank": "국민은행", "number": "62800201026401" }
+        { "name": "이현순", "bank": "국민은행", "number": "16580104331963" }
+      ]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+   "dhar0829": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "02",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "신동호 & 신애림 결혼식에 초대합니다",
+      "groomName": "신동호",
+      "brideName": "신애림",
+      "date": "2026년 8월 29일 토요일 오후 6시 30분",
+      "location": "보테가마지오",
+      "message": "거리보다 마음이 늘 가까웠던 저희 두 사람,\n8년이라는 긴 시간 동안\n서로를 향해 걸어왔습니다.\n\n이제는 부부라는 이름 아래,\n같은 곳을 바라보며 나란히 걸어가려 합니다.\n\n저희의 시작을 알리는 가장 행복한 순간에\n소중한 당신을 초대합니다.",
+      "mainImage": "/images/dhar0829/main.jpg",
+      "thumbnail": "/images/dhar0829/thumbnail.jpg",
+      "kakaoThumbnail": "/images/dhar0829/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "신재민",
+      "symbol": "flower"
+    },
+    "mother": {
+      "name": "곽미영",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김미옥",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "신동호", "relation": "신랑", "phone": "010-8349-8501" },
+        { "name": "곽미영", "relation": "어머님", "phone": "010-5528-8338" }
+],
+      "bride": [
+        { "name": "신애림", "relation": "신부", "phone": "010-7233-5028" },
+        { "name": "김미옥", "relation": "어머님", "phone": "010-3370-5028" }
+]
+    },
+    "calendar": {
+      "date": "2026-08-29T18:30:00+09:00"
+    },
+    "gallery": [
+      "/images/dhar0829/gallery1.jpg",
+      "/images/dhar0829/gallery2.jpg",
+      "/images/dhar0829/gallery3.jpg",
+      "/images/dhar0829/gallery4.jpg",
+      "/images/dhar0829/gallery5.jpg",
+      "/images/dhar0829/gallery6.jpg",
+      "/images/dhar0829/gallery7.jpg",
+      "/images/dhar0829/gallery8.jpg",
+      "/images/dhar0829/gallery9.jpg",
+      "/images/dhar0829/gallery10.jpg",
+      "/images/dhar0829/gallery11.jpg",
+      "/images/dhar0829/gallery12.jpg",
+      "/images/dhar0829/gallery13.jpg",
+      "/images/dhar0829/gallery14.jpg",
+      "/images/dhar0829/gallery15.jpg",
+      "/images/dhar0829/gallery16.jpg",
+      "/images/dhar0829/gallery17.jpg"
+    ],
+    "video": {
+"enabled": true,
+"type": "youtube",
+"url": "https://www.youtube.com/watch?v=aKjutyeCkWU",
+"position": "afterCalendar"
+},
+    "map": {
+  "name": "보테가마지오",
+  "address": "G층(B2) 로 스타뇨 홀\n서울시 성동구 서울숲2길 32-14 갤러리아포레",
+  "lat": 37.545572818727756,
+  "lng": 127.04289835954435,
+  "transport": {
+    "shuttle": "",
+    "subway": "수인분당선 서울숲역 5번출구 (도보 5분 이내)\n2호선 뚝섬역 8번출구 (도보 10분 이내)",
+    "bus": "간선버스 : 뚝섬 서울숲 정류장\n141, 145, 148, 463\n간선 / 지선버스 : 성동구민 종합 체육센터 정류장\n121, 2014, 2224, 2413",
+    "publicTransport": "",
+    "car": "",
+    "parking": ""
+  }
+},
+"information": [
+  {
+    "title": "주차 안내",
+    "content": "건물 내 지하 (B3-B7) 5개 층 2시간 무료주차\n안내데스크 주차 등록 시 이용 가능합니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "신동호", "bank": "우리은행", "number": "1002-383-961004" },
+        { "name": "곽미영", "bank": "우리은행", "number": "314-163141-02-001" }
+      ],
+      "bride": [
+        { "name": "신애림", "bank": "신한은행", "number": "110-458-977293" },
+        { "name": "김미옥", "bank": "국민은행", "number": "594825-01-017765" }
       ]
     },
     "rsvp": {
