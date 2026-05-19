@@ -2443,9 +2443,9 @@
       "date": "2026년 8월 29일 토요일 오후 6시 30분",
       "location": "보테가마지오",
       "message": "거리보다 마음이 늘 가까웠던 저희 두 사람,\n8년이라는 긴 시간 동안\n서로를 향해 걸어왔습니다.\n\n이제는 부부라는 이름 아래,\n같은 곳을 바라보며 나란히 걸어가려 합니다.\n\n저희의 시작을 알리는 가장 행복한 순간에\n소중한 당신을 초대합니다.",
-      "mainImage": "/images/dhar0829/main.jpg",
-      "thumbnail": "/images/dhar0829/thumbnail.jpg",
-      "kakaoThumbnail": "/images/dhar0829/thumbnail_kakao.jpg"
+      "mainImage": "/images/dhar0829/main.jpg?v=1",
+      "thumbnail": "/images/dhar0829/thumbnail.jpg?v=1",
+      "kakaoThumbnail": "/images/dhar0829/thumbnail_kakao.jpg?v=1"
     },
   "parents": {
   "groom": {
@@ -2486,7 +2486,7 @@
       "date": "2026-08-29T18:30:00+09:00"
     },
     "gallery": [
-      "/images/dhar0829/gallery1.jpg",
+      "/images/dhar0829/gallery1.jpg?v=1",
       "/images/dhar0829/gallery2.jpg",
       "/images/dhar0829/gallery3.jpg",
       "/images/dhar0829/gallery4.jpg",
@@ -2507,7 +2507,7 @@
     "video": {
 "enabled": true,
 "type": "youtube",
-"url": "https://www.youtube.com/watch?v=aKjutyeCkWU",
+"url": "https://www.youtube.com/embed/aKjutyeCkWU",
 "position": "afterCalendar"
 },
     "map": {
@@ -2545,9 +2545,9 @@
 }
   },
    "msjh0620": {
-    "open": false,
+    "open": true,
     "keepForever": false,
-    "bgm": "02",
+    "bgm": "/music/custom_msjh0620.mp3",
     "settings": {
     "disableZoom": true
   },
@@ -2675,6 +2675,121 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1WejyJUJGKTcNM55_Gm4WlooZqThO6pjcZTP9y6qiAiQ"
+}
+  },
+   "lyshs0822": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "01",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이윤석 & 황솔 결혼식에 초대합니다",
+      "groomName": "이윤석",
+      "brideName": "황솔",
+      "date": "2026년 8월 22일 토요일 오전 10시 30분",
+      "location": "아모르아트컨벤션",
+      "message": "매일 손 잡고 걸을 수 있는\n여유로운 저녁이 있는 것\n지친 하루의 끝마다 돌아와 꼭 함께하는 것\n잠시 마주앉아\n서로의 이야기를 들어줄 수 있는 것\n네가 늘 있는 것.\n\n- 슌 '내 꿈은 당신과 나태하게 사는 것' -\n\n팔월의 어느 날,\n늘 곁에서 아껴주신 소중한 분들을 모십니다.",
+      "mainImage": "/images/lyshs0822/main.jpg",
+      "thumbnail": "/images/lyshs0822/thumbnail.jpg",
+      "kakaoThumbnail": "/images/lyshs0822/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "손금선",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "황정훈",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이민하",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "이윤석", "relation": "신랑", "phone": "010-6413-7930" }
+],
+      "bride": [
+        { "name": "황솔", "relation": "신부", "phone": "010-5696-7609" }
+]
+    },
+    "calendar": {
+      "date": "2026-08-22T10:30:00+09:00"
+    },
+    "gallery": [
+      "/images/lyshs0822/gallery1.jpg",
+      "/images/lyshs0822/gallery2.jpg",
+      "/images/lyshs0822/gallery3.jpg",
+      "/images/lyshs0822/gallery4.jpg",
+      "/images/lyshs0822/gallery5.jpg",
+      "/images/lyshs0822/gallery6.jpg",
+      "/images/lyshs0822/gallery7.jpg",
+      "/images/lyshs0822/gallery8.jpg",
+      "/images/lyshs0822/gallery9.jpg",
+      "/images/lyshs0822/gallery10.jpg",
+      "/images/lyshs0822/gallery11.jpg",
+      "/images/lyshs0822/gallery12.jpg",
+      "/images/lyshs0822/gallery13.jpg",
+      "/images/lyshs0822/gallery14.jpg",
+      "/images/lyshs0822/gallery15.jpg",
+      "/images/lyshs0822/gallery16.jpg",
+      "/images/lyshs0822/gallery17.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "아모르아트컨벤션",
+  "address": "2층 그랜드홀\n충청북도 청주시 흥덕구 남석로 579",
+  "lat": 36.60642796396707,
+  "lng": 127.42092546166897,
+  "transport": {
+    "shuttle": "",
+    "subway": "",
+    "bus": "",
+    "publicTransport": "",
+    "car": "",
+    "parking": "・ 전용 주차장\n  건물 외부 무료 주차 (시간 제한 없습니다.)"
+  }
+},
+"information": [
+  {
+    "title": "화환 안내",
+    "content": "저희의 새로운 출발을 축하해 주시는\n따뜻한 마음만 감사히 받겠습니다.\n환경 보호를 위해 화환은 정중히 사양합니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "이윤석", "bank": "국민은행", "number": "244002-04-297662" },
+        { "name": "손금선", "bank": "신한은행", "number": "110-303-811133" }
+      ],
+      "bride": [
+        { "name": "황솔", "bank": "국민은행", "number": "712401-01-590109" },
+        { "name": "황정훈", "bank": "농협은행", "number": "173092-56-076656" },
+        { "name": "이민하", "bank": "새마을금고", "number": "451810-03-67820" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "10P8ulFgf1Z9pzOyMjMcNgLWZRbgCpStP1gxRJb7fvmE"
 }
   }
 }
