@@ -3063,7 +3063,7 @@
       "brideName": "이채연",
       "date": "2026년 8월 29일 토요일 오후 2시",
       "location": "CJ 인재원",
-      "message": "\"비가 오면 비가 오는 대로,\n맑으면 맑은 대로 생각나는 사람이 있습니다.\"\n- 윤보영 <여름비>\n\n맑은 날엔 함께 웃고,\n궂은날엔 서로의 우산이 되어주며\n그렇게 서로에게 가장 든든한\n내 편이 되기로 했습니다.\n초록빛이 싱그러운 한여름의 어느 날,\n저희 두 사람의 새로운 시작에\n기쁜 마음으로 함께해 주시면\n큰 힘이 될 것 같습니다.",
+      "message": "\"비가 오면 비가 오는 대로,\n맑으면 맑은 대로 생각나는 사람이 있습니다.\"\n- 윤보영 <여름비>\n\n맑은 날엔 함께 웃고,\n궂은 날엔 서로의 우산이 되어주며\n그렇게 서로에게 가장 든든한\n내 편이 되기로 했습니다.\n초록빛이 싱그러운 한여름의 어느 날,\n저희 두 사람의 시작에\n기쁜 마음으로 함께해 주시면\n큰 힘이 될 것 같습니다.",
       "mainImage": "/images/dhcy0829/main.jpg",
       "thumbnail": "/images/dhcy0829/thumbnail.jpg",
       "kakaoThumbnail": "/images/dhcy0829/thumbnail_kakao.jpg"
@@ -3169,6 +3169,106 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1JEseP8IRyKS9teJuvRLhC3fL-suq4DDIjPS577GAGBk"
+}
+  },
+   "dwhj1011": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_dwhj1011.mp3",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "정대욱 & 이헌주 결혼식에 초대합니다",
+      "groomName": "정대욱",
+      "brideName": "이헌주",
+      "date": "2026년 10월 11일 일요일 오후 4시 30분",
+      "location": "노비아갈라 동촌점",
+      "message": "이제 부부라는 이름으로\n같은 길을 함께 걸어가려 합니다.\n소중한 분들과\n이 뜻깊은 순간을 함께하고자 하오니\n따뜻한 축복으로 저희의 시작을 빛내주세요.",
+      "mainImage": "/images/dwhj1011/main.jpg",
+      "thumbnail": "/images/dwhj1011/thumbnail.jpg",
+      "kakaoThumbnail": "/images/dwhj1011/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "정희운",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이영이",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "이영환",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "최유리",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-10-11T16:30:00+09:00"
+    },
+    "gallery": [
+      "/images/dwhj1011/gallery1.jpg",
+      "/images/dwhj1011/gallery2.jpg",
+      "/images/dwhj1011/gallery3.jpg",
+      "/images/dwhj1011/gallery4.jpg",
+      "/images/dwhj1011/gallery5.jpg",
+      "/images/dwhj1011/gallery6.jpg",
+      "/images/dwhj1011/gallery7.jpg",
+      "/images/dwhj1011/gallery8.jpg",
+      "/images/dwhj1011/gallery9.jpg",
+      "/images/dwhj1011/gallery10.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "노비아갈라 동촌점",
+  "address": "2층 시그니아홀\n대구광영시 동구 동촌로 87",
+  "lat": 35.88794431816177,
+  "lng": 128.6517456699861,
+  "transport": {
+    "subway": "1호선 동촌역 하차 후 도보 이동 가능합니다.",
+    "bus": "‘입석중학교앞’ 또는 ‘동촌역(해맞이다리 방면)’ 정류장\n하차 후 도보 이동 가능합니다.",
+    "car": "네비게이션에 ‘노비아갈라 동촌점’을 검색해 주세요.\n예식장 내 주차 가능합니다.",
+    "shuttle": "",
+    "publicTransport": "",
+    "parking": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "정대욱", "bank": "농협은행", "number": "302-0886-1735-11" },
+        { "name": "정희운", "bank": "농협은행", "number": "710-02-343831" },
+        { "name": "이영이", "bank": "우리은행", "number": "1002-202-845864" }
+      ],
+      "bride": [
+        { "name": "이헌주", "bank": "im뱅크", "number": "508-15-633516-9" },
+        { "name": "이영환", "bank": "im뱅크", "number": "192-08-106931" },
+        { "name": "최유리", "bank": "im뱅크", "number": "234-13- 032246" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "14_U9Nv8eRsz-VQOtRl3eT6Xgj5H1yJmQk_M4G3Duqk0"
 }
   }
 }
