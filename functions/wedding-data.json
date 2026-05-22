@@ -975,33 +975,33 @@
       "date": "2026-08-29T17:30:00+09:00"
     },
     "gallery": [
-      "/images/jbjy0829/gallery1.jpg",
-      "/images/jbjy0829/gallery2.jpg",
-      "/images/jbjy0829/gallery3.jpg",
-      "/images/jbjy0829/gallery4.jpg",
-      "/images/jbjy0829/gallery5.jpg",
-      "/images/jbjy0829/gallery6.jpg",
-      "/images/jbjy0829/gallery7.jpg",
-      "/images/jbjy0829/gallery8.jpg",
-      "/images/jbjy0829/gallery9.jpg",
-      "/images/jbjy0829/gallery10.jpg",
-      "/images/jbjy0829/gallery11.jpg",
-      "/images/jbjy0829/gallery12.jpg",
-      "/images/jbjy0829/gallery13.jpg",
-      "/images/jbjy0829/gallery14.jpg",
-      "/images/jbjy0829/gallery15.jpg",
-      "/images/jbjy0829/gallery16.jpg",
-      "/images/jbjy0829/gallery17.jpg",
-      "/images/jbjy0829/gallery18.jpg",
-      "/images/jbjy0829/gallery19.jpg",
-      "/images/jbjy0829/gallery20.jpg",
-      "/images/jbjy0829/gallery21.jpg",
-      "/images/jbjy0829/gallery22.jpg"
+      "/images/jbjy0829/gallery1.jpg?v=1",
+      "/images/jbjy0829/gallery2.jpg?v=1",
+      "/images/jbjy0829/gallery3.jpg?v=1",
+      "/images/jbjy0829/gallery4.jpg?v=1",
+      "/images/jbjy0829/gallery5.jpg?v=1",
+      "/images/jbjy0829/gallery6.jpg?v=1",
+      "/images/jbjy0829/gallery7.jpg?v=1",
+      "/images/jbjy0829/gallery8.jpg?v=1",
+      "/images/jbjy0829/gallery9.jpg?v=1",
+      "/images/jbjy0829/gallery10.jpg?v=1",
+      "/images/jbjy0829/gallery11.jpg?v=2",
+      "/images/jbjy0829/gallery12.jpg?v=2",
+      "/images/jbjy0829/gallery13.jpg?v=2",
+      "/images/jbjy0829/gallery14.jpg?v=2",
+      "/images/jbjy0829/gallery15.jpg?v=2",
+      "/images/jbjy0829/gallery16.jpg?v=1",
+      "/images/jbjy0829/gallery17.jpg?v=3",
+      "/images/jbjy0829/gallery18.jpg?v=1",
+      "/images/jbjy0829/gallery19.jpg?v=1",
+      "/images/jbjy0829/gallery20.jpg?v=1",
+      "/images/jbjy0829/gallery21.jpg?v=3",
+      "/images/jbjy0829/gallery22.jpg?v=3"
     ],
     "video": {
 "enabled": true,
 "type": "youtube",
-"url": "https://www.youtube.com/watch?v=oq2dVfnc3kI",
+"url": "https://www.youtube.com/embed/EgpOpMxug40",
 "position": "afterCalendar"
 },
     "map": {
@@ -1627,7 +1627,7 @@
   },
    "yhwdy0711": {
     "open": true,
-    "keepForever": false,
+    "keepForever": true,
     "bgm": "01",
     "bgmAutoPlay": true,
     "settings": {
@@ -1693,10 +1693,11 @@
       "/images/yhwdy0711/gallery8.jpg",
       "/images/yhwdy0711/gallery9.jpg",
       "/images/yhwdy0711/gallery10.jpg",
-      "/images/yhwdy0711/gallery11.jpg?v=1",
-      "/images/yhwdy0711/gallery12.jpg",
-      "/images/yhwdy0711/gallery13.jpg",
-      "/images/yhwdy0711/gallery14.jpg"
+      "/images/yhwdy0711/gallery11.jpg?v=3",
+      "/images/yhwdy0711/gallery12.jpg?v=3",
+      "/images/yhwdy0711/gallery13.jpg?v=3",
+      "/images/yhwdy0711/gallery14.jpg?v=3",
+      "/images/yhwdy0711/gallery15.jpg?v=3"
     ],
     "video": {
 "enabled": false,
@@ -1719,6 +1720,10 @@
   }
 },
 "information": [
+  {
+    "title": "예식버스 안내",
+    "content": "소중한 걸음 편히 함께하실 수 있도록\n전세버스를 준비했습니다.\n\n출발 | 2026.07.11. 토요일 오전 9:00\n장소 | 어양공원 108번 시내버스 종점\n(부영2차 도로 건너편)\n\n복귀 | 예식 종료 후 오후 1:20 출발\n\n전북76바 8505\n강한산 기사님 010-3354-0989"
+  },
   {
     "title": "화환 안내",
     "content": "화환은 정중히 사양하오니\n넓은 양해 부탁드립니다."
@@ -2507,7 +2512,8 @@
     "video": {
 "enabled": true,
 "type": "youtube",
-"url": "https://www.youtube.com/embed/aKjutyeCkWU",
+"url": "https://www.youtube.com/embed/2apxc_wQOcY",
+"ratio": "vertical",
 "position": "afterCalendar"
 },
     "map": {
@@ -2548,6 +2554,7 @@
     "open": true,
     "keepForever": false,
     "bgm": "/music/custom_msjh0620.mp3",
+    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -2635,7 +2642,7 @@
     "video": {
 "enabled": true,
 "type": "youtube",
-"url": "https://www.youtube.com/embed/IlhInw8ZsmA",
+"url": "https://www.youtube.com/embed/GbBevvnM5d0",
 "ratio": "vertical",
 "position": "afterCalendar"
 },
@@ -2661,6 +2668,14 @@
   {
     "title": "피로연",
     "content": "거리가 멀어 본식에\n참여하시기 어려운 분들을 위해\n혼례에 앞서 피로연 자리를 마련하였습니다.\n귀한 발걸음으로\n두 사람의 앞날을 축복하여 주시면\n더 큰 기쁨과 격려가 되겠습니다.\n\n일시: 2026년 6월 13일 토요일\n오후 6:30 ~ 8:30\n장소: 포항 더 퀸 웨딩 3층\n(경북 포항시 남구 대이로 18)"
+  },
+  {
+    "title": "답례품",
+    "content": "바쁘신 일정 중에도 저희의 앞날을\n축복해 주셔서 진심으로 감사드립니다.\n감사의 뜻을 담아 작은 답례품을 준비하였으니\n예식 후 출구에서 받아가 주시기 바랍니다."
+  },
+  {
+    "title": "애프터파티",
+    "content": "본식 이후 감사의 마음을 담아\n애프터파티를 진행합니다.\n자세한 내용은 추후 안내드릴 예정입니다."
   }
 ],
     "accounts": {
@@ -2669,7 +2684,7 @@
         { "name": "권호욱", "bank": "국민은행", "number": "054901-04-037688" }
       ],
       "bride": [
-        { "name": "김주현", "bank": "우리은행", "number": "1002-950-790070" }
+        { "name": "김주현 (김문철)", "bank": "우리은행", "number": "1002-950-790070" }
       ]
     },
     "rsvp": {
@@ -2790,6 +2805,132 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "10P8ulFgf1Z9pzOyMjMcNgLWZRbgCpStP1gxRJb7fvmE"
+}
+  },
+   "jhsb0815": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_jhsb0815.mp3",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "윤지환 & 황수빈 결혼식에 초대합니다",
+      "groomName": "윤지환",
+      "brideName": "황수빈",
+      "date": "2026년 8월 15일 토요일 오후 5시",
+      "location": "아펠가모 선릉",
+      "message": "저희 두 사람, 서로에게\n단 하나뿐인 평생의 단짝이 되고자 합니다.\n\n하나 되는 뜻깊은 날\n곁에서 지켜봐 주신 소중한 분들을 초대합니다.",
+      "mainImage": "/images/jhsb0815/main.jpg",
+      "thumbnail": "/images/jhsb0815/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jhsb0815/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "윤인현",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "조성은",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "황지택",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "고인숙",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "윤지환", "relation": "신랑", "phone": "010-9046-9639" },
+        { "name": "윤인현", "relation": "아버님", "phone": "010-4450-9015" },
+        { "name": "조성은", "relation": "어머님", "phone": "010-5793-8005" }
+],
+      "bride": [
+        { "name": "황수빈", "relation": "신부", "phone": "010-5602-7624" },
+        { "name": "황지택", "relation": "아버님", "phone": "010-7289-2277" },
+        { "name": "고인숙", "relation": "어머님", "phone": "010-5299-1624" }
+]
+    },
+    "calendar": {
+      "date": "2026-08-15T17:00:00+09:00"
+    },
+    "gallery": [
+      "/images/jhsb0815/gallery1.jpg",
+      "/images/jhsb0815/gallery2.jpg",
+      "/images/jhsb0815/gallery3.jpg",
+      "/images/jhsb0815/gallery4.jpg",
+      "/images/jhsb0815/gallery5.jpg",
+      "/images/jhsb0815/gallery6.jpg",
+      "/images/jhsb0815/gallery7.jpg",
+      "/images/jhsb0815/gallery8.jpg",
+      "/images/jhsb0815/gallery9.jpg",
+      "/images/jhsb0815/gallery10.jpg",
+      "/images/jhsb0815/gallery11.jpg",
+      "/images/jhsb0815/gallery12.jpg?v=1",
+      "/images/jhsb0815/gallery13.jpg?v=1",
+      "/images/jhsb0815/gallery14.jpg",
+      "/images/jhsb0815/gallery15.jpg",
+      "/images/jhsb0815/gallery16.jpg",
+      "/images/jhsb0815/gallery17.jpg",
+      "/images/jhsb0815/gallery18.jpg",
+      "/images/jhsb0815/gallery19.jpg",
+      "/images/jhsb0815/gallery20.jpg",
+      "/images/jhsb0815/gallery21.jpg",
+      "/images/jhsb0815/gallery22.jpg",
+      "/images/jhsb0815/gallery23.jpg",
+      "/images/jhsb0815/gallery24.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "아펠가모 선릉",
+  "address": "4층 단독홀\n서울 강남구 테헤란로 322 한신인터밸리24 빌딩",
+  "lat": 37.50323602701982,
+  "lng": 127.04658249315997,
+  "transport": {
+    "car": "건물 내 지하주차장(B3~B6) 이용 가능 (2시간 무료)",
+    "shuttle": "",
+    "subway": "선릉역 2호선 · 수인분당선 4번 출구에서 150m 직진 (도보 약 2분)",
+    "bus": "선릉역 정류장 하차\n· 간선: 146, 333, 341, 360, 740\n· 광역: 1100, 1700, 2000, 7007, 8001, 9303",
+    "publicTransport": "",
+    "parking": ""
+  }
+},
+"information": [
+  {
+    "title": "주차장 이용안내",
+    "content": "웨딩홀을 방문해 주신 하객분들께서는\n연회장 옆 안내데스크에서\n주차 할인을 적용받아 주시기 바랍니다.\n\n주차장 진입로 및 코너가 다소 협소한 편이므로,\n자차 이용 시 서행 및 안전 운전 부탁드립니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "윤지환", "bank": "새마을금고", "number": "9003296756501" },
+        { "name": "윤인현", "bank": "하나은행", "number": "10013093445" },
+        { "name": "조성은", "bank": "하나은행", "number": "68991003777807" }
+      ],
+      "bride": [
+        { "name": "황수빈", "bank": "국민은행", "number": "63740201738436" },
+        { "name": "황지택", "bank": "우리은행", "number": "025210217552 " },
+        { "name": "고인숙", "bank": "국민은행", "number": "096240094508" }
+      ]
+    },
+    "rsvp": {
+  "enabled": false
 }
   }
 }
