@@ -2932,5 +2932,122 @@
     "rsvp": {
   "enabled": false
 }
+  },
+   "jsge0725": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김재승 & 문가을 결혼식에 초대합니다",
+      "groomName": "김재승",
+      "brideName": "문가을",
+      "date": "2026년 7월 25일 토요일 오후 12시 30분",
+      "location": "노블발렌티 대치",
+      "message": "저희 결혼합니다.\n함께 있을때 가장 나다워지는 사람을 만나\n평생을 함께 하기로 약속합니다.\n귀한 시간 내어 저희의 힘찬 걸음에\n축복의 마음을 더해 주시면 감사하겠습니다.",
+      "mainImage": "/images/jsge0725/main.jpg",
+      "thumbnail": "/images/jsge0725/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jsge0725/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김상섭",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김순옥",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "문인찬",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "안미정",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김재승", "relation": "신랑", "phone": "010-7383-8770" },
+        { "name": "김상섭", "relation": "아버님", "phone": "010-4628-3186" },
+        { "name": "김순옥", "relation": "어머님", "phone": "010-5341-2154" }
+],
+      "bride": [
+        { "name": "문가을", "relation": "신부", "phone": "010-3856-7811" },
+        { "name": "문인찬", "relation": "아버님", "phone": "010-7764-0677" },
+        { "name": "안미정", "relation": "어머님", "phone": "010-5518-7811" }
+]
+    },
+    "calendar": {
+      "date": "2026-07-25T12:30:00+09:00"
+    },
+    "gallery": [
+      "/images/jsge0725/gallery1.jpg",
+      "/images/jsge0725/gallery2.jpg",
+      "/images/jsge0725/gallery3.jpg",
+      "/images/jsge0725/gallery4.jpg",
+      "/images/jsge0725/gallery5.jpg",
+      "/images/jsge0725/gallery6.jpg",
+      "/images/jsge0725/gallery7.jpg",
+      "/images/jsge0725/gallery8.jpg",
+      "/images/jsge0725/gallery9.jpg",
+      "/images/jsge0725/gallery10.jpg",
+      "/images/jsge0725/gallery11.jpg",
+      "/images/jsge0725/gallery12.jpg",
+      "/images/jsge0725/gallery13.jpg",
+      "/images/jsge0725/gallery14.jpg",
+      "/images/jsge0725/gallery15.jpg",
+      "/images/jsge0725/gallery16.jpg",
+      "/images/jsge0725/gallery17.jpg",
+      "/images/jsge0725/gallery18.jpg",
+      "/images/jsge0725/gallery19.jpg",
+      "/images/jsge0725/gallery20.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "노블발렌티 대치",
+  "address": "단독홀\n서울 강남구 영동대로 325",
+  "lat": 37.50330540610728,
+  "lng": 127.06556093983797,
+  "transport": {
+    "subway": "2호선 삼성역 3번출구 앞 셔틀버스 운행",
+    "bus": "휘문고, 대치2동주민센터 정류장 하차 후 학여울역 방향 100M 직진\n간선: 343, 401\n지선: 4319\n일반: 11-3, 917\n\n직행: 500-2, 9407, 9507, 9607",
+    "car": "<경부고속도로>\n양재 IC 양재방면으로 오른쪽 방향 - 개포 3,4단지 삼거리 (대치역 방면 좌회전) - 은마아파트 - 대치우성 아파트 좌회전 - 노블발렌티 대치점\n\n<서울 서부, 강북지역>\n영동대교 남단 '경기고교사거리' 방면 - 봉은사역 - 삼성역 직진 - 노블발렌티 대치점\n\n<서울 동남부지역>\n2호선 삼성역 (무역센터) 교차로 - 학여울역 방향 우회전 - 노블발렌티 대치점",
+    "shuttle": "",
+    "publicTransport": "",
+    "parking": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "김재승", "bank": "신한은행", "number": "110-295-957350" },
+        { "name": "김상섭", "bank": "농협은행", "number": "181-01-108923" },
+        { "name": "김순옥", "bank": "농협은행", "number": "204044-52-051115" }
+      ],
+      "bride": [
+        { "name": "문가을", "bank": "기업은행", "number": "231-163733-01-016" },
+        { "name": "문인찬", "bank": "농협은행", "number": "356-1604-2111-23" },
+        { "name": "안미정", "bank": "신협은행", "number": "137-014-657595" }
+      ]
+    },
+    "rsvp": {
+  "enabled": false
+}
   }
 }
