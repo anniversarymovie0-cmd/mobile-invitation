@@ -3049,5 +3049,126 @@
     "rsvp": {
   "enabled": false
 }
+  },
+   "dhcy0829": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "07",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이동현 & 이채연 결혼식에 초대합니다",
+      "groomName": "이동현",
+      "brideName": "이채연",
+      "date": "2026년 8월 29일 토요일 오후 2시",
+      "location": "CJ 인재원",
+      "message": "\"비가 오면 비가 오는 대로,\n맑으면 맑은 대로 생각나는 사람이 있습니다.\"\n- 윤보영 <여름비>\n\n맑은 날엔 함께 웃고,\n궂은날엔 서로의 우산이 되어주며\n그렇게 서로에게 가장 든든한\n내 편이 되기로 했습니다.\n초록빛이 싱그러운 한여름의 어느 날,\n저희 두 사람의 새로운 시작에\n기쁜 마음으로 함께해 주시면\n큰 힘이 될 것 같습니다.",
+      "mainImage": "/images/dhcy0829/main.jpg",
+      "thumbnail": "/images/dhcy0829/thumbnail.jpg",
+      "kakaoThumbnail": "/images/dhcy0829/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이상우",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "최순희",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "이창현",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "장진경",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "이동현", "relation": "신랑", "phone": "010-8608-7537" }
+      ],
+      "bride": [
+        { "name": "이채연", "relation": "신부", "phone": "010-8682-3459" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-08-29T14:00:00+09:00"
+    },
+    "gallery": [
+      "/images/dhcy0829/gallery1.jpg",
+      "/images/dhcy0829/gallery2.jpg",
+      "/images/dhcy0829/gallery3.jpg",
+      "/images/dhcy0829/gallery4.jpg",
+      "/images/dhcy0829/gallery5.jpg",
+      "/images/dhcy0829/gallery6.jpg",
+      "/images/dhcy0829/gallery7.jpg",
+      "/images/dhcy0829/gallery8.jpg",
+      "/images/dhcy0829/gallery9.jpg",
+      "/images/dhcy0829/gallery10.jpg",
+      "/images/dhcy0829/gallery11.jpg",
+      "/images/dhcy0829/gallery12.jpg",
+      "/images/dhcy0829/gallery13.jpg",
+      "/images/dhcy0829/gallery14.jpg",
+      "/images/dhcy0829/gallery15.jpg",
+      "/images/dhcy0829/gallery16.jpg",
+      "/images/dhcy0829/gallery17.jpg",
+      "/images/dhcy0829/gallery18.jpg",
+      "/images/dhcy0829/gallery19.jpg",
+      "/images/dhcy0829/gallery20.jpg",
+      "/images/dhcy0829/gallery21.jpg",
+      "/images/dhcy0829/gallery22.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "CJ 인재원",
+  "address": "B1층 그랜드홀\n서울 중구 퇴계로36가길 24",
+  "lat": 37.55901439737091,
+  "lng": 126.99524649233967,
+  "transport": {
+    "subway": "3,4호선 충무로역 1번 출구로 나와 도보 5분",
+    "bus": "",
+    "car": "1) 호텔 '도마'를 끼고 우회전 후 왕복 2차선도로로\n    진입하면 삼거리 오른쪽에 CJ인재원 위치\n* 네비게이션이 인재원 건물 사이로 안내 시\n   전방 골목에서 좌회전 2번\n\n2) 대한극장 우측 골목으로 진입하여 직진\n    CU편의점을 끼고 좌측 방향에서\n    새마을 금고와 필동주민센터 사잇길로 직진\n    우측에 CJ인재원 그랜드 홀 위치",
+    "shuttle": "",
+    "publicTransport": "",
+    "parking": ""
+  }
+},
+"information": [
+  {
+    "title": "화환 안내",
+    "content": "축하해 주시는 따뜻한 마음만\n감사히 받겠습니다.\n화환은 정중히 사양하오니\n너그러운 양해 부탁드립니다."
+  },
+    {
+    "title": "주차 안내",
+    "content": "주차 공간이 협소하오니\n가급적 대중교통 이용 부탁드립니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "이동현", "bank": "IBK기업은행", "number": "0020-9492-3020-14" }
+      ],
+      "bride": [
+        { "name": "이채연", "bank": "카카오뱅크", "number": "3333-10-3501630" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1JEseP8IRyKS9teJuvRLhC3fL-suq4DDIjPS577GAGBk"
+}
   }
 }
