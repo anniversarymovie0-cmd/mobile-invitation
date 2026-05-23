@@ -3098,7 +3098,7 @@
         { "name": "이동현", "relation": "신랑", "phone": "010-8608-7537" }
       ],
       "bride": [
-        { "name": "이채연", "relation": "신부", "phone": "010-8682-3459" }
+        { "name": "이채연", "relation": "신부", "phone": "010-8628-3459" }
       ]
     },
     "calendar": {
@@ -3160,10 +3160,14 @@
 ],
     "accounts": {
       "groom": [
-        { "name": "이동현", "bank": "IBK기업은행", "number": "0020-9492-3020-14" }
+        { "name": "이동현", "bank": "IBK기업은행", "number": "002-094923-02-014" },
+        { "name": "이상우", "bank": "NH농협", "number": "352-1145-5509-93" },
+        { "name": "최순희", "bank": "IBK기업은행", "number": "383-044799-01-013" }
       ],
       "bride": [
-        { "name": "이채연", "bank": "카카오뱅크", "number": "3333-10-3501630" }
+        { "name": "이채연", "bank": "카카오뱅크", "number": "3333-10-3501630" },
+        { "name": "이창현", "bank": "우체국", "number": "013136-02-186862" },
+        { "name": "장진경", "bank": "하나은행", "number": "1778-9106180-907" }
       ]
     },
     "rsvp": {
@@ -3175,6 +3179,7 @@
     "open": true,
     "keepForever": false,
     "bgm": "/music/custom_dwhj1011.mp3",
+    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -3241,7 +3246,7 @@
 },
     "map": {
   "name": "노비아갈라 동촌점",
-  "address": "2층 시그니아홀\n대구광영시 동구 동촌로 87",
+  "address": "2층 시그니아홀\n대구광역시 동구 동촌로 87",
   "lat": 35.88794431816177,
   "lng": 128.6517456699861,
   "transport": {
