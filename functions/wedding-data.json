@@ -2644,7 +2644,7 @@
 "type": "youtube",
 "url": "https://www.youtube.com/embed/GbBevvnM5d0",
 "ratio": "vertical",
-"position": "afterCalendar"
+"position": "afterGallery"
 },
     "map": {
   "name": "목동제자교회",
@@ -2667,7 +2667,7 @@
   },
   {
     "title": "피로연",
-    "content": "거리가 멀어 본식에\n참여하시기 어려운 분들을 위해\n혼례에 앞서 피로연 자리를 마련하였습니다.\n귀한 발걸음으로\n두 사람의 앞날을 축복하여 주시면\n더 큰 기쁨과 격려가 되겠습니다.\n\n일시: 2026년 6월 13일 토요일\n오후 6:30 ~ 8:30\n장소: 포항 더 퀸 웨딩 3층\n(경북 포항시 남구 대이로 18)"
+    "content": "거리가 멀어 본식에\n참여하시기 어려운 분들을 위해\n혼례에 앞서 피로연 자리를 마련하였습니다.\n귀한 발걸음으로\n두 사람의 앞날을 축복하여 주시면\n더 큰 기쁨과 격려가 되겠습니다.\n\n일시: 2026년 6월 13일 토요일\n오후 6:30 ~ 8:30\n장소: 포항 더 퀸 웨딩 4층\n(경북 포항시 남구 대이로 18)"
   },
   {
     "title": "답례품",
@@ -3274,6 +3274,121 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "14_U9Nv8eRsz-VQOtRl3eT6Xgj5H1yJmQk_M4G3Duqk0"
+}
+  },
+   "hshj0906": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "01",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김현성 & 김효진 결혼식에 초대합니다",
+      "groomName": "김현성",
+      "brideName": "김효진",
+      "date": "2026년 9월 6일 일요일 오후 12시 30분",
+      "location": "진주 제이스퀘어 호텔",
+      "message": "서로가 있기에 눈부신 오늘이 행복했습니다.\n이제 그 행복을 길게 이어 함께 하려 합니다.\n저희의 시작을 함께해 주시면 감사하겠습니다.",
+      "mainImage": "/images/hshj0906/main.jpg",
+      "thumbnail": "/images/hshj0906/thumbnail.jpg",
+      "kakaoThumbnail": "/images/hshj0906/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김준성",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김소연",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "김경섭",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이화희",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김현성", "relation": "신랑", "phone": "010-2834-5556" },
+        { "name": "김준성", "relation": "아버님", "phone": "010-4709-1999" },
+        { "name": "김소연", "relation": "어머님", "phone": "010-6826-2008" }
+      ],
+      "bride": [
+        { "name": "김효진", "relation": "신부", "phone": "010-5424-7323" },
+        { "name": "김경섭", "relation": "아버님", "phone": "010-7542-7323" },
+        { "name": "이화희", "relation": "어머님", "phone": "010-5204-7323" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-06T12:30:00+09:00"
+    },
+    "gallery": [
+      "/images/hshj0906/gallery1.jpg",
+      "/images/hshj0906/gallery2.jpg",
+      "/images/hshj0906/gallery3.jpg",
+      "/images/hshj0906/gallery4.jpg",
+      "/images/hshj0906/gallery5.jpg",
+      "/images/hshj0906/gallery6.jpg",
+      "/images/hshj0906/gallery7.jpg",
+      "/images/hshj0906/gallery8.jpg",
+      "/images/hshj0906/gallery9.jpg",
+      "/images/hshj0906/gallery10.jpg",
+      "/images/hshj0906/gallery11.jpg",
+      "/images/hshj0906/gallery12.jpg",
+      "/images/hshj0906/gallery13.jpg",
+      "/images/hshj0906/gallery14.jpg",
+      "/images/hshj0906/gallery15.jpg",
+      "/images/hshj0906/gallery16.jpg",
+      "/images/hshj0906/gallery17.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "진주 제이스퀘어 호텔",
+  "address": "별관 4층 헤라홀\n경상남도 진주시 솔밭로 107",
+  "lat": 35.178737164175196,
+  "lng": 128.10675637919772,
+  "transport": {
+    "subway": "",
+    "bus": "",
+    "car": "",
+    "shuttle": "",
+    "publicTransport": "",
+    "parking": "지상 타워 주차장 - 헤라홀 건물 전용 엘리베이터 또는\n본관 건물 외부 엘리베이터 이용\n지하주차장 - 헤라홀 전용 엘리베이터 이용"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "김현성", "bank": "토스뱅크", "number": "1000-2238-1869" },
+        { "name": "김준성(진원)", "bank": "농협은행", "number": "356-1427-1150-43" },
+        { "name": "김소연", "bank": "농협은행", "number": "356-0928-2416-13" }
+      ],
+      "bride": [
+        { "name": "김효진", "bank": "농협은행", "number": "351-0385-2198-33" },
+        { "name": "김경섭", "bank": "우리은행", "number": "356-0109-0302-001" },
+        { "name": "이화희", "bank": "우리은행", "number": "342-1085-9702-003" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "11wTmTminq4b-n7GM0Bkdq8BoksCpmOwxH9JeedLBH4g"
 }
   }
 }
