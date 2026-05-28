@@ -3615,5 +3615,122 @@
   "enabled": true,
   "sheetId": "1mVIMhcGiWzSA7ISwu0nJUaoz6S263oMYPCJKhBZHp4Y"
 }
+  }, "thyh0808": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "02",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "조태희 & 이예현 결혼식에 초대합니다",
+      "groomName": "조태희",
+      "brideName": "이예현",
+      "date": "2026년 8월 8일 토요일 오전 11시",
+      "location": "아모르아트컨벤션",
+      "message": "바람이 불고\n당신이 웃고\n나는 그 여름을 믿게 되었다\n— 이병률 《바다는 잘 있습니다》\n\n서로의 마음을 천천히 닮아가며\n같은 세월을 걸어가려 합니다.\n\n귀한 걸음으로 함께해 주시고\n따뜻한 축복 보내주시면 감사하겠습니다.",
+      "mainImage": "/images/thyh0808/main.jpg",
+      "thumbnail": "/images/thyh0808/thumbnail.jpg",
+      "kakaoThumbnail": "/images/thyh0808/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "조성택",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정미애",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "이철희",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박옥순",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "조태희", "relation": "신랑", "phone": "010-2600-8007" },
+        { "name": "조성택", "relation": "아버님", "phone": "010-3009-0111" },
+        { "name": "정미애", "relation": "어머님", "phone": "010-2203-9117" }
+      ],
+      "bride": [
+        { "name": "이예현", "relation": "신부", "phone": "010-8433-6602" },
+        { "name": "이철희", "relation": "아버님", "phone": "010-7279-0272" },
+        { "name": "박옥순", "relation": "어머님", "phone": "010-8732-9291" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-08-08T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/thyh0808/gallery1.jpg",
+      "/images/thyh0808/gallery2.jpg",
+      "/images/thyh0808/gallery3.jpg",
+      "/images/thyh0808/gallery4.jpg",
+      "/images/thyh0808/gallery5.jpg",
+      "/images/thyh0808/gallery6.jpg",
+      "/images/thyh0808/gallery7.jpg",
+      "/images/thyh0808/gallery8.jpg",
+      "/images/thyh0808/gallery9.jpg",
+      "/images/thyh0808/gallery10.jpg",
+      "/images/thyh0808/gallery11.jpg",
+      "/images/thyh0808/gallery12.jpg",
+      "/images/thyh0808/gallery13.jpg",
+      "/images/thyh0808/gallery14.jpg",
+      "/images/thyh0808/gallery15.jpg",
+      "/images/thyh0808/gallery16.jpg",
+      "/images/thyh0808/gallery17.jpg",
+      "/images/thyh0808/gallery18.jpg",
+      "/images/thyh0808/gallery19.jpg",
+      "/images/thyh0808/gallery20.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "아모르아트컨벤션",
+  "address": "4층 아모르홀\n충북 청주시 흥덕구 남석로 579",
+  "lat": 36.60642796396707,
+  "lng": 127.42092546166897,
+  "transport": {
+    "car": "석곡 사거리에서 세종시 방면 50m (왼쪽 방면)",
+    "bus": "가경동 청주 고속버스 터미널 혹은 청주 시외버스 터미널 하차 후 택시 이용 (약 10분)",
+    "subway": "",
+    "shuttle": "",
+    "publicTransport": "",
+    "ktx": "오송역 하차 후 버스 대중교통\n(502, 509, 747, 511 이용 하나병원 정류장에서\n813, 702 환승 - 호암마을 입구 하차) 및 택시 이용",
+    "parking": "건물 내 주차장"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "조태희", "bank": "카카오뱅크", "number": "3333-05-64975522" },
+        { "name": "조성택", "bank": "신한은행", "number": "100-025-499440" },
+        { "name": "정미애", "bank": "농협은행", "number": "415079-56-062065" }
+      ],
+      "bride": [
+        { "name": "이예현", "bank": "카카오뱅크", "number": "3333-02-8865805" },
+        { "name": "이철희", "bank": "농협은행", "number": "1180-12-003527" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1mDw_wLJnCCYHGTV2b7ENr04OliwGUiT9rNG0uUzQ7RM"
+}
   }
 }
