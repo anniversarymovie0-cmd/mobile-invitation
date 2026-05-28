@@ -1505,8 +1505,7 @@
         { "name": "박문기", "bank": "국민은행", "number": "557902-93-110700" }
       ],
       "bride": [
-        { "name": "김서연", "bank": "기업은행", "number": "18608714602011" },
-        { "name": "최선진", "bank": "토스뱅크", "number": "1001-3928-7218" }
+        { "name": "김서연", "bank": "기업은행", "number": "18608714602011" }
       ]
     },
     "rsvp": {
@@ -3289,7 +3288,7 @@
       "brideName": "김효진",
       "date": "2026년 9월 6일 일요일 오후 12시 30분",
       "location": "진주 제이스퀘어 호텔",
-      "message": "서로가 있기에 눈부신 오늘이 행복했습니다.\n이제 그 행복을 길게 이어 함께 하려 합니다.\n저희의 시작을 함께해 주시면 감사하겠습니다.",
+      "message": "서로가 있기에 눈부신 오늘이 행복했습니다.\n이제 그 행복을 길게 이어 함께 하려 합니다.\n저희의 시작을 함께해 주시면 감사하겠습니다.\n\n2026년 9월 6일 일요일 오후 12시 30분\n진주 제이스퀘어 호텔 별관 4층 헤라홀",
       "mainImage": "/images/hshj0906/main.jpg",
       "thumbnail": "/images/hshj0906/thumbnail.jpg",
       "kakaoThumbnail": "/images/hshj0906/thumbnail_kakao.jpg"
@@ -3335,23 +3334,20 @@
       "date": "2026-09-06T12:30:00+09:00"
     },
     "gallery": [
-      "/images/hshj0906/gallery1.jpg",
-      "/images/hshj0906/gallery2.jpg",
-      "/images/hshj0906/gallery3.jpg",
-      "/images/hshj0906/gallery4.jpg",
-      "/images/hshj0906/gallery5.jpg",
-      "/images/hshj0906/gallery6.jpg",
-      "/images/hshj0906/gallery7.jpg",
-      "/images/hshj0906/gallery8.jpg",
-      "/images/hshj0906/gallery9.jpg",
-      "/images/hshj0906/gallery10.jpg",
-      "/images/hshj0906/gallery11.jpg",
-      "/images/hshj0906/gallery12.jpg",
-      "/images/hshj0906/gallery13.jpg",
-      "/images/hshj0906/gallery14.jpg",
-      "/images/hshj0906/gallery15.jpg",
-      "/images/hshj0906/gallery16.jpg",
-      "/images/hshj0906/gallery17.jpg"
+      "/images/hshj0906/gallery1.jpg?v=1",
+      "/images/hshj0906/gallery2.jpg?v=1",
+      "/images/hshj0906/gallery3.jpg?v=1",
+      "/images/hshj0906/gallery4.jpg?v=1",
+      "/images/hshj0906/gallery5.jpg?v=1",
+      "/images/hshj0906/gallery6.jpg?v=1",
+      "/images/hshj0906/gallery7.jpg?v=1",
+      "/images/hshj0906/gallery8.jpg?v=1",
+      "/images/hshj0906/gallery9.jpg?v=1",
+      "/images/hshj0906/gallery10.jpg?v=1",
+      "/images/hshj0906/gallery11.jpg?v=1",
+      "/images/hshj0906/gallery12.jpg?v=1",
+      "/images/hshj0906/gallery13.jpg?v=1",
+      "/images/hshj0906/gallery14.jpg?v=1"
     ],
     "video": {
 "enabled": false,
@@ -3389,6 +3385,235 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "11wTmTminq4b-n7GM0Bkdq8BoksCpmOwxH9JeedLBH4g"
+}
+  },
+   "tmhb0906": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "정택민 & 전혜빈 결혼식에 초대합니다",
+      "groomName": "정택민",
+      "brideName": "전혜빈",
+      "date": "2026년 9월 6일 일요일 오전 11시",
+      "location": "미래컨벤션웨딩홀",
+      "message": "함께하는 여덟 번째 가을\n계절이 천천히 물들어가는 때에\n저희 두 사람, 영원을 약속하려 합니다\n\n처음으로 함께 내딛는 걸음에\n소중한 마음으로 함께해 주신다면\n오래도록 감사한 마음으로 간직하겠습니다",
+      "mainImage": "/images/tmhb0906/main.jpg?v=1",
+      "thumbnail": "/images/tmhb0906/thumbnail.jpg",
+      "kakaoThumbnail": "/images/tmhb0906/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "정대현",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "양해남",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "전형옥",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "장현숙",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "정택민", "relation": "신랑", "phone": "010-2046-2144" },
+        { "name": "정대현", "relation": "아버님", "phone": "010-9409-2145" },
+        { "name": "양해남", "relation": "어머님", "phone": "010-9486-2144" }
+      ],
+      "bride": [
+        { "name": "전혜빈", "relation": "신부", "phone": "010-9733-3998" },
+        { "name": "전형옥", "relation": "아버님", "phone": "010-9210-3998" },
+        { "name": "장현숙", "relation": "어머님", "phone": "010-5055-2501" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-06T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/tmhb0906/gallery1.jpg",
+      "/images/tmhb0906/gallery2.jpg",
+      "/images/tmhb0906/gallery3.jpg",
+      "/images/tmhb0906/gallery4.jpg",
+      "/images/tmhb0906/gallery5.jpg",
+      "/images/tmhb0906/gallery6.jpg",
+      "/images/tmhb0906/gallery7.jpg",
+      "/images/tmhb0906/gallery8.jpg",
+      "/images/tmhb0906/gallery9.jpg",
+      "/images/tmhb0906/gallery10.jpg",
+      "/images/tmhb0906/gallery11.jpg",
+      "/images/tmhb0906/gallery12.jpg",
+      "/images/tmhb0906/gallery13.jpg",
+      "/images/tmhb0906/gallery14.jpg",
+      "/images/tmhb0906/gallery15.jpg",
+      "/images/tmhb0906/gallery16.jpg",
+      "/images/tmhb0906/gallery17.jpg",
+      "/images/tmhb0906/gallery18.jpg",
+      "/images/tmhb0906/gallery19.jpg",
+      "/images/tmhb0906/gallery20.jpg"
+    ],
+    "video": {
+"enabled": true,
+"type": "youtube",
+"url": "https://www.youtube.com/embed/kSdJRZAS_HY",
+"position": "afterCalendar"
+},
+    "map": {
+  "name": "미래컨벤션웨딩홀",
+  "address": "2층 그레이스켈리홀\n강원 춘천시 퇴계로 118",
+  "lat": 37.86072298780478,
+  "lng": 127.73275905098873,
+  "transport": {
+    "subway": "",
+    "bus": "",
+    "car": "",
+    "shuttle": "",
+    "publicTransport": "남춘천역 도보 10분 택시 5분\n춘천터미널 도보 15분 택시 8분",
+    "parking": "미래컨벤션웨딩홀 주차장 이용"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "정택민", "bank": "우리은행", "number": "1002-863-053175" },
+        { "name": "정대현", "bank": "농협은행", "number": "336-12-301663" },
+        { "name": "양해남", "bank": "농협은행", "number": "173199-51-063613" }
+      ],
+      "bride": [
+        { "name": "전혜빈", "bank": "우리은행", "number": "1002-762-233371" },
+        { "name": "전형옥", "bank": "신한은행", "number": "110-309-166110" },
+        { "name": "장현숙", "bank": "농협은행", "number": "205-12-303888" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1nlvNqbL5Me7pwa21REgVzLbQu2cNYSb9qxj2ISRtBvo"
+}
+  },
+   "mksy0919": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "박민규 & 김소연 결혼식에 초대합니다",
+      "groomName": "박민규",
+      "brideName": "김소연",
+      "date": "2026년 9월 19일 토요일 오후 1시",
+      "location": "W웨딩 벡스코웨딩홀",
+      "message": "함께 가자 먼 길\n너와 함께라면 멀어도 가깝고\n아름답지 않아도 아름다운 길\n\n나도 그 길 위에서 나무가 되고\n너를 위해 착한 바람이 되고 싶다.\n\n- 나태주, <먼 길> 中 -",
+      "mainImage": "/images/mksy0919/main.jpg",
+      "thumbnail": "/images/mksy0919/thumbnail.jpg",
+      "kakaoThumbnail": "/images/mksy0919/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "박동신",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "최춘선",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "김형복",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "임명애",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-09-19T13:00:00+09:00"
+    },
+    "gallery": [
+      "/images/mksy0919/gallery1.jpg",
+      "/images/mksy0919/gallery2.jpg",
+      "/images/mksy0919/gallery3.jpg",
+      "/images/mksy0919/gallery4.jpg",
+      "/images/mksy0919/gallery5.jpg",
+      "/images/mksy0919/gallery6.jpg",
+      "/images/mksy0919/gallery7.jpg",
+      "/images/mksy0919/gallery8.jpg",
+      "/images/mksy0919/gallery9.jpg",
+      "/images/mksy0919/gallery10.jpg",
+      "/images/mksy0919/gallery11.jpg",
+      "/images/mksy0919/gallery12.jpg",
+      "/images/mksy0919/gallery13.jpg",
+      "/images/mksy0919/gallery14.jpg",
+      "/images/mksy0919/gallery15.jpg",
+      "/images/mksy0919/gallery16.jpg",
+      "/images/mksy0919/gallery17.jpg",
+      "/images/mksy0919/gallery18.jpg",
+      "/images/mksy0919/gallery19.jpg",
+      "/images/mksy0919/gallery20.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "W웨딩 벡스코웨딩홀",
+  "address": "지하1층 단독홀\n부산 해운대구 APEC로 55 벡스코 제 1전시장",
+  "lat": 35.16898974768179,
+  "lng": 129.13604289104777,
+  "transport": {
+    "car": "네비게이션에 'W웨딩 벡스코웨딩홀' 검색",
+    "bus": "센텀시티역 • 벡스코 정류장 하차\n\n일반버스 : 5-1, 39, 40, 63, 115, 141, 155, 181번\n급행버스 : 1001, 1002, 1006번",
+    "subway": "2호선 센텀시티역 (1번 출구) 하차 후 도보 3분",
+    "shuttle": "",
+    "publicTransport": "",
+    "parking": "벡스코 제 1전시장 지상·지하 주차장 이용 가능\n(하객 기준 3시간 무료주차)"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "박민규", "bank": "토스뱅크", "number": "1001-7213-2052" },
+        { "name": "박동신", "bank": "농협은행", "number": "980-12-062185" },
+        { "name": "최춘선", "bank": "농협은행", "number": "815814-52-053125" }
+      ],
+      "bride": [
+        { "name": "김소연", "bank": "농협은행", "number": "302-8028-7883-91" },
+        { "name": "김형복", "bank": "하나은행", "number": "132-890050-44207" },
+        { "name": "임명애", "bank": "농협은행", "number": "351-0090-0570-83" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1mVIMhcGiWzSA7ISwu0nJUaoz6S263oMYPCJKhBZHp4Y"
 }
   }
 }
