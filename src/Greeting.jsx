@@ -16,7 +16,8 @@ export default function Greeting({ intro, parents }) {
     <span
       style={{
         position: 'relative',
-        display: 'inline-block'
+        display: 'inline-block',
+        paddingLeft: '14px'
       }}
     >
       <img
@@ -26,7 +27,7 @@ export default function Greeting({ intro, parents }) {
           width: '11px',
           height: '11px',
           position: 'absolute',
-          left: '-16px',
+          left: 0,
           top: '50%',
           transform: 'translateY(-50%)',
           opacity: 1
@@ -36,7 +37,6 @@ export default function Greeting({ intro, parents }) {
     </span>
   );
 }
-
     return parent.name;
   };
 
@@ -89,12 +89,14 @@ export default function Greeting({ intro, parents }) {
       >
 
         {/* 🔵 신랑 */}
-        <div style={{ marginBottom: '10px' }}>
+        <div style={{ marginBottom: '10px', whiteSpace: 'nowrap' }}>
           {hasGroomParents ? (
             <>
               <span>
                 {parents.groom.father?.name && renderParentName(parents.groom.father)}
-                {parents.groom.father?.name && parents.groom.mother?.name && ' · '}
+                {parents.groom.father?.name && parents.groom.mother?.name && (
+  <span style={{ margin: '0 4px' }}>·</span>
+)}
                 {parents.groom.mother?.name && renderParentName(parents.groom.mother)}
               </span>
 
@@ -115,12 +117,14 @@ export default function Greeting({ intro, parents }) {
         </div>
 
         {/* 🔴 신부 */}
-        <div>
+        <div style={{ whiteSpace: 'nowrap' }}>
           {hasBrideParents ? (
             <>
               <span>
                 {parents.bride.father?.name && renderParentName(parents.bride.father)}
-                {parents.bride.father?.name && parents.bride.mother?.name && ' · '}
+                {parents.bride.father?.name && parents.bride.mother?.name && (
+  <span style={{ margin: '0 4px' }}>·</span>
+)}
                 {parents.bride.mother?.name && renderParentName(parents.bride.mother)}
               </span>
 

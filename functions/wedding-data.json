@@ -3615,7 +3615,8 @@
   "enabled": true,
   "sheetId": "1mVIMhcGiWzSA7ISwu0nJUaoz6S263oMYPCJKhBZHp4Y"
 }
-  }, "thyh0808": {
+  }, 
+  "thyh0808": {
     "open": true,
     "keepForever": false,
     "bgm": "02",
@@ -3731,6 +3732,132 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1mDw_wLJnCCYHGTV2b7ENr04OliwGUiT9rNG0uUzQ7RM"
+}
+  },
+   "jtej0829": {
+    "open": false,
+    "keepForever": false,
+    "bgm": "/music/custom_jtej0829.mp3",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "정준태 & 정은진 결혼식에 초대합니다",
+      "groomName": "정준태",
+      "brideName": "정은진",
+      "date": "2026년 8월 29일 토요일 오후 5시",
+      "location": "메리포엠",
+      "message": "\"사랑은 누군가를 통해\n세상을 다르게 보게 되는 것.\"\n- 영화 <Before Sunrise> -\n\n서로의 시선으로\n세상을 더 넓고 따뜻하게 배워가며\n다름은 이해로,\n닮아감은 사랑으로 채워가려 합니다.\n같은 길을 걸어가려는 날,\n따뜻한 마음으로 축복해 주세요",
+      "mainImage": "/images/jtej0829/main.jpg",
+      "thumbnail": "/images/jtej0829/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jtej0829/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "정용욱",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "천선미",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "정완수",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김미순",
+      "symbol": "flower"
+    },
+    "relation": "차녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "정준태", "relation": "신랑", "phone": "010-4929-5443" }
+      ],
+      "bride": [
+        { "name": "정은진", "relation": "신부", "phone": "010-8672-1302" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-08-29T17:00:00+09:00"
+    },
+    "gallery": [
+      "/images/jtej0829/gallery1.jpg",
+      "/images/jtej0829/gallery2.jpg",
+      "/images/jtej0829/gallery3.jpg",
+      "/images/jtej0829/gallery4.jpg",
+      "/images/jtej0829/gallery5.jpg",
+      "/images/jtej0829/gallery6.jpg",
+      "/images/jtej0829/gallery7.jpg",
+      "/images/jtej0829/gallery8.jpg",
+      "/images/jtej0829/gallery9.jpg",
+      "/images/jtej0829/gallery10.jpg",
+      "/images/jtej0829/gallery11.jpg",
+      "/images/jtej0829/gallery12.jpg",
+      "/images/jtej0829/gallery13.jpg",
+      "/images/jtej0829/gallery14.jpg",
+      "/images/jtej0829/gallery15.jpg",
+      "/images/jtej0829/gallery16.jpg",
+      "/images/jtej0829/gallery17.jpg",
+      "/images/jtej0829/gallery18.jpg",
+      "/images/jtej0829/gallery19.jpg",
+      "/images/jtej0829/gallery20.jpg",
+      "/images/jtej0829/gallery21.jpg",
+      "/images/jtej0829/gallery22.jpg",
+      "/images/jtej0829/gallery23.jpg",
+      "/images/jtej0829/gallery24.jpg",
+      "/images/jtej0829/gallery25.jpg",
+      "/images/jtej0829/gallery26.jpg",
+      "/images/jtej0829/gallery27.jpg",
+      "/images/jtej0829/gallery28.jpg"
+    ],
+    "video": {
+"enabled": true,
+"type": "youtube",
+"url": "https://www.youtube.com/embed/lthzmlNP_JY",
+"position": "afterCalendar"
+},
+    "map": {
+  "name": "메리포엠",
+  "address": "지하1층(L층) 메이에르홀\n광주 광산구 무진대로 282",
+  "lat": 35.1607040189397,
+  "lng": 126.811409115168,
+  "transport": {
+    "car": "내비게이션: 광산구 무진대로 282 검색\n광주 톨게이트와 동광주 톨게이트 사이에\n동림 IC(시청방향)으로 내려와 평동산업단지 방향으로\n3.7km정도 가면 좌측에 무역센터가 있으며,\n호남병원 방향으로 내려와 좌회전하여\n주차장에 주차 후 방문해주시면 됩니다.",
+    "bus": "간선 - 문흥 18, 첨단 20, 송정 29, 봉선 37, 첨단 40\n지선 - 송정 9\n마을버스 - 700, 720, 750",
+    "subway": "",
+    "shuttle": "",
+    "publicTransport": "",
+    "ktx": "",
+    "parking": "무역회관내 내부 300대 (지상1층, B1~B3)\n\n제 2 주차장\n광산교회: 광주 광산구 우산동 1295, 광산교회\n(도보 5분)\n산업은행: 광주 광산구 무진대로 261,\n한국산업은행 광주지점 (도보 4분)\n※ 건물내 주차장 만차시 주차요원분께서\n근처 추가 주차장으로 안내드리고 있습니다."
+  }
+},
+"information": [
+    {
+    "title": "화환 안내",
+    "content": "두 사람의 새로운 시작을\n가볍고 따뜻한 마음으로 함께해주세요!\n화환은 감사한 마음으로 정중히 사양드립니다"
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "정준태", "bank": "신한은행", "number": "110-306-117107" },
+        { "name": "정용욱", "bank": "광주은행", "number": "607-122-014038" },
+        { "name": "천선미", "bank": "광주은행", "number": "115-121-786118" }
+      ],
+      "bride": [
+        { "name": "정은진", "bank": "토스뱅크", "number": "1001-2350-3103" },
+        { "name": "정완수", "bank": "농협은행", "number": "302-0613-2144-81" }
+      ]
+    },
+"rsvp": {
+  "enabled": false
 }
   }
 }
