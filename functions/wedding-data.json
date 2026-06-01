@@ -1572,26 +1572,26 @@
       "date": "2026-06-27T10:30:00+09:00"
     },
     "gallery": [
-      "/images/swya0627/gallery1.jpg?v=1",
-      "/images/swya0627/gallery2.jpg?v=1",
-      "/images/swya0627/gallery3.jpg?v=1",
-      "/images/swya0627/gallery4.jpg?v=1",
-      "/images/swya0627/gallery5.jpg?v=1",
-      "/images/swya0627/gallery6.jpg?v=1",
-      "/images/swya0627/gallery7.jpg?v=1",
-      "/images/swya0627/gallery8.jpg?v=1",
-      "/images/swya0627/gallery9.jpg?v=1",
-      "/images/swya0627/gallery10.jpg?v=1",
-      "/images/swya0627/gallery11.jpg?v=1",
-      "/images/swya0627/gallery12.jpg?v=1",
-      "/images/swya0627/gallery13.jpg?v=1",
-      "/images/swya0627/gallery14.jpg?v=1",
-      "/images/swya0627/gallery15.jpg?v=1",
-      "/images/swya0627/gallery16.jpg?v=1",
-      "/images/swya0627/gallery17.jpg?v=1",
-      "/images/swya0627/gallery18.jpg?v=1",
-      "/images/swya0627/gallery19.jpg?v=1",
-      "/images/swya0627/gallery20.jpg?v=1"
+      "/images/swya0627/gallery1.jpg?v=2",
+      "/images/swya0627/gallery2.jpg?v=2",
+      "/images/swya0627/gallery3.jpg?v=2",
+      "/images/swya0627/gallery4.jpg?v=2",
+      "/images/swya0627/gallery5.jpg?v=2",
+      "/images/swya0627/gallery6.jpg?v=2",
+      "/images/swya0627/gallery7.jpg?v=2",
+      "/images/swya0627/gallery8.jpg?v=2",
+      "/images/swya0627/gallery9.jpg?v=2",
+      "/images/swya0627/gallery10.jpg?v=2",
+      "/images/swya0627/gallery11.jpg?v=2",
+      "/images/swya0627/gallery12.jpg?v=2",
+      "/images/swya0627/gallery13.jpg?v=2",
+      "/images/swya0627/gallery14.jpg?v=2",
+      "/images/swya0627/gallery15.jpg?v=2",
+      "/images/swya0627/gallery16.jpg?v=2",
+      "/images/swya0627/gallery17.jpg?v=2",
+      "/images/swya0627/gallery18.jpg?v=2",
+      "/images/swya0627/gallery19.jpg?v=2",
+      "/images/swya0627/gallery20.jpg?v=2"
     ],
     "video": {
 "enabled": false
@@ -3735,7 +3735,7 @@
 }
   },
    "jtej0829": {
-    "open": false,
+    "open": true,
     "keepForever": false,
     "bgm": "/music/custom_jtej0829.mp3",
     "settings": {
@@ -3830,13 +3830,13 @@
   "lat": 35.1607040189397,
   "lng": 126.811409115168,
   "transport": {
-    "car": "내비게이션: 광산구 무진대로 282 검색\n광주 톨게이트와 동광주 톨게이트 사이에\n동림 IC(시청방향)으로 내려와 평동산업단지 방향으로\n3.7km정도 가면 좌측에 무역센터가 있으며,\n호남병원 방향으로 내려와 좌회전하여\n주차장에 주차 후 방문해주시면 됩니다.",
+    "car": "내비게이션: 광산구 무진대로 282 검색\n\n광주 톨게이트와 동광주 톨게이트 사이에\n동림 IC(시청방향)으로 내려와 평동산업단지 방향으로\n3.7km정도 가면 좌측에 무역센터가 있으며,\n호남병원 방향으로 내려와 좌회전하여\n주차장에 주차 후 방문해주시면 됩니다.",
     "bus": "간선 - 문흥 18, 첨단 20, 송정 29, 봉선 37, 첨단 40\n지선 - 송정 9\n마을버스 - 700, 720, 750",
     "subway": "",
     "shuttle": "",
     "publicTransport": "",
     "ktx": "",
-    "parking": "무역회관내 내부 300대 (지상1층, B1~B3)\n\n제 2 주차장\n광산교회: 광주 광산구 우산동 1295, 광산교회\n(도보 5분)\n산업은행: 광주 광산구 무진대로 261,\n한국산업은행 광주지점 (도보 4분)\n※ 건물내 주차장 만차시 주차요원분께서\n근처 추가 주차장으로 안내드리고 있습니다."
+    "parking": "무역회관내 내부 300대 (지상1층, B1~B3)\n\n제 2 주차장\n광산교회: 광주 광산구 우산동 1295, 광산교회\n(도보 5분)\n산업은행: 광주 광산구 무진대로 261,\n한국산업은행 광주지점 (도보 4분)\n\n※ 건물내 주차장 만차시 주차요원분께서\n근처 추가 주차장으로 안내드리고 있습니다."
   }
 },
 "information": [
@@ -3854,6 +3854,121 @@
       "bride": [
         { "name": "정은진", "bank": "토스뱅크", "number": "1001-2350-3103" },
         { "name": "정완수", "bank": "농협은행", "number": "302-0613-2144-81" }
+      ]
+    },
+"rsvp": {
+  "enabled": false
+}
+  },
+   "jghe0912": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_jghe0912.mp3",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이정구 & 김하은 결혼식에 초대합니다",
+      "groomName": "이정구",
+      "brideName": "김하은",
+      "date": "2026년 9월 12일 토요일 오전 11시",
+      "location": "호서웨딩컨벤션",
+      "message": "\"사랑은 모든 것을 참으며 모든 것을 믿으며\n모든 것을 바라고 모든 것을 견딥니다.\"\n- 고린도전서 13 : 7 -\n\n있는 그대로 사랑하고\n서로의 존재를 감사하며,\n곁에 있을 때\n가장 나다운 모습이 되게 하는 사람과\n앞으로의 삶의 여정을 함께 하고자 합니다.\n\n저희의 첫 여정을 함께 응원해 주시면\n감사하겠습니다.",
+      "mainImage": "/images/jghe0912/main.jpg?v=1",
+      "thumbnail": "/images/jghe0912/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jghe0912/thumbnail_kakao.jpg?v=1"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이명규",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김경숙",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "김철성",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "전은옥",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "이정구", "relation": "신랑", "phone": "010-8735-9811" },
+        { "name": "이명규", "relation": "아버님", "phone": "010-9883-1290" },
+        { "name": "김경숙", "relation": "어머님", "phone": "010-8735-1295" }
+      ],
+      "bride": [
+        { "name": "김하은", "relation": "신부", "phone": "010-4229-9628" },
+        { "name": "김철성", "relation": "아버님", "phone": "010-4117-8144" },
+        { "name": "전은옥", "relation": "어머님", "phone": "010-7777-9628" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-12T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/jghe0912/gallery1.jpg",
+      "/images/jghe0912/gallery2.jpg",
+      "/images/jghe0912/gallery3.jpg",
+      "/images/jghe0912/gallery4.jpg",
+      "/images/jghe0912/gallery5.jpg",
+      "/images/jghe0912/gallery6.jpg",
+      "/images/jghe0912/gallery7.jpg",
+      "/images/jghe0912/gallery8.jpg",
+      "/images/jghe0912/gallery9.jpg",
+      "/images/jghe0912/gallery10.jpg",
+      "/images/jghe0912/gallery11.jpg",
+      "/images/jghe0912/gallery12.jpg",
+      "/images/jghe0912/gallery13.jpg",
+      "/images/jghe0912/gallery14.jpg",
+      "/images/jghe0912/gallery15.jpg",
+      "/images/jghe0912/gallery16.jpg",
+      "/images/jghe0912/gallery17.jpg",
+      "/images/jghe0912/gallery18.jpg",
+      "/images/jghe0912/gallery19.jpg",
+      "/images/jghe0912/gallery20.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "호서웨딩컨벤션",
+  "address": "5층 컨벤션홀\n충남 아산시 배방읍 온천대로 2230",
+  "lat": 36.7768407317639,
+  "lng": 127.081096764242,
+  "transport": {
+    "car": "",
+    "bus": "",
+    "subway": "",
+    "shuttle": "",
+    "parking": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "이정구", "bank": "국민은행", "number": "945802-00-009074" },
+        { "name": "이명규", "bank": "농협은행", "number": "352-1638-8244-43" }
+      ],
+      "bride": [
+        { "name": "김하은", "bank": "국민은행", "number": "458701-04-446565" },
+        { "name": "전은옥", "bank": "농협은행", "number": "352-1710-5726-53" }
       ]
     },
 "rsvp": {
