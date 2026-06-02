@@ -28,6 +28,8 @@ export default function Gallery({ images }) {
           key={selectedIndex}
           src={images[selectedIndex]}
           alt="Main Gallery"
+          loading="eager"
+          decoding="async"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
@@ -64,6 +66,8 @@ export default function Gallery({ images }) {
             <img
               src={src}
               alt={`thumbnail-${index}`}
+              loading="lazy"
+              decoding="async"
               style={{
                 width: '70px',
                 height: '70px',
