@@ -33,6 +33,13 @@ const ContactModal = ({ isOpen, onClose, data }) => {
     </div>
   );
 
+  const groomContacts = data.groom || [];
+  const brideContacts = data.bride || [];
+
+  const hasGroom = groomContacts.length > 0;
+  const hasBride = brideContacts.length > 0;
+  const onlyOneSide = hasGroom !== hasBride;
+
   return (
     <div style={{ 
       position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', 
@@ -48,23 +55,35 @@ const ContactModal = ({ isOpen, onClose, data }) => {
           <button onClick={onClose} style={{ border: 'none', background: 'none', fontSize: '18px', cursor: 'pointer', color: '#adacac' }}>✕</button>
         </div>
         
-        <div style={{ display: 'flex' }}>
-          {/* 신랑측 */}
-          <div style={{ flex: 1, borderRight: '1px solid #f5f5f5' }}>
-            <h4 style={{ color: '#333', fontSize: '14px', textAlign: 'center', marginBottom: '15px', fontWeight: '600' }}>신랑측</h4>
-            {data.groom.map((person, i) => (
-              <ContactRow key={i} title={person.relation} person={person} />
-            ))}
-          </div>
-          
-          {/* 신부측 */}
-          <div style={{ flex: 1 }}>
-            <h4 style={{ color: '#333', fontSize: '14px', textAlign: 'center', marginBottom: '15px', fontWeight: '600' }}>신부측</h4>
-            {data.bride.map((person, i) => (
-              <ContactRow key={i} title={person.relation} person={person} />
-            ))}
-          </div>
-        </div>
+       <div style={{ 
+  display: 'flex',
+  justifyContent: 'center'
+}}>
+  {/* 신랑측 */}
+  {hasGroom && (
+    <div style={{ 
+      flex: onlyOneSide ? '0 1 180px' : 1,
+      borderRight: hasBride ? '1px solid #f5f5f5' : 'none'
+    }}>
+      <h4 style={{ color: '#333', fontSize: '14px', textAlign: 'center', marginBottom: '15px', fontWeight: '600' }}>신랑측</h4>
+      {groomContacts.map((person, i) => (
+        <ContactRow key={i} title={person.relation} person={person} />
+      ))}
+    </div>
+  )}
+  
+  {/* 신부측 */}
+  {hasBride && (
+    <div style={{ 
+      flex: onlyOneSide ? '0 1 180px' : 1
+    }}>
+      <h4 style={{ color: '#333', fontSize: '14px', textAlign: 'center', marginBottom: '15px', fontWeight: '600' }}>신부측</h4>
+      {brideContacts.map((person, i) => (
+        <ContactRow key={i} title={person.relation} person={person} />
+      ))}
+    </div>
+  )}
+</div>
       </div>
     </div>
   );

@@ -7,6 +7,11 @@ export default function Accounts({ data }) {
   bride: data?.defaultOpen === true
 });
   const toggle = (side) => setOpen({ ...open, [side]: !open[side] });
+  const groomAccounts = data?.groom || [];
+  const brideAccounts = data?.bride || [];
+
+  const hasGroom = groomAccounts.length > 0;
+  const hasBride = brideAccounts.length > 0;
 
   // [수정됨] 강력한 복사 기능 (HTTP/HTTPS 모두 지원)
   const handleCopy = (text) => {
@@ -143,8 +148,23 @@ export default function Accounts({ data }) {
   너그러운 마음으로 양해 부탁드립니다.
 </p>
       </div>
-      <Item title="신랑측 계좌번호" isOpen={open.groom} onToggle={() => toggle('groom')} list={data.groom} />
-      <Item title="신부측 계좌번호" isOpen={open.bride} onToggle={() => toggle('bride')} list={data.bride} />
+      {hasGroom && (
+  <Item
+    title="신랑측 계좌번호"
+    isOpen={open.groom}
+    onToggle={() => toggle('groom')}
+    list={groomAccounts}
+  />
+)}
+
+{hasBride && (
+  <Item
+    title="신부측 계좌번호"
+    isOpen={open.bride}
+    onToggle={() => toggle('bride')}
+    list={brideAccounts}
+  />
+)}
     </div>
   );
 }

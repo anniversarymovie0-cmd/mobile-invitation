@@ -4124,5 +4124,455 @@
   "enabled": true,
   "sheetId": "1MjfLMtAf4h6HPRU9twSaaYcsvXDPWljQKfPQPpWdxkA"
 }
+  },
+   "yjhy0808": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "정연재 & 민하영 결혼식에 초대합니다",
+      "groomName": "정연재",
+      "brideName": "민하영",
+      "date": "2026년 8월 8일 토요일 오전 11시",
+      "location": "메종드아나하",
+      "message": "서로를 점점 더 닮아가며,\n어느새 가장 편안한 사람이 된 두 사람은\n이제 평생을 함께하려 합니다.\n\n기쁜 이 날,\n소중한 여러분과\n행복한 순간을 함께하고 싶습니다.",
+      "mainImage": "/images/yjhy0808/main.jpg",
+      "thumbnail": "/images/yjhy0808/thumbnail.jpg",
+      "kakaoThumbnail": "/images/yjhy0808/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "정을화",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "문순옥",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "민강기",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "신은순",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "정연재", "relation": "신랑", "phone": "010-4748-1597" }
+      ],
+      "bride": [
+        { "name": "민하영", "relation": "신부", "phone": "010-9303-7082" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-08-08T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/yjhy0808/gallery1.jpg",
+      "/images/yjhy0808/gallery2.jpg",
+      "/images/yjhy0808/gallery3.jpg",
+      "/images/yjhy0808/gallery4.jpg",
+      "/images/yjhy0808/gallery5.jpg",
+      "/images/yjhy0808/gallery6.jpg",
+      "/images/yjhy0808/gallery7.jpg",
+      "/images/yjhy0808/gallery8.jpg",
+      "/images/yjhy0808/gallery9.jpg",
+      "/images/yjhy0808/gallery10.jpg",
+      "/images/yjhy0808/gallery11.jpg",
+      "/images/yjhy0808/gallery12.jpg",
+      "/images/yjhy0808/gallery13.jpg",
+      "/images/yjhy0808/gallery14.jpg",
+      "/images/yjhy0808/gallery15.jpg",
+      "/images/yjhy0808/gallery16.jpg",
+      "/images/yjhy0808/gallery17.jpg",
+      "/images/yjhy0808/gallery18.jpg"
+    ],
+    "video": {
+"enabled": true,
+"type": "youtube",
+"url": "https://www.youtube.com/embed/d-BH2w4ECi0",
+"position": "afterCalendar"
+},
+    "map": {
+  "name": "메종드아나하",
+  "address": "B1층 단독홀\n서울특별시 강남구 언주로 517",
+  "lat": 37.504784983645344,
+  "lng": 127.04139909685989,
+  "transport": {
+    "car": "",
+    "subway": "2호선 / 수인분당선 선릉역 6번출구에서 도보 13분\n(셔틀버스 10분 간격 운행)",
+    "bus": "141, 242, 361, 6411 정류장 : KT강남지사",
+    "shuttle": "선릉역 6번출구 10분 간격 수시 운행",
+    "publicTransport": "",
+    "ktx": "",
+    "parking": "신라스테이 B2~B5 (2시간 무료 주차)\n\n주차 혼잡이 예상되오니 가급적 대중교통 이용 부탁드립니다."
+  }
+},
+"information": [
+    {
+    "title": "식사 안내",
+    "content": "귀한 걸음에 감사드리며,\n예식 후 홀에서 나오시면\n우측 연회장에 식사가 마련되어 있습니다.\n편안히 즐겨주시기 바랍니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "정연재", "bank": "신한은행", "number": "110516697592" }
+      ],
+      "bride": [
+        { "name": "민하영", "bank": "농협은행", "number": "3020624369171" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1aSY0nCJPml4oGiWX0uWLBn5zB7WCIqVszQ5I-XBwrmM"
+}
+  },
+  "yjhy0808_g": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "정연재 & 민하영 결혼식에 초대합니다",
+      "groomName": "정연재",
+      "brideName": "민하영",
+      "date": "2026년 8월 8일 토요일 오전 11시",
+      "location": "메종드아나하",
+      "message": "서로를 점점 더 닮아가며,\n어느새 가장 편안한 사람이 된 두 사람은\n이제 평생을 함께하려 합니다.\n\n기쁜 이 날,\n소중한 여러분과\n행복한 순간을 함께하고 싶습니다.",
+      "mainImage": "/images/yjhy0808/main.jpg",
+      "thumbnail": "/images/yjhy0808/thumbnail.jpg",
+      "kakaoThumbnail": "/images/yjhy0808/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "정을화",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "문순옥",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "민강기",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "신은순",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "정을화", "relation": "아버지", "phone": "010-3775-1597" },
+        { "name": "문순옥", "relation": "어머니", "phone": "010-6654-1597" }
+      ],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-08-08T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/yjhy0808/gallery1.jpg",
+      "/images/yjhy0808/gallery2.jpg",
+      "/images/yjhy0808/gallery3.jpg",
+      "/images/yjhy0808/gallery4.jpg",
+      "/images/yjhy0808/gallery5.jpg",
+      "/images/yjhy0808/gallery6.jpg",
+      "/images/yjhy0808/gallery7.jpg",
+      "/images/yjhy0808/gallery8.jpg",
+      "/images/yjhy0808/gallery9.jpg",
+      "/images/yjhy0808/gallery10.jpg",
+      "/images/yjhy0808/gallery11.jpg",
+      "/images/yjhy0808/gallery12.jpg",
+      "/images/yjhy0808/gallery13.jpg",
+      "/images/yjhy0808/gallery14.jpg",
+      "/images/yjhy0808/gallery15.jpg",
+      "/images/yjhy0808/gallery16.jpg",
+      "/images/yjhy0808/gallery17.jpg",
+      "/images/yjhy0808/gallery18.jpg"
+    ],
+    "video": {
+"enabled": true,
+"type": "youtube",
+"url": "https://www.youtube.com/embed/d-BH2w4ECi0",
+"position": "afterCalendar"
+},
+    "map": {
+  "name": "메종드아나하",
+  "address": "B1층 단독홀\n서울특별시 강남구 언주로 517",
+  "lat": 37.504784983645344,
+  "lng": 127.04139909685989,
+  "transport": {
+    "car": "",
+    "subway": "2호선 / 수인분당선 선릉역 6번출구에서 도보 13분\n(셔틀버스 10분 간격 운행)",
+    "bus": "141, 242, 361, 6411 정류장 : KT강남지사",
+    "shuttle": "선릉역 6번출구 10분 간격 수시 운행",
+    "publicTransport": "",
+    "ktx": "",
+    "parking": "신라스테이 B2~B5 (2시간 무료 주차)\n\n주차 혼잡이 예상되오니 가급적 대중교통 이용 부탁드립니다."
+  }
+},
+"information": [
+    {
+    "title": "식사 안내",
+    "content": "귀한 걸음에 감사드리며,\n예식 후 홀에서 나오시면\n우측 연회장에 식사가 마련되어 있습니다.\n편안히 즐겨주시기 바랍니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "정을화", "bank": "우리은행", "number": "1002735499229" },
+        { "name": "문순옥", "bank": "우리은행", "number": "1002934449982" }
+      ],
+      "bride": []
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1aSY0nCJPml4oGiWX0uWLBn5zB7WCIqVszQ5I-XBwrmM"
+}
+  },
+  "yjhy0808_b": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "정연재 & 민하영 결혼식에 초대합니다",
+      "groomName": "정연재",
+      "brideName": "민하영",
+      "date": "2026년 8월 8일 토요일 오전 11시",
+      "location": "메종드아나하",
+      "message": "서로를 점점 더 닮아가며,\n어느새 가장 편안한 사람이 된 두 사람은\n이제 평생을 함께하려 합니다.\n\n기쁜 이 날,\n소중한 여러분과\n행복한 순간을 함께하고 싶습니다.",
+      "mainImage": "/images/yjhy0808/main.jpg",
+      "thumbnail": "/images/yjhy0808/thumbnail.jpg",
+      "kakaoThumbnail": "/images/yjhy0808/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "정을화",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "문순옥",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "민강기",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "신은순",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [],
+      "bride": [
+        { "name": "민강기", "relation": "아버지", "phone": "010-8717-7082" },
+        { "name": "신은순", "relation": "어머니", "phone": "010-8716-7082" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-08-08T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/yjhy0808/gallery1.jpg",
+      "/images/yjhy0808/gallery2.jpg",
+      "/images/yjhy0808/gallery3.jpg",
+      "/images/yjhy0808/gallery4.jpg",
+      "/images/yjhy0808/gallery5.jpg",
+      "/images/yjhy0808/gallery6.jpg",
+      "/images/yjhy0808/gallery7.jpg",
+      "/images/yjhy0808/gallery8.jpg",
+      "/images/yjhy0808/gallery9.jpg",
+      "/images/yjhy0808/gallery10.jpg",
+      "/images/yjhy0808/gallery11.jpg",
+      "/images/yjhy0808/gallery12.jpg",
+      "/images/yjhy0808/gallery13.jpg",
+      "/images/yjhy0808/gallery14.jpg",
+      "/images/yjhy0808/gallery15.jpg",
+      "/images/yjhy0808/gallery16.jpg",
+      "/images/yjhy0808/gallery17.jpg",
+      "/images/yjhy0808/gallery18.jpg"
+    ],
+    "video": {
+"enabled": true,
+"type": "youtube",
+"url": "https://www.youtube.com/embed/d-BH2w4ECi0",
+"position": "afterCalendar"
+},
+    "map": {
+  "name": "메종드아나하",
+  "address": "B1층 단독홀\n서울특별시 강남구 언주로 517",
+  "lat": 37.504784983645344,
+  "lng": 127.04139909685989,
+  "transport": {
+    "car": "",
+    "subway": "2호선 / 수인분당선 선릉역 6번출구에서 도보 13분\n(셔틀버스 10분 간격 운행)",
+    "bus": "141, 242, 361, 6411 정류장 : KT강남지사",
+    "shuttle": "선릉역 6번출구 10분 간격 수시 운행",
+    "publicTransport": "",
+    "ktx": "",
+    "parking": "신라스테이 B2~B5 (2시간 무료 주차)\n\n주차 혼잡이 예상되오니 가급적 대중교통 이용 부탁드립니다."
+  }
+},
+"information": [
+    {
+    "title": "식사 안내",
+    "content": "귀한 걸음에 감사드리며,\n예식 후 홀에서 나오시면\n우측 연회장에 식사가 마련되어 있습니다.\n편안히 즐겨주시기 바랍니다."
+  }
+],
+    "accounts": {
+      "groom": [],
+      "bride": [
+        { "name": "민강기", "bank": "농협은행", "number": "55302145166" },
+        { "name": "신은순", "bank": "농협은행", "number": "55301041407" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1aSY0nCJPml4oGiWX0uWLBn5zB7WCIqVszQ5I-XBwrmM"
+}
+  },
+  "shsm0808": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이상훈 & 이수민 결혼식에 초대합니다",
+      "groomName": "이상훈",
+      "brideName": "이수민",
+      "date": "2026년 8월 8일 토요일 오전 11시",
+      "location": "라한셀렉트 경주",
+      "message": "쨍쨍한 여름날,\n저희 두 사람이 부부의 연을 맺습니다.\n새로운 출발의 순간을\n함께해 주시면 감사하겠습니다.",
+      "mainImage": "/images/shsm0808/main.jpg",
+      "thumbnail": "/images/shsm0808/thumbnail.jpg",
+      "kakaoThumbnail": "/images/shsm0808/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이창우",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "서영주",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "이재근",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "최옥희",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "이상훈", "relation": "신랑", "phone": "010-6248-4389" },
+        { "name": "이창우", "relation": "아버님", "phone": "010-2812-9979" },
+        { "name": "서영주", "relation": "어머님", "phone": "010-9368-9979" }
+],
+      "bride": [
+        { "name": "이수민", "relation": "신부", "phone": "010-6248-4389" },
+        { "name": "이재근", "relation": "아버님", "phone": "010-3821-2553" },
+        { "name": "최옥희", "relation": "어머님", "phone": "010-8577-2553" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-08-08T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/shsm0808/gallery1.jpg",
+      "/images/shsm0808/gallery2.jpg",
+      "/images/shsm0808/gallery3.jpg",
+      "/images/shsm0808/gallery4.jpg",
+      "/images/shsm0808/gallery5.jpg",
+      "/images/shsm0808/gallery6.jpg",
+      "/images/shsm0808/gallery7.jpg",
+      "/images/shsm0808/gallery8.jpg",
+      "/images/shsm0808/gallery9.jpg",
+      "/images/shsm0808/gallery10.jpg",
+      "/images/shsm0808/gallery11.jpg",
+      "/images/shsm0808/gallery12.jpg",
+      "/images/shsm0808/gallery13.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "라한셀렉트 경주",
+  "address": "지하2층 다이너스티홀\n경북 경주시 보문로 338",
+  "lat": 35.8503196784132,
+  "lng": 129.27702298089,
+  "transport": {
+    "car": "",
+    "subway": "",
+    "bus": "",
+    "shuttle": "",
+    "publicTransport": "",
+    "ktx": "",
+    "parking": "지하 2층에 주차하시면 바로 웨딩홀과 연결되어 있습니다."
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "이상훈", "bank": "신한은행", "number": "110-443-659329" },
+        { "name": "이창우", "bank": "국민은행", "number": "829102-01-000682" },
+        { "name": "서영주", "bank": "농협은행", "number": "715049-52-159322" }
+],
+      "bride": [
+        { "name": "이수민", "bank": "대구은행", "number": "508-12-939239-4" },
+        { "name": "이재근", "bank": "농협은행", "number": "749-02-245751" },
+        { "name": "최옥희", "bank": "농협은행", "number": "749-12-230134" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1X-oLAJKMjqit2Y3VmHLYp5TBJ5O2qnFjm9e4s1EjlL8"
+}
   }
 }
