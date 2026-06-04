@@ -4574,5 +4574,346 @@
   "enabled": true,
   "sheetId": "1X-oLAJKMjqit2Y3VmHLYp5TBJ5O2qnFjm9e4s1EjlL8"
 }
+  },
+  "jwyj0718": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_jwyj0718.mp3",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "곽정원 & 송예진 결혼식에 초대합니다",
+      "groomName": "곽정원",
+      "brideName": "송예진",
+      "date": "2026년 7월 18일 토요일 오후 12시 20분",
+      "location": "그랜드 머큐어 앰배서더 창원",
+      "message": "6년의 시간 동안\n서로의 곁에서 든든한 친구이자\n가장 따뜻한 휴식처가 되어주었습니다.\n오랜 시간 쌓아온 신뢰는\n이제 부부라는 이름으로\n새로운 첫걸음을 내딛으려 합니다.\n저희의 뜻깊은 시작을 축복해 주시면\n더없는 기쁨으로 간직하며 살아가겠습니다.",
+      "mainImage": "/images/jwyj0718/main.jpg",
+      "thumbnail": "/images/jwyj0718/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jwyj0718/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "곽재영",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이윤희",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "송성기",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김민주",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "곽정원", "relation": "신랑", "phone": "010-3187-7560" }
+],
+      "bride": [
+        { "name": "송예진", "relation": "신부", "phone": "010-5719-5270" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-07-18T12:20:00+09:00"
+    },
+    "gallery": [
+      "/images/jwyj0718/gallery1.jpg",
+      "/images/jwyj0718/gallery2.jpg",
+      "/images/jwyj0718/gallery3.jpg",
+      "/images/jwyj0718/gallery4.jpg",
+      "/images/jwyj0718/gallery5.jpg",
+      "/images/jwyj0718/gallery6.jpg",
+      "/images/jwyj0718/gallery7.jpg",
+      "/images/jwyj0718/gallery8.jpg",
+      "/images/jwyj0718/gallery9.jpg",
+      "/images/jwyj0718/gallery10.jpg",
+      "/images/jwyj0718/gallery11.jpg",
+      "/images/jwyj0718/gallery12.jpg",
+      "/images/jwyj0718/gallery13.jpg",
+      "/images/jwyj0718/gallery14.jpg",
+      "/images/jwyj0718/gallery15.jpg",
+      "/images/jwyj0718/gallery16.jpg",
+      "/images/jwyj0718/gallery17.jpg",
+      "/images/jwyj0718/gallery18.jpg",
+      "/images/jwyj0718/gallery19.jpg",
+      "/images/jwyj0718/gallery20.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "그랜드 머큐어 앰배서더 창원",
+  "address": "2층 그랜드볼룸\n경남 창원시 성산구 원이대로 332",
+  "lat": 35.23928624315797,
+  "lng": 128.655292821595,
+  "transport": {
+    "car": "",
+    "subway": "",
+    "ktx": "서울역 → 창원역 또는 창원 중앙역 (약 3시간)\n*택시 : 약 15분 소요\n*버스(시티7하차) : 약 30분 소요\n창원역 6000,5000,710,113,109\n창원중앙역 221",
+    "bus": "하차역 : 시티7 또는 창원컨벤션센터\n*간선버스 : 6000,5000,113,109,103\n*좌석버스 : 710",
+    "shuttle": "",
+    "publicTransport": "",
+    "parking": "호텔 - 지하2,3층 또는 5층 지상주차장에 주차 가능, 3시간 무료주차\n시티세븐 - 시간 상관 없이 무료주차\n세코컨벤션센터 - 3시간 무료 주차 (주차권 필히 지참)"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "곽정원", "bank": "우리은행", "number": "1002-247-925091" },
+        { "name": "곽재영", "bank": "국민은행", "number": "61410201-099035" },
+        { "name": "이윤희", "bank": "국민은행", "number": "246-21-0165409" }
+],
+      "bride": [
+        { "name": "송예진", "bank": "국민은행", "number": "727202-00-106287" },
+        { "name": "송성기", "bank": "농협은행", "number": "811-12-114391" },
+        { "name": "김민주", "bank": "농협은행", "number": "821113-52-024828" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "jyyj1024": {
+    "open": true,
+    "keepForever": true,
+    "bgm": "03",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이재윤 & 나유정 결혼식에 초대합니다",
+      "groomName": "이재윤",
+      "brideName": "나유정",
+      "date": "2026년 10월 24일 토요일 오후 12시 50분",
+      "location": "호텔수성 수성스퀘어",
+      "message": "평생을 같이하고 싶은 사람을 만났습니다.\n\n​말로는 표현할 수 없을 만큼 깊은 사랑으로\n오랜 세월의 길을 다정히 발맞추어\n걸어가려 합니다.\n\n인생에서 가장 행복하고 기억에 남을 순간\n소중한 분들을 모시고자 합니다.",
+      "mainImage": "/images/jyyj1024/main.jpg",
+      "thumbnail": "/images/jyyj1024/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jyyj1024/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이태현",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "성정련",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "나중권",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정혜임",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [
+        { "name": "이재윤", "relation": "신랑", "phone": "010-5531-7625" },
+        { "name": "이태현", "relation": "아버님", "phone": "010-2025-2154" },
+        { "name": "성정련", "relation": "어머님", "phone": "010-9351-7625" }
+],
+      "bride": [
+        { "name": "나유정", "relation": "신부", "phone": "010-5649-2276" },
+        { "name": "나중권", "relation": "아버님", "phone": "010-5537-2276" },
+        { "name": "정혜임", "relation": "어머님", "phone": "010-2446-2276" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-24T12:50:00+09:00"
+    },
+    "gallery": [
+      "/images/jyyj1024/gallery1.jpg",
+      "/images/jyyj1024/gallery2.jpg",
+      "/images/jyyj1024/gallery3.jpg",
+      "/images/jyyj1024/gallery4.jpg",
+      "/images/jyyj1024/gallery5.jpg",
+      "/images/jyyj1024/gallery6.jpg",
+      "/images/jyyj1024/gallery7.jpg",
+      "/images/jyyj1024/gallery8.jpg",
+      "/images/jyyj1024/gallery9.jpg",
+      "/images/jyyj1024/gallery10.jpg",
+      "/images/jyyj1024/gallery11.jpg",
+      "/images/jyyj1024/gallery12.jpg",
+      "/images/jyyj1024/gallery13.jpg",
+      "/images/jyyj1024/gallery14.jpg",
+      "/images/jyyj1024/gallery15.jpg"
+    ],
+    "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/92FCCeyOCGw",
+  "position": "afterCalendar"
+},
+    "map": {
+  "name": "호텔수성 수성스퀘어",
+  "address": "3층 피오니홀\n대구광역시 수성구 용학로 106-7(두산동)",
+  "lat": 35.82523145387428,
+  "lng": 128.62017625871852,
+  "transport": {
+    "parking": "수성호텔 주차장 3시간 무료\n(연회장에서 사전등록 필요)",
+    "car": "",
+    "subway": "수성못역 1번 출구 도보 15분",
+    "bus": "호텔수성 앞 : 401, 410-1\n호텔수성 건너 : 401, 410",
+    "shuttle": "수성못역 1번 출구\n(배차간격 5분 이내)",
+    "publicTransport": "",
+    "ktx": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "이재윤", "bank": "토스뱅크", "number": "1001-3548-0786" },
+        { "name": "이태현", "bank": "국민은행", "number": "410702-04-148079" },
+        { "name": "성정련", "bank": "im뱅크", "number": "139-08-196363-002" }
+],
+      "bride": [
+        { "name": "나유정", "bank": "im뱅크", "number": "508-11-990347-2" },
+        { "name": "나중권", "bank": "im뱅크", "number": "047-08-027064" },
+        { "name": "정혜임", "bank": "im뱅크", "number": "081-08-016398" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1g9okdFnCJLXWVE44-yPpuuYc-GRmWeDi_eSSngA-FmU"
+}
+  },
+  "yhyj0912": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_yhyj0912.mp3",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "조요한 & 정유진 결혼식에 초대합니다",
+      "groomName": "조요한",
+      "brideName": "정유진",
+      "date": "2026년 9월 12일 토요일 오후 12시",
+      "location": "그랜드조선 부산",
+      "message": "햇살 아래 반짝이던 순간들이 모여\n어느새 평생이라는 이름에 닿았습니다.\n푸른 바다와 맑은 하늘이 함께하는 날,\n저희 두 사람은 서로의 손을 잡고\n새로운 시작을 합니다.\n오래도록 마음에 남을 순간에\n따뜻한 마음으로 함께해 주시면\n감사하겠습니다.",
+      "mainImage": "/images/yhyj0912/main.jpg",
+      "thumbnail": "/images/yhyj0912/thumbnail.jpg",
+      "kakaoThumbnail": "/images/yhyj0912/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "조기홍",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "황미경",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  },
+  "bride": {
+    "father": {
+      "name": "정영기",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김인수",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-09-12T12:00:00+09:00"
+    },
+    "gallery": [
+      "/images/yhyj0912/gallery1.jpg",
+      "/images/yhyj0912/gallery2.jpg",
+      "/images/yhyj0912/gallery3.jpg",
+      "/images/yhyj0912/gallery4.jpg",
+      "/images/yhyj0912/gallery5.jpg",
+      "/images/yhyj0912/gallery6.jpg",
+      "/images/yhyj0912/gallery7.jpg",
+      "/images/yhyj0912/gallery8.jpg",
+      "/images/yhyj0912/gallery9.jpg",
+      "/images/yhyj0912/gallery10.jpg",
+      "/images/yhyj0912/gallery11.jpg",
+      "/images/yhyj0912/gallery12.jpg",
+      "/images/yhyj0912/gallery13.jpg",
+      "/images/yhyj0912/gallery14.jpg",
+      "/images/yhyj0912/gallery15.jpg",
+      "/images/yhyj0912/gallery16.jpg",
+      "/images/yhyj0912/gallery17.jpg",
+      "/images/yhyj0912/gallery18.jpg",
+      "/images/yhyj0912/gallery19.jpg",
+      "/images/yhyj0912/gallery20.jpg"
+    ],
+    "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/eFVPvshHSjg",
+  "position": "afterCalendar"
+},
+    "map": {
+  "name": "그랜드조선 부산",
+  "address": "5F 볼룸홀\n부산광역시 해운대구 중동 해운대해변로 292",
+  "lat": 35.159927348115964,
+  "lng": 129.16317823554613,
+  "transport": {
+    "car": "",
+    "subway": "2호선 해운대역 3번/5번 출구 도보 10분",
+    "bus": "1003번, 1001번 (부산역) ",
+    "shuttle": "",
+    "publicTransport": "",
+    "ktx": "",
+    "parking": "그랜드조선부산 본관 지하 주차장 이용"
+  }
+},
+"information": [
+    {
+    "title": "식사 안내",
+    "content": "코스요리가 좌석에 제공되는\n동시예식으로 진행됩니다.\n모바일 청첩장을 통해\n참석여부를 꼭 응답해주시고,\n예식 당일 좌석 확인 후 착석 부탁드립니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "조요한", "bank": "하나은행", "number": "807-910234-45107" }
+],
+      "bride": [
+        { "name": "정유진", "bank": "신한은행", "number": "110-506-053560" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1BdxYo-QdzMYkUt1Hxj89zftyF66eDnIB6oPrAwT9PTw"
+}
   }
 }
