@@ -5034,5 +5034,124 @@
     "rsvp": {
   "enabled": false
 }
+  },
+  "gsmr1011": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "09",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "심구선 & 김미령 결혼식에 초대합니다",
+      "groomName": "심구선",
+      "brideName": "김미령",
+      "date": "2026년 10월 11일 일요일 오전 10시 50분",
+      "location": "AW컨벤션웨딩홀",
+      "message": "가장 평범한 하루도\n특별하게 만들어 준 사람을 만나\n평생을 함께하기로 약속했습니다.\n이제 평생의 동반자가 되어\n새로운 출발을 시작하려 합니다.",
+      "mainImage": "/images/gsmr1011/main.jpg",
+      "thumbnail": "/images/gsmr1011/thumbnail.jpg",
+      "kakaoThumbnail": "/images/gsmr1011/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "심재곤",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "유미경",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "김성강",
+      "symbol": "flower"
+    },
+    "mother": {
+      "name": "방성희",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "심구선", "relation": "신랑", "phone": "010-9464-4360" }
+],
+      "bride": [
+        { "name": "김미령", "relation": "신부", "phone": "010-3482-6017" }
+]
+    },
+    "calendar": {
+      "date": "2026-10-11T10:50:00+09:00"
+    },
+    "gallery": [
+      "/images/gsmr1011/gallery1.jpg?v=1",
+      "/images/gsmr1011/gallery2.jpg?v=1",
+      "/images/gsmr1011/gallery3.jpg?v=1",
+      "/images/gsmr1011/gallery4.jpg?v=1",
+      "/images/gsmr1011/gallery5.jpg?v=1",
+      "/images/gsmr1011/gallery6.jpg?v=1",
+      "/images/gsmr1011/gallery7.jpg?v=1",
+      "/images/gsmr1011/gallery8.jpg?v=1",
+      "/images/gsmr1011/gallery9.jpg?v=1",
+      "/images/gsmr1011/gallery10.jpg?v=1",
+      "/images/gsmr1011/gallery11.jpg?v=1",
+      "/images/gsmr1011/gallery12.jpg?v=1",
+      "/images/gsmr1011/gallery13.jpg?v=1",
+      "/images/gsmr1011/gallery14.jpg?v=1",
+      "/images/gsmr1011/gallery15.jpg?v=1",
+      "/images/gsmr1011/gallery16.jpg?v=1",
+      "/images/gsmr1011/gallery17.jpg?v=1",
+      "/images/gsmr1011/gallery18.jpg?v=1",
+      "/images/gsmr1011/gallery19.jpg?v=1",
+      "/images/gsmr1011/gallery20.jpg?v=1"
+    ],
+    "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "AW컨벤션웨딩홀",
+  "address": "3층 그랜드볼룸\n경기 안산시 단원구 광덕1로 171",
+  "lat": 37.30820093552512,
+  "lng": 126.82881892772298,
+  "transport": {
+    "car": "",
+    "subway": "4호선 고잔역 2번 출구",
+    "bus": "",
+    "shuttle": "고잔역 2번출구 앞에서 셔틀버스 운행",
+    "publicTransport": "",
+    "ktx": "",
+    "ktxsrt": "",
+    "train": "",
+    "expressbus": "",
+    "parking": "제1주차장(AW컨벤션 지상, 지하 1층, 2층)\n제2주차장(양지주차타워 (AW컨벤션주차타워)\n제3주차장(AW컨벤션 정문 맞은편 공영주차장)\n제3주차장(MK주차타워)"
+  }
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "3층 연회장에서 뷔페로 준비되어 있습니다.\n식권은 3층 축의대에서 수령해 주세요."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "심구선", "bank": "신한은행", "number": "110315116227" }
+],
+      "bride": [
+        { "name": "김미령", "bank": "카카오뱅크", "number": "3333180181871" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1PbKIKofyRwP6MU9L8Pn5Nt1gKehCBTQLftJfhxFASWY"
+}
   }
 }
