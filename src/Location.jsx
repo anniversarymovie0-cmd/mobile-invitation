@@ -142,7 +142,9 @@ export default function Location({ data }) {
         subway: '지하철',
         bus: '버스',
         train: '기차',
+        expressbus: '고속버스',
         ktx: 'KTX',
+        ktxsrt: 'KTX・SRT',
         parking: '주차',
         shuttle: '셔틀버스'
       };

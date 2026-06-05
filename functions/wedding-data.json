@@ -4129,6 +4129,7 @@
     "open": true,
     "keepForever": false,
     "bgm": "10",
+    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -4243,6 +4244,7 @@
     "open": true,
     "keepForever": false,
     "bgm": "10",
+    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -4355,6 +4357,7 @@
     "open": true,
     "keepForever": false,
     "bgm": "10",
+    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -4817,8 +4820,8 @@
       "brideName": "정유진",
       "date": "2026년 9월 12일 토요일 오후 12시",
       "location": "그랜드조선 부산",
-      "message": "햇살 아래 반짝이던 순간들이 모여\n어느새 평생이라는 이름에 닿았습니다.\n푸른 바다와 맑은 하늘이 함께하는 날,\n저희 두 사람은 서로의 손을 잡고\n새로운 시작을 합니다.\n오래도록 마음에 남을 순간에\n따뜻한 마음으로 함께해 주시면\n감사하겠습니다.",
-      "mainImage": "/images/yhyj0912/main.jpg",
+      "message": "푸른 바다와 맑은 하늘이 함께하는 날,\n저희 두 사람은 서로의 손을 잡고\n새로운 시작을 합니다.\n오래도록 마음에 남을 순간에\n따뜻한 마음으로 함께해 주시면\n감사하겠습니다.",
+      "mainImage": "/images/yhyj0912/main.jpg?v=1",
       "thumbnail": "/images/yhyj0912/thumbnail.jpg",
       "kakaoThumbnail": "/images/yhyj0912/thumbnail_kakao.jpg"
     },
@@ -4832,7 +4835,7 @@
       "name": "황미경",
       "symbol": "none"
     },
-    "relation": "장녀"
+    "relation": "장남"
   },
   "bride": {
     "father": {
@@ -4870,7 +4873,6 @@
       "/images/yhyj0912/gallery13.jpg",
       "/images/yhyj0912/gallery14.jpg",
       "/images/yhyj0912/gallery15.jpg",
-      "/images/yhyj0912/gallery16.jpg",
       "/images/yhyj0912/gallery17.jpg",
       "/images/yhyj0912/gallery18.jpg",
       "/images/yhyj0912/gallery19.jpg",
@@ -4914,6 +4916,123 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1BdxYo-QdzMYkUt1Hxj89zftyF66eDnIB6oPrAwT9PTw"
+}
+  },
+  "smye0912": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_smye0912.mp3",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "황승민 & 이예은 결혼식에 초대합니다",
+      "groomName": "황승민",
+      "brideName": "이예은",
+      "date": "2026년 9월 12일 토요일 오전 11시 30분",
+      "location": "광주 위더스 웨딩홀",
+      "message": "생의 끝날\n당신 손을 잡고 웃음 짓기를\n그 바람 이내 참을 수 없어 청혼합니다.\n어여쁜 당신, 나와 결혼합시다.\n- 법대로 사랑하라, 노승아 -\n\n서로에게 가장 다정한 사람이 되어\n오래도록 곁을 지키겠습니다.\n그 시작의 자리에 소중한 분들을 모십니다.",
+      "mainImage": "/images/smye0912/main.jpg",
+      "thumbnail": "/images/smye0912/thumbnail.jpg",
+      "kakaoThumbnail": "/images/smye0912/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "황경덕",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "황미숙",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "조은주",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "황승민", "relation": "신랑", "phone": "010-2681-8208" },
+        { "name": "황경덕", "relation": "아버님", "phone": "010-3631-1746" },
+        { "name": "황미숙", "relation": "어머님", "phone": "010-4681-8208" }
+],
+      "bride": [
+        { "name": "이예은", "relation": "신부", "phone": "010-9321-2586" },
+        { "name": "조은주", "relation": "어머님", "phone": "010-4936-5851" }
+]
+    },
+    "calendar": {
+      "date": "2026-09-12T11:30:00+09:00"
+    },
+    "gallery": [
+      "/images/smye0912/gallery1.jpg",
+      "/images/smye0912/gallery2.jpg",
+      "/images/smye0912/gallery3.jpg",
+      "/images/smye0912/gallery4.jpg",
+      "/images/smye0912/gallery5.jpg",
+      "/images/smye0912/gallery6.jpg",
+      "/images/smye0912/gallery7.jpg",
+      "/images/smye0912/gallery8.jpg",
+      "/images/smye0912/gallery9.jpg",
+      "/images/smye0912/gallery10.jpg",
+      "/images/smye0912/gallery11.jpg",
+      "/images/smye0912/gallery12.jpg",
+      "/images/smye0912/gallery13.jpg",
+      "/images/smye0912/gallery14.jpg",
+      "/images/smye0912/gallery15.jpg",
+      "/images/smye0912/gallery16.jpg",
+      "/images/smye0912/gallery17.jpg",
+      "/images/smye0912/gallery18.jpg",
+      "/images/smye0912/gallery19.jpg"
+    ],
+    "video": {
+"enabled": false,
+"type": "",
+"url": "",
+"position": ""
+},
+    "map": {
+  "name": "광주 위더스 웨딩홀",
+  "address": "3층 아모르홀\n광주광역시 서구 죽봉대로 153 웨딩그룹 위더스",
+  "lat": 35.16719450177238,
+  "lng": 126.88357021115323,
+  "transport": {
+    "car": "",
+    "subway": "",
+    "bus": "광천 치안센타 정류장\n(01, 02, 03, 12, 26, 37, 38, 47, 53, 60, 64, 84, 228, 311)\n신세계 백화점 후문앞\n(25, 36, 39, 68, 1187)\n광천동 고속버스터미널 정류장\n(01, 02, 03, 09, 16, 25, 26, 30, 31, 36, 38, 39, 47, 53, 56, 60, 64, 65, 68, 69, 89, 228, 518, 760, 777, 1187)",
+    "shuttle": "",
+    "publicTransport": "",
+    "ktxsrt": "광주 송정역 (15분)",
+    "train": "광주역 (10분)",
+    "expressbus": "광천동 고속버스터미널 (3분)",
+    "parking": "건물 뒤 주차장 이용"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "황승민", "bank": "농협은행", "number": "352-2192-1481-03" },
+        { "name": "황경덕", "bank": "농협은행", "number": "689-02-278411" }
+],
+      "bride": [
+        { "name": "이예은", "bank": "농협은행", "number": "302-9321-2586-11" },
+        { "name": "조은주", "bank": "광주은행", "number": "153-121-148419" }
+]
+    },
+    "rsvp": {
+  "enabled": false
 }
   }
 }
