@@ -25,25 +25,32 @@ export default function Gallery({ images }) {
        justifyContent: 'center',
       }}>
         <motion.img
-          key={selectedIndex}
-          src={images[selectedIndex]}
-          alt="Main Gallery"
-          loading="eager"
-          decoding="async"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.3 }}
-        style={{ 
-  maxWidth: '100%',
-  maxHeight: '100%',
-  width: 'auto',
-  height: 'auto',
-  display: 'block',
-  objectFit: 'contain',
-  backgroundColor: '#ffffff',
-  transform: 'scale(1.07)'
-}}
-        />
+  key={selectedIndex}
+  src={images[selectedIndex]}
+  alt="Main Gallery"
+  loading="eager"
+  decoding="async"
+  draggable={false}
+  onContextMenu={(e) => e.preventDefault()}
+  onDragStart={(e) => e.preventDefault()}
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 0.3 }}
+  style={{
+    maxWidth: '100%',
+    maxHeight: '100%',
+    width: 'auto',
+    height: 'auto',
+    display: 'block',
+    objectFit: 'contain',
+    backgroundColor: '#ffffff',
+    transform: 'scale(1.07)',
+
+    WebkitTouchCallout: 'none',
+    WebkitUserSelect: 'none',
+    userSelect: 'none',
+  }}
+/>
       </div>
 
       {/* 썸네일 */}
@@ -64,20 +71,27 @@ export default function Gallery({ images }) {
             style={{ flexShrink: 0 }}
           >
             <img
-              src={src}
-              alt={`thumbnail-${index}`}
-              loading="lazy"
-              decoding="async"
-              style={{
-                width: '70px',
-                height: '70px',
-                objectFit: 'cover',
-                cursor: 'pointer',
-                border: 'none',
-                opacity: selectedIndex === index ? 1 : 0.6,
-                transition: 'all 0.2s',
-              }}
-            />
+  src={src}
+  alt={`thumbnail-${index}`}
+  loading="lazy"
+  decoding="async"
+  draggable={false}
+  onContextMenu={(e) => e.preventDefault()}
+  onDragStart={(e) => e.preventDefault()}
+  style={{
+    width: '70px',
+    height: '70px',
+    objectFit: 'cover',
+    cursor: 'pointer',
+    border: 'none',
+    opacity: selectedIndex === index ? 1 : 0.6,
+    transition: 'all 0.2s',
+
+    WebkitTouchCallout: 'none',
+    WebkitUserSelect: 'none',
+    userSelect: 'none',
+  }}
+/>
           </div>
         ))}
       </div>
