@@ -6126,5 +6126,113 @@
     "rsvp": {
   "enabled": false
 }
+  },
+  "hsys0829": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "09",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "박현식 & 조예솔 결혼식에 초대합니다",
+      "groomName": "박현식",
+      "brideName": "조예솔",
+      "date": "2026년 8월 29일 토요일 오후 2시 30분",
+      "location": "JW컨벤션",
+      "message": "8월의 끝무렵,\n\n저희 두 사람은 서로를 향한\n사랑과 믿음을 바탕으로\n평생을 함께할 약속을 하려 합니다.\n\n새로운 시작을 따뜻한 마음으로 축복해 주시고,\n소중한 걸음으로 함께해 주신다면\n더없는 기쁨과 감사가 되겠습니다.",
+      "mainImage": "/images/hsys0829/main.jpg",
+      "thumbnail": "/images/hsys0829/thumbnail.jpg",
+      "kakaoThumbnail": "/images/hsys0829/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "박춘",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "강춘숙",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "조명환",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "안상미",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "박현식", "relation": "신랑", "phone": "010-3516-5464" }
+      ],
+      "bride": [
+        { "name": "조예솔", "relation": "신부", "phone": "010-2510-5507" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-08-29T14:30:00+09:00"
+    },
+    "gallery": [
+      "/images/hsys0829/gallery1.jpg",
+      "/images/hsys0829/gallery2.jpg",
+      "/images/hsys0829/gallery3.jpg",
+      "/images/hsys0829/gallery4.jpg",
+      "/images/hsys0829/gallery5.jpg",
+      "/images/hsys0829/gallery6.jpg",
+      "/images/hsys0829/gallery7.jpg",
+      "/images/hsys0829/gallery8.jpg",
+      "/images/hsys0829/gallery9.jpg",
+      "/images/hsys0829/gallery10.jpg"
+    ],
+    "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "JW컨벤션",
+  "address": "루미에르홀\n울산 북구 진장유통로 35 (지번 : 진장동 125-17)",
+  "lat": 35.573901946749984,
+  "lng": 129.35624049186904,
+  "transport": {
+    "subway": "",
+    "bus": "701번, 916번 이용 / 우편집중국 정류장 하차",
+    "publicTransport": "",
+    "ktx": "울산역 → 5003・5005번 리무진 이용",
+    "train": "",
+    "shuttle": "",
+    "expressbus": "",
+    "taxi": "",
+    "parking": "건물 외 주차장 이용 가능",
+    "car": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "박현식", "bank": "국민은행", "number": "250701-00-039417" },
+        { "name": "박춘", "bank": "국민은행", "number": "538825-94-102254" },
+        { "name": "강춘숙", "bank": "기업은행", "number": "214-032107-03-019" }
+],
+      "bride": [
+        { "name": "조예솔", "bank": "카카오뱅크", "number": "3333-1584-64262" },
+        { "name": "조명환", "bank": "국민은행", "number": "811601-00-085398" },
+        { "name": "안상미", "bank": "우체국", "number": "110-0146-14095" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1KK7Fgfu4aar-IrzulK6zDRv_SojtDHzlRB_8FUwt03I"
+}
   }
 }
