@@ -770,11 +770,11 @@
 "information": [
   {
     "title": "셔틀버스",
-    "content": "오송역 → 예식장 셔틀버스\n\n탑승 장소 : 오송역 8번 출구 앞\n\n1차 : 9인승, 3325\n12:50 출발 → 13:10 하차\n\n2차 : 23인승, 8365\n13:15 출발 → 13:35 하차\n\n3차 : 9인승, 3325\n13:30 출발 → 13:50 하차\n\n13:15 차량을 많이 이용바랍니다💗\n\n예식장에서 오송역 출발은 15:30입니다."
+    "content": "오송역 → 예식장 셔틀버스\n\n탑승 장소 : 오송역 8번 출구 앞\n\n1차 : 9인승, 3325\n12:50 출발 → 13:10 하차\n\n2차 : 23인승, 8365\n13:15 출발 → 13:35 하차\n\n3차 : 9인승, 3325\n13:30 출발 → 13:50 하차\n\n13:15 차량을 많이 이용바랍니다💗\n\n————————————————\n\n예식장 → 오송역 셔틀버스\n\n1차 : 9인승, 3325\n15:10 출발 → 15:30 하차\n\n2차 : 23인승, 8365\n15:30 출발 → 15:50 하차"
   },
     {
-    "title": "안내 사항",
-    "content": "예식은 1부와 2부로 구성되어 있습니다.\n\n식사는\n식 시작 30분 전과 1부 종료 후\n하객석에서 가능하고\n2층은 시간 상관없이 식사가 가능합니다."
+    "title": "식사 및 식순",
+    "content": "식사는 13:00부터 가능합니다.\n식장은 단독홀로 하객석에서\n식사를하며 예식을 보실수있습니다.\n\n* 신랑/신부/혼주 입장 중에는\n이용이 잠시 통제되는 점 양해 바랍니다.\n\n예식은 1부와 2부로 구성되어 있으며,\n2부엔 즐거움을 드리는\n여러 이벤트를 준비하였습니다."
   },
     {
     "title": "화환",
@@ -6006,6 +6006,121 @@
       "bride": [
         { "name": "박의섭", "bank": "수협은행", "number": "0000-5443-6593" },
         { "name": "김윤정", "bank": "국민은행", "number": "499-402-01-122826" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "khdh0919": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김경화 & 권다희 결혼식에 초대합니다",
+      "groomName": "김경화",
+      "brideName": "권다희",
+      "date": "2026년 9월 19일 토요일 오전 10시",
+      "location": "델루시아웨딩",
+      "message": "가을볕이 다정하게 머무는 9월,\n삶이라는 긴 문장에\n다정한 쉼표 하나를 더하려 합니다.\n\n늘 아껴주시고 지켜봐 주신\n소중한 분들을 모시고\n그 기쁨을 함께 나누고자 합니다.\n따뜻한 마음으로 축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/khdh0919/main.jpg",
+      "thumbnail": "/images/khdh0919/thumbnail.jpg",
+      "kakaoThumbnail": "/images/khdh0919/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김용근",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박순전",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "권해정",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이미난",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김경화", "relation": "신랑", "phone": "010-9936-4219" },
+        { "name": "김용근", "relation": "아버님", "phone": "010-5877-4219" },
+        { "name": "박순전", "relation": "어머님", "phone": "010-2411-4219" }
+      ],
+      "bride": [
+        { "name": "권다희", "relation": "신부", "phone": "" },
+        { "name": "권해정", "relation": "아버님", "phone": "010-3528-1378" },
+        { "name": "이미난", "relation": "어머님", "phone": "010-2076-1378" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-19T10:00:00+09:00"
+    },
+    "gallery": [
+      "/images/khdh0919/gallery1.jpg",
+      "/images/khdh0919/gallery2.jpg",
+      "/images/khdh0919/gallery3.jpg",
+      "/images/khdh0919/gallery4.jpg",
+      "/images/khdh0919/gallery5.jpg",
+      "/images/khdh0919/gallery6.jpg",
+      "/images/khdh0919/gallery7.jpg",
+      "/images/khdh0919/gallery8.jpg",
+      "/images/khdh0919/gallery9.jpg"
+    ],
+    "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "델루시아웨딩",
+  "address": "2층 씨엘로홀\n경상북도 구미시 신원대로 198",
+  "lat": 36.170977185459414,
+  "lng": 128.3227146201396,
+  "transport": {
+    "subway": "",
+    "bus": "",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "shuttle": "",
+    "expressbus": "",
+    "taxi": "구미역에서 15분 소요\n구미종합버스터미널에서 15~20분소요",
+    "parking": "외부 주차장\n폴스크린 앞 필지 전용주차장(구미시 시원대로 174)\n가람옥션 주차장(구미시 신원대로 188)",
+    "car": "대구 방향에서 오시는 경우 구미ic이용\n서울 방향에서 오시는 경우 북구미 ic이용\n네비게이션 \"델루시아웨딩\" 검색 후 이용"
+  }
+},
+"information": [
+  {
+    "title": "화환 안내",
+    "content": "예식 장소가 협소하여 화환은\n정중히 사양하오니 양해 부탁드립니다.\n축하해 주시는 따뜻한 마음만\n감사히 받겠습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "김경화", "bank": "케이뱅크", "number": "100-109-549773" },
+        { "name": "김용근", "bank": "농협은행", "number": "121046-52-142322" },
+        { "name": "박순전", "bank": "하나은행", "number": "304-910294-33607" }
+],
+      "bride": [
+        { "name": "권다희", "bank": "IM뱅크", "number": "508104635287" },
+        { "name": "권해정", "bank": "IBK기업은행", "number": "15701387701021" },
+        { "name": "이미난", "bank": "IBK기업은행", "number": "15707534301021" }
 ]
     },
     "rsvp": {

@@ -146,7 +146,8 @@ export default function Location({ data }) {
         ktx: 'KTX',
         ktxsrt: 'KTX・SRT',
         parking: '주차',
-        shuttle: '셔틀버스'
+        shuttle: '셔틀버스',
+        taxi : '택시'
       };
 
       return (
