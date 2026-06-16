@@ -6160,7 +6160,7 @@
   "hsys0829": {
     "open": true,
     "keepForever": false,
-    "bgm": "09",
+    "bgm": "03",
     "settings": {
     "disableZoom": true
   },
@@ -6170,7 +6170,7 @@
       "brideName": "조예솔",
       "date": "2026년 8월 29일 토요일 오후 2시 30분",
       "location": "JW컨벤션",
-      "message": "8월의 끝무렵,\n\n저희 두 사람은 서로를 향한\n사랑과 믿음을 바탕으로\n평생을 함께할 약속을 하려 합니다.\n\n새로운 시작을 따뜻한 마음으로 축복해 주시고,\n소중한 걸음으로 함께해 주신다면\n더없는 기쁨과 감사가 되겠습니다.",
+      "message": "8월의 끝무렵,\n\n저희 두 사람은 서로를 향한\n사랑과 믿음을 바탕으로\n평생을 함께하기로 약속하였습니다.\n\n새로운 시작을 따뜻한 마음으로 축복해 주시고,\n소중한 걸음으로 함께해 주신다면\n더없는 기쁨이자 감사가 되겠습니다.",
       "mainImage": "/images/hsys0829/main.jpg",
       "thumbnail": "/images/hsys0829/thumbnail.jpg",
       "kakaoThumbnail": "/images/hsys0829/thumbnail_kakao.jpg"
@@ -6178,7 +6178,7 @@
   "parents": {
   "groom": {
     "father": {
-      "name": "박춘",
+      "name": "박 춘",
       "symbol": "none"
     },
     "mother": {
@@ -6263,6 +6263,122 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1KK7Fgfu4aar-IrzulK6zDRv_SojtDHzlRB_8FUwt03I"
+}
+  },
+  "shyj0912": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "백승혁 & 곽예지 결혼식에 초대합니다",
+      "groomName": "백승혁",
+      "brideName": "곽예지",
+      "date": "2026년 9월 12일 토요일 오후 4시",
+      "location": "수원 호텔라뷔포레웨딩",
+      "message": "서로의 오늘이 모여\n함께할 내일이 되었습니다.\n\n저희 두 사람,\n이제 한 가족이 되어\n새로운 이야기를 시작합니다.\n\n소중한 날,\n함께해 주시면 감사하겠습니다.",
+      "mainImage": "/images/shyj0912/main.jpg",
+      "thumbnail": "/images/shyj0912/thumbnail.jpg",
+      "kakaoThumbnail": "/images/shyj0912/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "백동현",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "원명옥",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "곽재봉",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김인수",
+      "symbol": "none"
+    },
+    "relation": "차녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "백승혁", "relation": "신랑", "phone": "010-9585-5523" },
+        { "name": "백동현", "relation": "아버님", "phone": "010-9227-5523" },
+        { "name": "원명옥", "relation": "어머님", "phone": "010-9767-5523" }
+      ],
+      "bride": [
+        { "name": "곽예지", "relation": "신부", "phone": "010-9984-4523" },
+        { "name": "곽재봉", "relation": "아버님", "phone": "010-4773-4520" },
+        { "name": "김인수", "relation": "어머님", "phone": "010-4007-4523" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-12T16:00:00+09:00"
+    },
+    "gallery": [
+      "/images/shyj0912/gallery1.jpg",
+      "/images/shyj0912/gallery2.jpg",
+      "/images/shyj0912/gallery3.jpg",
+      "/images/shyj0912/gallery4.jpg",
+      "/images/shyj0912/gallery5.jpg",
+      "/images/shyj0912/gallery6.jpg",
+      "/images/shyj0912/gallery7.jpg",
+      "/images/shyj0912/gallery8.jpg",
+      "/images/shyj0912/gallery9.jpg",
+      "/images/shyj0912/gallery10.jpg",
+      "/images/shyj0912/gallery11.jpg",
+      "/images/shyj0912/gallery12.jpg",
+      "/images/shyj0912/gallery13.jpg",
+      "/images/shyj0912/gallery14.jpg"
+    ],
+    "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "수원 호텔라뷔포레웨딩\n(구 호텔리츠컨벤션웨딩)",
+  "address": "8층 빌라드샬롯\n경기도 수원시 팔달구 권광로134번길 46",
+  "lat": 37.2587222708066,
+  "lng": 127.033592916043,
+  "transport": {
+    "subway": "분당선 수원시청역 ▶1번출구에서 도보 3분거리\n* 1호선 이용시 수원역에서 분당선 환승 ▶ 수원시청역 하차",
+    "bus": "- 수원시청역 5번출구, 수원시청하차:\n  92,92-1,61,81\n- 수원시청역 3번출구, 서울보증보험하차:\n  3002,4000,80,202\n- 수원시청역 2번출구, 벽산그랜드코아하차:\n  13-1,80,99-2,202\n- 수원시청역 1번출구, 파비오더씨타:\n  11-1,61,80,81",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "shuttle": "",
+    "expressbus": "",
+    "taxi": "",
+    "parking": "",
+    "car": "영동고속도로 → 동수원IC → 수원시청방향\n경부고속도로 → 수원IC → 수원시청방향\n* 네비게이션 이용시:\n\"경기도 수원시 팔달구 인계동 1133-7\"\n\"경기도 수원시 팔달구 권광로134번길 46\" 입력"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "백승혁", "bank": "농협은행", "number": "352-0977-4672-73" },
+        { "name": "백동현", "bank": "농협은행", "number": "351-0008-0993-13" },
+        { "name": "원명옥", "bank": "농협은행", "number": "307128-52-082312" }
+],
+      "bride": [
+        { "name": "곽예지", "bank": "우리은행", "number": "1002-755-428557" },
+        { "name": "곽재봉", "bank": "농협은행", "number": "170817-52-122173" },
+        { "name": "김인수", "bank": "국민은행", "number": "214-21-1143-988" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "11ejMaWWfphznJTTqfIwLK6o1f-fVQ4qo63j8mIAD3oY"
 }
   }
 }

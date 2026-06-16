@@ -75,10 +75,15 @@ export default function Location({ data }) {
 
       <div style={{ textAlign: 'center', marginBottom: '25px' }}>
         <h3
-          style={{ fontSize: '1.1rem', fontWeight: 'bold', marginBottom: '8px' }}
-        >
-          {name}
-        </h3>
+  style={{
+    fontSize: '1.1rem',
+    fontWeight: 'bold',
+    marginBottom: '8px',
+    whiteSpace: 'pre-line'
+  }}
+>
+  {name}
+</h3>
 {hasDetail ? (
   <>
     {/* 홀/층 */}
