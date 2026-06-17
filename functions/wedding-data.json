@@ -6501,5 +6501,126 @@
   "enabled": true,
   "sheetId": "1YHZyYKHSpFrWd2u0daebHkGaFjYOjYhU7-95itF6r54"
 }
+  },
+  "jhah0905": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "장재혁 & 박아현 결혼식에 초대합니다",
+      "groomName": "장재혁",
+      "brideName": "박아현",
+      "date": "2026년 9월 5일 토요일 오전 11시",
+      "location": "대전 ICC웨딩홀",
+      "message": "사랑과 신뢰로 한 걸음 한 걸음\n서로의 인생에 다가선 두 사람이\n이제 하나가 되어\n새로운 시작을 하려 합니다.\n\n귀한 걸음으로 오셔서\n축복해주시고 함께해 주세요.",
+      "mainImage": "/images/jhah0905/main.jpg",
+      "thumbnail": "/images/jhah0905/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jhah0905/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "장환일",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김인순",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "박철회",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "하은자",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "장재혁", "relation": "신랑", "phone": "010-4016-2905" },
+        { "name": "장환일", "relation": "아버님", "phone": "010-8811-2905" },
+        { "name": "김인순", "relation": "어머님", "phone": "010-8819-2905" }
+      ],
+      "bride": [
+        { "name": "박아현", "relation": "신부", "phone": "010-7180-5638" },
+        { "name": "박철회", "relation": "아버님", "phone": "010-3000-2044" },
+        { "name": "하은자", "relation": "어머님", "phone": "010-7175-7400" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-05T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/jhah0905/gallery1.jpg",
+      "/images/jhah0905/gallery2.jpg",
+      "/images/jhah0905/gallery3.jpg",
+      "/images/jhah0905/gallery4.jpg",
+      "/images/jhah0905/gallery5.jpg",
+      "/images/jhah0905/gallery6.jpg",
+      "/images/jhah0905/gallery7.jpg",
+      "/images/jhah0905/gallery8.jpg",
+      "/images/jhah0905/gallery9.jpg",
+      "/images/jhah0905/gallery10.jpg",
+      "/images/jhah0905/gallery11.jpg",
+      "/images/jhah0905/gallery12.jpg",
+      "/images/jhah0905/gallery13.jpg",
+      "/images/jhah0905/gallery14.jpg",
+      "/images/jhah0905/gallery15.jpg",
+      "/images/jhah0905/gallery16.jpg",
+      "/images/jhah0905/gallery17.jpg",
+      "/images/jhah0905/gallery18.jpg",
+      "/images/jhah0905/gallery19.jpg",
+      "/images/jhah0905/gallery20.jpg"
+    ],
+    "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/NtviniC0k1Q",
+  "position": "afterCalendar"
+},
+    "map": {
+  "name": "대전 ICC웨딩홀",
+  "address": "1층 크리스탈 볼룸홀\n대전광역시 유성구 엑스포로123번길 55 (도룡동)",
+  "lat": 36.377079512711596,
+  "lng": 127.39281104002889,
+  "transport": {
+    "parking": "",
+    "subway": "",
+    "bus": "618번, 911번(스마트시티아파트5단지 하차) /\n121번, 707번",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "1) 대전역 > 지하철 반석행 탑승 정부청사역 4번 출구 > 버스 618번 스마트시티 5단지 하차\n2) 서대전역 > 버스 612번 > 대전역 하차 > 대전역에서 오시는길 참조",
+    "shuttle": "",
+    "expressbus": "1) 유성고속버스터미널 > 버스 911번, 121번\n2) 정부청사고속버스터미널 > 매표소 앞 버스 911번, 정부청사서문 앞 버스 618번\n3) 대전복합버스터미널 > 버스 102번 정부청사역 하차 > 버스 618번 스마트시티 5단지 하차",
+    "taxi": "",
+    "car": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "장재혁", "bank": "하나은행", "number": "667-910526-30107" },
+        { "name": "장환일", "bank": "농협은행", "number": "457125-52-042891" },
+        { "name": "김인순", "bank": "농협은행", "number": "457125-52-002557" }
+],
+      "bride": [
+        { "name": "박아현", "bank": "하나은행", "number": "673-910369-45107" },
+        { "name": "박철회", "bank": "국민은행", "number": "576-21-0371-076" },
+        { "name": "하은자", "bank": "농협은행", "number": "302-7175-7400-11" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
   }
 }
