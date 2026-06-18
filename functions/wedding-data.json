@@ -4774,7 +4774,7 @@
   "enabled": true,
   "type": "youtube",
   "url": "https://www.youtube.com/embed/92FCCeyOCGw",
-  "position": "afterCalendar"
+  "position": "afterGallery"
 },
     "map": {
   "name": "호텔수성 수성스퀘어",
@@ -6396,7 +6396,7 @@
       "brideName": "차유진",
       "date": "2026년 10월 11일 일요일 오후 12시 30분",
       "location": "그랜드 조선",
-      "message": "수많은 사람 중에서 서로를 알아보고\n평생을 약속하게 된 것은\n말로 다 표현할 수 없는\n기적 같은 운명일 것입니다.\n나를 가장 나답게 해주는 소중한 동반자와\n이제 하나가 되어 새로운 삶의\n첫 페이지를 넘기려 합니다.\n저희의 만남만큼이나 늘 곁에서\n큰 힘이 되어주신 소중한 분들을\n그 뜻깊은 시작의 자리에 모시고 싶습니다.",
+      "message": "수많은 사람 중에서 서로를 알아보고\n평생을 약속하게 된 것은\n말로 다 표현할 수 없는\n기적 같은 운명일 것입니다.\n\n나를 가장 나답게 해주는 소중한 동반자와\n이제 하나가 되어 새로운 삶의\n첫 페이지를 넘기려 합니다.\n\n저희의 만남만큼이나 늘 곁에서\n큰 힘이 되어주신 소중한 분들을\n그 뜻깊은 시작의 자리에 모시고 싶습니다.",
       "mainImage": "/images/jhyj1011/main.jpg",
       "thumbnail": "/images/jhyj1011/thumbnail.jpg",
       "kakaoThumbnail": "/images/jhyj1011/thumbnail_kakao.jpg"
@@ -6493,8 +6493,8 @@
 ],
       "bride": [
         { "name": "차유진", "bank": "우리은행", "number": "1002555112138" },
-        { "name": "차상준", "bank": "수협은행", "number": "926-62-002251" },
-        { "name": "최선혜", "bank": "수협은행", "number": "2020-4510-9754" }
+        { "name": "차상준", "bank": "수협은행", "number": "92662002251" },
+        { "name": "최선혜", "bank": "수협은행", "number": "202045109754" }
 ]
     },
     "rsvp": {
@@ -6506,6 +6506,7 @@
     "open": true,
     "keepForever": false,
     "bgm": "03",
+    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -6617,6 +6618,134 @@
         { "name": "박아현", "bank": "하나은행", "number": "673-910369-45107" },
         { "name": "박철회", "bank": "국민은행", "number": "576-21-0371-076" },
         { "name": "하은자", "bank": "농협은행", "number": "302-7175-7400-11" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "hssa0919": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_hssa0919.mp3",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "경혁수 & 이슬아 결혼식에 초대합니다",
+      "groomName": "경혁수",
+      "brideName": "이슬아",
+      "date": "2026년 9월 19일 토요일 오후 4시 30분",
+      "location": "남산예술원웨딩홀",
+      "message": "8년의 시간을 함께 걸어온 저희가\n이제는 부부가 되어 새로운 시작을 하려 합니다.\n소중한 날, 함께해 주세요!",
+      "mainImage": "/images/hssa0919/main.jpg",
+      "thumbnail": "/images/hssa0919/thumbnail.jpg",
+      "kakaoThumbnail": "/images/hssa0919/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "경충호",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박청아",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이난기",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "경혁수", "relation": "신랑", "phone": "010-6787-0619" },
+        { "name": "경충호", "relation": "아버님", "phone": "010-3714-1401" },
+        { "name": "박청아", "relation": "어머님", "phone": "010-5137-7005" }
+      ],
+      "bride": [
+        { "name": "이슬아", "relation": "신부", "phone": "010-5012-5528" },
+        { "name": "이난기", "relation": "어머님", "phone": "010-9923-7213" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-19T16:30:00+09:00"
+    },
+    "gallery": [
+      "/images/hssa0919/gallery1.jpg",
+      "/images/hssa0919/gallery2.jpg",
+      "/images/hssa0919/gallery3.jpg",
+      "/images/hssa0919/gallery4.jpg",
+      "/images/hssa0919/gallery5.jpg",
+      "/images/hssa0919/gallery6.jpg",
+      "/images/hssa0919/gallery7.jpg",
+      "/images/hssa0919/gallery8.jpg",
+      "/images/hssa0919/gallery9.jpg",
+      "/images/hssa0919/gallery10.jpg",
+      "/images/hssa0919/gallery11.jpg",
+      "/images/hssa0919/gallery12.jpg",
+      "/images/hssa0919/gallery13.jpg",
+      "/images/hssa0919/gallery14.jpg",
+      "/images/hssa0919/gallery15.jpg",
+      "/images/hssa0919/gallery16.jpg",
+      "/images/hssa0919/gallery17.jpg",
+      "/images/hssa0919/gallery18.jpg",
+      "/images/hssa0919/gallery19.jpg",
+      "/images/hssa0919/gallery20.jpg"
+    ],
+    "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/sjpDMp9lkYc",
+  "position": "afterCalendar"
+},
+    "map": {
+  "name": "남산예술원웨딩홀",
+  "address": "서울 용산구 소월로 375 (한남동)",
+  "lat": 37.5447534929187,
+  "lng": 127.000429997326,
+  "transport": {
+    "subway": "6호선 한강진역: 1번 출구 반대 방향 - 도보 7분 거리\n1번 출구 - 예식 1시간 전 셔틀버스 운행 (10~15분 간격)",
+    "bus": "장충단길 입구 하차\n- 간선 402, 405 (광화문 장자동 방향), 142, 420, 407\n남산예술원 하차\n- 402, 405 (장자동 광화문 방향)\n한강진역 하차\n- 간선 110, 405\n서울시 중부기술 교육원, 블루스퀘어 하차\n- 간선 142, 144, 402, 407 / 지선 6211",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "shuttle": "",
+    "expressbus": "",
+    "taxi": "",
+    "car": "경부고속도로-한남대교에서 오실 경우\n경부고속도로-한남대교-한남5거리(직진 우측차선)\n-북한남 삼거리(우회전) 다산로에서 U턴\n-소월길(하얏트 방향)-남산맨션 바로 옆 남산예술원 웨딩홀",
+    "parking": "약 150대 주차 가능"
+  }
+},
+"information": [
+  {
+    "title": "현금인출기 없음 안내",
+    "content": "남산 공원에 위치한 야외 웨딩홀로\n현금인출기가 따로 없습니다."
+  },
+    {
+    "title": "화환 반입 불가 안내",
+    "content": "바른 결혼 문화 캠페인에\n동참하고 있는 착한 웨딩홀로\n화환 반입이 금지되어 있습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "경혁수", "bank": "카카오뱅크", "number": "3333042934552" },
+        { "name": "경충호", "bank": "하나은행", "number": "01037141401907 " },
+        { "name": "박청아", "bank": "우리은행", "number": "1002941072766 " }
+],
+      "bride": [
+        { "name": "이슬아", "bank": "카카오뱅크", "number": "3333135380144" },
+        { "name": "이난기", "bank": "농협은행", "number": "3561241174933" }
 ]
     },
     "rsvp": {
