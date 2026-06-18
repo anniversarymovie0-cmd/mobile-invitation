@@ -6751,5 +6751,125 @@
     "rsvp": {
   "enabled": false
 }
+  },
+  "theh1003": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "04",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "송태훈 & 정은혜 결혼식에 초대합니다",
+      "groomName": "송태훈",
+      "brideName": "정은혜",
+      "date": "2026년 10월 3일 토요일 오후 1시",
+      "location": "트리웨딩",
+      "message": "\"너와 함께 보낸 하루는\n내가 가장 좋아하는 날이야.\n그래서 오늘은 내가 가장 좋아하는 날이야.\"\n- 영화 '곰돌이 푸' 중에서\n\n두 사람이 가장 행복한 날,\n평생을 약속하는 자리에\n소중한 분들을 초대합니다.\n귀한 걸음으로 함께해 주시면\n감사하겠습니다.",
+      "mainImage": "/images/theh1003/main.jpg",
+      "thumbnail": "/images/theh1003/thumbnail.jpg",
+      "kakaoThumbnail": "/images/theh1003/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "송채호",
+      "symbol": "flower"
+    },
+    "mother": {
+      "name": "이경희",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "정대옥",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이애경",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "송태훈", "relation": "신랑", "phone": "010-2089-7558" },
+        { "name": "이경희", "relation": "어머님", "phone": "010-3554-5442" }
+      ],
+      "bride": [
+        { "name": "정은혜", "relation": "신부", "phone": "010-4310-2987" },
+        { "name": "정대옥", "relation": "아버님", "phone": "010-2020-2987" },
+        { "name": "이애경", "relation": "어머님", "phone": "010-5547-2987" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-03T13:00:00+09:00"
+    },
+    "gallery": [
+      "/images/theh1003/gallery1.jpg",
+      "/images/theh1003/gallery2.jpg",
+      "/images/theh1003/gallery3.jpg",
+      "/images/theh1003/gallery4.jpg",
+      "/images/theh1003/gallery5.jpg",
+      "/images/theh1003/gallery6.jpg",
+      "/images/theh1003/gallery7.jpg",
+      "/images/theh1003/gallery8.jpg",
+      "/images/theh1003/gallery9.jpg",
+      "/images/theh1003/gallery10.jpg",
+      "/images/theh1003/gallery11.jpg",
+      "/images/theh1003/gallery12.jpg",
+      "/images/theh1003/gallery13.jpg",
+      "/images/theh1003/gallery14.jpg",
+      "/images/theh1003/gallery15.jpg",
+      "/images/theh1003/gallery16.jpg",
+      "/images/theh1003/gallery17.jpg",
+      "/images/theh1003/gallery18.jpg",
+      "/images/theh1003/gallery19.jpg",
+      "/images/theh1003/gallery20.jpg"
+    ],
+    "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/9UoJRFF9dL4",
+  "position": "afterCalendar"
+},
+    "map": {
+  "name": "트리웨딩",
+  "address": "충북 청주시 청원구 주중동 116",
+  "lat": 36.67907640623661,
+  "lng": 127.4977161317235,
+  "transport": {
+    "subway": "",
+    "bus": "105, 115, 101, 111, 114, 112 반송말 정류장 하차",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "shuttle": "",
+    "expressbus": "",
+    "taxi": "오송역 or 고속버스터미널 약 25분 소요",
+    "car": "충청북도 청주시 청원구 주중동 116 (트리웨딩)\n건물 앞 주차장 무료 이용 가능",
+    "parking": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "송태훈", "bank": "우리은행", "number": "1002-354-931632" },
+        { "name": "이경희", "bank": "부산은행", "number": "097-12-044190-5" }
+],
+      "bride": [
+        { "name": "정은혜", "bank": "토스뱅크", "number": "1001-2606-4822" },
+        { "name": "정대옥", "bank": "농협은행", "number": "531017-51-002581" },
+        { "name": "이애경", "bank": "농협은행", "number": "551-12-442626" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "149ki9H8dN71YrGBFY8n9xhCx4lC-l1IFuYF4lv-WTPE"
+}
   }
 }
