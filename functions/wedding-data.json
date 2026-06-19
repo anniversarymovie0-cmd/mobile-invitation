@@ -7248,5 +7248,131 @@
   "enabled": true,
   "sheetId": "1fExz6gI5T-POuUXjhCK548HgdiIBelOmp7prW9udNd8"
 }
+  },
+  "ghyr1031": {
+    "open": true,
+    "keepForever": false,
+    "bgm": null,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김건호 & 이유라 결혼식에 초대합니다",
+      "groomName": "김건호",
+      "brideName": "이유라",
+      "date": "2026년 10월 31일 토요일 오후 4시 30분",
+      "location": "평택 T웨딩홀",
+      "message": "서로를 아끼고 사랑하는 마음으로\n평생을 함께하기로 약속하였습니다.\n\n소중한 분들을 모시고\n새로운 출발의 순간을 함께 나누고자 합니다.\n\n귀한 걸음으로 자리를 빛내 주시고\n따뜻한 축복을 전해 주시면 감사하겠습니다.",
+      "mainImage": "/images/ghyr1031/main.jpg",
+      "thumbnail": "/images/ghyr1031/thumbnail.jpg",
+      "kakaoThumbnail": "/images/ghyr1031/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김종남",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "최경숙",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "이재범",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "강연자",
+      "symbol": "none"
+    },
+    "relation": "차녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김건호", "relation": "신랑", "phone": "010-4058-7562" },
+        { "name": "김종남", "relation": "아버님", "phone": "010-2354-7562" },
+        { "name": "최경숙", "relation": "어머님", "phone": "010-5572-7562" }
+      ],
+      "bride": [
+        { "name": "이유라", "relation": "신부", "phone": "010-2281-9912" },
+        { "name": "이재범", "relation": "아버님", "phone": "010-9147-9911" },
+        { "name": "강연자", "relation": "어머님", "phone": "010-4762-9912" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-31T16:30:00+09:00"
+    },
+    "gallery": [
+      "/images/ghyr1031/gallery1.jpg",
+      "/images/ghyr1031/gallery2.jpg",
+      "/images/ghyr1031/gallery3.jpg",
+      "/images/ghyr1031/gallery4.jpg",
+      "/images/ghyr1031/gallery5.jpg",
+      "/images/ghyr1031/gallery6.jpg",
+      "/images/ghyr1031/gallery7.jpg",
+      "/images/ghyr1031/gallery8.jpg",
+      "/images/ghyr1031/gallery9.jpg",
+      "/images/ghyr1031/gallery10.jpg",
+      "/images/ghyr1031/gallery11.jpg",
+      "/images/ghyr1031/gallery12.jpg",
+      "/images/ghyr1031/gallery13.jpg",
+      "/images/ghyr1031/gallery14.jpg",
+      "/images/ghyr1031/gallery15.jpg",
+      "/images/ghyr1031/gallery16.jpg",
+      "/images/ghyr1031/gallery17.jpg",
+      "/images/ghyr1031/gallery18.jpg",
+      "/images/ghyr1031/gallery19.jpg",
+      "/images/ghyr1031/gallery20.jpg",
+      "/images/ghyr1031/gallery21.jpg",
+      "/images/ghyr1031/gallery22.jpg",
+      "/images/ghyr1031/gallery23.jpg",
+      "/images/ghyr1031/gallery24.jpg"
+    ],
+    "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "평택 T웨딩홀",
+  "address": "본관 5층 투게더홀\n경기 평택시 평택5로34번길 6-5 티웨딩홀",
+  "lat": 36.98928751454916,
+  "lng": 127.11225041056534,
+  "transport": {
+    "subway": "* 1호선 평택역 1번출구\n* 평택역/AKPLAZA 정류장에서 \"평택시청\" 방면 시내버스 이용 → 시청앞 또는 평택고 정류장 하차",
+    "bus": "* 시청앞 또는 평택고 정류장 하차\n* 평택역/AKPLAZA 정류장에서 \"평택시청\" 방면 시내버스 이용 → 시청앞 또는 평택고 정류장 하차\n* 2023-07-03 버스노선 개편\n* 일반버스 310-1, 320, 320-1, 80, 80-1, 91, 98, 98-1, 1108, 1150, 1215, 1220, 1311, 1361, 1372, 1502, 1522, 1731, 순환111, 마을 10",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "shuttle": "",
+    "expressbus": "",
+    "taxi": "",
+    "car": "* 네비게이션 : \"T웨딩홀\", \"티웨딩홀\" 또는 \"0316562222\" 입력\n* 네비게이션 주소 : \"합정동 965-5\" 또는\n\"평택5로 34번길 6-5\" 입력\n* 주차장 안내\n* 티웨딩홀 지하 4층 ~ 지상 3층\n* 평택시청 주차장\n* 배미공원 지하 공영주차장\n* 공설운동장 주차장도로명\n\n* 주소 : 경기도 평택시 평택5로 34번길 6-5\n* 지번 주소 : 경기도 평택시 합정동 965-5번지",
+    "parking": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "김건호", "bank": "하나은행", "number": "31291034081107" },
+        { "name": "김종남", "bank": "카카오뱅크", "number": "3333202255031" },
+        { "name": "최경숙", "bank": "농협은행", "number": "23703152186969" }
+],
+      "bride": [
+        { "name": "이유라", "bank": "농협은행", "number": "20503056288830" },
+        { "name": "이재범", "bank": "수협은행", "number": "29262013140" },
+        { "name": "강연자", "bank": "농협은행", "number": "3024762991231" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1S_dsIvUhNYlBwCw0QzlNd-zuAgujIW3D2G4rYfobKSk"
+}
   }
 }
