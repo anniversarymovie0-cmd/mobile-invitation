@@ -7130,5 +7130,123 @@
   "enabled": true,
   "sheetId": "1l-vZLX4Qeg8T5Zqk42uDFaQLoQqCWuVDSB2SSxlV3oE"
 }
+  },
+  "khhw0912": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_khhw0912.mp3",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "손기호 & 김혜원 결혼식에 초대합니다",
+      "groomName": "손기호",
+      "brideName": "김혜원",
+      "date": "2026년 9월 12일 토요일 오후 12시 30분",
+      "location": "더컨벤션 송파문정",
+      "message": "어느 가을날 선선한 바람처럼,\n매일의 일상에 서로가 불어오게 되었습니다.\n\n한 치 앞도 알 수 없던 내일이라는 미지가\n둘이 함께 내딛는 순간,\n행복이란 확신으로 변해갑니다.\n\n그 첫걸음 곁에 고마운 분들을 모십니다.",
+      "mainImage": "/images/khhw0912/main.jpg",
+      "thumbnail": "/images/khhw0912/thumbnail.jpg",
+      "kakaoThumbnail": "/images/khhw0912/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "손봉환",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김은숙",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "김연해",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "성지희",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "손기호", "relation": "신랑", "phone": "010-6484-7102" }
+      ],
+      "bride": [
+        { "name": "김혜원", "relation": "신부", "phone": "010-3656-0192" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-12T12:30:00+09:00"
+    },
+    "gallery": [
+      "/images/khhw0912/gallery1.jpg",
+      "/images/khhw0912/gallery2.jpg",
+      "/images/khhw0912/gallery3.jpg",
+      "/images/khhw0912/gallery4.jpg",
+      "/images/khhw0912/gallery5.jpg",
+      "/images/khhw0912/gallery6.jpg",
+      "/images/khhw0912/gallery7.jpg",
+      "/images/khhw0912/gallery8.jpg",
+      "/images/khhw0912/gallery9.jpg",
+      "/images/khhw0912/gallery10.jpg",
+      "/images/khhw0912/gallery11.jpg",
+      "/images/khhw0912/gallery12.jpg",
+      "/images/khhw0912/gallery13.jpg",
+      "/images/khhw0912/gallery14.jpg",
+      "/images/khhw0912/gallery15.jpg",
+      "/images/khhw0912/gallery16.jpg",
+      "/images/khhw0912/gallery17.jpg",
+      "/images/khhw0912/gallery18.jpg",
+      "/images/khhw0912/gallery19.jpg",
+      "/images/khhw0912/gallery20.jpg"
+    ],
+    "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "더컨벤션 송파문정",
+  "address": "13층 아모르 홀\n서울 송파구 송파대로 155",
+  "lat": 37.484005272438594,
+  "lng": 127.12278911775194,
+  "transport": {
+    "subway": "8호선 문정역 3번출구 도보 5분",
+    "bus": "일반버스 30, 31, 100, 331\n간선버스 302, 303, 320, 333, 350, 360, 343, 345, 422, N13, N37\n지선버스 3322, 3420\n직행버스 1009, 1112, 1117, 1650, 500-1, 500-1A, 3302, 4305, G2100, G6009",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "shuttle": "",
+    "expressbus": "",
+    "taxi": "",
+    "car": "네비게이션에 송파구 송파대로 155 검색",
+    "parking": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "손기호", "bank": "국민은행", "number": "344901-04-107974" },
+        { "name": "손봉환", "bank": "기업은행", "number": "215-033982-02-014" },
+        { "name": "김은숙", "bank": "SC제일은행", "number": "216-20-029826" }
+],
+      "bride": [
+        { "name": "김혜원", "bank": "카카오뱅크", "number": "3333-06-7738580" },
+        { "name": "김연해", "bank": "카카오뱅크", "number": "3333-15-6742303" },
+        { "name": "성지희", "bank": "카카오뱅크", "number": "3333-08-6168203" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1fExz6gI5T-POuUXjhCK548HgdiIBelOmp7prW9udNd8"
+}
   }
 }
