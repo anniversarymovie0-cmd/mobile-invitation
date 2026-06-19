@@ -7009,5 +7009,126 @@
   "enabled": true,
   "sheetId": "1_-sWT2SINbWdR0S1hah3eCFa8EHzl1QgI5OGME_g0Lw"
 }
+  },
+  "jwjh0905": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_jwjh0905.mp3",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "정진욱 & 손진희 결혼식에 초대합니다",
+      "groomName": "정진욱",
+      "brideName": "손진희",
+      "date": "2026년 9월 5일 토요일 오전 11시",
+      "location": "W웨딩 목화웨딩컨벤션",
+      "message": "사랑은 소유가 아니라\n동행임을 아는 두 사람은\n\n잡은 손을 놓지 않되\n함부로 잡아끌지 않을 것이며\n\n서로의 두 눈을 고요히 바라보아\n말하지 않아도 같은 쪽으로 걸어가리라\n\n- 박미라, '아름다운 날에 부치다'\n\n오래도록 지켜온 사랑입니다.\n저희 두 사람의 소중한 만남이 결실을 맺어\n혼인의 예를 갖추려 합니다.\n\n진실한 마음으로 맺는 약속의 자리에\n늘 곁에서 아껴주셨던\n소중한 분들을 모십니다.\n\n귀한 걸음 하시어 축복해 주시면\n큰 기쁨이겠습니다.",
+      "mainImage": "/images/jwjh0905/main.jpg",
+      "thumbnail": "/images/jwjh0905/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jwjh0905/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "정태규",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이영희",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "손병환",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "한현미",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "정진욱", "relation": "신랑", "phone": "010-6271-8366" },
+        { "name": "정태규", "relation": "아버님", "phone": "010-4552-2066" },
+        { "name": "이영희", "relation": "어머님", "phone": "010-6687-2066" }
+      ],
+      "bride": [
+        { "name": "손진희", "relation": "신부", "phone": "010-2432-8553" },
+        { "name": "손병환", "relation": "아버님", "phone": "010-3592-1146" },
+        { "name": "한현미", "relation": "어머님", "phone": "010-8553-1146" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-05T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/jwjh0905/gallery1.jpg",
+      "/images/jwjh0905/gallery2.jpg",
+      "/images/jwjh0905/gallery3.jpg",
+      "/images/jwjh0905/gallery4.jpg",
+      "/images/jwjh0905/gallery5.jpg",
+      "/images/jwjh0905/gallery6.jpg",
+      "/images/jwjh0905/gallery7.jpg",
+      "/images/jwjh0905/gallery8.jpg",
+      "/images/jwjh0905/gallery9.jpg",
+      "/images/jwjh0905/gallery10.jpg",
+      "/images/jwjh0905/gallery11.jpg",
+      "/images/jwjh0905/gallery12.jpg",
+      "/images/jwjh0905/gallery13.jpg",
+      "/images/jwjh0905/gallery14.jpg",
+      "/images/jwjh0905/gallery15.jpg",
+      "/images/jwjh0905/gallery16.jpg",
+      "/images/jwjh0905/gallery17.jpg",
+      "/images/jwjh0905/gallery18.jpg",
+      "/images/jwjh0905/gallery19.jpg",
+      "/images/jwjh0905/gallery20.jpg"
+    ],
+    "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "W웨딩 목화웨딩컨벤션",
+  "address": "15층 아모르홀\n부산광역시 연제구 중앙대로 1125 시티타워",
+  "lat": 35.18805775931448,
+  "lng": 129.0806911125748,
+  "transport": {
+    "subway": "부산 도시철도 1호선 연산역 7번 출구에서 171m",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "shuttle": "",
+    "expressbus": "",
+    "taxi": "",
+    "car": "",
+    "parking": "건물 내 주차시 3시간 지원 / 건물 외 주차시 2시간 지원"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "정진욱", "bank": "우리은행", "number": "1002-360-538698" },
+        { "name": "정태규", "bank": "농협은행", "number": "352-1434-2116-43" },
+        { "name": "이영희", "bank": "농협은행", "number": "352-2226-2317-13" }
+],
+      "bride": [
+        { "name": "손진희", "bank": "국민은행", "number": "65980204151294" },
+        { "name": "손병환", "bank": "기업은행", "number": "58104956901011" },
+        { "name": "한현미", "bank": "국민은행", "number": "651210991536" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1l-vZLX4Qeg8T5Zqk42uDFaQLoQqCWuVDSB2SSxlV3oE"
+}
   }
 }
