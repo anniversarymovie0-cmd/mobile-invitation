@@ -6868,8 +6868,7 @@
 ]
     },
     "rsvp": {
-  "enabled": true,
-  "sheetId": "149ki9H8dN71YrGBFY8n9xhCx4lC-l1IFuYF4lv-WTPE"
+  "enabled": false
 }
   },
   "dhmj0829": {
@@ -7288,7 +7287,7 @@
       "name": "강연자",
       "symbol": "none"
     },
-    "relation": "차녀"
+    "relation": "장녀"
   }
 },
     "contacts": {
@@ -7373,6 +7372,247 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1S_dsIvUhNYlBwCw0QzlNd-zuAgujIW3D2G4rYfobKSk"
+}
+  },
+  "ksyj0920": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "민경식 & 모예진 결혼식에 초대합니다",
+      "groomName": "민경식",
+      "brideName": "모예진",
+      "date": "2026년 09월 20일 일요일 오전 11시",
+      "location": "웨스턴베니비스 영등포",
+      "message": "함께 보낸 모든 계절이\n저희에게는 소중한 기억이었습니다.\n이제 또 하나의 계절을 함께 맞이하기 위해,\n하나의 길을 걷기로 했습니다.\n그 시작의 자리에서\n두 사람을 따뜻하게 바라봐 주세요.",
+      "mainImage": "/images/ksyj0920/main.jpg",
+      "thumbnail": "/images/ksyj0920/thumbnail.jpg",
+      "kakaoThumbnail": "/images/ksyj0920/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "민영준",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이정숙",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "모인수",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박미현",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "민경식", "relation": "신랑", "phone": "010-9228-8919" },
+        { "name": "민영준", "relation": "아버님", "phone": "010-5384-8911" },
+        { "name": "이정숙", "relation": "어머님", "phone": "010-6349-8912" }
+      ],
+      "bride": [
+        { "name": "모예진", "relation": "신부", "phone": "010-4128-9563" },
+        { "name": "모인수", "relation": "아버님", "phone": "010-5471-9563" },
+        { "name": "박미현", "relation": "어머님", "phone": "010-4772-9563" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-20T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/ksyj0920/gallery1.jpg",
+      "/images/ksyj0920/gallery2.jpg",
+      "/images/ksyj0920/gallery3.jpg",
+      "/images/ksyj0920/gallery4.jpg",
+      "/images/ksyj0920/gallery5.jpg",
+      "/images/ksyj0920/gallery6.jpg",
+      "/images/ksyj0920/gallery7.jpg",
+      "/images/ksyj0920/gallery8.jpg",
+      "/images/ksyj0920/gallery9.jpg",
+      "/images/ksyj0920/gallery10.jpg",
+      "/images/ksyj0920/gallery11.jpg",
+      "/images/ksyj0920/gallery12.jpg",
+      "/images/ksyj0920/gallery13.jpg",
+      "/images/ksyj0920/gallery14.jpg",
+      "/images/ksyj0920/gallery15.jpg",
+      "/images/ksyj0920/gallery16.jpg",
+      "/images/ksyj0920/gallery17.jpg",
+      "/images/ksyj0920/gallery18.jpg",
+      "/images/ksyj0920/gallery19.jpg",
+      "/images/ksyj0920/gallery20.jpg",
+      "/images/ksyj0920/gallery21.jpg",
+      "/images/ksyj0920/gallery22.jpg",
+      "/images/ksyj0920/gallery23.jpg",
+      "/images/ksyj0920/gallery24.jpg",
+      "/images/ksyj0920/gallery25.jpg",
+      "/images/ksyj0920/gallery26.jpg",
+      "/images/ksyj0920/gallery27.jpg",
+      "/images/ksyj0920/gallery28.jpg",
+      "/images/ksyj0920/gallery29.jpg",
+      "/images/ksyj0920/gallery30.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "웨스턴베니비스 영등포",
+  "address": "2층 그랜드볼룸홀\n서울 영등포구 국회대로 558",
+  "lat": 37.527747377026635,
+  "lng": 126.89612380542675,
+  "transport": {
+    "subway": "2, 5호선 영등포구청역 3번 출구에서 200M (도보 2분)",
+    "bus": "6637, 5, 02, 12, 5620, 6631, 70-3",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "shuttle": "",
+    "expressbus": "",
+    "taxi": "",
+    "car": "",
+    "parking": "현대해상 강서지점 건물 내 지하주차장 이용\n(2시간 무료)\n네비게이션 주소 검색\n서울시 영등포구 당산로 141 현대해상 강서사옥"
+  }
+},
+"information": [
+  {
+    "title": "화환 안내",
+    "content": "예식장 내부 공간이 협소하여\n마음만 감사히 받고\n화환은 정중히 사양하고자 합니다.\n\n보내주시는 따뜻한 정성 잊지 않고\n깊이 간직하겠습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "민경식", "bank": "국민은행", "number": "411801-04-430659" },
+        { "name": "민영준", "bank": "신한은행", "number": "110-021-582026" },
+        { "name": "이정숙", "bank": "신한은행", "number": "110-022-421296" }
+],
+      "bride": [
+        { "name": "모예진", "bank": "국민은행", "number": "411801-04-430493" },
+        { "name": "모인수", "bank": "국민은행", "number": "212210613586" },
+        { "name": "박미현", "bank": "신한은행", "number": "110-221-286172" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1ysuoaBkHcX7xrKRpx51Ra0ADaU_cnwYVb03rHeVoi9w"
+}
+  },
+  "mgjy0726": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "02",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "서명균 & 서재윤 결혼식에 초대합니다",
+      "groomName": "서명균",
+      "brideName": "서재윤",
+      "date": "2026년 07월 26일 일요일 오후 12시 20분",
+      "location": "더파티움안양",
+      "message": "찬란한 여름의 한가운데,\n저희 두 사람이 평생의 동반자가 되고자 합니다.\n\n설레는 시작의 순간에\n귀한 걸음으로 축복해 주시면\n더없는 기쁨으로 간직하겠습니다.",
+      "mainImage": "/images/mgjy0726/main.jpg",
+      "thumbnail": "/images/mgjy0726/thumbnail.jpg",
+      "kakaoThumbnail": "/images/mgjy0726/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "서철수",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김란주",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "서재춘",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정영자",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-07-26T12:20:00+09:00"
+    },
+    "gallery": [
+      "/images/mgjy0726/gallery1.jpg",
+      "/images/mgjy0726/gallery2.jpg",
+      "/images/mgjy0726/gallery3.jpg",
+      "/images/mgjy0726/gallery4.jpg",
+      "/images/mgjy0726/gallery5.jpg",
+      "/images/mgjy0726/gallery6.jpg",
+      "/images/mgjy0726/gallery7.jpg",
+      "/images/mgjy0726/gallery8.jpg",
+      "/images/mgjy0726/gallery9.jpg",
+      "/images/mgjy0726/gallery10.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "더파티움 안양",
+  "address": "7층 라포레홀\n경기 안양시 동안구 시민대로 311",
+  "lat": 37.396059919142516,
+  "lng": 126.96495454878495,
+  "transport": {
+    "subway": "4호선 '평촌역' 3번 출구 횡단보도 맞은 편",
+    "bus": "'평촌역' 하차\n- 일반버스 1, 6, 22, 52, 52-1, 83\n- 마을버스 2-1, 5, 5-1, 5-5, 6, 6-1, 7, 8, 10-1",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "shuttle": "",
+    "expressbus": "",
+    "taxi": "",
+    "car": "",
+    "parking": "건물 내 주차장 및 인근 외부 주차장 이용가능\n- 제 1주차장 더파티움 안양 본건물 지하주차장\n (동안구 시민대로 311)\n- 제 2주차장 지아이에스(구.네온테크) 주차장\n (동안구 부림로 146)\n- 제 3주차장 이마트 평촌점 주차장\n (동안구 시민대로300)\n- 제 4주차장 평촌 칼라힐 주차빌딩\n*2층부터 주차 가능 (동안구 시민대로312)"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "서명균", "bank": "신한은행", "number": "110-338-597169" },
+        { "name": "서철수", "bank": "국민은행", "number": "556-01-0535136" },
+        { "name": "김란주", "bank": "토스뱅크", "number": "100011669526" }
+],
+      "bride": [
+        { "name": "서재윤", "bank": "신한은행", "number": "110-306-956874" },
+        { "name": "서재춘", "bank": "국민은행", "number": "774-21-0310824" },
+        { "name": "정영자", "bank": "우리은행", "number": "1002-950-616757" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1kqkya1zlzrB2P6GlojcEOapaOHj3RZBTtGUsHf3dnmM"
 }
   }
 }
