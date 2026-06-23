@@ -7982,5 +7982,137 @@
   "enabled": true,
   "sheetId": "1sTYl7qrKV4VxEWgZHYRUExLwpTe9otmnj0YjbCDnCw4"
 }
+  },
+  "cejh0912": {
+    "open": false,
+    "keepForever": false,
+    "bgm": "06",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "최충은 & 차지혜 결혼식에 초대합니다",
+      "groomName": "최충은",
+      "brideName": "차지혜",
+      "date": "2026년 9월 12일 토요일 오후 1시",
+      "location": "W웨딩시티",
+      "message": "하나님의 축복 속에 우리의 사랑을 약속하며,\n하나가 되려 합니다.\n저희의 출발을 함께 축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/cejh0912/main.jpg",
+      "thumbnail": "/images/cejh0912/thumbnail.jpg",
+      "kakaoThumbnail": "/images/cejh0912/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "최진성",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박미경",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "차경욱",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "백재숙",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "최충은", "relation": "신랑", "phone": "010-2651-2398" },
+        { "name": "최진성", "relation": "아버님", "phone": "010-2796-2398" },
+        { "name": "박미경", "relation": "어머님", "phone": "010-2685-2398" }
+      ],
+      "bride": [
+        { "name": "차지혜", "relation": "신부", "phone": "010-2961-1450" },
+        { "name": "차경욱", "relation": "아버님", "phone": "010-2818-1450" },
+        { "name": "백재숙", "relation": "어머님", "phone": "010-9074-1450" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-12T13:00:00+09:00"
+    },
+    "gallery": [
+      "/images/cejh0912/gallery1.jpg",
+      "/images/cejh0912/gallery2.jpg",
+      "/images/cejh0912/gallery3.jpg",
+      "/images/cejh0912/gallery4.jpg",
+      "/images/cejh0912/gallery5.jpg",
+      "/images/cejh0912/gallery6.jpg",
+      "/images/cejh0912/gallery7.jpg",
+      "/images/cejh0912/gallery8.jpg",
+      "/images/cejh0912/gallery9.jpg",
+      "/images/cejh0912/gallery10.jpg",
+      "/images/cejh0912/gallery11.jpg",
+      "/images/cejh0912/gallery12.jpg",
+      "/images/cejh0912/gallery13.jpg",
+      "/images/cejh0912/gallery14.jpg",
+      "/images/cejh0912/gallery15.jpg",
+      "/images/cejh0912/gallery16.jpg",
+      "/images/cejh0912/gallery17.jpg",
+      "/images/cejh0912/gallery18.jpg",
+      "/images/cejh0912/gallery19.jpg",
+      "/images/cejh0912/gallery20.jpg",
+      "/images/cejh0912/gallery21.jpg",
+      "/images/cejh0912/gallery22.jpg",
+      "/images/cejh0912/gallery23.jpg",
+      "/images/cejh0912/gallery24.jpg",
+      "/images/cejh0912/gallery25.jpg",
+      "/images/cejh0912/gallery26.jpg",
+      "/images/cejh0912/gallery27.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "W웨딩시티",
+  "address": "7층 컨벤션홀\n부산 부산진구 자유평화로 11",
+  "lat": 35.1417434792546,
+  "lng": 129.061200995196,
+  "transport": {
+    "car": "",
+    "subway": "부산역에서 1호선 4정거장 이동 후 범일역 하차 - 10번출구 - 도보 323m (6분)",
+    "bus": "",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "expressbus": "",
+    "taxi": "",
+    "shuttle": "",
+    "parking": ""
+  }
+},
+"information": [
+  {
+    "title": "식사 장소",
+    "content": "W웨딩시티 6층"
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "최충은", "bank": "국민은행", "number": "939302-00-126477" },
+        { "name": "최진성", "bank": "카카오뱅크", "number": "3333-11-9119141" }
+],
+      "bride": [
+        { "name": "차지혜", "bank": "농협은행", "number": "302-1266-1148-21" },
+        { "name": "차경욱", "bank": "카카오뱅크", "number": "3333-08-3591696" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1yGw5vJ0n9B2Hxs3qj1VzZdUjnMwSzxNXy3RQF9nghxg"
+}
   }
 }
