@@ -188,11 +188,18 @@ export default function Location({ data }) {
       {/* 길찾기 버튼 */}
       <div style={{ display: 'flex', gap: '8px', justifyContent: 'center' }}>
         <button
-          onClick={() =>
-            (window.location.href = `nmap://route/car?dlat=${lat}&dlng=${lng}&dname=${encodeURIComponent(destinationName)}&appname=wedding`)
-          }
-          style={btnStyle}
-        >
+  onClick={() => {
+    const appUrl = `nmap://route/car?dlat=${lat}&dlng=${lng}&dname=${encodeURIComponent(destinationName)}&appname=wedding`;
+    const webUrl = `https://map.naver.com/v5/directions/-/${lng},${lat},${encodeURIComponent(destinationName)},PLACE_POI/-/car`;
+
+    window.location.href = appUrl;
+
+    setTimeout(() => {
+      window.location.href = webUrl;
+    }, 700);
+  }}
+  style={btnStyle}
+>
           <img src="/images/naver_logo.png" alt="" style={{ width: '18px' }} />
           <span style={{ marginLeft: '6px' }}>네이버 지도</span>
         </button>
@@ -218,15 +225,21 @@ export default function Location({ data }) {
           <span style={{ marginLeft: '6px' }}>카카오맵</span>
         </button>
 
-        <button
-          onClick={() =>
-            (window.location.href = `tmap://route?rGoName=${encodeURIComponent(destinationName)}&rGoX=${lng}&rGoY=${lat}`)
-          }
-          style={btnStyle}
-        >
-          <img src="/images/tmap_logo.png" alt="" style={{ width: '18px' }} />
-          <span style={{ marginLeft: '6px' }}>T맵</span>
-        </button>
+       <button
+  onClick={() => {
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    if (isMobile) {
+      window.location.href = `tmap://route?rGoName=${encodeURIComponent(destinationName)}&rGoX=${lng}&rGoY=${lat}`;
+    } else {
+      window.open('https://www.tmap.co.kr/', '_blank');
+    }
+  }}
+  style={btnStyle}
+>
+  <img src="/images/tmap_logo.png" alt="" style={{ width: '18px' }} />
+  <span style={{ marginLeft: '6px' }}>T맵</span>
+</button>
       </div>
     </div>
   );

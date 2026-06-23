@@ -4884,7 +4884,8 @@
   "enabled": true,
   "type": "youtube",
   "url": "https://www.youtube.com/embed/eFVPvshHSjg",
-  "position": "afterCalendar"
+  "position": "afterCalendar",
+  "thumbnail": "https://img.youtube.com/vi/eFVPvshHSjg/hqdefault.jpg"
 },
     "map": {
   "name": "그랜드조선 부산",
@@ -4909,10 +4910,14 @@
 ],
     "accounts": {
       "groom": [
-        { "name": "조요한", "bank": "하나은행", "number": "807-910234-45107" }
+        { "name": "조요한", "bank": "하나은행", "number": "807-910234-45107" },
+        { "name": "조기홍", "bank": "하나은행", "number": "588-910060-23707" },
+        { "name": "황미경", "bank": "농협은행", "number": "351-1328-8789-13" }
 ],
       "bride": [
-        { "name": "정유진", "bank": "신한은행", "number": "110-506-053560" }
+        { "name": "정유진", "bank": "신한은행", "number": "110-506-053560" },
+        { "name": "정영기", "bank": "국민은행", "number": "111102-04-018747" },
+        { "name": "김인수", "bank": "부산은행", "number": "209-12-014376-6" }
 ]
     },
     "rsvp": {
@@ -5580,36 +5585,48 @@
       "date": "2026-08-09T12:00:00+09:00"
     },
     "gallery": [
-      "/images/hnmj0809/gallery1.jpg?v=1",
-      "/images/hnmj0809/gallery2.jpg?v=1",
-      "/images/hnmj0809/gallery3.jpg?v=1",
-      "/images/hnmj0809/gallery4.jpg?v=1",
-      "/images/hnmj0809/gallery5.jpg?v=1",
-      "/images/hnmj0809/gallery6.jpg?v=1",
-      "/images/hnmj0809/gallery7.jpg?v=1",
-      "/images/hnmj0809/gallery8.jpg?v=1",
-      "/images/hnmj0809/gallery9.jpg?v=1",
-      "/images/hnmj0809/gallery10.jpg?v=1",
-      "/images/hnmj0809/gallery11.jpg?v=1",
-      "/images/hnmj0809/gallery12.jpg?v=1",
-      "/images/hnmj0809/gallery13.jpg?v=1",
-      "/images/hnmj0809/gallery14.jpg?v=1",
-      "/images/hnmj0809/gallery15.jpg?v=1",
-      "/images/hnmj0809/gallery16.jpg?v=1",
-      "/images/hnmj0809/gallery17.jpg?v=1",
-      "/images/hnmj0809/gallery18.jpg?v=1",
-      "/images/hnmj0809/gallery19.jpg?v=1",
-      "/images/hnmj0809/gallery20.jpg?v=1",
-      "/images/hnmj0809/gallery21.jpg?v=1",
-      "/images/hnmj0809/gallery22.jpg?v=1",
-      "/images/hnmj0809/gallery23.jpg?v=1",
-      "/images/hnmj0809/gallery24.jpg?v=1",
-      "/images/hnmj0809/gallery25.jpg?v=1",
-      "/images/hnmj0809/gallery26.jpg?v=1",
-      "/images/hnmj0809/gallery27.jpg?v=1",
-      "/images/hnmj0809/gallery28.jpg?v=1",
-      "/images/hnmj0809/gallery29.jpg?v=1",
-      "/images/hnmj0809/gallery30.jpg?v=1"
+      "/images/hnmj0809/gallery1.jpg?v=2",
+      "/images/hnmj0809/gallery2.jpg?v=2",
+      "/images/hnmj0809/gallery3.jpg?v=2",
+      "/images/hnmj0809/gallery4.jpg?v=2",
+      "/images/hnmj0809/gallery5.jpg?v=2",
+      "/images/hnmj0809/gallery6.jpg?v=2",
+      "/images/hnmj0809/gallery7.jpg?v=2",
+      "/images/hnmj0809/gallery8.jpg?v=2",
+      "/images/hnmj0809/gallery9.jpg?v=2",
+      "/images/hnmj0809/gallery10.jpg?v=2",
+      "/images/hnmj0809/gallery11.jpg?v=2",
+      "/images/hnmj0809/gallery12.jpg?v=2",
+      "/images/hnmj0809/gallery13.jpg?v=2",
+      "/images/hnmj0809/gallery14.jpg?v=2",
+      "/images/hnmj0809/gallery15.jpg?v=2",
+      "/images/hnmj0809/gallery16.jpg?v=2",
+      "/images/hnmj0809/gallery17.jpg?v=2",
+      "/images/hnmj0809/gallery18.jpg?v=2",
+      "/images/hnmj0809/gallery19.jpg?v=2",
+      "/images/hnmj0809/gallery20.jpg?v=2",
+      "/images/hnmj0809/gallery21.jpg?v=2",
+      "/images/hnmj0809/gallery22.jpg?v=2",
+      "/images/hnmj0809/gallery23.jpg?v=2",
+      "/images/hnmj0809/gallery24.jpg?v=2",
+      "/images/hnmj0809/gallery25.jpg?v=2",
+      "/images/hnmj0809/gallery26.jpg?v=2",
+      "/images/hnmj0809/gallery27.jpg?v=2",
+      "/images/hnmj0809/gallery28.jpg?v=2",
+      "/images/hnmj0809/gallery29.jpg?v=2",
+      "/images/hnmj0809/gallery30.jpg?v=2",
+      "/images/hnmj0809/gallery31.jpg",
+      "/images/hnmj0809/gallery32.jpg",
+      "/images/hnmj0809/gallery33.jpg",
+      "/images/hnmj0809/gallery34.jpg",
+      "/images/hnmj0809/gallery35.jpg",
+      "/images/hnmj0809/gallery36.jpg",
+      "/images/hnmj0809/gallery37.jpg",
+      "/images/hnmj0809/gallery38.jpg",
+      "/images/hnmj0809/gallery39.jpg",
+      "/images/hnmj0809/gallery40.jpg",
+      "/images/hnmj0809/gallery41.jpg",
+      "/images/hnmj0809/gallery42.jpg"
     ],
     "video": {
   "enabled": true,
@@ -6602,7 +6619,7 @@
     "ktx": "",
     "train": "1) 대전역 > 지하철 반석행 탑승 정부청사역 4번 출구 > 버스 618번 스마트시티 5단지 하차\n2) 서대전역 > 버스 612번 > 대전역 하차 > 대전역에서 오시는길 참조",
     "shuttle": "",
-    "expressbus": "1) 유성고속버스터미널 > 버스 911번, 121번\n2) 정부청사고속버스터미널 > 매표소 앞 버스 911번, 정부청사서문 앞 버스 618번\n3) 대전복합버스터미널 > 버스 102번 정부청사역 하차 > 버스 618번 스마트시티 5단지 하차",
+    "expressbus": "1) 유성고속버스터미널 > 버스 911번, 121번\n2) 정부청사고속버스터미널 > 매표소 앞 버스 911번, 정부청사서문 앞 버스 618번\n3) 대전복합버스터미널 > 버스 102번 정부청사역 하차 > 버스 618번 스마트시티 5단지 하차\n\n🚎 전세버스 대절 안내\n\n먼 거리에서 오시는 하객분들을 위해\n결혼식 당일 전세버스를 준비하였습니다.\n기쁜 마음으로 자리를 빛내주시면\n감사한 마음으로 모시겠습니다.\n\n예식 날짜 : 2026년 9월 5일 토요일\n\n[예식 전]\n출발지 : 순천 팔마체육관 수영장 부근 > 대전 ICC 웨딩홀 (휴게소 포함 약 3시간 30분 소요)\n탑승 시간 : 오전 6시 50분 탑승 / 오전 7시 출발\n\n[예식 후]\n출발지 : 대전 ICC 웨딩홀 > 순천 팔마체육관\n탑승 시간 : 식사 후 탑승 예정",
     "taxi": "",
     "car": ""
   }
@@ -6886,9 +6903,9 @@
       "date": "2026년 8월 29일 토요일 오후 3시",
       "location": "명동성당 대성당",
       "message": "서로의 따뜻함을 닮아가며\n예쁘게 살겠습니다.\n귀한 발걸음 하시어\n축복해 주시면 감사하겠습니다.",
-      "mainImage": "/images/dhmj0829/main.jpg",
-      "thumbnail": "/images/dhmj0829/thumbnail.jpg",
-      "kakaoThumbnail": "/images/dhmj0829/thumbnail_kakao.jpg"
+      "mainImage": "/images/dhmj0829/main.jpg?v=1",
+      "thumbnail": "/images/dhmj0829/thumbnail.jpg?v=1",
+      "kakaoThumbnail": "/images/dhmj0829/thumbnail_kakao.jpg?v=1"
     },
   "parents": {
   "groom": {
@@ -6938,6 +6955,7 @@
       "/images/dhmj0829/gallery5.jpg",
       "/images/dhmj0829/gallery6.jpg",
       "/images/dhmj0829/gallery7.jpg",
+      "/images/dhmj0829/gallery7_1.jpg",
       "/images/dhmj0829/gallery8.jpg",
       "/images/dhmj0829/gallery10.jpg",
       "/images/dhmj0829/gallery11.jpg",
@@ -6953,7 +6971,7 @@
     "video": {
   "enabled": true,
   "type": "youtube",
-  "url": "https://www.youtube.com/embed/RYuRfbiQRqs",
+  "url": "https://www.youtube.com/embed/50AD1Wo0Vs0",
   "position": "afterMain"
 },
     "map": {
@@ -6998,10 +7016,14 @@
 ],
     "accounts": {
       "groom": [
-        { "name": "최동환", "bank": "카카오뱅크", "number": "3333-23-4143610" }
+        { "name": "최동환", "bank": "카카오뱅크", "number": "3333-23-4143610" },
+        { "name": "최병화", "bank": "농협은행", "number": "211010-52-127416" },
+        { "name": "이서현", "bank": "새마을금고", "number": "9003-2063-1886-7" }
 ],
       "bride": [
-        { "name": "송민주", "bank": "국민은행", "number": "620602-01-349386" }
+        { "name": "송민주", "bank": "국민은행", "number": "620602-01-349386" },
+        { "name": "송병호", "bank": "농협은행", "number": "129-02-042734" },
+        { "name": "하도연", "bank": "신한은행", "number": "110-529-655-909" }
 ]
     },
     "rsvp": {
@@ -7013,6 +7035,7 @@
     "open": true,
     "keepForever": false,
     "bgm": "/music/custom_jwjh0905.mp3",
+    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -7068,6 +7091,7 @@
       "date": "2026-09-05T11:00:00+09:00"
     },
     "gallery": [
+      "/images/jwjh0905/gallery1_0.jpg",
       "/images/jwjh0905/gallery1.jpg",
       "/images/jwjh0905/gallery2.jpg",
       "/images/jwjh0905/gallery3.jpg",
@@ -7086,14 +7110,13 @@
       "/images/jwjh0905/gallery16.jpg",
       "/images/jwjh0905/gallery17.jpg",
       "/images/jwjh0905/gallery18.jpg",
-      "/images/jwjh0905/gallery19.jpg",
-      "/images/jwjh0905/gallery20.jpg"
+      "/images/jwjh0905/gallery19.jpg"
     ],
     "video": {
-  "enabled": false,
-  "type": "",
-  "url": "",
-  "position": ""
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/bS0qDj1qxcY",
+  "position": "afterGallery"
 },
     "map": {
   "name": "W웨딩 목화웨딩컨벤션",
@@ -7101,7 +7124,7 @@
   "lat": 35.18805775931448,
   "lng": 129.0806911125748,
   "transport": {
-    "subway": "부산 도시철도 1호선 연산역 7번 출구에서 171m",
+    "subway": "부산 도시철도 1호선 연산역 7번 출구에서 171m\n\n[부산역 출발]\n1호선 부산역 승차 - 연산역 하차\n7번 출구에서 도보 3분\n\n[서부 사상 버스터미널 출발]\n2호선 사상역 승차 - 서면역 하차하여\n1호선으로 환승 후 연산역 하차\n7번 출구에서 도보 3분",
     "publicTransport": "",
     "ktx": "",
     "train": "",
@@ -7120,9 +7143,9 @@
         { "name": "이영희", "bank": "농협은행", "number": "352-2226-2317-13" }
 ],
       "bride": [
-        { "name": "손진희", "bank": "국민은행", "number": "65980204151294" },
-        { "name": "손병환", "bank": "기업은행", "number": "58104956901011" },
-        { "name": "한현미", "bank": "국민은행", "number": "651210991536" }
+        { "name": "손진희", "bank": "국민은행", "number": "659802-04-151294" },
+        { "name": "손병환", "bank": "기업은행", "number": "581-049569-01-011" },
+        { "name": "한현미", "bank": "국민은행", "number": "651-21-0991-536" }
 ]
     },
     "rsvp": {
@@ -7613,6 +7636,351 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1kqkya1zlzrB2P6GlojcEOapaOHj3RZBTtGUsHf3dnmM"
+}
+  },
+  "syyi0912": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "고석영 & 원예인 결혼식에 초대합니다",
+      "groomName": "고석영",
+      "brideName": "원예인",
+      "date": "2026년 9월 12일 토요일 오후 3시",
+      "location": "연세대학교 동문회관",
+      "message": "서로의 가장 좋은 친구이자,\n든든한 가족이 되어 새로운 출발을 하려 합니다.\n귀한 걸음으로 함께해 주시면\n큰 기쁨이 되겠습니다.",
+      "mainImage": "/images/syyi0912/main.jpg",
+      "thumbnail": "/images/syyi0912/thumbnail.jpg",
+      "kakaoThumbnail": "/images/syyi0912/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "고덕재",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정현미",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "원영석",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "오승연",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-09-12T15:00:00+09:00"
+    },
+    "gallery": [
+      "/images/syyi0912/gallery1.jpg",
+      "/images/syyi0912/gallery2.jpg",
+      "/images/syyi0912/gallery3.jpg",
+      "/images/syyi0912/gallery4.jpg",
+      "/images/syyi0912/gallery5.jpg",
+      "/images/syyi0912/gallery6.jpg",
+      "/images/syyi0912/gallery7.jpg",
+      "/images/syyi0912/gallery8.jpg",
+      "/images/syyi0912/gallery9.jpg",
+      "/images/syyi0912/gallery10.jpg",
+      "/images/syyi0912/gallery11.jpg",
+      "/images/syyi0912/gallery12.jpg",
+      "/images/syyi0912/gallery13.jpg",
+      "/images/syyi0912/gallery14.jpg",
+      "/images/syyi0912/gallery15.jpg",
+      "/images/syyi0912/gallery16.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "연세대학교 동문회관",
+  "address": "3층 그랜드볼룸\n서울특별시 서대문구 연세로 50",
+  "lat": 37.5628999224956,
+  "lng": 126.942330169076,
+  "transport": {
+    "subway": "2호선 이대역 4번 출구 하차 →\n742, 7017번 탑승 → 이대부중 하차",
+    "bus": "이대후문 ・ 이대부중 정류장 하차\n간선 272, 742, 750A, 750B\n지선 6714, 7017, 7024, 7737",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "expressbus": "",
+    "taxi": "",
+    "car": "동문회관 주차장 2시간 무료\n연세대학교 정문 방향 진입 시 금화터널 고가도로 아래에서 유턴\n내비게이션: 연세동문회관 또는 연세대학교동문회관",
+    "shuttle": "이대역 3번 출구 ↔ 동문회관\n예식 40분 전, 20분 전 운행",
+    "parking": ""
+  }
+},
+"information": [
+  {
+    "title": "화환 안내",
+    "content": "예식장 규정상 화환은 정중히 사양합니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "정현미", "bank": "농협은행", "number": "238-02-102288" },
+        { "name": "고석영", "bank": "하나은행", "number": "010-4171-8184" }
+],
+      "bride": [
+        { "name": "원영석", "bank": "국민은행", "number": "227-21-0444-671" },
+        { "name": "오승연", "bank": "농협은행", "number": "170820-56-014000" },
+        { "name": "원예인", "bank": "신한은행", "number": "110-343-051340" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "ikjh0912": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "고인권 & 박주희 결혼식에 초대합니다",
+      "groomName": "고인권",
+      "brideName": "박주희",
+      "date": "2026년 9월 12일 토요일 오후 12시 10분",
+      "location": "CN웨딩홀 계산점",
+      "message": "하루가 모여 계절이 되고\n계절이 쌓여 사랑이 되었습니다.\n그 사랑이 영글어\n서로의 곁이 되기로 약속합니다.\n\n저희의 새로운 시작을 따뜻한 마음으로\n축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/ikjh0912/main.jpg",
+      "thumbnail": "/images/ikjh0912/thumbnail.jpg",
+      "kakaoThumbnail": "/images/ikjh0912/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "고장배",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "황인옥",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "박정준",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이은미",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-09-12T12:10:00+09:00"
+    },
+    "gallery": [
+      "/images/ikjh0912/gallery1.jpg",
+      "/images/ikjh0912/gallery2.jpg",
+      "/images/ikjh0912/gallery3.jpg",
+      "/images/ikjh0912/gallery4.jpg",
+      "/images/ikjh0912/gallery5.jpg",
+      "/images/ikjh0912/gallery6.jpg",
+      "/images/ikjh0912/gallery7.jpg",
+      "/images/ikjh0912/gallery8.jpg",
+      "/images/ikjh0912/gallery9.jpg",
+      "/images/ikjh0912/gallery10.jpg",
+      "/images/ikjh0912/gallery11.jpg",
+      "/images/ikjh0912/gallery12.jpg",
+      "/images/ikjh0912/gallery13.jpg",
+      "/images/ikjh0912/gallery14.jpg",
+      "/images/ikjh0912/gallery15.jpg",
+      "/images/ikjh0912/gallery16.jpg",
+      "/images/ikjh0912/gallery17.jpg",
+      "/images/ikjh0912/gallery18.jpg",
+      "/images/ikjh0912/gallery19.jpg",
+      "/images/ikjh0912/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "CN웨딩홀 계산점",
+  "address": "2층 베르테홀\n인천 계양구 경명대로 1108",
+  "lat": 37.5429007577363,
+  "lng": 126.730110064547,
+  "transport": {
+    "subway": "인천1호선 계산역 1번 출구",
+    "bus": "・ 간선: 24-1, 30, 79, 80 ・ 마을: 584-1, 588\n・ 일반: 81, 88 ・ 광역: 1500, 9500\n・ 좌석: 111, 111B, 302 ・ 시외: 3000, 3030, 5000",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "expressbus": "",
+    "taxi": "",
+    "car": "",
+    "shuttle": "",
+    "parking": "2시간 무료 주차"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "고인권", "bank": "국민은행", "number": "652302-01-329523" },
+        { "name": "고장배", "bank": "국민은행", "number": "274-101-04-031873" },
+        { "name": "황인옥", "bank": "국민은행", "number": "274-21-0248-911" }
+],
+      "bride": [
+        { "name": "박주희", "bank": "우리은행", "number": "1002-354-691929" },
+        { "name": "박정준", "bank": "국민은행", "number": "646802-01-078006" },
+        { "name": "이은미", "bank": "농협은행", "number": "130026-51-161555" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1ciX7v07h8DqxCvEFnpc0Vh8DrK8AG9S5VlMquu91ZD4"
+}
+  },
+  "ihmj0905": {
+    "open": true,
+    "keepForever": false,
+    "bgm": null,
+    "settings": {
+    "disableZoom": false
+  },
+    "intro": {
+      "title": "박인호 & 강민정 결혼식에 초대합니다",
+      "groomName": "박인호",
+      "brideName": "강민정",
+      "date": "2026년 9월 5일 토요일 오후 2시 10분",
+      "location": "M스타하우스 대구",
+      "message": "소중한 분들을 초대합니다.\n서로 다른 색으로 살아온 두 사람이\n이제 하나의 빛깔로 함께 걸어가고자 합니다.\n귀한 걸음으로 축복해 주시면\n큰 기쁨으로 간직하겠습니다.",
+      "mainImage": "/images/ihmj0905/main.jpg",
+      "thumbnail": "/images/ihmj0905/thumbnail.jpg",
+      "kakaoThumbnail": "/images/ihmj0905/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "박정환",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박정옥",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "강성훈",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박경희",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-09-05T14:10:00+09:00"
+    },
+    "gallery": [
+      "/images/ihmj0905/gallery1.jpg",
+      "/images/ihmj0905/gallery2.jpg",
+      "/images/ihmj0905/gallery3.jpg",
+      "/images/ihmj0905/gallery4.jpg",
+      "/images/ihmj0905/gallery6.jpg",
+      "/images/ihmj0905/gallery7.jpg",
+      "/images/ihmj0905/gallery8.jpg",
+      "/images/ihmj0905/gallery9.jpg",
+      "/images/ihmj0905/gallery10.jpg",
+      "/images/ihmj0905/gallery11.jpg",
+      "/images/ihmj0905/gallery12.jpg",
+      "/images/ihmj0905/gallery13.jpg",
+      "/images/ihmj0905/gallery14.jpg",
+      "/images/ihmj0905/gallery15.jpg",
+      "/images/ihmj0905/gallery16.jpg",
+      "/images/ihmj0905/gallery17.jpg",
+      "/images/ihmj0905/gallery18.jpg",
+      "/images/ihmj0905/gallery19.jpg",
+      "/images/ihmj0905/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/0-ntK8q72tI",
+  "position": "afterCalendar"
+},
+    "map": {
+  "name": "M스타하우스 대구",
+  "address": "2층 모닝스타홀\n대구광역시 동구 동촌로 316(방촌동)",
+  "lat": 35.8780925935463,
+  "lng": 128.673911845089,
+  "transport": {
+    "car": "경부고속도로 동대구 IC에서 5분",
+    "subway": "방촌역(1호선)에서 하차 후 3번 출구\n(반야월 방향으로 5분거리)\n동대구역에서 1호선 하양행 열차 승차 후 방촌역에서 하차",
+    "bus": "방촌치안센터: 618, 719, 805, 818, 836, 동구1, 동구1-1\n은하타운: 156, 518, 651, 708, 802, 814, 북구3",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "expressbus": "",
+    "taxi": "",
+    "shuttle": "",
+    "parking": ""
+  }
+},
+"information": [
+  {
+    "title": "피로연 안내",
+    "content": "장소: 성림웨딩홀 함양\n일시: 2026. 8. 4.(화) 오후 6시"
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "박정환", "bank": "우리은행", "number": "1002-935-566070" },
+        { "name": "박진옥", "bank": "기업은행", "number": "010-8911-3839" },
+        { "name": "박인호", "bank": "국민은행", "number": "910-2360-0107" }
+],
+      "bride": [
+        { "name": "강성훈", "bank": "농협은행", "number": "837026-52-171503" },
+        { "name": "박경희", "bank": "농협은행", "number": "889-12-162791" },
+        { "name": "강민정", "bank": "농협은행", "number": "302-6886-9502-31" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1sTYl7qrKV4VxEWgZHYRUExLwpTe9otmnj0YjbCDnCw4"
 }
   }
 }
