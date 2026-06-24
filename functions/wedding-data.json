@@ -7984,7 +7984,7 @@
 }
   },
   "cejh0912": {
-    "open": false,
+    "open": true,
     "keepForever": false,
     "bgm": "06",
     "settings": {
@@ -8113,6 +8113,126 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1yGw5vJ0n9B2Hxs3qj1VzZdUjnMwSzxNXy3RQF9nghxg"
+}
+  },
+  "hmsy0905": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김현민 & 조서영 결혼식에 초대합니다",
+      "groomName": "김현민",
+      "brideName": "조서영",
+      "date": "2026년 9월 5일 토요일 오후 2시 10분",
+      "location": "안산 AW컨벤션",
+      "message": "\"예쁜 예감이 들었다.\n우리는 언제나 손을 잡고 있게 될 것이다.\"\n\n이이체, 『연인』\n\n좋은 예감으로 시작된 우리의 인연은\n계절을 지나며 사랑이 되었고,\n\n서로를 향한 다정한 마음은\n함께할 미래를 꿈꾸게 했습니다.\n\n저희 두 사람이 새로운 시작을 맞이하는 날,\n함께해 주시어 축복해 주시면\n더없는 기쁨으로 간직하겠습니다.",
+      "mainImage": "/images/hmsy0905/main.jpg",
+      "thumbnail": "/images/hmsy0905/thumbnail.jpg",
+      "kakaoThumbnail": "/images/hmsy0905/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김태종",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김종례",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "조해진",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정현미",
+      "symbol": "none"
+    },
+    "relation": "차녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김현민", "relation": "신랑", "phone": "010-9147-5875" },
+        { "name": "김태종", "relation": "아버님", "phone": "010-9616-0419" },
+        { "name": "김종례", "relation": "어머님", "phone": "010-6608-5875" }
+      ],
+      "bride": [
+        { "name": "조서영", "relation": "신부", "phone": "010-7746-3693" },
+        { "name": "조해진", "relation": "아버님", "phone": "010-7608-3693" },
+        { "name": "정현미", "relation": "어머님", "phone": "010-7609-3693" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-05T14:10:00+09:00"
+    },
+    "gallery": [
+      "/images/hmsy0905/gallery1.jpg",
+      "/images/hmsy0905/gallery2.jpg",
+      "/images/hmsy0905/gallery3.jpg",
+      "/images/hmsy0905/gallery4.jpg",
+      "/images/hmsy0905/gallery5.jpg",
+      "/images/hmsy0905/gallery6.jpg",
+      "/images/hmsy0905/gallery7.jpg",
+      "/images/hmsy0905/gallery8.jpg",
+      "/images/hmsy0905/gallery9.jpg",
+      "/images/hmsy0905/gallery10.jpg",
+      "/images/hmsy0905/gallery11.jpg",
+      "/images/hmsy0905/gallery12.jpg",
+      "/images/hmsy0905/gallery13.jpg",
+      "/images/hmsy0905/gallery14.jpg",
+      "/images/hmsy0905/gallery15.jpg",
+      "/images/hmsy0905/gallery16.jpg",
+      "/images/hmsy0905/gallery17.jpg",
+      "/images/hmsy0905/gallery18.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "안산 AW컨벤션",
+  "address": "6층 파티오 볼룸홀\n경기도 안산시 단원구 광덕1로 171",
+  "lat": 37.30820093552512,
+  "lng": 126.82881892772298,
+  "transport": {
+    "parking": "[제1주차장] 웨딩홀 주차장 이용\n[제2주차장] 양지주차타워\n[제3주차장] AW컨벤션 정문 맞은편 공영주차장\n[제4주차장] MK 주차타워\n※ 2시간 무료 / 공용주차장 이용시,\n1층 로비에서 차량등록 부탁드립니다.",
+    "car": "",
+    "subway": "4호선 고잔역 2번출구 (도보 15-20분)\n※ 셔틀버스 5-7분 수시운행",
+    "bus": "안산 문화숲의 광장 하차 88 /\n동남레크비 하차 99-1, 3100\n대림 호수공원 아파트 하차 77, 98, 3",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "expressbus": "",
+    "taxi": "",
+    "shuttle": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "김현민", "bank": "국민은행", "number": "25920104437641" },
+        { "name": "김태종", "bank": "농협은행", "number": "352-12-301395" },
+        { "name": "김종례", "bank": "농협은행", "number": "100114-52-094331" }
+],
+      "bride": [
+        { "name": "조서영", "bank": "농협은행", "number": "302-1237-3960-71" },
+        { "name": "조해진", "bank": "기업은행", "number": "010-7608-3693" },
+        { "name": "정현미", "bank": "기업은행", "number": "378-088810-02-016" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "16uW12AEApuJurrOqiT6-uaVDGgchHQVa7By-9X9-0Rc"
 }
   }
 }
