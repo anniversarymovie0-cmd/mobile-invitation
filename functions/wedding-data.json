@@ -1720,12 +1720,12 @@
 },
 "information": [
   {
-    "title": "예식버스 안내",
-    "content": "소중한 걸음 편히 함께하실 수 있도록\n전세버스를 준비했습니다.\n\n출발 | 2026.07.11. 토요일 오전 9:00\n장소 | 어양공원 108번 시내버스 종점\n(부영2차 도로 건너편)\n\n복귀 | 예식 종료 후 오후 1:20 출발\n\n전북76바 8505\n강한산 기사님 010-3354-0989"
-  },
-  {
     "title": "화환 안내",
     "content": "화환은 정중히 사양하오니\n넓은 양해 부탁드립니다."
+  },
+  {
+    "title": "예식버스 안내",
+    "content": "소중한 걸음 편히 함께하실 수 있도록\n전세버스를 준비했습니다.\n\n출발 | 2026.07.11. 토요일 오전 9:00\n장소 | 어양공원 108번 시내버스 종점\n(부영2차 도로 건너편)\n\n복귀 | 예식 종료 후 오후 1:20 출발\n\n전북76바 8505\n강한산 기사님 010-3354-0989"
   }
 ],
     "accounts": {
@@ -7734,6 +7734,10 @@
   {
     "title": "화환 안내",
     "content": "예식장 규정상 화환은 정중히 사양합니다."
+  },
+  {
+    "title": "주차 안내",
+    "content": "연세동문회관 입·출차 시\n2시간 무료 주차 제공\n※ 꼭 연세동문회관으로 입·출차해야만\n무료주차가 적용됩니다."
   }
 ],
     "accounts": {
@@ -7879,9 +7883,9 @@
       "date": "2026년 9월 5일 토요일 오후 2시 10분",
       "location": "M스타하우스 대구",
       "message": "소중한 분들을 초대합니다.\n서로 다른 색으로 살아온 두 사람이\n이제 하나의 빛깔로 함께 걸어가고자 합니다.\n귀한 걸음으로 축복해 주시면\n큰 기쁨으로 간직하겠습니다.",
-      "mainImage": "/images/ihmj0905/main.jpg",
-      "thumbnail": "/images/ihmj0905/thumbnail.jpg",
-      "kakaoThumbnail": "/images/ihmj0905/thumbnail_kakao.jpg"
+      "mainImage": "/images/ihmj0905/main.jpg?v=1",
+      "thumbnail": "/images/ihmj0905/thumbnail.jpg?v=1",
+      "kakaoThumbnail": "/images/ihmj0905/thumbnail_kakao.jpg?v=1"
     },
   "parents": {
   "groom": {
@@ -7923,6 +7927,7 @@
       "/images/ihmj0905/gallery6.jpg",
       "/images/ihmj0905/gallery7.jpg",
       "/images/ihmj0905/gallery8.jpg",
+      "/images/ihmj0905/gallery8_1.jpg",
       "/images/ihmj0905/gallery9.jpg",
       "/images/ihmj0905/gallery10.jpg",
       "/images/ihmj0905/gallery11.jpg",
@@ -8143,7 +8148,7 @@
       "name": "김종례",
       "symbol": "none"
     },
-    "relation": "차남"
+    "relation": "아들"
   },
   "bride": {
     "father": {
@@ -8154,7 +8159,7 @@
       "name": "정현미",
       "symbol": "none"
     },
-    "relation": "차녀"
+    "relation": "딸"
   }
 },
     "contacts": {
@@ -8175,10 +8180,10 @@
     },
     "gallery": [
       "/images/hmsy0905/gallery1.jpg",
-      "/images/hmsy0905/gallery2.jpg",
-      "/images/hmsy0905/gallery3.jpg",
+      "/images/hmsy0905/gallery2.jpg?v=1",
+      "/images/hmsy0905/gallery3.jpg?v=1",
       "/images/hmsy0905/gallery4.jpg",
-      "/images/hmsy0905/gallery5.jpg",
+      "/images/hmsy0905/gallery5.jpg?v=1",
       "/images/hmsy0905/gallery6.jpg",
       "/images/hmsy0905/gallery7.jpg",
       "/images/hmsy0905/gallery8.jpg",
@@ -8191,7 +8196,9 @@
       "/images/hmsy0905/gallery15.jpg",
       "/images/hmsy0905/gallery16.jpg",
       "/images/hmsy0905/gallery17.jpg",
-      "/images/hmsy0905/gallery18.jpg"
+      "/images/hmsy0905/gallery18.jpg",
+      "/images/hmsy0905/gallery19.jpg",
+      "/images/hmsy0905/gallery20.jpg"
     ],
    "video": {
   "enabled": false,
@@ -8233,6 +8240,512 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "16uW12AEApuJurrOqiT6-uaVDGgchHQVa7By-9X9-0Rc"
+}
+  },
+  "jhhm1010": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "박준하 & 정혜민 결혼식에 초대합니다",
+      "groomName": "박준하",
+      "brideName": "정혜민",
+      "date": "2026년 10월 10일 토요일 오후 3시 30분",
+      "location": "메종드아나하",
+      "message": "가을에 태어난 두 사람이 만나\n서로에게 가장 따뜻한 계절이 되어주려 합니다.\n깊어가는 10월의 어느 날,\n평생을 함께하기로 약속합니다.\n그 시작의 자리에 소중한 분들을 모십니다.",
+      "mainImage": "/images/jhhm1010/main.jpg",
+      "thumbnail": "/images/jhhm1010/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jhhm1010/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "박희철",
+      "symbol": "flower"
+    },
+    "mother": {
+      "name": "장윤정",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "정재훈",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김성옥",
+      "symbol": "none"
+    },
+    "relation": "차녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "박준하", "relation": "신랑", "phone": "010-8965-7286" },
+        { "name": "장윤정", "relation": "어머님", "phone": "010-7256-5565" }
+      ],
+      "bride": [
+        { "name": "정혜민", "relation": "신부", "phone": "010-7577-2294" },
+        { "name": "정재훈", "relation": "아버님", "phone": "010-2601-4440" },
+        { "name": "김성옥", "relation": "어머님", "phone": "010-9920-1207" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-10T15:30:00+09:00"
+    },
+    "gallery": [
+      "/images/jhhm1010/gallery1.jpg",
+      "/images/jhhm1010/gallery2.jpg",
+      "/images/jhhm1010/gallery3.jpg",
+      "/images/jhhm1010/gallery4.jpg",
+      "/images/jhhm1010/gallery5.jpg",
+      "/images/jhhm1010/gallery6.jpg",
+      "/images/jhhm1010/gallery7.jpg",
+      "/images/jhhm1010/gallery8.jpg",
+      "/images/jhhm1010/gallery9.jpg",
+      "/images/jhhm1010/gallery10.jpg",
+      "/images/jhhm1010/gallery11.jpg",
+      "/images/jhhm1010/gallery12.jpg",
+      "/images/jhhm1010/gallery13.jpg",
+      "/images/jhhm1010/gallery14.jpg",
+      "/images/jhhm1010/gallery15.jpg",
+      "/images/jhhm1010/gallery16.jpg",
+      "/images/jhhm1010/gallery17.jpg",
+      "/images/jhhm1010/gallery18.jpg",
+      "/images/jhhm1010/gallery19.jpg",
+      "/images/jhhm1010/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "메종드아나하",
+  "address": "지하1층 단독홀\n서울시 강남구 언주로 517 (신라스테이 역삼)",
+  "lat": 37.504784983645344,
+  "lng": 127.04139909685989,
+  "transport": {
+    "car": "",
+    "subway": "2호선 / 수인분당선 선릉역 6번출구에서 도보 13분",
+    "bus": "141, 242, 361, 6411 정류장 : KT강남지사",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "expressbus": "",
+    "taxi": "",
+    "shuttle": "선릉역 6번출구 10분 간격 수시 운행",
+    "parking": "신라스테이 역삼 B2~B5 (2시간 무료 주차)"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "박준하", "bank": "국민은행", "number": "058102-04-232174" },
+        { "name": "장윤정", "bank": "카카오뱅크", "number": "3333-24-4214442" }
+],
+      "bride": [
+        { "name": "정혜민", "bank": "우리은행", "number": "1002-157-086993" },
+        { "name": "정재훈", "bank": "한국씨티은행", "number": "131-50246-268" },
+        { "name": "김성옥", "bank": "국민은행", "number": "001-05-0082-171" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1nKI5OkbDJD5_X7E-OdJcHmbz4JoGxElUol4ayGjueo8"
+}
+  },
+  "wmsb1017": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "02",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "최우민 & 신수빈 결혼식에 초대합니다",
+      "groomName": "최우민",
+      "brideName": "신수빈",
+      "date": "2026년 10월 17일 토요일 오전 11시",
+      "location": "엘마리노 앳 인천",
+      "message": "12년이라는 시간은\n사랑을 확인하기에 충분했고,\n평생을 약속하기에도 충분했습니다.\n\n가장 좋은 친구로,\n가장 든든한 편으로 함께해 온 저희가\n이제 부부가 되어\n새로운 이야기를 써 내려가려 합니다.\n\n그 첫 페이지를 함께 축복해 주세요.",
+      "mainImage": "/images/wmsb1017/main.jpg",
+      "thumbnail": "/images/wmsb1017/thumbnail.jpg",
+      "kakaoThumbnail": "/images/wmsb1017/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "최덕한",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정미숙",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "신병철",
+      "symbol": "flower"
+    },
+    "mother": {
+      "name": "고영희",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "최우민", "relation": "신랑", "phone": "010-2575-5466" }
+      ],
+      "bride": [
+        { "name": "신수빈", "relation": "신부", "phone": "010-9941-1159" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-17T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/wmsb1017/gallery2.jpg?v=1",
+      "/images/wmsb1017/gallery1.jpg?v=1",
+      "/images/wmsb1017/gallery3.jpg",
+      "/images/wmsb1017/gallery4.jpg",
+      "/images/wmsb1017/gallery5.jpg",
+      "/images/wmsb1017/gallery6.jpg",
+      "/images/wmsb1017/gallery7.jpg",
+      "/images/wmsb1017/gallery8.jpg",
+      "/images/wmsb1017/gallery9.jpg",
+      "/images/wmsb1017/gallery10.jpg",
+      "/images/wmsb1017/gallery11.jpg",
+      "/images/wmsb1017/gallery12.jpg",
+      "/images/wmsb1017/gallery13.jpg",
+      "/images/wmsb1017/gallery14.jpg",
+      "/images/wmsb1017/gallery15.jpg",
+      "/images/wmsb1017/gallery16.jpg",
+      "/images/wmsb1017/gallery17.jpg",
+      "/images/wmsb1017/gallery18.jpg",
+      "/images/wmsb1017/gallery19.jpg",
+      "/images/wmsb1017/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/6s1AdzJ9A7Y",
+  "position": "afterMain"
+},
+    "map": {
+  "name": "엘마리노 앳 인천",
+  "address": "단독홀\n인천 중구 서해대로 227",
+  "lat": 37.44890500058578,
+  "lng": 126.62215306193464,
+  "transport": {
+    "parking": "건물 주차장 이용(2시간 무료)",
+    "car": "",
+    "subway": "1호선 동인천역 → 지하상가 5번 출구 → 셔틀버스 운행\n[셔틀버스] 예식 1시간 전부터 15분 간격으로 운행",
+    "bus": "연안아파트 정류장 하차[ 35075] → 엘마리노앳인천\n간선버스 12, 14, 16-1, 23, 24, 27, 36\n지선버스 1111\n항운아파트 정류장 하차 [35065] → 엘마리노앳인천\n간선버스 12, 13, 16-1, 23, 36, 46\n좌석버스 330",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "expressbus": "",
+    "taxi": "",
+    "shuttle": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "최우민", "bank": "국민은행", "number": "64680201294523" },
+        { "name": "정미숙", "bank": "우리은행", "number": "1002232286072" },
+        { "name": "최덕한", "bank": "신한은행", "number": "110440711532" }
+],
+      "bride": [
+        { "name": "신수빈", "bank": "기업은행", "number": "11612091901014" },
+        { "name": "고영희", "bank": "기업은행", "number": "41404494902013" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1LGUORoegGDtUB-yVh_GGVXvasUKg_dPK2xFEYBF-yFw"
+}
+  },
+  "jhsm1017": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "01",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "우종혁 & 김수민 결혼식에 초대합니다",
+      "groomName": "우종혁",
+      "brideName": "김수민",
+      "date": "2026년 10월 17일 토요일 오후 12시 30분",
+      "location": "메리다웨딩컨벤션",
+      "message": "가장 중요한 것은 우리가 함께한다는 거야.\n-영화 '토이 스토리'-\n\n부부라는 이름의 첫 시작,\n그 설렘의 순간에 소중한 분들을 초대합니다.",
+      "mainImage": "/images/jhsm1017/main.jpg",
+      "thumbnail": "/images/jhsm1017/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jhsm1017/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "우재섭",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "신미수",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "김기환",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "유명화",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "우종혁", "relation": "신랑", "phone": "010-8522-4017" },
+        { "name": "우재섭", "relation": "아버님", "phone": "010-3278-4017" },
+        { "name": "신미수", "relation": "어머님", "phone": "010-9409-4047" }
+      ],
+      "bride": [
+        { "name": "김수민", "relation": "신부", "phone": "010-2948-5445" },
+        { "name": "김기환", "relation": "아버님", "phone": "010-9084-5445" },
+        { "name": "유명화", "relation": "어머님", "phone": "010-5070-4554" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-17T12:30:00+09:00"
+    },
+    "gallery": [
+      "/images/jhsm1017/gallery1.jpg",
+      "/images/jhsm1017/gallery2.jpg",
+      "/images/jhsm1017/gallery3.jpg",
+      "/images/jhsm1017/gallery4.jpg",
+      "/images/jhsm1017/gallery5.jpg",
+      "/images/jhsm1017/gallery6.jpg",
+      "/images/jhsm1017/gallery7.jpg",
+      "/images/jhsm1017/gallery8.jpg",
+      "/images/jhsm1017/gallery9.jpg",
+      "/images/jhsm1017/gallery10.jpg",
+      "/images/jhsm1017/gallery11.jpg",
+      "/images/jhsm1017/gallery12.jpg",
+      "/images/jhsm1017/gallery13.jpg",
+      "/images/jhsm1017/gallery14.jpg",
+      "/images/jhsm1017/gallery15.jpg",
+      "/images/jhsm1017/gallery16.jpg",
+      "/images/jhsm1017/gallery17.jpg",
+      "/images/jhsm1017/gallery18.jpg",
+      "/images/jhsm1017/gallery19.jpg",
+      "/images/jhsm1017/gallery20.jpg",
+      "/images/jhsm1017/gallery21.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "메리다웨딩컨벤션",
+  "address": "1층 이베리스홀\n충청북도 청주시 청원구 내수읍 충청대로 400",
+  "lat": 36.68633011277061,
+  "lng": 127.5109810406058,
+  "transport": {
+    "expressbus": "*서울 센트럴시티\n북청주행->율량동 하차->택시",
+    "car": "*고속도로 이용 시\n오창 IC->오동분기점 좌회전 후 3km 직진->구성교차로->메리다웨딩컨벤션 전방 600m",
+    "subway": "",
+    "bus": "",
+    "publicTransport": "",
+    "ktxsrt": "오송역->시내버스 (내수 / 증평방향 50분)\n오송역->택시 (20분)",
+    "train": "",
+    "taxi": "",
+    "shuttle": "",
+    "parking": "메리다웨딩컨벤션 주차장 이용"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "우종혁", "bank": "신한은행", "number": "110-377-170672" },
+        { "name": "우재섭", "bank": "농협은행", "number": "401061-52-112226" },
+        { "name": "신미수", "bank": "농협은행", "number": "351-0205 -5244-43" }
+],
+      "bride": [
+        { "name": "김수민", "bank": "신한은행", "number": "110-458-151068" },
+        { "name": "김기환", "bank": "신한은행", "number": "110-542-580907 " },
+        { "name": "유명화", "bank": "농협은행", "number": "352-1487-0775-13" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "18XBf3hA4RTOtGtY739pWGoZ0FNt-ZpaeicUwXr60igA"
+}
+  },
+  "sihj0809": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "02",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "성일 & 현진 결혼식에 초대합니다",
+      "groomName": "성일",
+      "brideName": "현진",
+      "date": "2026년 8월 9일 일요일 오전 11시 30분",
+      "location": "더채플앳 논현",
+      "message": "여름을 좋아하는 신부와\n그 곁에서 여름을 좋아하게 된 신랑이\n푸르른 계절의 한가운데서\n평생의 약속을 합니다.\n\n저희가 가장 좋아하는 계절에\n소중한 분들과 함께할 수 있어 더욱 행복합니다.",
+      "mainImage": "/images/sihj0809/main.jpg",
+      "thumbnail": "/images/sihj0809/thumbnail.jpg",
+      "kakaoThumbnail": "/images/sihj0809/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "신상석",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "송점오",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "정해준",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "윤경숙",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "정성일", "relation": "신랑", "phone": "010-8021-6968" },
+        { "name": "신상석", "relation": "아버님", "phone": "010-8521-1039" },
+        { "name": "송점오", "relation": "어머님", "phone": "010-5745-6281" }
+      ],
+      "bride": [
+        { "name": "정현진", "relation": "신부", "phone": "010-9559-7749" },
+        { "name": "정해준", "relation": "아버님", "phone": "010-8711-9063" },
+        { "name": "윤경숙", "relation": "어머님", "phone": "010-7733-1208" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-08-09T11:30:00+09:00"
+    },
+    "gallery": [
+      "/images/sihj0809/gallery1.jpg",
+      "/images/sihj0809/gallery0.jpg",
+      "/images/sihj0809/gallery2.jpg",
+      "/images/sihj0809/gallery3.jpg",
+      "/images/sihj0809/gallery4.jpg",
+      "/images/sihj0809/gallery5.jpg",
+      "/images/sihj0809/gallery6.jpg",
+      "/images/sihj0809/gallery7.jpg",
+      "/images/sihj0809/gallery8.jpg",
+      "/images/sihj0809/gallery9.jpg",
+      "/images/sihj0809/gallery10.jpg",
+      "/images/sihj0809/gallery11.jpg",
+      "/images/sihj0809/gallery12.jpg",
+      "/images/sihj0809/gallery13.jpg",
+      "/images/sihj0809/gallery14.jpg",
+      "/images/sihj0809/gallery15.jpg",
+      "/images/sihj0809/gallery16.jpg",
+      "/images/sihj0809/gallery17.jpg",
+      "/images/sihj0809/gallery18.jpg",
+      "/images/sihj0809/gallery19.jpg",
+      "/images/sihj0809/gallery20.jpg",
+      "/images/sihj0809/gallery21.jpg",
+      "/images/sihj0809/gallery22.jpg",
+      "/images/sihj0809/gallery23.jpg",
+      "/images/sihj0809/gallery24.jpg",
+      "/images/sihj0809/gallery25.jpg",
+      "/images/sihj0809/gallery26.jpg",
+      "/images/sihj0809/gallery27.jpg",
+      "/images/sihj0809/gallery28.jpg",
+      "/images/sihj0809/gallery29.jpg",
+      "/images/sihj0809/gallery30.jpg",
+      "/images/sihj0809/gallery31.jpg",
+      "/images/sihj0809/gallery32.jpg"
+    ],
+   "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/lthzmlNP_JY",
+  "position": "afterCalendar"
+},
+    "map": {
+  "name": "더채플앳논현",
+  "address": "6층 라포레홀\n서울특별시 강남구 논현로 549\nTel. 02-562-1121",
+  "lat": 37.50512960012216,
+  "lng": 127.03443814513533,
+  "transport": {
+    "expressbus": "",
+    "car": "",
+    "subway": "・ 9호선 언주역 7번 출구 도보 3분\n・ 2호선 역삼역 6번 출구 도보 7분",
+    "bus": "・ 차병원(역삼방면) 정류장 하차\n간선 147, 463 / 지선 4211 / 광역 3600, 9600",
+    "publicTransport": "",
+    "ktx": "",
+    "train": "",
+    "taxi": "",
+    "shuttle": "",
+    "parking": "・ 건물 내 주차 가능\n・ 만차 시 발렛주차 후 외부 주차장 이용\n・ 발렛주차 이용 시 예식 종료 후 정문 앞 셔틀버스를 통해 주차장으로 이동하여 차량을 찾으실 수 있습니다."
+  }
+},
+"information": [
+  {
+    "title": "화환 안내",
+    "content": "축하해 주시는 마음만으로도\n충분히 감사드립니다.\n\n화환은 정중히 사양하오니,\n귀한 걸음과 따뜻한 축복으로\n함께해 주시면 감사하겠습니다."
+  },
+    {
+    "title": "주차 안내",
+    "content": "예식장 내 주차가 가능하며,\n만차 시 발렛주차로 안내됩니다.\n발렛주차를 이용하신 경우 예식 종료 후\n정문 앞 셔틀버스를 통해 주차장으로 이동하여\n차량을 찾으실 수 있습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "정성일", "bank": "신한은행", "number": "110539073351" },
+        { "name": "신상석", "bank": "농협은행", "number": "617010-51-014372" },
+        { "name": "송점오", "bank": "농협은행", "number": "356-1265-6912-93" }
+],
+      "bride": [
+        { "name": "정현진", "bank": "우리은행", "number": "1002-050-268911" },
+        { "name": "정해준", "bank": "카카오뱅크", "number": "3333078281878" },
+        { "name": "윤경숙", "bank": "우리은행", "number": "476174-106-02-001" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1sPMUwQVuDDnvzuj2L7Zj-84Zwz1IVBTv9PWRMiFjT9M"
 }
   }
 }
