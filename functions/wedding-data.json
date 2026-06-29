@@ -9167,6 +9167,7 @@
       "date": "2026-09-19T12:30:00+09:00"
     },
     "gallery": [
+      "/images/jmjy0919/gallery0.jpg",
       "/images/jmjy0919/gallery1.jpg",
       "/images/jmjy0919/gallery2.jpg",
       "/images/jmjy0919/gallery3.jpg",
@@ -9226,6 +9227,126 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1-cbB6POFzJPpoXXhIrxFItBrqUV7Vw4wBxqbBM2x_vo"
+}
+  },
+  "tgin0913": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "하태근 & 손이나 결혼식에 초대합니다",
+      "groomName": "하태근",
+      "brideName": "손이나",
+      "date": "2026년 9월 13일 일요일 오후 12시 30분",
+      "location": "더 퀸",
+      "message": "사랑은 소유가 아니라 동행임을 아는 두 사람은\n잡은 손 놓지 안되 함부로 잡아끌지 않을 것이며\n말하지 않아도 같은 쪽으로 걸어가리라\n-박미라 <아름다운 날에 부치다> 중\n\n저희 두 사람이 결실을 맺는 자리에\n변함없는 믿음과 사랑으로\n함께 축복해주시면 감사하겠습니다.",
+      "mainImage": "/images/tgin0913/main.jpg",
+      "thumbnail": "/images/tgin0913/thumbnail.jpg",
+      "kakaoThumbnail": "/images/tgin0913/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "하영철",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박상옥",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "손상욱",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김정아",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "하태근", "relation": "신랑", "phone": "010-2218-3291" },
+        { "name": "하영철", "relation": "아버님", "phone": "010-3588-1218" },
+        { "name": "박상옥", "relation": "어머님", "phone": "010-9957-3291" }
+      ],
+      "bride": [
+        { "name": "손이나", "relation": "신부", "phone": "010-5635-5631" },
+        { "name": "손상욱", "relation": "아버님", "phone": "010-8209-7744" },
+        { "name": "김정아", "relation": "어머님", "phone": "010-7764-7792" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-13T12:30:00+09:00"
+    },
+    "gallery": [
+      "/images/tgin0913/gallery1.jpg",
+      "/images/tgin0913/gallery2.jpg",
+      "/images/tgin0913/gallery3.jpg",
+      "/images/tgin0913/gallery4.jpg",
+      "/images/tgin0913/gallery5.jpg",
+      "/images/tgin0913/gallery6.jpg",
+      "/images/tgin0913/gallery7.jpg",
+      "/images/tgin0913/gallery8.jpg",
+      "/images/tgin0913/gallery9.jpg",
+      "/images/tgin0913/gallery10.jpg",
+      "/images/tgin0913/gallery11.jpg",
+      "/images/tgin0913/gallery12.jpg",
+      "/images/tgin0913/gallery13.jpg",
+      "/images/tgin0913/gallery14.jpg",
+      "/images/tgin0913/gallery15.jpg",
+      "/images/tgin0913/gallery16.jpg",
+      "/images/tgin0913/gallery17.jpg",
+      "/images/tgin0913/gallery18.jpg",
+      "/images/tgin0913/gallery19.jpg",
+      "/images/tgin0913/gallery20.jpg"
+    ],
+  "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/F_r73nKNW5c",
+  "position": "afterCalendar"
+},
+    "map": {
+  "name": "더 퀸",
+  "address": "6층 갤럭시홀\n경상북도 포항시 남구 대이로 18",
+  "lat": 36.0173900362254,
+  "lng": 129.343616101822,
+  "transport": {
+    "expressbus": "",
+    "car": "포항 시외버스 터미널에서 차로 5분 거리",
+    "subway": "",
+    "publicTransport": "",
+    "ktx": "포항역에서 차로 15분거리",
+    "bus": "[포항시청 하차] 700, 306, 216, 111",
+    "train": "",
+    "taxi": "",
+    "shuttle": "",
+    "parking": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "하태근", "bank": "농협은행", "number": "3521810234073" },
+        { "name": "하영철", "bank": "농협은행", "number": "3521979526573" },
+        { "name": "박상옥", "bank": "농협은행", "number": "3520862759183" }
+],
+      "bride": [
+        { "name": "손이나", "bank": "국민은행", "number": "66880101681687" },
+        { "name": "김정아", "bank": "농협은행", "number": "3521396549633" }
+]
+    },
+    "rsvp": {
+  "enabled": false
 }
   }
 }
