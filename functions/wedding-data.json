@@ -8980,5 +8980,252 @@
   "enabled": true,
   "sheetId": "16KCwW97mmRX7AfZLhgwI-d2eXmA1nuctc2qr-tPXCdY"
 }
+  },
+  "shse1003": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_shse1003.mp3",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김수현 & 김세은 결혼식에 초대합니다",
+      "groomName": "김수현",
+      "brideName": "김세은",
+      "date": "2026년 10월 3일 토요일 오후 12시 50분",
+      "location": "JW컨벤션 센터",
+      "message": "하나님께 감사하는 마음으로,\n저희 결혼 예배에 여러분을 초대합니다.\n오셔서 축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/shse1003/main.jpg",
+      "thumbnail": "/images/shse1003/thumbnail.jpg",
+      "kakaoThumbnail": "/images/shse1003/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김태한",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정명희",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "김경동",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이경희",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-10-03T12:50:00+09:00"
+    },
+    "gallery": [
+      "/images/shse1003/gallery1.jpg",
+      "/images/shse1003/gallery2.jpg",
+      "/images/shse1003/gallery3.jpg",
+      "/images/shse1003/gallery4.jpg",
+      "/images/shse1003/gallery5.jpg",
+      "/images/shse1003/gallery6.jpg",
+      "/images/shse1003/gallery7.jpg",
+      "/images/shse1003/gallery8.jpg",
+      "/images/shse1003/gallery9.jpg",
+      "/images/shse1003/gallery10.jpg",
+      "/images/shse1003/gallery11.jpg",
+      "/images/shse1003/gallery12.jpg",
+      "/images/shse1003/gallery13.jpg",
+      "/images/shse1003/gallery14.jpg",
+      "/images/shse1003/gallery15.jpg",
+      "/images/shse1003/gallery16.jpg",
+      "/images/shse1003/gallery17.jpg",
+      "/images/shse1003/gallery18.jpg",
+      "/images/shse1003/gallery19.jpg",
+      "/images/shse1003/gallery20.jpg",
+      "/images/shse1003/gallery21.jpg",
+      "/images/shse1003/gallery22.jpg",
+      "/images/shse1003/gallery23.jpg",
+      "/images/shse1003/gallery24.jpg",
+      "/images/shse1003/gallery25.jpg",
+      "/images/shse1003/gallery26.jpg",
+      "/images/shse1003/gallery27.jpg",
+      "/images/shse1003/gallery28.jpg",
+      "/images/shse1003/gallery29.jpg",
+      "/images/shse1003/gallery30.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "JW컨벤션 센터",
+  "address": "3층 그랜드볼룸홀\n울산광역시 북구 진장유통로 35",
+  "lat": 35.573901946749984,
+  "lng": 129.35624049186904,
+  "transport": {
+    "expressbus": "",
+    "car": "",
+    "subway": "",
+    "bus": "",
+    "publicTransport": "",
+    "ktxsrt": "",
+    "train": "",
+    "taxi": "",
+    "shuttle": "",
+    "parking": "2시간 30분 무료주차 이용 가능\n(웨딩홀 건물 뒷편 주차장 및 진장디플렉스 주차장 이용)"
+  }
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "식사는 예식 시작 시간부터\n2시간 동안 이용하실 수 있습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "김수현", "bank": "기업은행", "number": "39207650301013" },
+        { "name": "김태한", "bank": "기업은행", "number": "01046298821" },
+        { "name": "정명희", "bank": "기업은행", "number": "01082862460" }
+],
+      "bride": [
+        { "name": "김세은", "bank": "국민은행", "number": "86020201440353" },
+        { "name": "김경동", "bank": "국민은행", "number": "86020101104762" },
+        { "name": "이경희", "bank": "카카오뱅크", "number": "3333186147460" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1b4UimalWYN3RAOTxyGNNlqYYzfWzlvfvTSem_Zd3arw"
+}
+  },
+  "jmjy0919": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "01",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김준민 & 이지영 결혼식에 초대합니다",
+      "groomName": "김준민",
+      "brideName": "이지영",
+      "date": "2026년 9월 19일 토요일 오후 12시 30분",
+      "location": "그랜드모먼트",
+      "message": "부부라는 이름의 첫 시작,\n그 따뜻한 설렘의 순간에\n사랑하는 분들을 초대합니다.",
+      "mainImage": "/images/jmjy0919/main.jpg",
+      "thumbnail": "/images/jmjy0919/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jmjy0919/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김기서",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "강상미",
+      "symbol": "flower"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "이광희",
+      "symbol": "flower"
+    },
+    "mother": {
+      "name": "박미영",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김준민", "relation": "신랑", "phone": "010-9142-0920" },
+        { "name": "김기서", "relation": "아버님", "phone": "010-9325-7198" }
+      ],
+      "bride": [
+        { "name": "이지영", "relation": "신부", "phone": "010-2962-0618" },
+        { "name": "박미영", "relation": "어머님", "phone": "010-9019-0618" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-19T12:30:00+09:00"
+    },
+    "gallery": [
+      "/images/jmjy0919/gallery1.jpg",
+      "/images/jmjy0919/gallery2.jpg",
+      "/images/jmjy0919/gallery3.jpg",
+      "/images/jmjy0919/gallery4.jpg",
+      "/images/jmjy0919/gallery5.jpg",
+      "/images/jmjy0919/gallery6.jpg",
+      "/images/jmjy0919/gallery7.jpg",
+      "/images/jmjy0919/gallery8.jpg",
+      "/images/jmjy0919/gallery9.jpg",
+      "/images/jmjy0919/gallery10.jpg",
+      "/images/jmjy0919/gallery11.jpg",
+      "/images/jmjy0919/gallery12.jpg",
+      "/images/jmjy0919/gallery13.jpg",
+      "/images/jmjy0919/gallery14.jpg",
+      "/images/jmjy0919/gallery15.jpg",
+      "/images/jmjy0919/gallery16.jpg",
+      "/images/jmjy0919/gallery17.jpg",
+      "/images/jmjy0919/gallery18.jpg",
+      "/images/jmjy0919/gallery19.jpg",
+      "/images/jmjy0919/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "그랜드모먼트",
+  "address": "B2층 화이트홀\n부산광역시 남구 황령대로 401-9",
+  "lat": 35.1455935245467,
+  "lng": 129.100266088902,
+  "transport": {
+    "expressbus": "",
+    "car": "",
+    "subway": "2호선 남천역 4번 출구\n(도보 15분 혹은 셔틀버스 이용)\n\n셔틀 탑승 장소 |\n남천역 4번 출구 앞 더샵 입구 (103동 근처)\n셔틀 운행 시간 |\n매시간 05분/20분/35분/50분 (15분 간격 운행)",
+    "bus": "'대남교차로&남천역' 하차 후 셔틀버스 탑승\n20, 39, 40, 41, 51, 83-1, 83, 108, 131, 1001, 1003\n'동원보라아파트' 하차 후 도보 5분\n38, 583",
+    "publicTransport": "",
+    "ktxsrt": "",
+    "train": "",
+    "taxi": "",
+    "shuttle": "",
+    "parking": "모든 하객 차량은 본 건물 B5층, B1층 주차장 이용"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "김준민", "bank": "국민은행", "number": "93930200017612" },
+        { "name": "김기서", "bank": "농협은행", "number": "3520862390273" }
+],
+      "bride": [
+        { "name": "이지영", "bank": "국민은행", "number": "55660201696666" },
+        { "name": "박미영", "bank": "부산은행", "number": "109020044749" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1-cbB6POFzJPpoXXhIrxFItBrqUV7Vw4wBxqbBM2x_vo"
+}
   }
 }
