@@ -7894,7 +7894,7 @@
       "symbol": "none"
     },
     "mother": {
-      "name": "박정옥",
+      "name": "박진옥",
       "symbol": "none"
     },
     "relation": "아들"
@@ -8494,9 +8494,9 @@
       "date": "2026년 10월 17일 토요일 오후 12시 30분",
       "location": "메리다웨딩컨벤션",
       "message": "가장 중요한 것은 우리가 함께한다는 거야.\n-영화 '토이 스토리'-\n\n부부라는 이름의 첫 시작,\n그 설렘의 순간에 소중한 분들을 초대합니다.",
-      "mainImage": "/images/jhsm1017/main.jpg",
+      "mainImage": "/images/jhsm1017/main.jpg?v=1",
       "thumbnail": "/images/jhsm1017/thumbnail.jpg",
-      "kakaoThumbnail": "/images/jhsm1017/thumbnail_kakao.jpg"
+      "kakaoThumbnail": "/images/jhsm1017/thumbnail_kakao.jpg?v=1"
     },
   "parents": {
   "groom": {
@@ -8746,6 +8746,239 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1sPMUwQVuDDnvzuj2L7Zj-84Zwz1IVBTv9PWRMiFjT9M"
+}
+  },
+  "bgey0906": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "박보건 & 장은영 결혼식에 초대합니다",
+      "groomName": "박보건",
+      "brideName": "장은영",
+      "date": "2026년 9월 6일 일요일 오후 12시 20분",
+      "location": "마리드메이",
+      "message": "많이 웃고 과분한 사랑을 받으며 확신했습니다.\n이제 저희가 서로의 가장 오래된\n행복이 되어가려합니다.\n귀한 걸음 하시어 함께 축복해 주신다면\n큰 기쁨이 되겠습니다.",
+      "mainImage": "/images/bgey0906/main.jpg",
+      "thumbnail": "/images/bgey0906/thumbnail.jpg",
+      "kakaoThumbnail": "/images/bgey0906/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "박해성",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김선화",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "장학두",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "도영숙",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "박보건", "relation": "신랑", "phone": "010-6861-6897" },
+        { "name": "박해성", "relation": "아버님", "phone": "010-3506-0901" },
+        { "name": "김선화", "relation": "어머님", "phone": "010-2508-2255" }
+      ],
+      "bride": [
+        { "name": "장은영", "relation": "신부", "phone": "010-2824-3114" },
+        { "name": "장학두", "relation": "아버님", "phone": "010-7241-3114" },
+        { "name": "도영숙", "relation": "어머님", "phone": "010-7660-3114" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-06T12:20:00+09:00"
+    },
+    "gallery": [
+      "/images/bgey0906/gallery1.jpg",
+      "/images/bgey0906/gallery2.jpg",
+      "/images/bgey0906/gallery3.jpg",
+      "/images/bgey0906/gallery4.jpg",
+      "/images/bgey0906/gallery5.jpg",
+      "/images/bgey0906/gallery6.jpg",
+      "/images/bgey0906/gallery7.jpg",
+      "/images/bgey0906/gallery8.jpg",
+      "/images/bgey0906/gallery9.jpg",
+      "/images/bgey0906/gallery10.jpg",
+      "/images/bgey0906/gallery11.jpg",
+      "/images/bgey0906/gallery12.jpg",
+      "/images/bgey0906/gallery13.jpg",
+      "/images/bgey0906/gallery14.jpg",
+      "/images/bgey0906/gallery15.jpg",
+      "/images/bgey0906/gallery16.jpg",
+      "/images/bgey0906/gallery17.jpg",
+      "/images/bgey0906/gallery18.jpg",
+      "/images/bgey0906/gallery19.jpg",
+      "/images/bgey0906/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "마리드메이",
+  "address": "3층 단독홀\n대구 수성구 동대구로 157",
+  "lat": 35.8444685524739,
+  "lng": 128.623953161312,
+  "transport": {
+    "expressbus": "",
+    "car": "",
+    "subway": "3호선 어린이 세상역-도보 3분",
+    "bus": "*대구과학고건너-바로앞 정차\n 814, 8140, 204, 504, 수성1-1\n*어린이 세상건너2-도보4분\n 204",
+    "publicTransport": "",
+    "ktxsrt": "",
+    "train": "",
+    "taxi": "",
+    "shuttle": "",
+    "parking": "본관VIP 전용 주차장 (2시간무료)\n본관 신랑신부 혼주 및 VIP전용 (약50대)\n\n모델하우스 제2주차장 (2시간지원)\n도보1분 (약100대)\n\n어린이세상 공용주차장 (2시간지원)\n어린이세상 공용주차장 도보5분 (약250대)\n\n그외 주차 당일 안내요원에따라\n이동해주시길 바랍니다!"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "박해성", "bank": "농협은행", "number": "315-12-244873" },
+        { "name": "김선화", "bank": "농협은행", "number": "1500-36520-37664" },
+        { "name": "박보건", "bank": "카카오뱅크", "number": "3333-15-6618465" }
+],
+      "bride": [
+        { "name": "장학두", "bank": "농협은행", "number": "1093-12-049276" },
+        { "name": "도영숙", "bank": "농협은행", "number": "150101-52-101704" },
+        { "name": "장은영", "bank": "국민은행", "number": "64200104409488" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "dyhe1024": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "윤동엽 & 최하은 결혼식에 초대합니다",
+      "groomName": "윤동엽",
+      "brideName": "최하은",
+      "date": "2026년 10월 24일 토요일 오후 12시",
+      "location": "타니베이 호텔",
+      "message": "예쁜 예감이 들었다.\n우리는 언제나\n손을 잡고 있게 될 것이다.\n-이이체 '연인'中-\n\n서로의 따뜻함을 닮아가며\n예쁘게 살겠습니다.\n귀한 발걸음 하시어\n축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/dyhe1024/main.jpg",
+      "thumbnail": "/images/dyhe1024/thumbnail.jpg",
+      "kakaoThumbnail": "/images/dyhe1024/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "윤영학",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "백정모",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "최지훈",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김근해",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-10-24T12:00:00+09:00"
+    },
+    "gallery": [
+      "/images/dyhe1024/gallery1.jpg",
+      "/images/dyhe1024/gallery2.jpg",
+      "/images/dyhe1024/gallery3.jpg",
+      "/images/dyhe1024/gallery4.jpg",
+      "/images/dyhe1024/gallery5.jpg",
+      "/images/dyhe1024/gallery6.jpg",
+      "/images/dyhe1024/gallery7.jpg",
+      "/images/dyhe1024/gallery8.jpg",
+      "/images/dyhe1024/gallery9.jpg",
+      "/images/dyhe1024/gallery10.jpg",
+      "/images/dyhe1024/gallery11.jpg",
+      "/images/dyhe1024/gallery12.jpg",
+      "/images/dyhe1024/gallery13.jpg"
+    ],
+   "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/kmsZIkkUM3E",
+  "position": "afterCalendar"
+},
+    "map": {
+  "name": "타니베이 호텔",
+  "address": "3층 바다홀\n울산 동구 해수욕장5길 43",
+  "lat": 35.4927405786675,
+  "lng": 129.430818850069,
+  "transport": {
+    "expressbus": "",
+    "car": "울산 동구 해수욕장5길 43 타니베이 웨딩홀",
+    "subway": "",
+    "bus": "[울산공항] 141, 122\n[울산역(KTX)] 급행5002\n[태화강역] 1134, 1411, 711, 134\n[시외/고속버스 터미널] 1411, 1115, 711",
+    "publicTransport": "",
+    "ktxsrt": "",
+    "train": "",
+    "taxi": "",
+    "shuttle": "",
+    "parking": "건물 내 주차장 이용 가능"
+  }
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "2층 뷔페 레스토랑 파도에서\n식사가 준비되어 있습니다.\n식권은 3층 축의대에서 수령해 주세요."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "윤영학", "bank": "농협은행", "number": "356-0105-3879-93" },
+        { "name": "백정모", "bank": "농협은행", "number": "356-1605-7297-53" },
+        { "name": "윤동엽", "bank": "농협은행", "number": "356-1174-2355-33" }
+],
+      "bride": [
+        { "name": "최지훈", "bank": "우리은행", "number": "270-597548-18-181" },
+        { "name": "김근해", "bank": "기업은행", "number": "697-006939-01-012" },
+        { "name": "최하은", "bank": "농협은행", "number": "356-1670-5104-33" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "16KCwW97mmRX7AfZLhgwI-d2eXmA1nuctc2qr-tPXCdY"
 }
   }
 }
