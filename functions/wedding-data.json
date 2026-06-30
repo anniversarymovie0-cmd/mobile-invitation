@@ -8232,7 +8232,7 @@
         { "name": "김종례", "bank": "농협은행", "number": "100114-52-094331" }
 ],
       "bride": [
-        { "name": "조서영", "bank": "농협은행", "number": "302-1237-3960-71" },
+        { "name": "조서영", "bank": "국민은행", "number": "20970204441563" },
         { "name": "조해진", "bank": "기업은행", "number": "010-7608-3693" },
         { "name": "정현미", "bank": "기업은행", "number": "378-088810-02-016" }
 ]
@@ -9468,6 +9468,123 @@
     },
     "rsvp": {
   "enabled": false
+}
+  },
+  "jhsy0815": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "04",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이진호 & 김소영 결혼식에 초대합니다",
+      "groomName": "이진호",
+      "brideName": "김소영",
+      "date": "2026년 8월 15일 토요일 오후 12시 30분",
+      "location": "셀럽앤어셈",
+      "message": "예쁜 예감이 들었다.\n우리는 언제나\n손을 잡고 있게 될 것이다.\n-이이체 '연인'中-\n\n서로의 따뜻함을 닮아가며\n예쁘게 살겠습니다.\n귀한 발걸음 하시어\n축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/jhsy0815/main.jpg",
+      "thumbnail": "/images/jhsy0815/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jhsy0815/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이종범",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "반양미",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "김도일",
+      "symbol": "flower"
+    },
+    "mother": {
+      "name": "김경란",
+      "symbol": "none"
+    },
+    "relation": "차녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "이진호", "relation": "신랑", "phone": "010-2728-2207" },
+        { "name": "이종범", "relation": "아버님", "phone": "010-5493-0376" },
+        { "name": "반양미", "relation": "어머님", "phone": "010-8726-2207" }
+      ],
+      "bride": [
+        { "name": "김소영", "relation": "신부", "phone": "010-8853-9425" },
+        { "name": "김경란", "relation": "어머님", "phone": "010-4513-4425" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-08-15T12:30:00+09:00"
+    },
+    "gallery": [
+      "/images/jhsy0815/gallery1.jpg",
+      "/images/jhsy0815/gallery2.jpg",
+      "/images/jhsy0815/gallery3.jpg",
+      "/images/jhsy0815/gallery4.jpg",
+      "/images/jhsy0815/gallery5.jpg",
+      "/images/jhsy0815/gallery6.jpg",
+      "/images/jhsy0815/gallery7.jpg",
+      "/images/jhsy0815/gallery8.jpg",
+      "/images/jhsy0815/gallery9.jpg",
+      "/images/jhsy0815/gallery10.jpg",
+      "/images/jhsy0815/gallery11.jpg",
+      "/images/jhsy0815/gallery12.jpg",
+      "/images/jhsy0815/gallery13.jpg",
+      "/images/jhsy0815/gallery14.jpg",
+      "/images/jhsy0815/gallery15.jpg",
+      "/images/jhsy0815/gallery16.jpg",
+      "/images/jhsy0815/gallery17.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "셀럽앤어셈",
+  "address": "2층 디 아이올라홀\n서울시 강남구 언주로 711",
+  "lat": 37.51746429849978,
+  "lng": 127.0346134867136,
+  "transport": {
+    "expressbus": "",
+    "train": "",
+    "subway": "- 7호선 학동역 10번 출구\n- 수인분당&7호선 강남구청역 3번 출구",
+    "publicTransport": "",
+    "ktx": "",
+    "bus": "- '서울세관' 정류장 하차\n간선버스 : 141 / 직행버스 : 3600 / 공항버스 : 6703\n- '서울세관사거리' 정류장 하차\n간선버스 : 401 / 직행버스 : 6411, 8641\n/ 마을버스 : 08",
+    "car": "네비게이션 검색명 : \"건설회관\", \"셀럽앤어셈\"\n・ 도로명 주소 : 서울 강남구 언주로 711\n・ 구.지번 주소 : 서울 강남구 논현동 71-2",
+    "taxi": "",
+    "shuttle": "",
+    "parking": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "이진호", "bank": "국민은행", "number": "92728220757" },
+        { "name": "이종범", "bank": "우리은행", "number": "059-107885-02-601" },
+        { "name": "반양미", "bank": "제일은행", "number": "153-20-068970" }
+],
+      "bride": [
+        { "name": "김소영", "bank": "우리은행", "number": "1002-959-891950" },
+        { "name": "김경란", "bank": "농협은행", "number": "351-0104-8539-13" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1GIFQyIpZK_ciMx3vDsIrWHczz3lGth5NkYlIerfzzdg"
 }
   }
 }
