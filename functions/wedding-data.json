@@ -7726,7 +7726,7 @@
     "expressbus": "",
     "taxi": "",
     "car": "동문회관 주차장 2시간 무료\n연세대학교 정문 방향 진입 시 금화터널 고가도로 아래에서 유턴\n내비게이션: 연세동문회관 또는 연세대학교동문회관",
-    "shuttle": "이대역 3번 출구 ↔ 동문회관\n예식 40분 전, 20분 전 운행",
+    "shuttle": "<이대역 3번출구 → 동문회관>\n14:20, 14:40\n<동문회관 → 이대역 3번출구>\n16:10, 16:30",
     "parking": ""
   }
 },
@@ -7742,12 +7742,12 @@
 ],
     "accounts": {
       "groom": [
-        { "name": "정현미", "bank": "농협은행", "number": "238-02-102288" },
+        { "name": "정현미 (신랑 어머니)", "bank": "농협은행", "number": "238-02-102288" },
         { "name": "고석영", "bank": "하나은행", "number": "010-4171-8184" }
 ],
       "bride": [
-        { "name": "원영석", "bank": "국민은행", "number": "227-21-0444-671" },
-        { "name": "오승연", "bank": "농협은행", "number": "170820-56-014000" },
+        { "name": "원영석 (신부 아버지)", "bank": "국민은행", "number": "227-21-0444-671" },
+        { "name": "오승연 (신부 어머니)", "bank": "농협은행", "number": "170820-56-014000" },
         { "name": "원예인", "bank": "신한은행", "number": "110-343-051340" }
 ]
     },
@@ -8938,7 +8938,8 @@
   "enabled": true,
   "type": "youtube",
   "url": "https://www.youtube.com/embed/kmsZIkkUM3E",
-  "position": "afterCalendar"
+  "position": "afterCalendar",
+  "thumbnail": "https://img.youtube.com/vi/kmsZIkkUM3E/hqdefault.jpg"
 },
     "map": {
   "name": "타니베이 호텔",
@@ -9184,7 +9185,6 @@
       "/images/jmjy0919/gallery14.jpg",
       "/images/jmjy0919/gallery15.jpg",
       "/images/jmjy0919/gallery16.jpg",
-      "/images/jmjy0919/gallery17.jpg",
       "/images/jmjy0919/gallery18.jpg",
       "/images/jmjy0919/gallery19.jpg",
       "/images/jmjy0919/gallery20.jpg"
@@ -9343,6 +9343,127 @@
       "bride": [
         { "name": "손이나", "bank": "국민은행", "number": "66880101681687" },
         { "name": "김정아", "bank": "농협은행", "number": "3521396549633" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "dhyk1009": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "안동현 & 이윤경 결혼식에 초대합니다",
+      "groomName": "안동현",
+      "brideName": "이윤경",
+      "date": "2026년 10월 9일 금요일 오후 2시",
+      "location": "호텔 인터불고 대구",
+      "message": "인생은 누구나 비슷한 길을 걸어간다.\n결국엔 늙어서 지난 날을 추억하는 것일 뿐이다.\n그러니 결혼은 따뜻한 사람과 하거라\n-영화 '어바웃 타임'-\n\n부부라는 이름의 첫 시작,\n그 설렘의 순간에 소중한 분들을 초대합니다.",
+      "mainImage": "/images/dhyk1009/main.jpg",
+      "thumbnail": "/images/dhyk1009/thumbnail.jpg",
+      "kakaoThumbnail": "/images/dhyk1009/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "안광희",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "최미애",
+      "symbol": "none"
+    },
+    "relation": "첫째"
+  },
+  "bride": {
+    "father": {
+      "name": "이강희",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정원희",
+      "symbol": "none"
+    },
+    "relation": "둘째"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "안동현", "relation": "신랑", "phone": "010-6371-1757" },
+        { "name": "안광희", "relation": "아버님", "phone": "010-7380-5888" },
+        { "name": "최미애", "relation": "어머님", "phone": "010-7558-1757" }
+      ],
+      "bride": [
+        { "name": "이윤경", "relation": "신부", "phone": "010-8907-0726" },
+        { "name": "이강희", "relation": "아버님", "phone": "010-3072-9120" },
+        { "name": "정원희", "relation": "어머님", "phone": "010-5541-9123" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-09T14:00:00+09:00"
+    },
+    "gallery": [
+      "/images/dhyk1009/gallery1.jpg",
+      "/images/dhyk1009/gallery2.jpg",
+      "/images/dhyk1009/gallery3.jpg",
+      "/images/dhyk1009/gallery4.jpg",
+      "/images/dhyk1009/gallery5.jpg",
+      "/images/dhyk1009/gallery6.jpg",
+      "/images/dhyk1009/gallery7.jpg",
+      "/images/dhyk1009/gallery8.jpg",
+      "/images/dhyk1009/gallery9.jpg",
+      "/images/dhyk1009/gallery10.jpg",
+      "/images/dhyk1009/gallery11.jpg",
+      "/images/dhyk1009/gallery12.jpg",
+      "/images/dhyk1009/gallery13.jpg",
+      "/images/dhyk1009/gallery14.jpg",
+      "/images/dhyk1009/gallery15.jpg",
+      "/images/dhyk1009/gallery16.jpg",
+      "/images/dhyk1009/gallery17.jpg",
+      "/images/dhyk1009/gallery18.jpg",
+      "/images/dhyk1009/gallery19.jpg",
+      "/images/dhyk1009/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "호텔 인터불고 대구",
+  "address": "파크빌리지 홀\n대구광역시 수성구 팔현길 212",
+  "lat": 35.8743558203363,
+  "lng": 128.65980730557249,
+  "transport": {
+    "expressbus": "",
+    "train": "동대구역에서 오실 때\n택시 (15분)\n버스 (25분): 814, 708 (망우공원 하차),\n651 (호텔인터불고 하차)",
+    "car": "",
+    "subway": "1호선 아양교역 하차 (택시10분)\n2호선 만촌역 하차 (택시10분)",
+    "publicTransport": "",
+    "ktx": "",
+    "bus": "호텔 정문: 651, 848, 수성2\n망우공원: 518, 708, 814, 849, 급행5, 55, 156,\n북구3, 802",
+    "taxi": "",
+    "shuttle": "",
+    "parking": "등록없이 3시간 무료주차"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "안광희", "bank": "경남은행", "number": "544-21-0108540" },
+        { "name": "최미애", "bank": "경남은행", "number": "538-220-490699" },
+        { "name": "안동현", "bank": "신한은행", "number": "110-502-701345" }
+],
+      "bride": [
+        { "name": "이강희", "bank": "IM뱅크", "number": "083-08-119645-001" },
+        { "name": "정원희", "bank": "IM뱅크", "number": "508-12-264592-3" },
+        { "name": "이윤경", "bank": "IM뱅크", "number": "508-11-147393-1" }
 ]
     },
     "rsvp": {
