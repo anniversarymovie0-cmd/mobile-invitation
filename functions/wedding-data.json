@@ -9474,6 +9474,7 @@
     "open": true,
     "keepForever": false,
     "bgm": "04",
+    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -9585,6 +9586,133 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1GIFQyIpZK_ciMx3vDsIrWHczz3lGth5NkYlIerfzzdg"
+}
+  },
+  "jhsj1024": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "01",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김재한 & 박선정 결혼식에 초대합니다",
+      "groomName": "김재한",
+      "brideName": "박선정",
+      "date": "2026년 10월 24일 토요일 오후 4시 20분",
+      "location": "가천컨벤션센터",
+      "message": "서로의 가장 친한 친구이자 든든한 내 편이 되어\n즐겁고 예쁘게 잘 살겠습니다.\n저희의 첫걸음을 함께 축하해 주시면\n더없는 기쁨으로 간직하겠습니다.",
+      "mainImage": "/images/jhsj1024/main.jpg",
+      "thumbnail": "/images/jhsj1024/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jhsj1024/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김영식",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "강미애",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "박영록",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "최현심",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-10-24T16:20:00+09:00"
+    },
+    "gallery": [
+      "/images/jhsj1024/gallery1.jpg",
+      "/images/jhsj1024/gallery2.jpg",
+      "/images/jhsj1024/gallery3.jpg",
+      "/images/jhsj1024/gallery4.jpg",
+      "/images/jhsj1024/gallery5.jpg",
+      "/images/jhsj1024/gallery6.jpg",
+      "/images/jhsj1024/gallery7.jpg",
+      "/images/jhsj1024/gallery8.jpg",
+      "/images/jhsj1024/gallery9.jpg",
+      "/images/jhsj1024/gallery10.jpg",
+      "/images/jhsj1024/gallery11.jpg",
+      "/images/jhsj1024/gallery12.jpg",
+      "/images/jhsj1024/gallery13.jpg",
+      "/images/jhsj1024/gallery14.jpg",
+      "/images/jhsj1024/gallery15.jpg",
+      "/images/jhsj1024/gallery16.jpg",
+      "/images/jhsj1024/gallery17.jpg",
+      "/images/jhsj1024/gallery18.jpg",
+      "/images/jhsj1024/gallery19.jpg",
+      "/images/jhsj1024/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "가천컨벤션센터",
+  "address": "5층 컨벤션홀\n경기 성남시 수정구 성남대로 1342",
+  "lat": 37.4498100046561,
+  "lng": 127.12715543894625,
+  "transport": {
+    "shuttle": "동해\n- 동해>예식장 :\n동해웰빙레포츠타운(동해시종합운동장) 정문\n12:40 출발(12:30까지 탑승)\n- 예식장>동해 :\n가천컨벤션센터 주차장 18:00 탑승 및 출발\n\n전주\n- 전주>예식장 :\n전주월드컵경기장 주차장 12:40 출발(12:30까지 탑승)\n- 예식장>전주 :\n가천컨벤션센터 주차장 18:00 탑승 및 출발",
+    "expressbus": "",
+    "train": "",
+    "subway": "수인분당선\n- 수인분당선 가천대역(구 경원대역) 1번 출구 또는 연결통로",
+    "publicTransport": "",
+    "srt": "- SRT 수서역(지하철 3호선 수서역) - 수인분당선 환승 - 가천대역",
+    "bus": "일반 버스 - 30, 100, 119, 119-1, 311, 357\n지선 버스 - 4425\n간선 버스 - 302, 303, 422, 452\n직행 버스 - 500-1, 500-1A, 500-2, 500-2N, 1117",
+    "car": "경부고속도로\n- 경부고속도로 서울요금소(1km) > 서울외곽순환고속도로(구리방면, 1km) >\n성남·광주 IC(서울방면, 1.5km) > 가천대학교\n\n중부고속도로\n- 중부고속도로 > 동서울요금소(외곽순환고속도로 진입) > 송파 IC(성남방면, 1.5km) > 가천대학교",
+    "taxi": "",
+    "parking": ""
+  }
+},
+"information": [
+  {
+    "title": "주차 안내",
+    "content": "주차장은 B4층이며,\n1,500대 수용 가능합니다.(요금 무료)"
+  },
+  {
+    "title": "식사 안내",
+    "content": "식사는 7층 연회장에서 진행되며,\n식권은 접수대에서 안내드립니다."
+  },
+    {
+    "title": "화환 안내",
+    "content": "예식 장소가 협소하여\n화환은 정중히 사양하오니\n넓은 양해 부탁드립니다.\n축하해주시는 그 마음을\n소중히 간직하며 예쁘게 잘 살겠습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "김영식", "bank": "신협은행", "number": "132-030-999035" },
+        { "name": "강미애", "bank": "신협은행", "number": "131-013-997612" },
+        { "name": "김재한", "bank": "수협은행", "number": "1010-2117-5892" }
+],
+      "bride": [
+        { "name": "박영록", "bank": "농협은행", "number": "261-02-403711" },
+        { "name": "최현심", "bank": "농협은행", "number": "335-0915-20228-35" },
+        { "name": "박선정", "bank": "수협은행", "number": "1030-1083-2413" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1pyWjxc-T0EHEhDsdeMykKhg5Q-GMQUfCgZCes9a65Mc"
 }
   }
 }

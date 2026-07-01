@@ -4,53 +4,74 @@ import { motion } from 'framer-motion';
 export default function Greeting({ intro, parents }) {
 
   // ✅ 부모 이름 + 옵션 처리 함수
-  const renderParentName = (parent) => {
+  const renderParentName = (parent, isFirst = false) => {
     if (!parent) return '';
 
-    if (parent.symbol === 'go') {
-      return `故 ${parent.name}`;
-    }
+    const nameText = parent.symbol === 'go' ? `故 ${parent.name}` : parent.name;
+    const isFlower = parent.symbol === 'flower';
 
-    if (parent.symbol === 'flower') {
-  return (
-    <span
-      style={{
-        position: 'relative',
-        display: 'inline-block',
-        paddingLeft: '14px'
-      }}
-    >
-      <img
-        src="/images/flower.png"
-        alt="국화"
+    return (
+      <span
         style={{
-          width: '11px',
-          height: '11px',
-          position: 'absolute',
-          left: 0,
-          top: '50%',
-          transform: 'translateY(-50%)',
-          opacity: 1
+          position: 'relative',
+          display: 'inline-flex',
+          alignItems: 'center',
+          lineHeight: '1.8',
+          verticalAlign: 'middle'
         }}
-      />
-      {parent.name}
-    </span>
-  );
-}
-    return parent.name;
+      >
+        {isFlower && (
+          isFirst ? (
+            <img
+              src="/images/flower.png"
+              alt="국화"
+              style={{
+                width: '11px',
+                height: '11px',
+                position: 'absolute',
+                left: '-16px',
+                top: '50%',
+                transform: 'translateY(-50%)',
+                display: 'block'
+              }}
+            />
+          ) : (
+            <img
+              src="/images/flower.png"
+              alt="국화"
+              style={{
+                width: '11px',
+                height: '11px',
+                display: 'inline-block',
+                marginRight: '3px',
+                flexShrink: 0
+              }}
+            />
+          )
+        )}
+
+        <span>{nameText}</span>
+      </span>
+    );
   };
 
-  // ✅ 부모 존재 여부 체크
   const hasGroomParents =
     parents.groom.father?.name || parents.groom.mother?.name;
 
   const hasBrideParents =
     parents.bride.father?.name || parents.bride.mother?.name;
 
+  const rowStyle = {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    whiteSpace: 'nowrap',
+    lineHeight: '1.8'
+  };
+
   return (
     <div style={{ padding: '80px 30px', backgroundColor: '#fff', textAlign: 'center' }}>
       
-      {/* INVITATION 타이틀 */}
       <motion.h2
         className="english-title"
         style={{ marginBottom: '30px' }}
@@ -62,7 +83,6 @@ export default function Greeting({ intro, parents }) {
         INVITATION
       </motion.h2>
 
-      {/* 인사말 */}
       <motion.p
         style={{
           fontSize: '1rem',
@@ -79,7 +99,6 @@ export default function Greeting({ intro, parents }) {
         {intro.message}
       </motion.p>
 
-      {/* 부모 / 이름 */}
       <motion.div
         style={{ fontSize: '1rem', color: '#333' }}
         initial={{ opacity: 0, y: 20 }}
@@ -88,19 +107,23 @@ export default function Greeting({ intro, parents }) {
         viewport={{ once: true }}
       >
 
-        {/* 🔵 신랑 */}
-        <div style={{ marginBottom: '10px', whiteSpace: 'nowrap' }}>
+        {/* 신랑 */}
+        <div style={{ ...rowStyle, marginBottom: '10px' }}>
           {hasGroomParents ? (
             <>
-              <span>
-                {parents.groom.father?.name && renderParentName(parents.groom.father)}
+              <span style={{ display: 'inline-flex', alignItems: 'center' }}>
+                {parents.groom.father?.name &&
+                  renderParentName(parents.groom.father, true)}
+
                 {parents.groom.father?.name && parents.groom.mother?.name && (
-  <span style={{ margin: '0 4px' }}>·</span>
-)}
-                {parents.groom.mother?.name && renderParentName(parents.groom.mother)}
+                  <span style={{ margin: '0 4px' }}>·</span>
+                )}
+
+                {parents.groom.mother?.name &&
+                  renderParentName(parents.groom.mother, !parents.groom.father?.name)}
               </span>
 
-              <span style={{ fontSize: '1rem', color: '#999', margin: '0 5px' }}>
+              <span style={{ color: '#999', margin: '0 5px' }}>
                 의 <span style={{ display: 'inline-block', minWidth: '2.5em' }}>
                   {parents.groom.relation}
                 </span>
@@ -116,19 +139,23 @@ export default function Greeting({ intro, parents }) {
           )}
         </div>
 
-        {/* 🔴 신부 */}
-        <div style={{ whiteSpace: 'nowrap' }}>
+        {/* 신부 */}
+        <div style={rowStyle}>
           {hasBrideParents ? (
             <>
-              <span>
-                {parents.bride.father?.name && renderParentName(parents.bride.father)}
+              <span style={{ display: 'inline-flex', alignItems: 'center' }}>
+                {parents.bride.father?.name &&
+                  renderParentName(parents.bride.father, true)}
+
                 {parents.bride.father?.name && parents.bride.mother?.name && (
-  <span style={{ margin: '0 4px' }}>·</span>
-)}
-                {parents.bride.mother?.name && renderParentName(parents.bride.mother)}
+                  <span style={{ margin: '0 4px' }}>·</span>
+                )}
+
+                {parents.bride.mother?.name &&
+                  renderParentName(parents.bride.mother, !parents.bride.father?.name)}
               </span>
 
-              <span style={{ fontSize: '1rem', color: '#999', margin: '0 5px' }}>
+              <span style={{ color: '#999', margin: '0 5px' }}>
                 의 <span style={{ display: 'inline-block', minWidth: '2.5em' }}>
                   {parents.bride.relation}
                 </span>
@@ -145,7 +172,6 @@ export default function Greeting({ intro, parents }) {
         </div>
 
       </motion.div>
-
     </div>
   );
 }
