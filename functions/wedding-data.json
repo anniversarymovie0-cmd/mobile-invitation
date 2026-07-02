@@ -9592,6 +9592,7 @@
     "open": true,
     "keepForever": false,
     "bgm": "01",
+    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -9672,7 +9673,7 @@
   "lat": 37.4498100046561,
   "lng": 127.12715543894625,
   "transport": {
-    "shuttle": "동해\n- 동해>예식장 :\n동해웰빙레포츠타운(동해시종합운동장) 정문\n12:40 출발(12:30까지 탑승)\n- 예식장>동해 :\n가천컨벤션센터 주차장 18:00 탑승 및 출발\n\n전주\n- 전주>예식장 :\n전주월드컵경기장 주차장 12:40 출발(12:30까지 탑승)\n- 예식장>전주 :\n가천컨벤션센터 주차장 18:00 탑승 및 출발",
+    "shuttle": "[동해 노선]\n동해 출발 (12:40) | 동해웰빙레포츠타운 정문 (12:30까지 탑승)\n식장 출발 (18:00) | 가천컨벤션센터 주차장\n[전주 노선]\n전주 출발 (12:40) | 전주월드컵경기장 주차장 (12:30까지 탑승)\n식장 출발 (18:00) | 가천컨벤션센터 주차장",
     "expressbus": "",
     "train": "",
     "subway": "수인분당선\n- 수인분당선 가천대역(구 경원대역) 1번 출구 또는 연결통로",
@@ -9687,32 +9688,260 @@
 "information": [
   {
     "title": "주차 안내",
-    "content": "주차장은 B4층이며,\n1,500대 수용 가능합니다.(요금 무료)"
+    "content": "건물 지하 4층 주차장을\n이용해 주시기 바랍니다.\n(1,500대 수용 가능 / 주차 요금 무료)"
   },
   {
-    "title": "식사 안내",
-    "content": "식사는 7층 연회장에서 진행되며,\n식권은 접수대에서 안내드립니다."
+    "title": "피로연 안내",
+    "content": "식사는 건물 7층 연회장에 마련되어 있으며,\n식권은 접수대에서 안내해 드립니다."
   },
     {
     "title": "화환 안내",
-    "content": "예식 장소가 협소하여\n화환은 정중히 사양하오니\n넓은 양해 부탁드립니다.\n축하해주시는 그 마음을\n소중히 간직하며 예쁘게 잘 살겠습니다."
+    "content": "예식 장소가 협소하여\n축하의 마음이 담긴 화환은\n정중히 사양하고자 합니다.\n너른 양해를 부탁드립니다.\n축하해 주시는 귀한 마음을\n소중히 간직하며 예쁘게 잘 살겠습니다."
   }
 ],
     "accounts": {
       "groom": [
-        { "name": "김영식", "bank": "신협은행", "number": "132-030-999035" },
-        { "name": "강미애", "bank": "신협은행", "number": "131-013-997612" },
+        { "name": "김영식", "bank": "신협", "number": "132-030-999035" },
+        { "name": "강미애", "bank": "신협", "number": "131-013-997612" },
         { "name": "김재한", "bank": "수협은행", "number": "1010-2117-5892" }
 ],
       "bride": [
-        { "name": "박영록", "bank": "농협은행", "number": "261-02-403711" },
-        { "name": "최현심", "bank": "농협은행", "number": "335-0915-20228-35" },
+        { "name": "박영록", "bank": "농협", "number": "261-02-403711" },
+        { "name": "최현심", "bank": "농협", "number": "335-0915-20228-35" },
         { "name": "박선정", "bank": "수협은행", "number": "1030-1083-2413" }
 ]
     },
     "rsvp": {
   "enabled": true,
   "sheetId": "1pyWjxc-T0EHEhDsdeMykKhg5Q-GMQUfCgZCes9a65Mc"
+}
+  },
+  "ghjj0913": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "01",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이경휘 & 안정진 결혼식에 초대합니다",
+      "groomName": "이경휘",
+      "brideName": "안정진",
+      "date": "2026년 9월 13일 일요일 오후 12시 20분",
+      "location": "힐스카이웨딩&컨벤션",
+      "message": "10번째 가을을 맞이하는 두 사람이\n평생의 계절을 함께하려 합니다\n\n길었던 연애의 마침표를 찍고,\n부부라는 이름으로 새로운 문을 열려고 합니다\n\n반짝이는 9월의 햇살 아래,\n저희 새로운 시작을 축복해주세요",
+      "mainImage": "/images/ghjj0913/main.jpg?v=1",
+      "thumbnail": "/images/ghjj0913/thumbnail.jpg",
+      "kakaoThumbnail": "/images/ghjj0913/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이해호",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "심현정",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "안희철",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박미순",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "이경휘", "relation": "신랑", "phone": "010-7707-8921" },
+        { "name": "이해호", "relation": "아버님", "phone": "010-2254-2572" },
+        { "name": "심현정", "relation": "어머님", "phone": "010-7799-2665" }
+],
+      "bride": [
+        { "name": "안정진", "relation": "신부", "phone": "010-4333-1868" },
+        { "name": "안희철", "relation": "아버님", "phone": "010-5687-0696" },
+        { "name": "박미순", "relation": "어머님", "phone": "010-3456-1868" }
+]
+    },
+    "calendar": {
+      "date": "2026-09-13T12:20:00+09:00"
+    },
+    "gallery": [
+      "/images/ghjj0913/gallery1.jpg",
+      "/images/ghjj0913/gallery2.jpg",
+      "/images/ghjj0913/gallery3.jpg",
+      "/images/ghjj0913/gallery4.jpg",
+      "/images/ghjj0913/gallery5.jpg",
+      "/images/ghjj0913/gallery6.jpg",
+      "/images/ghjj0913/gallery7.jpg",
+      "/images/ghjj0913/gallery8.jpg"
+    ],
+   "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/MNzCuNqG-MU",
+  "position": "afterMain"
+},
+    "map": {
+  "name": "힐스카이웨딩&컨벤션",
+  "address": "10층 힐그랜드\n경남 창원시 마산회원구 봉양로 133",
+  "lat": 35.219331271906384,
+  "lng": 128.60144361471106,
+  "transport": {
+    "shuttle": "",
+    "expressbus": "",
+    "train": "",
+    "subway": "",
+    "publicTransport": "",
+    "srt": "",
+    "car": "",
+    "taxi": "",
+    "parking": ""
+  }
+},
+"information": [
+    {
+    "title": "화환 안내",
+    "content":  "축하의 마음만으로도 충분히 감사드립니다.\n예식장 규정상 일반 꽃화환\n반입이 제한되어 있어,\n화환을 보내주실 경우\n쌀화환으로 부탁드립니다.\n감사합니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "이경휘", "bank": "농협은행", "number": "302-3093-0097-51" },
+        { "name": "이해호", "bank": "농협은행", "number": "811-02-115092" },
+        { "name": "심현정", "bank": "농협은행", "number": "811-12-223741" }
+],
+      "bride": [
+        { "name": "안정진", "bank": "경남은행", "number": "600-21-0216480" },
+        { "name": "안희철", "bank": "국민은행", "number": "861501-01-482791" },
+        { "name": "박미순", "bank": "경남은행", "number": "506-21-0309405" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "10UIx40ofOvNemLuyeXK7QFGRw6a3r3VFJVjqhqXcjkM"
+}
+  },
+  "jhjy0905": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "01",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이재헌 & 신지영 결혼식에 초대합니다",
+      "groomName": "이재헌",
+      "brideName": "신지영",
+      "date": "2026년 9월 5일 토요일 오후 5시",
+      "location": "그랜드모먼트",
+      "message": "인생은 누구나 비슷한 길을 걸어간다.\n결국엔 늙어서 지난 날을 추억하는 것일 뿐이다.\n그러니 결혼은 따뜻한 사람과 하거라\n- 영화 '어바웃 타임' -\n\n서로의 따뜻함을 닮아가며 예쁘게 살겠습니다.\n귀한 발걸음 하시어 축복해 주시면\n감사하겠습니다.",
+      "mainImage": "/images/jhjy0905/main.jpg",
+      "thumbnail": "/images/jhjy0905/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jhjy0905/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이광운",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이선희",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "신민재",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이만자",
+      "symbol": "none"
+    },
+    "relation": "차녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "이재헌", "relation": "신랑", "phone": "010-8622-7957" },
+        { "name": "이광운", "relation": "아버님", "phone": "010-6528-7957" },
+        { "name": "이선희", "relation": "어머님", "phone": "010-6504-7957" }
+],
+      "bride": [
+        { "name": "신지영", "relation": "신부", "phone": "010-5517-6935" },
+        { "name": "신민재", "relation": "아버님", "phone": "010-3884-6930" },
+        { "name": "이만자", "relation": "어머님", "phone": "010-3298-6554" }
+]
+    },
+    "calendar": {
+      "date": "2026-09-05T17:00:00+09:00"
+    },
+    "gallery": [
+      "/images/jhjy0905/gallery1.jpg",
+      "/images/jhjy0905/gallery2.jpg",
+      "/images/jhjy0905/gallery3.jpg",
+      "/images/jhjy0905/gallery4.jpg",
+      "/images/jhjy0905/gallery5.jpg",
+      "/images/jhjy0905/gallery6.jpg",
+      "/images/jhjy0905/gallery7.jpg",
+      "/images/jhjy0905/gallery8.jpg",
+      "/images/jhjy0905/gallery9.jpg",
+      "/images/jhjy0905/gallery10.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "그랜드모먼트",
+  "address": "B4층 클래식홀\n부산 남구 황령대로 401-9",
+  "lat": 35.1455935245467,
+  "lng": 129.100266088902,
+  "transport": {
+    "car": "그랜드모먼트\n부산 남구 황령대로 401-9\n(주말 교통 체증이 심하므로 황령터널 및\n도시고속 진입 전 우측 차선 사전 진입 주의)",
+    "subway": "2호선 (남천역) 4번 출구\n도보 약 10~15분 (약 1km) 또는 셔틀버스 이용",
+    "bus": "1.대남교차로 & 남천역 하차 후 셔틀버스 이용\n(20, 39, 40, 41, 42, 51, 83, 83-1, 108, 131, 155, 1001, 1003)\n2.동원 보라 아파트 하차 (38, 583)\n->도보 5분 소요",
+    "expressbus": "",
+    "train": "",
+    "publicTransport": "",
+    "srt": "",
+    "taxi": "",
+    "shuttle": "셔틀버스운행 (15-20마다 운행)\n남천역 4번 출구 230m 앞 더샵 입구(103동 근처)\n단, 당일 도로 상황에 따라 늦어질수 있는 점\n양해 부탁 드립니다.",
+    "parking": "건물 내 B5, B1, 지상 및 타워 주차장\n(1600대 수용)\n\n*하객 3시간 무료 주차\n출차 직전에 사전 정산기 등록 시 3시간 무료 적용\n- 주차 사전 정산기 위치\nB5 엘리베이터 - 에스컬레이터, B4 로비 입구\nB1, 1F 엘리베이터"
+  }
+},
+"information": [
+    {
+    "title": "식사 안내",
+    "content":  "B3 더숲 뷔페로 준비되어 있습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "이재헌", "bank": "신한은행", "number": "110-381-976441" }
+],
+      "bride": [
+        { "name": "이만자", "bank": "부산은행", "number": "239-12-000137-4" },
+        { "name": "신지영", "bank": "국민은행", "number": "103002-04-193490" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1CrH4_mD5wUhBE_6gU__dtqtQa_W7BmfJLj-I1JVr-Xc"
 }
   }
 }
