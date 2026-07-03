@@ -9844,9 +9844,9 @@
       "date": "2026년 9월 5일 토요일 오후 5시",
       "location": "그랜드모먼트",
       "message": "인생은 누구나 비슷한 길을 걸어간다.\n결국엔 늙어서 지난 날을 추억하는 것일 뿐이다.\n그러니 결혼은 따뜻한 사람과 하거라\n- 영화 '어바웃 타임' -\n\n서로의 따뜻함을 닮아가며 예쁘게 살겠습니다.\n귀한 발걸음 하시어 축복해 주시면\n감사하겠습니다.",
-      "mainImage": "/images/jhjy0905/main.jpg",
-      "thumbnail": "/images/jhjy0905/thumbnail.jpg",
-      "kakaoThumbnail": "/images/jhjy0905/thumbnail_kakao.jpg"
+      "mainImage": "/images/jhjy0905/main.jpg?v=1",
+      "thumbnail": "/images/jhjy0905/thumbnail.jpg?v=1",
+      "kakaoThumbnail": "/images/jhjy0905/thumbnail_kakao.jpg?v=1"
     },
   "parents": {
   "groom": {
@@ -9889,16 +9889,22 @@
       "date": "2026-09-05T17:00:00+09:00"
     },
     "gallery": [
-      "/images/jhjy0905/gallery1.jpg",
-      "/images/jhjy0905/gallery2.jpg",
-      "/images/jhjy0905/gallery3.jpg",
-      "/images/jhjy0905/gallery4.jpg",
-      "/images/jhjy0905/gallery5.jpg",
-      "/images/jhjy0905/gallery6.jpg",
-      "/images/jhjy0905/gallery7.jpg",
-      "/images/jhjy0905/gallery8.jpg",
-      "/images/jhjy0905/gallery9.jpg",
-      "/images/jhjy0905/gallery10.jpg"
+      "/images/jhjy0905/gallery1.jpg?v=1",
+      "/images/jhjy0905/gallery2.jpg?v=1",
+      "/images/jhjy0905/gallery3.jpg?v=1",
+      "/images/jhjy0905/gallery4.jpg?v=1",
+      "/images/jhjy0905/gallery5.jpg?v=1",
+      "/images/jhjy0905/gallery6.jpg?v=1",
+      "/images/jhjy0905/gallery7.jpg?v=1",
+      "/images/jhjy0905/gallery8.jpg?v=1",
+      "/images/jhjy0905/gallery9.jpg?v=1",
+      "/images/jhjy0905/gallery10.jpg?v=1",
+      "/images/jhjy0905/gallery11.jpg",
+      "/images/jhjy0905/gallery12.jpg",
+      "/images/jhjy0905/gallery13.jpg",
+      "/images/jhjy0905/gallery14.jpg",
+      "/images/jhjy0905/gallery15.jpg",
+      "/images/jhjy0905/gallery16.jpg"
     ],
    "video": {
   "enabled": false,
@@ -9942,6 +9948,359 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1CrH4_mD5wUhBE_6gU__dtqtQa_W7BmfJLj-I1JVr-Xc"
+}
+  },
+  "jhsb0823": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김준하 & 정수비 결혼식에 초대합니다",
+      "groomName": "김준하",
+      "brideName": "정수비",
+      "date": "2026년 8월 23일 일요일 오후 3시",
+      "location": "루이비스컨벤션 문정",
+      "message": "\"예쁜 예감이 들었다.\n우리는 언제나 손을 잡고 있게 될 것이다.\"\n-이이체 '연인'-\n\n짙어가는 여름의 한가운데서\n저희의 새로운 이야기를 시작합니다.\n\n이 뜻깊은 순간을\n소중한 분들과 함께 나누고 싶습니다.\n\n귀한 걸음으로 자리해 주시어\n저희의 시작을 따뜻하게 축복해 주시면\n더없는 기쁨이 되겠습니다.",
+      "mainImage": "/images/jhsb0823/main.jpg",
+      "thumbnail": "/images/jhsb0823/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jhsb0823/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김석태",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이은정",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이은금",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-08-23T15:00:00+09:00"
+    },
+    "gallery": [
+      "/images/jhsb0823/gallery1.jpg",
+      "/images/jhsb0823/gallery2.jpg",
+      "/images/jhsb0823/gallery3.jpg",
+      "/images/jhsb0823/gallery4.jpg",
+      "/images/jhsb0823/gallery5.jpg",
+      "/images/jhsb0823/gallery6.jpg",
+      "/images/jhsb0823/gallery7.jpg",
+      "/images/jhsb0823/gallery8.jpg",
+      "/images/jhsb0823/gallery9.jpg",
+      "/images/jhsb0823/gallery10.jpg",
+      "/images/jhsb0823/gallery11.jpg",
+      "/images/jhsb0823/gallery12.jpg",
+      "/images/jhsb0823/gallery13.jpg",
+      "/images/jhsb0823/gallery14.jpg",
+      "/images/jhsb0823/gallery15.jpg",
+      "/images/jhsb0823/gallery16.jpg",
+      "/images/jhsb0823/gallery17.jpg",
+      "/images/jhsb0823/gallery18.jpg",
+      "/images/jhsb0823/gallery19.jpg",
+      "/images/jhsb0823/gallery20.jpg",
+      "/images/jhsb0823/gallery21.jpg",
+      "/images/jhsb0823/gallery22.jpg",
+      "/images/jhsb0823/gallery23.jpg",
+      "/images/jhsb0823/gallery24.jpg",
+      "/images/jhsb0823/gallery25.jpg",
+      "/images/jhsb0823/gallery26.jpg",
+      "/images/jhsb0823/gallery27.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "루이비스컨벤션 문정",
+  "address": "D동 B1층 아모리스홀\n서울시 송파구 법원로9길 26",
+  "lat": 37.48438024565673,
+  "lng": 127.1173173365993,
+  "transport": {
+    "car": "・네비게이션 이용시 : \"루이비스컨벤션 문정\"\n・웨딩홀건물 (H비지니스파크)내 A,B동 C,D동\nB1~B4층 1300여대 주차가능",
+    "subway": "",
+    "expressbus": "",
+    "train": "",
+    "publicTransport": "",
+    "srt": "",
+    "taxi": "",
+    "shuttle": "・8호선 문정역 4번출구 앞 셔틀버스 10분배차운행\n*수서역은 셔틀버스가 없습니다",
+    "bus": "문정로데오거리하차\n・일반버스(초록) : 30,31,36,100,331\n・간선버스(파랑) : 302,303,320,333,343,345,350,360\n・지선버스(초록) : 3011,3217,3317,3420,3422\n・직행좌석버스(빨강) : 500-1,1650,1117,1112,1009",
+    "parking": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "김석태", "bank": "국민", "number": "28770104443762" },
+        { "name": "이은정", "bank": "신협", "number": "132059052824" },
+        { "name": "김준하", "bank": "카카오뱅크", "number": "3333194111023" }
+],
+      "bride": [
+        { "name": "이은금", "bank": "국민", "number": "46640101318589" },
+        { "name": "정수비", "bank": "신한", "number": "110539595754" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "10UD2CztW7Go-wAGftUc8BD5TD5RlmngYmKsHEHoX8zk"
+}
+  },
+  "ysmh1017": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_ysmh1017.mp3",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "고영수 & 이미혜 결혼식에 초대합니다",
+      "groomName": "고영수",
+      "brideName": "이미혜",
+      "date": "2026년 10월 17일 토요일 오전 11시",
+      "location": "모슬포성당",
+      "message": "예쁜 예감이 들었다.\n우리는 언제나\n손을 잡고 있게 될 것이다.\n-이이체 '연인'中-\n\n서로의 따뜻함을 닮아가며\n예쁘게 살겠습니다.\n귀한 발걸음 하시어\n축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/ysmh1017/main.jpg",
+      "thumbnail": "/images/ysmh1017/thumbnail.jpg",
+      "kakaoThumbnail": "/images/ysmh1017/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "고성숙",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "강정숙",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "이용수",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "임영순",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-10-17T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/ysmh1017/gallery1.jpg",
+      "/images/ysmh1017/gallery2.jpg",
+      "/images/ysmh1017/gallery3.jpg",
+      "/images/ysmh1017/gallery4.jpg",
+      "/images/ysmh1017/gallery5.jpg",
+      "/images/ysmh1017/gallery6.jpg",
+      "/images/ysmh1017/gallery7.jpg",
+      "/images/ysmh1017/gallery8.jpg",
+      "/images/ysmh1017/gallery9.jpg",
+      "/images/ysmh1017/gallery10.jpg",
+      "/images/ysmh1017/gallery11.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "모슬포성당",
+  "address": "제주 서귀포시 대정읍 영서중로 22",
+  "lat": 33.22089224032069,
+  "lng": 126.25616309485245,
+  "transport": {
+    "car": "",
+    "subway": "",
+    "expressbus": "",
+    "train": "",
+    "publicTransport": "",
+    "srt": "",
+    "taxi": "",
+    "shuttle": "",
+    "bus": "",
+    "parking": ""
+  }
+},
+"information": [
+  {
+    "title": "신랑측 피로연",
+    "content": "상창리문화회관\n(제주 서귀포시 안덕면 병악로 23-5)"
+  },
+    {
+    "title": "신부측 피로연",
+    "content": "동성수산\n(제주 서귀포시 대정읍 최남단해안로 46)"
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "고영수", "bank": "농협", "number": "356-0411-6772-13" }
+],
+      "bride": [
+        { "name": "이미혜", "bank": "수협", "number": "0010-9975-0440" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "hsej0906": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "04",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "남현식 & 성은지 결혼식에 초대합니다",
+      "groomName": "남현식",
+      "brideName": "성은지",
+      "date": "2026년 9월 6일 일요일 오후 12시 30분",
+      "location": "울산 JW컨벤션",
+      "message": "눈부신 여름의 8월의 여자와\n기분좋은 가을의 10월의 남자가 만나\n\n두 사람의 계절이\n가장 아름답게 어우러지는 9월에\n저희는 부부라는 이름으로 하나가 되려 합니다.\n\n두 계절이 만나\n가장 기분 좋은 온도를 이루는 날\n귀한 걸음으로 저희의 앞날을 축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/hsej0906/main.jpg",
+      "thumbnail": "/images/hsej0906/thumbnail.jpg",
+      "kakaoThumbnail": "/images/hsej0906/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "남윤갑",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김미경",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "성철경",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박정옥",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "남현식", "relation": "신랑", "phone": "010-8803-3748" },
+        { "name": "남윤갑", "relation": "아버님", "phone": "010-5505-3748" },
+        { "name": "김미경", "relation": "어머님", "phone": "010-9259-3748" }
+      ],
+      "bride": [
+        { "name": "성은지", "relation": "신부", "phone": "010-9287-3115" },
+        { "name": "성철경", "relation": "아버님", "phone": "010-5653-3115" },
+        { "name": "박정옥", "relation": "어머님", "phone": "010-2562-9283" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-06T12:30:00+09:00"
+    },
+    "gallery": [
+      "/images/hsej0906/gallery1.jpg",
+      "/images/hsej0906/gallery2.jpg",
+      "/images/hsej0906/gallery3.jpg",
+      "/images/hsej0906/gallery4.jpg",
+      "/images/hsej0906/gallery5.jpg",
+      "/images/hsej0906/gallery6.jpg",
+      "/images/hsej0906/gallery7.jpg",
+      "/images/hsej0906/gallery8.jpg",
+      "/images/hsej0906/gallery9.jpg",
+      "/images/hsej0906/gallery10.jpg",
+      "/images/hsej0906/gallery11.jpg",
+      "/images/hsej0906/gallery12.jpg",
+      "/images/hsej0906/gallery13.jpg",
+      "/images/hsej0906/gallery14.jpg",
+      "/images/hsej0906/gallery15.jpg",
+      "/images/hsej0906/gallery16.jpg",
+      "/images/hsej0906/gallery17.jpg",
+      "/images/hsej0906/gallery18.jpg",
+      "/images/hsej0906/gallery19.jpg",
+      "/images/hsej0906/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "울산 JW컨벤션",
+  "address": "신관 2층 루미에르홀\n울산광역시 북구 진장유통로 35",
+  "lat": 35.573901946749984,
+  "lng": 129.35624049186904,
+  "transport": {
+    "car": "",
+    "subway": "",
+    "expressbus": "",
+    "train": "",
+    "publicTransport": "",
+    "srt": "",
+    "taxi": "",
+    "shuttle": "",
+    "bus": "· 울산역\n1) KTX울산역 5001번 리무진버스\n→ 태화강역 하차 후 택시이용(약10분)\n2) KTX울산역 5003번 리무진버스\n→ 병영사거리 하차 후 택시이용(약5분)\n3) KTX울산역 5005번 리무진버스\n→ 북구청앞 하차 후 택시이용(약5분)\n\n· 태화강역\n1) 택시 이용시(약10분)\n2) 742번 버스, 중구03번 버스 탑승(약 30분 소요)",
+    "parking": "· 2시간30분 무료주차 이용가능\n· 예식장 건물뒷편 주차장 및 진장디플렉스 주차장 이용"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "남현식", "bank": "신한은행", "number": "110-477-181412" },
+        { "name": "남윤갑", "bank": "농협", "number": "302-5505-3748-71" },
+        { "name": "김미경", "bank": "농협", "number": "833-12-2727-60" }
+],
+      "bride": [
+        { "name": "성은지", "bank": "농협", "number": "312-0180-3034-21" },
+        { "name": "성철경", "bank": "농협", "number": "312-0179-9181-71" },
+        { "name": "박정옥", "bank": "새마을금고", "number": "9003-2642-9662-5" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1us17LUBCqCMW7bG745pjo3T26rsH0ttqZdIEcl8HCGo"
 }
   }
 }
