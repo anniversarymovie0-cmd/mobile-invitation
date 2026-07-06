@@ -7,12 +7,23 @@ export default function Gallery({ images }) {
 
   if (!images || images.length === 0) return null;
 
-  const scrollThumbnails = (direction) => {
-    if (!thumbnailRef.current) return;
+  const moveImage = (direction) => {
+    setSelectedIndex((prev) => {
+      const nextIndex =
+        direction === 'left'
+          ? prev === 0 ? images.length - 1 : prev - 1
+          : prev === images.length - 1 ? 0 : prev + 1;
 
-    thumbnailRef.current.scrollBy({
-      left: direction === 'left' ? -240 : 240,
-      behavior: 'smooth',
+      setTimeout(() => {
+        const thumbnail = thumbnailRef.current?.children[nextIndex];
+        thumbnail?.scrollIntoView({
+          behavior: 'smooth',
+          inline: 'center',
+          block: 'nearest',
+        });
+      }, 0);
+
+      return nextIndex;
     });
   };
 
@@ -71,7 +82,7 @@ export default function Gallery({ images }) {
       >
         <button
           className="thumbnail-arrow"
-          onClick={() => scrollThumbnails('left')}
+          onClick={() => moveImage('left')}
         >
           &#8249;
         </button>
@@ -120,7 +131,7 @@ export default function Gallery({ images }) {
 
         <button
           className="thumbnail-arrow"
-          onClick={() => scrollThumbnails('right')}
+          onClick={() => moveImage('right')}
         >
           &#8250;
         </button>
@@ -141,7 +152,7 @@ export default function Gallery({ images }) {
           padding: 0 8px;
           opacity: 0.35;
           transition: 0.2s;
-          display: none;
+          display: block;
           outline: none;
           line-height: 1;
         }
@@ -152,12 +163,6 @@ export default function Gallery({ images }) {
 
         .thumbnail-arrow:focus {
           outline: none;
-        }
-
-        @media (min-width: 768px) {
-          .thumbnail-arrow {
-            display: block;
-          }
         }
       `}</style>
     </div>

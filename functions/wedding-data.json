@@ -9436,14 +9436,14 @@
   "position": ""
 },
     "map": {
-  "name": "호텔 인터불고 대구",
+  "name": "호텔 인터불고 대구 (만촌 인터불고)",
   "address": "파크빌리지 홀\n대구광역시 수성구 팔현길 212",
   "lat": 35.8743558203363,
   "lng": 128.65980730557249,
   "transport": {
     "expressbus": "",
-    "train": "동대구역에서 오실 때\n택시 (15분)\n버스 (25분): 814, 708 (망우공원 하차),\n651 (호텔인터불고 하차)",
-    "car": "",
+    "car": "내비게이션 \"인터불고\" 검색 시,\n주소 \"수성구 만촌동\" 확인\n동대구 IC에서 시청방향으로 4km",
+    "train": "동대구역 - 택시: 약 10분 소요\n버스: 814, 708 (망우공원 하차), 651 (호텔인터불고 하차)\n대구역 - 택시: 약 20분 소요",
     "subway": "1호선 아양교역 하차 (택시10분)\n2호선 만촌역 하차 (택시10분)",
     "publicTransport": "",
     "ktx": "",
@@ -10194,7 +10194,7 @@
       "brideName": "성은지",
       "date": "2026년 9월 6일 일요일 오후 12시 30분",
       "location": "울산 JW컨벤션",
-      "message": "눈부신 여름의 8월의 여자와\n기분좋은 가을의 10월의 남자가 만나\n\n두 사람의 계절이\n가장 아름답게 어우러지는 9월에\n저희는 부부라는 이름으로 하나가 되려 합니다.\n\n두 계절이 만나\n가장 기분 좋은 온도를 이루는 날\n귀한 걸음으로 저희의 앞날을 축복해 주시면 감사하겠습니다.",
+      "message": "눈부신 여름의 8월의 여자와\n기분좋은 가을의 10월의 남자가 만나\n\n두 사람의 계절이\n가장 아름답게 어우러지는 9월\n저희는 부부라는 이름으로 하나가 되려 합니다.\n\n두 계절이 만나\n가장 기분 좋은 온도를 이루는 날\n귀한 걸음으로 저희의 앞날을 축복해 주시면 감사하겠습니다.",
       "mainImage": "/images/hsej0906/main.jpg",
       "thumbnail": "/images/hsej0906/thumbnail.jpg",
       "kakaoThumbnail": "/images/hsej0906/thumbnail_kakao.jpg"
@@ -10301,6 +10301,360 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1us17LUBCqCMW7bG745pjo3T26rsH0ttqZdIEcl8HCGo"
+}
+  },
+  "chjh1010": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이충희 & 현지혜 결혼식에 초대합니다",
+      "groomName": "이충희",
+      "brideName": "현지혜",
+      "date": "2026년 10월 10일 토요일 오후 3시",
+      "location": "웨딩메르디앙",
+      "message": "나의 사랑하는 자가 내게 말하여 이르기를\n나의 사랑, 내 어여쁜 자야 일어나서 함께 가자\n'아가 2장 10절'\n\n하나님의 인도하심 속에 만나\n이제 하나의 가정을 이루려합니다.\n부부라는 이름의 첫 시작,\n그 설렘의 순간에 소중한 분들을 초대합니다.",
+      "mainImage": "/images/chjh1010/main.jpg",
+      "thumbnail": "/images/chjh1010/thumbnail.jpg",
+      "kakaoThumbnail": "/images/chjh1010/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이상용",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "양태숙",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "현기덕",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "장태영",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "이충희", "relation": "신랑", "phone": "01035194827" },
+        { "name": "이상용", "relation": "아버님", "phone": "01085820061" },
+        { "name": "양태숙", "relation": "어머님", "phone": "01041334827" }
+      ],
+      "bride": [
+        { "name": "현지혜", "relation": "신부", "phone": "01085508159" },
+        { "name": "현기덕", "relation": "아버님", "phone": "01035303989" },
+        { "name": "장태영", "relation": "어머님", "phone": "01085648159" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-10T15:00:00+09:00"
+    },
+    "gallery": [
+      "/images/chjh1010/gallery1.jpg",
+      "/images/chjh1010/gallery2.jpg",
+      "/images/chjh1010/gallery3.jpg",
+      "/images/chjh1010/gallery4.jpg",
+      "/images/chjh1010/gallery5.jpg",
+      "/images/chjh1010/gallery6.jpg",
+      "/images/chjh1010/gallery7.jpg",
+      "/images/chjh1010/gallery8.jpg",
+      "/images/chjh1010/gallery9.jpg",
+      "/images/chjh1010/gallery10.jpg",
+      "/images/chjh1010/gallery11.jpg",
+      "/images/chjh1010/gallery12.jpg",
+      "/images/chjh1010/gallery13.jpg",
+      "/images/chjh1010/gallery14.jpg",
+      "/images/chjh1010/gallery15.jpg",
+      "/images/chjh1010/gallery16.jpg",
+      "/images/chjh1010/gallery17.jpg",
+      "/images/chjh1010/gallery18.jpg",
+      "/images/chjh1010/gallery19.jpg",
+      "/images/chjh1010/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "웨딩메르디앙",
+  "address": "6층 다소니홀\n대구광역시 북구 중앙대로 581",
+  "lat": 35.884805529412674,
+  "lng": 128.5969289021507,
+  "transport": {
+    "car": "내비게이션 :\"웨딩메르디앙\"입력\n[주소검색] 대구광역시 북구 중앙대로 581",
+    "subway": "1호선 대구역하차 1번출구 도보 20분\n3호선 북구청역 1번출구 도보 20분",
+    "expressbus": "",
+    "train": "",
+    "publicTransport": "",
+    "srt": "",
+    "taxi": "",
+    "shuttle": "",
+    "bus": "침산코오롱하늘채앞 하차 :\n232-1, 410-1, 503, 523, 653, 706, 북구4\n침산코오롱하늘채건너 하차 :\n232, 410, 503, 523, 653, 706",
+    "parking": "1. 웨딩메르디앙 건물 내 지하주차장\n- 주말 무료주차가 가능하나, 예식 당일 혼잡이 예상되오니 가급적 외부주차장 이용을 조치 요청합니다\n2. 대구시청 산격청사 (외부주차장)\n- 산격청사 내 무료 주차 가능\n주차 후 산격청사 정문 입구 셔틀버스 탑승\n(10분 간격 2대 왕복 운행)\n[주소검색] 대구 북구 연암로 40 (구.도청)"
+  }
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "5층 연회장에서 뷔페로 준비되어 있습니다.\n식권은 6층 축의대에서 수령해 주세요."
+  },
+    {
+    "title": "포토부스",
+    "content": "소중한 날을 기록할 수 있도록\n포토부스가 마련되어 있습니다.\n부담 없이 촬영하시고\n즐거운 추억으로 간직해 주세요."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "이상용", "bank": "im뱅크(대구)", "number": "097-13-068321" },
+        { "name": "양태숙", "bank": "im뱅크(대구)", "number": "062-08-154610" },
+        { "name": "이충희", "bank": "우리은행", "number": "1002-848-402171" }
+],
+      "bride": [
+        { "name": "현기덕", "bank": "im뱅크(대구)", "number": "018-08-0371026" },
+        { "name": "장태영", "bank": "우리은행", "number": "1002-053-831539" },
+        { "name": "현지혜", "bank": "im뱅크(대구)", "number": "263-13-019356" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1viuE8ibcclGAJkN0halDsktbxqBhWJBF58lyjecjiVI"
+}
+  },
+  "jahe0912": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "박주안 & 김호은 결혼식에 초대합니다",
+      "groomName": "박주안",
+      "brideName": "김호은",
+      "date": "2026년 9월 12일 토요일 오후 2시",
+      "location": "광주 드메르웨딩홀",
+      "message": "평범한 하루를 가장 특별하게 만드는 사람과\n평생을 함께하려 합니다.\n저희의 새로운 시작에 함께하시어\n따뜻한 축복을 나누어 주시면 감사하겠습니다.",
+      "mainImage": "/images/jahe0912/main.jpg",
+      "thumbnail": "/images/jahe0912/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jahe0912/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "박명식",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "신미애",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "김종만",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박경미",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-09-12T14:00:00+09:00"
+    },
+    "gallery": [
+      "/images/jahe0912/gallery1.jpg",
+      "/images/jahe0912/gallery2.jpg",
+      "/images/jahe0912/gallery3.jpg",
+      "/images/jahe0912/gallery4.jpg",
+      "/images/jahe0912/gallery5.jpg",
+      "/images/jahe0912/gallery6.jpg",
+      "/images/jahe0912/gallery7.jpg",
+      "/images/jahe0912/gallery8.jpg",
+      "/images/jahe0912/gallery9.jpg",
+      "/images/jahe0912/gallery10.jpg",
+      "/images/jahe0912/gallery11.jpg",
+      "/images/jahe0912/gallery12.jpg",
+      "/images/jahe0912/gallery13.jpg",
+      "/images/jahe0912/gallery14.jpg",
+      "/images/jahe0912/gallery15.jpg",
+      "/images/jahe0912/gallery16.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "광주 드메르웨딩홀",
+  "address": "4층 라비엔홀\n광주 광산구 임방울대로 549",
+  "lat": 35.2080498627941,
+  "lng": 126.82179207348247,
+  "transport": {
+    "car": "* 광주광역시 광산구 임방울대로 549,\n드메르웨딩홀 내비게이션 검색 후 방문해 주세요.",
+    "subway": "",
+    "expressbus": "광주고속버스터미널 이용시 하차 후 택시 20분 소요",
+    "train": "",
+    "publicTransport": "",
+    "ktx": "* 광주송정역 하차 후 택시 20분 소요",
+    "taxi": "",
+    "shuttle": "",
+    "bus": "",
+    "parking": "* 웨딩홀 내 넓은 주차장을 무료로 이용하실 수 있습니다."
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "박주안", "bank": "카카오뱅크", "number": "3333-10-6111980" },
+        { "name": "박명식", "bank": "농협은행", "number": "3019651238591" },
+        { "name": "신미애", "bank": "광주은행", "number": "141-121-843910" }
+],
+      "bride": [
+        { "name": "김호은", "bank": "카카오뱅크", "number": "3333-08-4297918" },
+        { "name": "김종만", "bank": "농협은행", "number": "352-1602-1902-03" },
+        { "name": "박경미", "bank": "카카오뱅크", "number": "3333-11-7339905" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "tjsm1004": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "07",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "채태주 & 이선민 결혼식에 초대합니다",
+      "groomName": "채태주",
+      "brideName": "이선민",
+      "date": "2026년 10월 4일 일요일 오전 11시",
+      "location": "라도무스아트센터웨딩홀",
+      "message": "\"우리는 모두 매일의 삶 속에서\n함께 시간을 여행하고 있어요.\n우리가 할 수 있는건 이 놀라운 여정을\n즐기는 최선을 다하는 것 뿐이에요.\"\n-영화 <어바웃타임> 중-",
+      "mainImage": "/images/tjsm1004/main.jpg",
+      "thumbnail": "/images/tjsm1004/thumbnail.jpg",
+      "kakaoThumbnail": "/images/tjsm1004/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "채수원",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김지은",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "이연",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김금준",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "채태주", "relation": "신랑", "phone": "010-7361-2226" },
+        { "name": "채수원", "relation": "아버님", "phone": "010-9291-2300" },
+        { "name": "김지은", "relation": "어머님", "phone": "010-2896-0880" }
+],
+      "bride": [
+        { "name": "이선민", "relation": "신부", "phone": "010-6349-4789" },
+        { "name": "이연", "relation": "아버님", "phone": "010-2558-4788" },
+        { "name": "김금준", "relation": "어머님", "phone": "010-9423-4787" }
+]
+    },
+    "calendar": {
+      "date": "2026-10-04T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/tjsm1004/gallery1.jpg",
+      "/images/tjsm1004/gallery2.jpg",
+      "/images/tjsm1004/gallery3.jpg",
+      "/images/tjsm1004/gallery4.jpg",
+      "/images/tjsm1004/gallery5.jpg",
+      "/images/tjsm1004/gallery6.jpg",
+      "/images/tjsm1004/gallery7.jpg",
+      "/images/tjsm1004/gallery8.jpg",
+      "/images/tjsm1004/gallery9.jpg",
+      "/images/tjsm1004/gallery10.jpg",
+      "/images/tjsm1004/gallery11.jpg",
+      "/images/tjsm1004/gallery12.jpg",
+      "/images/tjsm1004/gallery13.jpg",
+      "/images/tjsm1004/gallery14.jpg",
+      "/images/tjsm1004/gallery15.jpg",
+      "/images/tjsm1004/gallery16.jpg",
+      "/images/tjsm1004/gallery17.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "라도무스아트센터웨딩홀",
+  "address": "3층 아트리움홀\n대전 유성구 동서대로 639",
+  "lat": 36.333059454572336,
+  "lng": 127.33364262617584,
+  "transport": {
+    "car": "",
+    "subway": "",
+    "expressbus": "",
+    "train": "",
+    "publicTransport": "",
+    "ktx": "",
+    "taxi": "",
+    "shuttle": "",
+    "bus": "",
+    "parking": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "채태주", "bank": "농협은행", "number": "302-0719-7730-21" }
+],
+      "bride": [
+        { "name": "이선민", "bank": "카카오뱅크", "number": "3333-13-1566092" }
+]
+    },
+    "rsvp": {
+  "enabled": false
 }
   }
 }
