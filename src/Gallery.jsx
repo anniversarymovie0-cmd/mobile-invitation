@@ -5,14 +5,20 @@ export default function Gallery({ images }) {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const thumbnailRef = useRef(null);
 
-  if (!images || images.length === 0) return null;
+  // ✅ 갤러리 미사용 옵션 추가
+  const isGalleryEnabled = images?.enabled !== false;
+
+  // ✅ 기존 배열 방식 / 새 객체 방식 둘 다 대응
+  const galleryImages = Array.isArray(images) ? images : images?.list;
+
+  if (!isGalleryEnabled || !galleryImages || galleryImages.length === 0) return null;
 
   const moveImage = (direction) => {
     setSelectedIndex((prev) => {
       const nextIndex =
         direction === 'left'
-          ? prev === 0 ? images.length - 1 : prev - 1
-          : prev === images.length - 1 ? 0 : prev + 1;
+          ? prev === 0 ? galleryImages.length - 1 : prev - 1
+          : prev === galleryImages.length - 1 ? 0 : prev + 1;
 
       setTimeout(() => {
         const thumbnail = thumbnailRef.current?.children[nextIndex];
@@ -45,7 +51,7 @@ export default function Gallery({ images }) {
       }}>
         <motion.img
           key={selectedIndex}
-          src={images[selectedIndex]}
+          src={galleryImages[selectedIndex]}
           alt="Main Gallery"
           loading="eager"
           decoding="async"
@@ -98,7 +104,7 @@ export default function Gallery({ images }) {
             flex: 1,
           }}
         >
-          {images.map((src, index) => (
+          {galleryImages.map((src, index) => (
             <div
               key={index}
               onClick={() => setSelectedIndex(index)}
