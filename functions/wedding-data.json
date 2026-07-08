@@ -9834,6 +9834,7 @@
     "open": true,
     "keepForever": false,
     "bgm": "01",
+    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -10510,11 +10511,11 @@
 },
     "map": {
   "name": "광주 드메르웨딩홀",
-  "address": "4층 라비엔홀\n광주 광산구 임방울대로 549",
+  "address": "4층 라비엔홀\n전남광주통합특별시 광산구 임방울대로 549",
   "lat": 35.2080498627941,
   "lng": 126.82179207348247,
   "transport": {
-    "car": "* 광주광역시 광산구 임방울대로 549,\n드메르웨딩홀 내비게이션 검색 후 방문해 주세요.",
+    "car": "* 전남광주통합특별시 광산구 임방울대로 549,\n드메르웨딩홀 내비게이션 검색 후 방문해 주세요.",
     "subway": "",
     "expressbus": "광주고속버스터미널 이용시 하차 후 택시 20분 소요",
     "train": "",
@@ -10594,7 +10595,7 @@
 ],
       "bride": [
         { "name": "이선민", "relation": "신부", "phone": "010-6349-4789" },
-        { "name": "이연", "relation": "아버님", "phone": "010-2558-4788" },
+        { "name": "이연", "relation": "아버님", "phone": "010-2558-4789" },
         { "name": "김금준", "relation": "어머님", "phone": "010-9423-4787" }
 ]
     },
@@ -10651,6 +10652,136 @@
 ],
       "bride": [
         { "name": "이선민", "bank": "카카오뱅크", "number": "3333-13-1566092" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "cbnr0913": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "01",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김충범 & 김누리 결혼식에 초대합니다",
+      "groomName": "김충범",
+      "brideName": "김누리",
+      "date": "2026년 9월 13일 일요일 오전 11시",
+      "location": "제주 퍼시픽 호텔",
+      "message": "나는 오래된 거리처럼 너를 사랑하고\n- 진은영, '청혼'\n\n서로의 곁을 지키며 쌓아온 사랑으로\n이제 저희 두 사람이 하나의 길을\n함께 걸어가려 합니다.\n새로운 시작의 자리에 오셔서\n축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/cbnr0913/main.jpg",
+      "thumbnail": "/images/cbnr0913/thumbnail.jpg",
+      "kakaoThumbnail": "/images/cbnr0913/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김두진",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "한금희",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "김홍남",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "채석복",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김충범", "relation": "신랑", "phone": "010-4810-4335" },
+        { "name": "김두진", "relation": "아버님", "phone": "010-9655-4335" },
+        { "name": "한금희", "relation": "어머님", "phone": "010-9945-4335" }
+],
+      "bride": [
+        { "name": "김누리", "relation": "신부", "phone": "010-9370-6514" },
+        { "name": "김홍남", "relation": "아버님", "phone": "010-3699-6514" },
+        { "name": "채석복", "relation": "어머님", "phone": "010-5699-1638" }
+]
+    },
+    "calendar": {
+      "date": "2026-09-13T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/cbnr0913/gallery1.jpg",
+      "/images/cbnr0913/gallery2.jpg",
+      "/images/cbnr0913/gallery3.jpg",
+      "/images/cbnr0913/gallery4.jpg",
+      "/images/cbnr0913/gallery5.jpg",
+      "/images/cbnr0913/gallery6.jpg",
+      "/images/cbnr0913/gallery7.jpg",
+      "/images/cbnr0913/gallery8.jpg",
+      "/images/cbnr0913/gallery9.jpg",
+      "/images/cbnr0913/gallery10.jpg",
+      "/images/cbnr0913/gallery11.jpg",
+      "/images/cbnr0913/gallery12.jpg",
+      "/images/cbnr0913/gallery13.jpg",
+      "/images/cbnr0913/gallery14.jpg",
+      "/images/cbnr0913/gallery15.jpg",
+      "/images/cbnr0913/gallery16.jpg",
+      "/images/cbnr0913/gallery17.jpg",
+      "/images/cbnr0913/gallery18.jpg",
+      "/images/cbnr0913/gallery19.jpg",
+      "/images/cbnr0913/gallery20.jpg",
+      "/images/cbnr0913/gallery21.jpg",
+      "/images/cbnr0913/gallery22.jpg",
+      "/images/cbnr0913/gallery23.jpg",
+      "/images/cbnr0913/gallery24.jpg",
+      "/images/cbnr0913/gallery25.jpg",
+      "/images/cbnr0913/gallery26.jpg",
+      "/images/cbnr0913/gallery27.jpg",
+      "/images/cbnr0913/gallery29.jpg",
+      "/images/cbnr0913/gallery30.jpg"
+    ],
+   "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/bcopvAfeAd8",
+  "position": "afterCalendar"
+},
+    "map": {
+  "name": "제주 퍼시픽 호텔",
+  "address": "제주 제주시 서사로 20",
+  "lat": 33.51063014319498,
+  "lng": 126.5191774395425,
+  "transport": {
+    "car": "",
+    "subway": "",
+    "expressbus": "",
+    "train": "",
+    "publicTransport": "",
+    "ktx": "",
+    "taxi": "",
+    "shuttle": "",
+    "bus": "",
+    "parking": "건물 내 주차장 및 인근주차"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "김충범", "bank": "농협은행", "number": "302-2082-8882-91" },
+        { "name": "한금희", "bank": "농협은행", "number": "901044-52-095668" },
+        { "name": "김두진", "bank": "농협은행", "number": "901044-52-074887" }
+],
+      "bride": [
+        { "name": "김누리", "bank": "농협은행", "number": "302-1422-8786-71" },
+        { "name": "김홍남", "bank": "농협은행", "number": "302-3699-6514-01" },
+        { "name": "채석복", "bank": "농협은행", "number": "302-5699-1638-61" }
 ]
     },
     "rsvp": {
