@@ -10787,5 +10787,133 @@
     "rsvp": {
   "enabled": false
 }
+  },
+  "dbnk0809": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "심대보 & 이나경 결혼식에 초대합니다",
+      "groomName": "심대보",
+      "brideName": "이나경",
+      "date": "2026년 8월 9일 일요일 오후 2시 30분",
+      "location": "아펠가모 공덕",
+      "message": "\"사람을 사랑한다는 것은\n그 사람의 세상을 함께 사랑하는 일이다.\"\n\n- 김용택 〈사람을 사랑한다는 것은> -\n서로의 세상을 이해하고 품으며\n평생을 함께하기로 했습니다.\n기쁜 자리에 함께하시어 축복해 주세요.",
+      "mainImage": "/images/dbnk0809/main.jpg",
+      "thumbnail": "/images/dbnk0809/thumbnail.jpg",
+      "kakaoThumbnail": "/images/dbnk0809/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "심재석",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "서해영",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "최바울",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "여은영",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "심대보", "relation": "신랑", "phone": "01041118791" }
+],
+      "bride": [
+        { "name": "이나경", "relation": "신부", "phone": "01091109791" }
+]
+    },
+    "calendar": {
+      "date": "2026-08-09T14:30:00+09:00"
+    },
+    "gallery": [
+      "/images/dbnk0809/gallery1.jpg",
+      "/images/dbnk0809/gallery2.jpg",
+      "/images/dbnk0809/gallery3.jpg",
+      "/images/dbnk0809/gallery4.jpg",
+      "/images/dbnk0809/gallery5.jpg",
+      "/images/dbnk0809/gallery6.jpg",
+      "/images/dbnk0809/gallery7.jpg",
+      "/images/dbnk0809/gallery8.jpg",
+      "/images/dbnk0809/gallery9.jpg",
+      "/images/dbnk0809/gallery10.jpg",
+      "/images/dbnk0809/gallery11.jpg",
+      "/images/dbnk0809/gallery12.jpg",
+      "/images/dbnk0809/gallery13.jpg",
+      "/images/dbnk0809/gallery14.jpg",
+      "/images/dbnk0809/gallery15.jpg",
+      "/images/dbnk0809/gallery16.jpg",
+      "/images/dbnk0809/gallery17.jpg",
+      "/images/dbnk0809/gallery18.jpg",
+      "/images/dbnk0809/gallery19.jpg",
+      "/images/dbnk0809/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "아펠가모 공덕",
+  "address": "7층 마리에홀\n서울 마포구 마포대로 92 효성해링턴스퀘어 B동",
+  "lat": 37.54230943449128,
+  "lng": 126.95248684801811,
+  "transport": {
+    "car": "",
+    "subway": "공덕역 10번 출구 방향으로 나와 유턴 후,\n전방 우측 효성해링턴 스퀘어 B동 7층 (도보 30초)",
+    "expressbus": "",
+    "train": "",
+    "publicTransport": "",
+    "ktx": "",
+    "taxi": "",
+    "shuttle": "",
+    "bus": "160, 260, 600, 7013A, 7013B, 7611\n마포01, 마포02, 마포10, 1002, 6015, 6021",
+    "parking": "2시간 무료 주차 가능,\n건물 내 주차장 및 인근 외부 주차장 이용 가능"
+  }
+},
+"information": [
+  {
+    "title": "피로연장 이용 가능 시간",
+    "content": "14:00~16:00"
+  },
+    {
+    "title": "접수대 이용 가능 시간",
+    "content": "13:50~15:10"
+  },
+    {
+    "title": "화환 안내",
+    "content": "화환 대신 따뜻한 마음만 전해주세요"
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "심대보", "bank": "신한", "number": "110407894141" }
+],
+      "bride": [
+        { "name": "이나경", "bank": "신한", "number": "110427448876" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1Ns7NI523dbI5NOsTUh_eAhk2VoV3PCCDZV2zLnNwH80"
+}
   }
 }
