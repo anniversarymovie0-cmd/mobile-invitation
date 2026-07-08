@@ -11261,5 +11261,122 @@
   "enabled": true,
   "sheetId": "1RPbiIQ5EPiVgssysZLmYwiG9zX8-VrFE5-3wokfFb50"
 }
+  },
+  "jhhj1018": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이재형 & 변효정 결혼식에 초대합니다",
+      "groomName": "이재형",
+      "brideName": "변효정",
+      "date": "2026년 10월 18일 일요일 오후 2시 30분",
+      "location": "엘타워",
+      "message": "\"평생을 함께하고 싶은 사람을 만나면,\n남은 인생이 하루라도 빨리\n시작되길 바라게 된다.\"\n\n기다리던 순간이 찾아왔습니다.\n이제 서로의 손을 잡고 평생 함께하려 합니다.\n귀한 걸음으로 저희의 시작을 빛내주시면\n감사하겠습니다.",
+      "mainImage": "/images/jhhj1018/main.jpg",
+      "thumbnail": "/images/jhhj1018/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jhhj1018/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이흥우",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "황미경",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "변덕훈",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김현자",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-10-18T14:30:00+09:00"
+    },
+    "gallery": [
+      "/images/jhhj1018/gallery1.jpg",
+      "/images/jhhj1018/gallery2.jpg",
+      "/images/jhhj1018/gallery3.jpg",
+      "/images/jhhj1018/gallery4.jpg",
+      "/images/jhhj1018/gallery5.jpg",
+      "/images/jhhj1018/gallery6.jpg",
+      "/images/jhhj1018/gallery7.jpg",
+      "/images/jhhj1018/gallery8.jpg",
+      "/images/jhhj1018/gallery9.jpg",
+      "/images/jhhj1018/gallery10.jpg",
+      "/images/jhhj1018/gallery11.jpg",
+      "/images/jhhj1018/gallery12.jpg",
+      "/images/jhhj1018/gallery13.jpg",
+      "/images/jhhj1018/gallery14.jpg",
+      "/images/jhhj1018/gallery15.jpg",
+      "/images/jhhj1018/gallery16.jpg",
+      "/images/jhhj1018/gallery17.jpg",
+      "/images/jhhj1018/gallery18.jpg",
+      "/images/jhhj1018/gallery19.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "엘타워",
+  "address": "그랜드홀\n서울 서초구 강남대로 213",
+  "lat": 37.482297736188016,
+  "lng": 127.03560351781385,
+  "transport": {
+    "subway": "-3호선 양재역/신분당선 양재역 9번 출구",
+    "expressbus": "",
+    "train": "",
+    "publicTransport": "",
+    "ktx": "",
+    "shuttle": "",
+    "bus": "",
+    "taxi": "",
+    "car": "-서초IC에서 양재역 방면으로 나오신 후 양재역사거리에서 성남방향으로 우회전합니다.\n우회전 후 100m 직진하시면 우측에 엘타워가 있습니다.",
+    "parking": "-지상 주차장 및 지하주차장 동시 2곳 운영\n/ 바로 옆 양재역 공영 주차"
+  }
+},
+"information": [
+  {
+    "title": "제주도 피로연 안내문",
+    "content": "거리가 멀어 본식에 참여하시기\n어려운 분들을 위해 자리를 마련하였습니다.\n\n장소 : 아젠토피오레, 아모르홀(3층)\n주소 : 제주 제주시 서광로 112\n일시 : 2026년 10월 3일 토요일 11시-15시"
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "이흥우", "bank": "국민", "number": "762-21-0092-775" },
+        { "name": "황미경", "bank": "제일", "number": "252-20-246424" },
+        { "name": "이재형", "bank": "국민", "number": "545202-04-029223" }
+],
+      "bride": [
+        { "name": "변덕훈", "bank": "농협", "number": "352-3698-2047-33" },
+        { "name": "김현자", "bank": "농협", "number": "954-02-267757" },
+        { "name": "변효정", "bank": "농협", "number": "352-3638-2047-53" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
   }
 }
