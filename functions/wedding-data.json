@@ -11139,5 +11139,127 @@
     "rsvp": {
   "enabled": false
 }
+  },
+  "cisj1107": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이충일 & 황수진 결혼식에 초대합니다",
+      "groomName": "이충일",
+      "brideName": "황수진",
+      "date": "2026년 11월 7일 토요일 오후 1시",
+      "location": "델루시아 웨딩",
+      "message": "어린 날의 설렘이 추억이 되어 마음에 남았고,\n다시 만난 인연은 서로에게\n가장 따뜻한 사랑이 되었습니다.\n함께한 5년 끝에, 이제 평생을 약속하려 합니다.\n\n소중한 분들과 이 행복한 순간을\n함께하고 싶습니다.",
+      "mainImage": "/images/cisj1107/main.jpg",
+      "thumbnail": "/images/cisj1107/thumbnail.jpg",
+      "kakaoThumbnail": "/images/cisj1107/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이기성",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김정순",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "황재윤",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김현옥",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "이충일", "relation": "신랑", "phone": "010-5194-5678" },
+        { "name": "이기성", "relation": "아버님", "phone": "010-8300-1111" },
+        { "name": "김정순", "relation": "어머님", "phone": "010-7708-5678" }
+],
+      "bride": [
+        { "name": "황수진", "relation": "신부", "phone": "010-9655-8778" },
+        { "name": "황재윤", "relation": "아버님", "phone": "010-8383-7991" },
+        { "name": "김현옥", "relation": "어머님", "phone": "010-2528-8383" }
+]
+    },
+    "calendar": {
+      "date": "2026-11-07T13:00:00+09:00"
+    },
+    "gallery": [
+      "/images/cisj1107/gallery1.jpg",
+      "/images/cisj1107/gallery2.jpg",
+      "/images/cisj1107/gallery3.jpg",
+      "/images/cisj1107/gallery4.jpg",
+      "/images/cisj1107/gallery5.jpg",
+      "/images/cisj1107/gallery6.jpg",
+      "/images/cisj1107/gallery7.jpg",
+      "/images/cisj1107/gallery8.jpg",
+      "/images/cisj1107/gallery9.jpg",
+      "/images/cisj1107/gallery10.jpg",
+      "/images/cisj1107/gallery11.jpg",
+      "/images/cisj1107/gallery12.jpg",
+      "/images/cisj1107/gallery13.jpg",
+      "/images/cisj1107/gallery14.jpg",
+      "/images/cisj1107/gallery15.jpg",
+      "/images/cisj1107/gallery16.jpg",
+      "/images/cisj1107/gallery17.jpg",
+      "/images/cisj1107/gallery18.jpg",
+      "/images/cisj1107/gallery19.jpg",
+      "/images/cisj1107/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "델루시아 웨딩",
+  "address": "2층 씨엘로홀\n경북 구미시 고아읍 신원대로 198",
+  "lat": 36.170977185459414,
+  "lng": 128.3227146201396,
+  "transport": {
+    "subway": "",
+    "expressbus": "",
+    "train": "",
+    "publicTransport": "",
+    "ktx": "",
+    "shuttle": "",
+    "bus": "",
+    "parking": "외부 주차장\n폴스크린 앞 필지 전용주차장(고아읍 원호리 297-22),\n가람옥션 옆 필지 주차장(고아읍 원호리 297-27),\n구미남교회 힐링센터 옆 필지 주차장(고아읍 원호리 293-1)",
+    "taxi": "구미역에서 15분 소요,\n구미종합버스터미널 15~20분 소요",
+    "car": "대구 방향에서 오시는 경우 구미IC 이용,\n서울 방향에서 오시는 경우 북구미IC 이용"
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "이기성", "bank": "농협", "number": "010-8300-1111-09" },
+        { "name": "김정순", "bank": "농협", "number": "745017-52-080865" },
+        { "name": "이충일", "bank": "신한", "number": "110560212321" }
+],
+      "bride": [
+        { "name": "황재윤", "bank": "국민", "number": "83270201209339" },
+        { "name": "김현옥", "bank": "농협", "number": "743016-56-016830" },
+        { "name": "황수진", "bank": "농협", "number": "743016-51-022828" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1RPbiIQ5EPiVgssysZLmYwiG9zX8-VrFE5-3wokfFb50"
+}
   }
 }
