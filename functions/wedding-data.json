@@ -10915,5 +10915,137 @@
   "enabled": true,
   "sheetId": "1Ns7NI523dbI5NOsTUh_eAhk2VoV3PCCDZV2zLnNwH80"
 }
+  },
+  "chyl0912": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "01",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김충환 & 이예림 결혼식에 초대합니다",
+      "groomName": "김충환",
+      "brideName": "이예림",
+      "date": "2026년 9월 12일 토요일 오전 11시",
+      "location": "더파티움 안양",
+      "message": "귀 기울여 마음을 나누고 싶은\n사람을 만났습니다.\n평범한 하루 속 특별한 반짝임이\n되어 준 사람과,\n소중한 시간을 오래도록 함께하려 합니다.\n저희의 첫걸음을 함께 축복해 주시면\n감사하겠습니다.",
+      "mainImage": "/images/chyl0912/main.jpg",
+      "thumbnail": "/images/chyl0912/thumbnail.jpg",
+      "kakaoThumbnail": "/images/chyl0912/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김동일",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "오인화",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "이경섭",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "문희영",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김충환", "relation": "신랑", "phone": "010-5933-9850" },
+        { "name": "김동일", "relation": "아버님", "phone": "010-6632-9850" },
+        { "name": "오인화", "relation": "어머님", "phone": "010-2787-0712" }
+],
+      "bride": [
+        { "name": "이예림", "relation": "신부", "phone": "010-8608-4712" },
+        { "name": "이경섭", "relation": "아버님", "phone": "010-3352-4710" },
+        { "name": "문희영", "relation": "어머님", "phone": "010-4387-4712" }
+]
+    },
+    "calendar": {
+      "date": "2026-09-12T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/chyl0912/gallery1.jpg",
+      "/images/chyl0912/gallery2.jpg",
+      "/images/chyl0912/gallery3.jpg",
+      "/images/chyl0912/gallery4.jpg",
+      "/images/chyl0912/gallery5.jpg",
+      "/images/chyl0912/gallery6.jpg",
+      "/images/chyl0912/gallery7.jpg",
+      "/images/chyl0912/gallery8.jpg",
+      "/images/chyl0912/gallery9.jpg",
+      "/images/chyl0912/gallery10.jpg",
+      "/images/chyl0912/gallery11.jpg",
+      "/images/chyl0912/gallery12.jpg",
+      "/images/chyl0912/gallery13.jpg",
+      "/images/chyl0912/gallery14.jpg",
+      "/images/chyl0912/gallery15.jpg",
+      "/images/chyl0912/gallery16.jpg",
+      "/images/chyl0912/gallery17.jpg",
+      "/images/chyl0912/gallery18.jpg",
+      "/images/chyl0912/gallery19.jpg",
+      "/images/chyl0912/gallery20.jpg",
+      "/images/chyl0912/gallery21.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "더파티움 안양",
+  "address": "7층 라포레홀\n경기 안양시 동안구 시민대로 311 금강스마트빌딩",
+  "lat": 37.396059919142516,
+  "lng": 126.96495454878495,
+  "transport": {
+    "subway": "4호선 '평촌역' 3번 출구 횡단보도 맞은 편",
+    "expressbus": "",
+    "train": "",
+    "publicTransport": "",
+    "ktx": "",
+    "taxi": "",
+    "shuttle": "",
+    "bus": "‘평촌역' 하차\n[일반버스] 1, 6, 22, 52, 52-1, 83\n[마을버스] 2-1, 5, 5-1, 5-5, 6, 6-1, 7, 8, 10-1",
+    "car": "'더파티움 안양' 또는 '시민대로 311' 네비게이션 입력\n\n제 1주차장 : 본 건물 지하주차장\n[ 안양시 동안구 시민대로 311 ]\n제 2주차장 : 지아이에스(구.네온테크) 지하 주차장\n[ 안양시 동안구 부림로 146 ]\n제 3주차장 : 이마트 평촌점\n[ 안양시 동안구 시민대로 300 ]\n제 4주차장 : 평촌칼라힐 주차빌딩(2층부터 주차가능)\n[ 안양시 동안구 시민대로 312 ]",
+    "parking": ""
+  }
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "* 식사는 6층 연회장에\n뷔페로 준비되어 있습니다.\n* 식권은 7층 축의대에서 수령해 주세요."
+  },
+    {
+    "title": "주차 안내",
+    "content": "* 각 층 로비(5, 6, 7층)에 설치된 차량 등록\n시스템으로 편리하게 셀프 정산이 가능합니다.\n* 2시간 무료입니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "김동일", "bank": "우리은행", "number": "1002-054-698112" },
+        { "name": "오인화", "bank": "새마을금고", "number": "3714-09-018199-5" },
+        { "name": "김충환", "bank": "국민은행", "number": "210702-04-305195" }
+],
+      "bride": [
+        { "name": "이경섭", "bank": "신한은행", "number": "110-423-164000" },
+        { "name": "문희영", "bank": "신한은행", "number": "110-039-912708" },
+        { "name": "이예림", "bank": "신한은행", "number": "110-489-417521" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1_BPjXjustU1N7zAJfwQcKsJRneKBOvK56BIKL-bMsAU"
+}
   }
 }
