@@ -10798,34 +10798,34 @@
   },
     "intro": {
       "title": "심대보 & 이나경 결혼식에 초대합니다",
-      "groomName": "심대보",
-      "brideName": "이나경",
+      "groomName": "대보",
+      "brideName": "나경",
       "date": "2026년 8월 9일 일요일 오후 2시 30분",
       "location": "아펠가모 공덕",
       "message": "\"사람을 사랑한다는 것은\n그 사람의 세상을 함께 사랑하는 일이다.\"\n\n- 김용택 〈사람을 사랑한다는 것은> -\n서로의 세상을 이해하고 품으며\n평생을 함께하기로 했습니다.\n기쁜 자리에 함께하시어 축복해 주세요.",
-      "mainImage": "/images/dbnk0809/main.jpg",
+      "mainImage": "/images/dbnk0809/main.jpg?v=1",
       "thumbnail": "/images/dbnk0809/thumbnail.jpg",
-      "kakaoThumbnail": "/images/dbnk0809/thumbnail_kakao.jpg"
+      "kakaoThumbnail": "/images/dbnk0809/thumbnail_kakao.jpg?v=1"
     },
   "parents": {
   "groom": {
     "father": {
-      "name": "심재석",
+      "name": "재석",
       "symbol": "none"
     },
     "mother": {
-      "name": "서해영",
+      "name": "해영",
       "symbol": "none"
     },
     "relation": "아들"
   },
   "bride": {
     "father": {
-      "name": "최바울",
+      "name": "바울",
       "symbol": "none"
     },
     "mother": {
-      "name": "여은영",
+      "name": "은영",
       "symbol": "none"
     },
     "relation": "딸"
@@ -11377,6 +11377,139 @@
     },
     "rsvp": {
   "enabled": false
+}
+  },
+  "hghj0919": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "06",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "장현귀 & 전희진 결혼식에 초대합니다",
+      "groomName": "장현귀",
+      "brideName": "전희진",
+      "date": "2026년 9월 19일 토요일 오후 4시",
+      "location": "삼청각 일화당",
+      "message": "같은 하늘 아래, 광주에서 태어난 두 사람이\n지구 반 바퀴를 돌아 뉴욕의\n수많은 인파 속에서 마주쳤습니다.\n우연이라 하기엔 너무나 기적 같았던 그 만남이\n깊은 신뢰가 되어, 이제 평생을 약속하려 합니다.\n\n그 우연들이 모여 필연이 되는 오늘,\n소중한 분들을 모시고\n감사의 마음을 전하고자 합니다.",
+      "mainImage": "/images/hghj0919/main.jpg",
+      "thumbnail": "/images/hghj0919/thumbnail.jpg",
+      "kakaoThumbnail": "/images/hghj0919/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "장도현",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "표성애",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "전용근",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "양인",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "장현귀", "relation": "신랑", "phone": "01029886307" },
+        { "name": "표성애", "relation": "어머님", "phone": "01030036307" }
+],
+      "bride": [
+        { "name": "전희진", "relation": "신부", "phone": "01033415544" },
+        { "name": "전용근", "relation": "아버님", "phone": "01091815544" },
+        { "name": "양인", "relation": "어머님", "phone": "01029365544" }
+]
+    },
+    "calendar": {
+      "date": "2026-09-19T16:00:00+09:00"
+    },
+    "gallery": [
+      "/images/hghj0919/gallery1.jpg",
+      "/images/hghj0919/gallery2.jpg",
+      "/images/hghj0919/gallery3.jpg",
+      "/images/hghj0919/gallery4.jpg",
+      "/images/hghj0919/gallery5.jpg",
+      "/images/hghj0919/gallery6.jpg",
+      "/images/hghj0919/gallery7.jpg",
+      "/images/hghj0919/gallery8.jpg",
+      "/images/hghj0919/gallery9.jpg",
+      "/images/hghj0919/gallery10.jpg",
+      "/images/hghj0919/gallery12.jpg",
+      "/images/hghj0919/gallery13.jpg",
+      "/images/hghj0919/gallery14.jpg",
+      "/images/hghj0919/gallery15.jpg",
+      "/images/hghj0919/gallery16.jpg",
+      "/images/hghj0919/gallery17.jpg",
+      "/images/hghj0919/gallery18.jpg",
+      "/images/hghj0919/gallery19.jpg",
+      "/images/hghj0919/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/mB0HGGxmjZU",
+  "position": "afterCalendar"
+},
+    "map": {
+  "name": "삼청각 일화당",
+  "address": "서울특별시 성북구 대사관로 3\n(성북동 330-115번지)",
+  "lat": 37.59735073472928,
+  "lng": 126.98418081977508,
+  "transport": {
+    "subway": "",
+    "expressbus": "",
+    "train": "",
+    "publicTransport": "",
+    "ktx": "",
+    "bus": "",
+    "taxi": "",
+    "car": "",
+    "parking": "서울특별시 성북구 대사관로3 (성북동 330-115) 삼청각 일화당\n(예식장 도착 후 주차 요원 안내에 따라\n주차해 주시면 감사하겠습니다.)",
+    "shuttle": "지하철 4호선 한성대입구역 6번 출구 앞\n15분 간격 상시 운행\n(여유 있게 미리 도착해 주시면 감사하겠습니다.)"
+  }
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "야외 예식 진행 후 코스요리가 제공되는\n분리예식으로 진행됩니다.\n모바일 청첩장/개인 연락을 통해\n참석여부를 꼭 응답 부탁 드립니다."
+  },
+  {
+    "title": "산책로 안내",
+    "content": "자연을 머금은 산책로와 서울 전경이\n내려다 보이는 카페가 준비되어 있으니\n미리 오셔서 감상하시는 걸 추천 드립니다."
+  },
+  {
+    "title": "기타 안내",
+    "content": "본식 시작 1시간 전부터 입장 가능합니다.\n축하 화환은 정중히 사양하겠습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "표성애", "bank": "카카오뱅크", "number": "3333-17-6098195" },
+        { "name": "장현귀", "bank": "카카오뱅크", "number": "3333-07-3881240" }
+],
+      "bride": [
+        { "name": "전용근", "bank": "신한", "number": "110-345-284231" },
+        { "name": "양인", "bank": "새마을금고", "number": "9003-2723-0910-9" },
+        { "name": "전희진", "bank": "신한", "number": "110-248-575961" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1CxEtq87AufplijjdvdmjZYynwwY5JLRRhUdsMqa9Ea4"
 }
   }
 }
