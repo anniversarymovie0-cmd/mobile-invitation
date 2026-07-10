@@ -4774,7 +4774,7 @@
   "enabled": true,
   "type": "youtube",
   "url": "https://www.youtube.com/embed/92FCCeyOCGw",
-  "position": "afterGallery"
+  "position": "afterCalendar"
 },
     "map": {
   "name": "호텔수성 수성스퀘어",
@@ -11290,7 +11290,7 @@
       "name": "황미경",
       "symbol": "none"
     },
-    "relation": "차남"
+    "relation": "아들"
   },
   "bride": {
     "father": {
@@ -11301,7 +11301,7 @@
       "name": "김현자",
       "symbol": "none"
     },
-    "relation": "장녀"
+    "relation": "딸"
   }
 },
     "contacts": {
@@ -11341,7 +11341,7 @@
 },
     "map": {
   "name": "엘타워",
-  "address": "그랜드홀\n서울 서초구 강남대로 213",
+  "address": "그랜드홀 (7층)\n서울 서초구 강남대로 213",
   "lat": 37.482297736188016,
   "lng": 127.03560351781385,
   "transport": {
@@ -11641,7 +11641,7 @@
 }
   },
   "swsy1024": {
-    "open": false,
+    "open": true,
     "keepForever": false,
     "bgm": "10",
     "bgmAutoPlay": true,
@@ -11725,7 +11725,7 @@
   "lat": 37.56130579337699,
   "lng": 127.038391408254,
   "transport": {
-    "subway": "2호선, 5호선 이용시\n왕십리역 6-1번 출구로 나오셔서 횡단보도 건너 롯데리아 옆 엘리베이터 이용\n+ 사진 설명으로 보시려면 아래 URL을 클릭\nhttps://blog.naver.com/dinozze/223652470335\n\n분당선, 중앙선 이용시\n왕십리역 12번 출구 개찰구를 나오셔서 좌측 안쪽 엘리베이터 이용\n+ 사진 설명으로 보시려면 아래 URL을 클릭\nhttps://blog.naver.com/dinozze/223652433342",
+    "subway": "2호선, 5호선 이용시\n왕십리역 6-1번 출구로 나오셔서 횡단보도 건너 롯데리아 옆 엘리베이터 이용\n+ 사진 설명으로 보시려면 아래 URL을 참고\nhttps://blog.naver.com/dinozze/223652470335\n\n분당선, 중앙선 이용시\n왕십리역 12번 출구 개찰구를 나오셔서 좌측 안쪽 엘리베이터 이용\n+ 사진 설명으로 보시려면 아래 URL을 참고\nhttps://blog.naver.com/dinozze/223652433342",
     "bus": "비트플렉스 (왕십리민자역사)\n마을 성동02, 성동03-1, 성동03-2, 성동08, 성동14\n셔틀 한양여대, 한양대병원\n\n왕십리광장\n공항 6010 (인천공항)\n\n2번출구 성동보건소, 소방서\n3번출구 성동구청, 성동경찰서\n간선 110A, 141, 145, 148, 421\n지선 2015, 2222\n\n4번출구 성동경찰서\n7번출구 마을버스 정류장, 삼부아파트\n지선 4211\n\n8번출구 행당1파출소, 행당지구대\n9번출구 행당1동사무소, 무학여중, 무학여고\n간선 110A, 110B, 141, 148, 241, 302, 421, 463, N62\n지선 2012, 2013, 2014, 2016, 2222, 4211",
     "expressbus": "",
     "train": "",
@@ -11753,6 +11753,125 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1N7nKqZD3NG9kPiKGQBbwTgbuDdKKiWiWcCy24flfKMk"
+}
+  },
+  "wsar0829": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_wsar0829.mp3",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "전우석 & 유아라 결혼식에 초대합니다",
+      "groomName": "전우석",
+      "brideName": "유아라",
+      "date": "2026년 8월 29일 토요일 오후 3시 30분",
+      "location": "한양대학교 동문회관 H스퀘어",
+      "message": "있는 그대로 사랑하고\n서로의 존재를 감사하며\n변함없이 서로를 아끼며 살겠습니다\n서로를 향한 사랑과 믿음으로\n하나가 되는 자리에 함께해주세요",
+      "mainImage": "/images/wsar0829/main.jpg",
+      "thumbnail": "/images/wsar0829/thumbnail.jpg",
+      "kakaoThumbnail": "/images/wsar0829/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "전일택",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "홍윤경",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "유남정",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정재경",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "전우석", "relation": "신랑", "phone": "01081151125" },
+        { "name": "전일택", "relation": "아버님", "phone": "01097036927" },
+        { "name": "홍윤경", "relation": "어머님", "phone": "01073546540" }
+],
+      "bride": [
+        { "name": "유아라", "relation": "신부", "phone": "01086401521" },
+        { "name": "유남정", "relation": "아버님", "phone": "01084945415" },
+        { "name": "정재경", "relation": "어머님", "phone": "01030445428" }
+]
+    },
+    "calendar": {
+      "date": "2026-08-29T15:30:00+09:00"
+    },
+    "gallery": [
+      "/images/wsar0829/gallery1.jpg",
+      "/images/wsar0829/gallery2.jpg",
+      "/images/wsar0829/gallery3.jpg",
+      "/images/wsar0829/gallery4.jpg",
+      "/images/wsar0829/gallery5.jpg?v=1",
+      "/images/wsar0829/gallery6.jpg?v=1",
+      "/images/wsar0829/gallery7.jpg?v=1",
+      "/images/wsar0829/gallery8.jpg?v=1",
+      "/images/wsar0829/gallery9.jpg?v=1",
+      "/images/wsar0829/gallery10.jpg?v=1",
+      "/images/wsar0829/gallery11.jpg?v=1",
+      "/images/wsar0829/gallery12.jpg?v=1",
+      "/images/wsar0829/gallery13.jpg?v=1",
+      "/images/wsar0829/gallery14.jpg?v=1",
+      "/images/wsar0829/gallery15.jpg?v=1",
+      "/images/wsar0829/gallery16.jpg?v=1",
+      "/images/wsar0829/gallery17.jpg?v=1",
+      "/images/wsar0829/gallery18.jpg?v=1",
+      "/images/wsar0829/gallery19.jpg?v=1",
+      "/images/wsar0829/gallery20.jpg?v=1"
+    ],
+   "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/odrT__iOcXg",
+  "position": "afterMain"
+},
+    "map": {
+  "name": "한양대학교 동문회관 H스퀘어",
+  "address": "6층 헤리티지홀\n서울특별시 성동구 마조로 22-2",
+  "lat": 37.5595550405354,
+  "lng": 127.041401086363,
+  "transport": {
+    "subway": "2호선 l 한양대역 1번출구 (도보5분거리)\n5호선 l 왕십리역 6번출구 (도보5분거리)",
+    "bus": "지선 l 2012, 2013, 2014, 2220, 2222, 2411, 2016\n간선 l 263, 302, 371",
+    "expressbus": "",
+    "train": "",
+    "publicTransport": "",
+    "ktx": "",
+    "taxi": "",
+    "car": "",
+    "parking": "동문회관 주차장 및 한양대학교병원 주차장을\n이용하실 수 있습니다.\n예식 참석 하객께는 90분 무료 주차가 제공됩니다.",
+    "shuttle": ""
+  }
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "전우석", "bank": "국민", "number": "230102-04-279768" }
+],
+      "bride": [
+        { "name": "유아라", "bank": "국민", "number": "337102-04-193886" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1k74DfjvHuZkkuKq9UU_xraWmPvEKgJTvYS2-N_XVMSk"
 }
   }
 }
