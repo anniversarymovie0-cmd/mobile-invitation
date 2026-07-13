@@ -11996,5 +11996,243 @@
   "enabled": true,
   "sheetId": "1VP2gkNvRQ2TZMRmMD2eGKN1G450ws4vQcJ5u8EzGCiA"
 }
+  },
+  "dssj0906": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김동성 & 유소진 결혼식에 초대합니다",
+      "groomName": "김동성",
+      "brideName": "유소진",
+      "date": "2026년 9월 6일 일요일 오후 1시",
+      "location": "까사디루체",
+      "message": "부부란 무더운 여름밤 멀찍이 잠을 청하다가\n어둠 속에서 앵하고 모기소리가 들리면\n순식간에 둘이 합세하여 모기를 잡는 사이이다.\n-문정희, 부부\n\n서로 다른 두 사람이 만나\n부부라는 이름으로 새로운 시작을 합니다.\n서로를 향한 처음의 마음을 잊지 않고\n예쁘게 잘 살겠습니다.",
+      "mainImage": "/images/dssj0906/main.jpg",
+      "thumbnail": "/images/dssj0906/thumbnail.jpg",
+      "kakaoThumbnail": "/images/dssj0906/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김규연",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김경옥",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "유영일",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "강진유",
+      "symbol": "none"
+    },
+    "relation": "차녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김동성", "relation": "신랑", "phone": "010-2729-6253" },
+        { "name": "김규연", "relation": "아버님", "phone": "010-3617-0888" },
+        { "name": "김경옥", "relation": "어머님", "phone": "010-9203-6253" }
+],
+      "bride": [
+        { "name": "유소진", "relation": "신부", "phone": "010-9135-6385" },
+        { "name": "유영일", "relation": "아버님", "phone": "010-9403-6385" },
+        { "name": "강진유", "relation": "어머님", "phone": "010-9404-6385" }
+]
+    },
+    "calendar": {
+      "date": "2026-09-06T13:00:00+09:00"
+    },
+    "gallery": [
+      "/images/dssj0906/gallery1.jpg",
+      "/images/dssj0906/gallery2.jpg",
+      "/images/dssj0906/gallery3.jpg",
+      "/images/dssj0906/gallery4.jpg",
+      "/images/dssj0906/gallery5.jpg",
+      "/images/dssj0906/gallery6.jpg",
+      "/images/dssj0906/gallery7.jpg",
+      "/images/dssj0906/gallery8.jpg",
+      "/images/dssj0906/gallery9.jpg",
+      "/images/dssj0906/gallery10.jpg",
+      "/images/dssj0906/gallery11.jpg",
+      "/images/dssj0906/gallery12.jpg",
+      "/images/dssj0906/gallery13.jpg",
+      "/images/dssj0906/gallery14.jpg",
+      "/images/dssj0906/gallery15.jpg",
+      "/images/dssj0906/gallery16.jpg",
+      "/images/dssj0906/gallery17.jpg",
+      "/images/dssj0906/gallery18.jpg",
+      "/images/dssj0906/gallery19.jpg",
+      "/images/dssj0906/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "까사디루체",
+  "address": "1층 루체홀\n광주광역시 북구 문흥동 100",
+  "lat": 35.18754099076957,
+  "lng": 126.93245015042004,
+  "transport": {
+  "custom": [
+    {
+      "title": "광주송정역 출발",
+      "description": "광주도시철도 1호선 광주송정역 → 문화전당역 하차\n문화전당역 인근 버스 환승(금남57 등) → 까사디루체 인근 정류장 하차(소요시간 약 45~55분)"
+    },
+    {
+      "title": "광주종합버스터미널 출발",
+      "description": "터미널 앞 정류장에서 송정19, 금남57, 운림51 등 이용\n까사디루체 인근 정류장 하차 후 도보 약 3~5분\n(소요시간 약 20~30분)"
+    }
+  ]
+}
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "식사는 지하 1층 연회장에\n뷔페로 준비되어 있습니다.\n식권은 축의대에서 수령해 주세요."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "김규연", "bank": "농협", "number": "312-0050-7592-11" },
+        { "name": "김동성", "bank": "신한", "number": "110-315929-420" }
+
+],
+      "bride": [
+        { "name": "유영일", "bank": "농협", "number": "647027-52-063084" },
+        { "name": "유소진", "bank": "신한", "number": "110-477494-752" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "jhhy1018": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "04",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이준희 & 서하윤 결혼식에 초대합니다",
+      "groomName": "이준희",
+      "brideName": "서하윤",
+      "date": "2026년 10월 18일 일요일 오후 3시 30분",
+      "location": "부산 그랜드모먼트",
+      "message": "어쩌면 스쳐 지나갈 수도 있었던 만남이\n어느새 서로의 하루를 함께 나누는\n인연이 되었습니다.\n저희의 첫 발검을을 내딛는 자리에\n소중한 분들은 초대합니다.",
+      "mainImage": "/images/jhhy1018/main.jpg",
+      "thumbnail": "/images/jhhy1018/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jhhy1018/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이상훈",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이호선",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "서영섭",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "주봉희",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-10-18T15:30:00+09:00"
+    },
+    "gallery": [
+      "/images/jhhy1018/gallery1.jpg",
+      "/images/jhhy1018/gallery2.jpg",
+      "/images/jhhy1018/gallery3.jpg",
+      "/images/jhhy1018/gallery4.jpg",
+      "/images/jhhy1018/gallery5.jpg",
+      "/images/jhhy1018/gallery6.jpg",
+      "/images/jhhy1018/gallery7.jpg",
+      "/images/jhhy1018/gallery8.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "부산 그랜드모먼트",
+  "address": "B4층 클래식홀\n부산 남구 황령대로 401-9",
+  "lat": 35.1455935244993,
+  "lng": 129.10026608889,
+  "transport": {
+  "custom": [
+    {
+      "title": "지하철",
+      "description": "2호선 남천역 4번 출구에서 1km이내 셔틀버스 이용"
+    },
+    {
+      "title": "버스",
+      "description": "대남교차로&남천역 하차 후 셔틀버스 이용"
+    },
+    {
+      "title": "주차",
+      "description": "본 건물 지하주차장, 지상주차장, 타워 주차장 이용\n입차 후 3시간 무료 (파일첨부)"
+    }
+  ]
+}
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "· 식사장소\nB3층 더숲 뷔페\n\n· 식사시간\nPM 15:30~17:30 (2시간) 뷔페 이용 가능\n\n· 어린이 동반 하객\n미취학 아동은 식권없이 입장이 가능합니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "이준희", "bank": "신한", "number": "110-426-950460" },
+        { "name": "이상훈", "bank": "국민", "number": "207-0086-1313-07" },
+        { "name": "이호선", "bank": "농협", "number": "352-1311-6505-33" }
+
+],
+      "bride": [
+        { "name": "서하윤", "bank": "카카오뱅크", "number": "3333-14-9923894" },
+        { "name": "서영섭", "bank": "농협", "number": "813061-51-002748" },
+        { "name": "주봉희", "bank": "국민", "number": "666-21-0258-939" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
   }
 }
