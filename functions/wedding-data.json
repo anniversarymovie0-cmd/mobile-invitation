@@ -7647,8 +7647,8 @@
   },
     "intro": {
       "title": "고석영 & 원예인 결혼식에 초대합니다",
-      "groomName": "고석영",
-      "brideName": "원예인",
+      "groomName": "석영",
+      "brideName": "예인",
       "date": "2026년 9월 12일 토요일 오후 3시",
       "location": "연세대학교 동문회관",
       "message": "서로의 가장 좋은 친구이자,\n든든한 가족이 되어 새로운 출발을 하려 합니다.\n귀한 걸음으로 함께해 주시면\n큰 기쁨이 되겠습니다.",
@@ -10439,6 +10439,7 @@
     "open": true,
     "keepForever": false,
     "bgm": "08",
+    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -10814,7 +10815,7 @@
       "symbol": "none"
     },
     "mother": {
-      "name": "해영",
+      "name": "무선",
       "symbol": "none"
     },
     "relation": "아들"
@@ -10905,10 +10906,14 @@
 ],
     "accounts": {
       "groom": [
-        { "name": "심대보", "bank": "신한", "number": "110407894141" }
+        { "name": "심대보", "bank": "신한", "number": "110407894141" },
+        { "name": "심재석", "bank": "하나", "number": "02119149064" },
+        { "name": "서무선", "bank": "IM뱅크", "number": "076070108129" }
 ],
       "bride": [
-        { "name": "이나경", "bank": "신한", "number": "110427448876" }
+        { "name": "이나경", "bank": "신한", "number": "110427448876" },
+        { "name": "최바울", "bank": "카카오뱅크", "number": "3333147292989" },
+        { "name": "여은영", "bank": "국민", "number": "60600101598338" }
 ]
     },
     "rsvp": {
@@ -11221,10 +11226,10 @@
       "/images/cisj1107/gallery20.jpg"
     ],
    "video": {
-  "enabled": false,
-  "type": "",
-  "url": "",
-  "position": ""
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/r5iN75vtH5E",
+  "position": "afterCalendar"
 },
     "map": {
   "name": "델루시아 웨딩",
@@ -11527,9 +11532,9 @@
       "date": "2026년 9월 19일 토요일 오후 4시 10분",
       "location": "아이티컨벤션",
       "message": "\"최고의 사랑은 영혼을 일깨우고\n더 많이 소망하게 하고\n가슴엔 열정을, 마음엔 평화를 주지.\"\n- 영화 '노트북' 中 -\n\n부부의 날 우연처럼 시작된 설렘이\n9월의 어느 날, 영원한 부부의 인연이 됩니다.\n\n늘 곁에서 아껴주셨던 소중한 분들을 모십니다.",
-      "mainImage": "/images/mgsm0919/main.jpg",
-      "thumbnail": "/images/mgsm0919/thumbnail.jpg",
-      "kakaoThumbnail": "/images/mgsm0919/thumbnail_kakao.jpg"
+      "mainImage": "/images/mgsm0919/main.jpg?v=1",
+      "thumbnail": "/images/mgsm0919/thumbnail.jpg?v=1",
+      "kakaoThumbnail": "/images/mgsm0919/thumbnail_kakao.jpg?v=1"
     },
   "parents": {
   "groom": {
@@ -11568,30 +11573,30 @@
       "date": "2026-09-19T16:10:00+09:00"
     },
     "gallery": [
-      "/images/mgsm0919/gallery1.jpg",
-      "/images/mgsm0919/gallery2.jpg",
-      "/images/mgsm0919/gallery3.jpg",
-      "/images/mgsm0919/gallery4.jpg",
-      "/images/mgsm0919/gallery5.jpg",
-      "/images/mgsm0919/gallery6.jpg",
-      "/images/mgsm0919/gallery7.jpg",
-      "/images/mgsm0919/gallery8.jpg",
-      "/images/mgsm0919/gallery9.jpg",
-      "/images/mgsm0919/gallery10.jpg",
-      "/images/mgsm0919/gallery11.jpg",
-      "/images/mgsm0919/gallery12.jpg",
-      "/images/mgsm0919/gallery13.jpg",
-      "/images/mgsm0919/gallery14.jpg",
-      "/images/mgsm0919/gallery15.jpg",
-      "/images/mgsm0919/gallery16.jpg",
-      "/images/mgsm0919/gallery17.jpg",
-      "/images/mgsm0919/gallery18.jpg",
-      "/images/mgsm0919/gallery19.jpg",
-      "/images/mgsm0919/gallery20.jpg",
-      "/images/mgsm0919/gallery21.jpg",
-      "/images/mgsm0919/gallery22.jpg",
-      "/images/mgsm0919/gallery23.jpg",
-      "/images/mgsm0919/gallery24.jpg"
+      "/images/mgsm0919/gallery1.jpg?v=1",
+      "/images/mgsm0919/gallery2.jpg?v=1",
+      "/images/mgsm0919/gallery3.jpg?v=1",
+      "/images/mgsm0919/gallery4.jpg?v=1",
+      "/images/mgsm0919/gallery5.jpg?v=1",
+      "/images/mgsm0919/gallery6.jpg?v=1",
+      "/images/mgsm0919/gallery7.jpg?v=1",
+      "/images/mgsm0919/gallery8.jpg?v=1",
+      "/images/mgsm0919/gallery9.jpg?v=1",
+      "/images/mgsm0919/gallery10.jpg?v=1",
+      "/images/mgsm0919/gallery11.jpg?v=1",
+      "/images/mgsm0919/gallery12.jpg?v=1",
+      "/images/mgsm0919/gallery13.jpg?v=1",
+      "/images/mgsm0919/gallery14.jpg?v=1",
+      "/images/mgsm0919/gallery15.jpg?v=1",
+      "/images/mgsm0919/gallery16.jpg?v=1",
+      "/images/mgsm0919/gallery17.jpg?v=1",
+      "/images/mgsm0919/gallery18.jpg?v=1",
+      "/images/mgsm0919/gallery19.jpg?v=1",
+      "/images/mgsm0919/gallery20.jpg?v=1",
+      "/images/mgsm0919/gallery21.jpg?v=1",
+      "/images/mgsm0919/gallery22.jpg?v=1",
+      "/images/mgsm0919/gallery23.jpg?v=1",
+      "/images/mgsm0919/gallery24.jpg?v=1"
     ],
    "video": {
   "enabled": false,
@@ -11611,10 +11616,10 @@
     "publicTransport": "",
     "ktx": "",
     "taxi": "",
-    "car": "네비게이션 \"아이티컨벤션\" 또는 \"흥덕IT밸리\" 입력\n(수원 삼성전자삼거리 근방)",
-    "parking": "A동(Tower) 1번, 2번 입구 & 2시간 무료\n동시 1,800대 주차 가능",
-    "shuttle": "분당선 청명역 5번 출구 앞 →\n첫 예식 기준 30분 간격 왕복 무료 운행 (정각 & 30분)",
-    "bus": "흥덕IT밸리 또는 삼성전자입구 정류장 하차"
+    "car": "네비게이션에 \"아이티컨벤션\" 또는 \"흥덕IT밸리\" 검색\n(수원 삼성전자삼거리 근방)",
+    "parking": "A동(Tower) 1번, 2번 입구 (2시간 무료 주차)\n동시 1,800대 주차 가능",
+    "shuttle": "분당선 청명역 5번 출구 앞 탑승\n첫 예식 기준 30분 간격 왕복 무료 운행 (정각 & 30분)",
+    "bus": "\"흥덕IT밸리\" 또는 \"삼성전자입구\" 정류장 하차"
   }
 },
 "information": [
@@ -11629,10 +11634,13 @@
 ],
     "accounts": {
       "groom": [
-        { "name": "최민규", "bank": "신한", "number": "110-500-227037" }
+        { "name": "최민규", "bank": "신한", "number": "110-500-227037" },
+        { "name": "최병환", "bank": "하나", "number": "910-910182-26107" }
 ],
       "bride": [
-        { "name": "고상미", "bank": "신한", "number": "110-621-360283" }
+        { "name": "고상미", "bank": "신한", "number": "110-621-360283" },
+        { "name": "고영철", "bank": "농협", "number": "527015-52-057456" },
+        { "name": "김민자", "bank": "농협", "number": "356-0780-4010-93" }
 ]
     },
     "rsvp": {
@@ -11725,15 +11733,15 @@
   "lat": 37.56130579337699,
   "lng": 127.038391408254,
   "transport": {
-    "subway": "2호선, 5호선 이용시\n왕십리역 6-1번 출구로 나오셔서 횡단보도 건너 롯데리아 옆 엘리베이터 이용\n+ 사진 설명으로 보시려면 아래 URL을 참고\nhttps://blog.naver.com/dinozze/223652470335\n\n분당선, 중앙선 이용시\n왕십리역 12번 출구 개찰구를 나오셔서 좌측 안쪽 엘리베이터 이용\n+ 사진 설명으로 보시려면 아래 URL을 참고\nhttps://blog.naver.com/dinozze/223652433342",
-    "bus": "비트플렉스 (왕십리민자역사)\n마을 성동02, 성동03-1, 성동03-2, 성동08, 성동14\n셔틀 한양여대, 한양대병원\n\n왕십리광장\n공항 6010 (인천공항)\n\n2번출구 성동보건소, 소방서\n3번출구 성동구청, 성동경찰서\n간선 110A, 141, 145, 148, 421\n지선 2015, 2222\n\n4번출구 성동경찰서\n7번출구 마을버스 정류장, 삼부아파트\n지선 4211\n\n8번출구 행당1파출소, 행당지구대\n9번출구 행당1동사무소, 무학여중, 무학여고\n간선 110A, 110B, 141, 148, 241, 302, 421, 463, N62\n지선 2012, 2013, 2014, 2016, 2222, 4211",
+    "subway": "2호선, 5호선 이용시\n왕십리역 6-1번 출구로 나오셔서 횡단보도 건너 롯데리아 옆 엘리베이터 이용\n\n분당선, 중앙선 이용시\n왕십리역 12번 출구 개찰구를 나오셔서 좌측 안쪽 엘리베이터 이용",
+    "bus": "왕십리민자역사 / 왕십리광장 하차\n(ID: 04-510 / 04-753)\n마을버스: 성동02, 성동03-1, 성동03-2, 성동08, 성동14\n\n왕십리광장·왕십리역7번출구 하차\n(ID: 04-301 / 04-302)\n지선(초록): 4211\n\n성동구청 하차\n(ID: 04-671)\n간선(파랑): 110A, 141, 145, 148, 421\n지선(초록): 2015, 2222",
     "expressbus": "",
     "train": "",
     "publicTransport": "",
     "ktx": "",
     "taxi": "",
     "car": "",
-    "parking": "비트플렉스 주차장 이용\n성동구청 쪽에서 오시는 경우 4-5F 주차장,\n한양대역 쪽에서 오시는 경우 2-5F 주차장\n1,200대 동시 주차 (2시간 무료주차)",
+    "parking": "비트플렉스 주차장 이용\n성동구청 쪽에서 오시는 경우 4-5F 주차장,\n한양대역 쪽에서 오시는 경우 2-5F 주차장\n이마트, CGV 방면 엘리베이터 이용 시 5F 하차\n1,200대 동시 주차 (2시간 무료)",
     "shuttle": ""
   }
 },
@@ -11769,7 +11777,7 @@
       "brideName": "유아라",
       "date": "2026년 8월 29일 토요일 오후 3시 30분",
       "location": "한양대학교 동문회관 H스퀘어",
-      "message": "있는 그대로 사랑하고\n서로의 존재를 감사하며\n변함없이 서로를 아끼며 살겠습니다\n서로를 향한 사랑과 믿음으로\n하나가 되는 자리에 함께해주세요",
+      "message": "주님의 사랑 안에서 만난 두 사람이\n이제 새로운 가정을 이루는\n약속을 하려고 합니다.\n서로를 향한 사랑과 믿음으로\n하나가 되는 자리에 함께하시어\n축복해 주시면 감사하겠습니다.",
       "mainImage": "/images/wsar0829/main.jpg",
       "thumbnail": "/images/wsar0829/thumbnail.jpg",
       "kakaoThumbnail": "/images/wsar0829/thumbnail_kakao.jpg"
@@ -11872,6 +11880,121 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1k74DfjvHuZkkuKq9UU_xraWmPvEKgJTvYS2-N_XVMSk"
+}
+  },
+  "bgmk1025": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "01",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "전병규 & 유문경 결혼식에 초대합니다",
+      "groomName": "전병규",
+      "brideName": "유문경",
+      "date": "2026년 10월 25일 일요일 오전 11시",
+      "location": "그라운드헤븐",
+      "message": "오랜 시간, 10년이 넘는 사랑을\n함께 키워온 저희 두 사람이\n이제 하나가 되는 날을 맞이하게 되었습니다.\n그동안 곁에서 따뜻한 마음으로\n지켜봐 주신 소중한 분들을 모시고,\n감사의 마음을 담아 이 자리에 초대드립니다.\n부디 함께하시어 저희의 새로운 시작을\n축복해 주시면 더없는 기쁨이 되겠습니다.",
+      "mainImage": "/images/bgmk1025/main.jpg",
+      "thumbnail": "/images/bgmk1025/thumbnail.jpg",
+      "kakaoThumbnail": "/images/bgmk1025/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "전용기",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "송점례",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "유정균",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정경화",
+      "symbol": "none"
+    },
+    "relation": "차녀"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-10-25T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/bgmk1025/gallery1.jpg",
+      "/images/bgmk1025/gallery2.jpg",
+      "/images/bgmk1025/gallery3.jpg",
+      "/images/bgmk1025/gallery4.jpg",
+      "/images/bgmk1025/gallery5.jpg",
+      "/images/bgmk1025/gallery6.jpg",
+      "/images/bgmk1025/gallery7.jpg",
+      "/images/bgmk1025/gallery8.jpg",
+      "/images/bgmk1025/gallery9.jpg",
+      "/images/bgmk1025/gallery10.jpg",
+      "/images/bgmk1025/gallery11.jpg",
+      "/images/bgmk1025/gallery12.jpg",
+      "/images/bgmk1025/gallery13.jpg",
+      "/images/bgmk1025/gallery14.jpg",
+      "/images/bgmk1025/gallery15.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "그라운드헤븐",
+  "address": "경남 진주시 대신로 626-13",
+  "lat": 35.215157286596664,
+  "lng": 128.11240460953303,
+  "transport": {
+    "subway": "",
+    "bus": "",
+    "expressbus": "",
+    "train": "",
+    "publicTransport": "",
+    "ktx": "",
+    "taxi": "",
+    "car": "",
+    "parking": "내부 만차시 옆 명신고등학교 주차가능\n(주차요원 안내 예정)",
+    "shuttle": ""
+  }
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "야외 예식 후,\n뷔페식 식사가 준비되어 있습니다.\n이동없이 자리에서\n편안하게 이용하실 수 있습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "전용기", "bank": "하나은행", "number": "31818023122" },
+        { "name": "송점례", "bank": "국민은행", "number": "81362501047434" },
+        { "name": "전병규", "bank": "신한은행", "number": "110538582469" }
+
+],
+      "bride": [
+        { "name": "정경화", "bank": "농협은행", "number": "85712001275" },
+        { "name": "유문경", "bank": "농협은행", "number": "85712171226" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1VP2gkNvRQ2TZMRmMD2eGKN1G450ws4vQcJ5u8EzGCiA"
 }
   }
 }
