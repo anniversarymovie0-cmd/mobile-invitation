@@ -12234,5 +12234,115 @@
     "rsvp": {
   "enabled": false
 }
+  },
+  "khhj0829": {
+    "open": true,
+    "keepForever": false,
+    "bgm": null,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김경호 & 김현정 결혼식에 초대합니다",
+      "groomName": "김경호",
+      "brideName": "김현정",
+      "date": "2026년 8월 29일 토요일 오후 3시",
+      "location": "W웨딩 더펄웨딩홀",
+      "message": "좋은 날, 저희 결혼합니다.\n함께해 주시는 마음 오래 간직하겠습니다.\n귀한 걸음으로 축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/khhj0829/main.jpg",
+      "thumbnail": "/images/khhj0829/thumbnail.jpg",
+      "kakaoThumbnail": "/images/khhj0829/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김중삼",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "성경수",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "김태길",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "강해란",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-08-29T15:00:00+09:00"
+    },
+    "gallery": [
+      "/images/khhj0829/gallery1.jpg",
+      "/images/khhj0829/gallery2.jpg",
+      "/images/khhj0829/gallery3.jpg",
+      "/images/khhj0829/gallery4.jpg",
+      "/images/khhj0829/gallery5.jpg",
+      "/images/khhj0829/gallery6.jpg",
+      "/images/khhj0829/gallery7.jpg",
+      "/images/khhj0829/gallery8.jpg",
+      "/images/khhj0829/gallery9.jpg",
+      "/images/khhj0829/gallery10.jpg",
+      "/images/khhj0829/gallery11.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "W웨딩 더펄웨딩홀",
+  "address": "2층\n부산광역시 부산진구 황령대로 24 (상공회의소)",
+  "lat": 35.14799215354692,
+  "lng": 129.06247114177972,
+  "transport": {
+  "custom": [
+    {
+      "title": "지하철",
+      "description": "범내골역(1호선) 6번출구 황령산 터널방면 200m"
+    },
+    {
+      "title": "버스",
+      "description": "상공회의소 하차 (도보 5분)\n10, 103, 111, 29, 43, 5-1, 57, 67\n\n범내골역 하차 (도보 5분)\n서면방향 : 108, 138, 167, 17, 23, 52\n범일방향 : 10, 103, 108, 111, 138, 167"
+    },
+    {
+      "title": "주차",
+      "description": "웨딩홀 본관 주차 (지상 주차장 250대)"
+    }
+  ]
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "김경호", "bank": "하나", "number": "102-910547-28507" },
+        { "name": "김중삼", "bank": "농협", "number": "352-0334-6469-03" },
+        { "name": "성경수", "bank": "SC제일", "number": "179-20-097361" }
+
+],
+      "bride": [
+        { "name": "김현정", "bank": "토스뱅크", "number": "1000-7796-3459" },
+        { "name": "김태길", "bank": "국민은행", "number": "567601-01-4037-88" },
+        { "name": "강해란", "bank": "부산은행", "number": "166-12-0040-253" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1rLEgMXHOOmCvIhoRYSDK1bqdpk7efMDDBS3ZpxiGSu8"
+}
   }
 }
