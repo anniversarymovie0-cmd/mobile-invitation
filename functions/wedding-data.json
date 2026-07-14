@@ -11677,7 +11677,7 @@
       "brideName": "유소진",
       "date": "2026년 9월 6일 일요일 오후 1시",
       "location": "까사디루체",
-      "message": "부부란 무더운 여름밤 멀찍이 잠을 청하다가\n어둠 속에서 앵하고 모기소리가 들리면\n순식간에 둘이 합세하여 모기를 잡는 사이이다.\n-문정희, 부부\n\n서로 다른 두 사람이 만나\n부부라는 이름으로 새로운 시작을 합니다.\n서로를 향한 처음의 마음을 잊지 않고\n예쁘게 잘 살겠습니다.",
+      "message": "부부란 무더운 여름밤 멀찍이 잠을 청하다가\n어둠 속에서 앵하고 모기소리가 들리면\n순식간에 둘이 합세하여 모기를 잡는 사이이다.\n- 문정희, 「부부」\n\n서로 다른 두 사람이 만나\n부부라는 이름으로 새로운 시작을 합니다.\n서로를 향한 처음의 마음을 잊지 않고\n예쁘게 잘 살겠습니다.",
       "mainImage": "/images/dssj0906/main.jpg",
       "thumbnail": "/images/dssj0906/thumbnail.jpg",
       "kakaoThumbnail": "/images/dssj0906/thumbnail_kakao.jpg"
@@ -11771,13 +11771,13 @@
 "information": [
   {
     "title": "식사 안내",
-    "content": "식사는 지하 1층 연회장에\n뷔페로 준비되어 있습니다.\n식권은 축의대에서 수령해 주세요."
+    "content": "식사는 지하 1층 연회장에\n뷔페식으로 준비되어 있습니다.\n식권은 축의대에서 수령해 주세요."
   }
 ],
     "accounts": {
       "groom": [
         { "name": "김규연", "bank": "농협", "number": "312-0050-7592-11" },
-        { "name": "김동성", "bank": "신한", "number": "110-315929-420" }
+        { "name": "김동성", "bank": "신한", "number": "110-315-929420" }
 
 ],
       "bride": [
@@ -11841,14 +11841,13 @@
       "date": "2026-10-18T15:30:00+09:00"
     },
     "gallery": [
-      "/images/jhhy1018/gallery1.jpg",
-      "/images/jhhy1018/gallery2.jpg",
-      "/images/jhhy1018/gallery3.jpg",
-      "/images/jhhy1018/gallery4.jpg",
-      "/images/jhhy1018/gallery5.jpg",
-      "/images/jhhy1018/gallery6.jpg",
-      "/images/jhhy1018/gallery7.jpg",
-      "/images/jhhy1018/gallery8.jpg"
+      "/images/jhhy1018/gallery1.jpg?v=1",
+      "/images/jhhy1018/gallery2.jpg?v=1",
+      "/images/jhhy1018/gallery3.jpg?v=1",
+      "/images/jhhy1018/gallery4.jpg?v=1",
+      "/images/jhhy1018/gallery5.jpg?v=1",
+      "/images/jhhy1018/gallery6.jpg?v=1",
+      "/images/jhhy1018/gallery7.jpg?v=1"
     ],
    "video": {
   "enabled": false,
@@ -11864,16 +11863,20 @@
   "transport": {
   "custom": [
     {
-      "title": "지하철",
-      "description": "2호선 남천역 4번 출구에서 1km이내 셔틀버스 이용"
+      "title": "주소",
+      "description": "부산광역시 남구 대연동 황령대로 401-9 그랜드모먼트"
     },
     {
-      "title": "버스",
-      "description": "대남교차로&남천역 하차 후 셔틀버스 이용"
+      "title": "대중교통",
+      "description": "• 지하철\n2호선 남천역 4번 출구 도보 15분 (1km)\n\n• 버스\n1. 대남교차로&남천역 하차 후 셔틀버스 이용\n(20, 39, 40, 41, 51, 83-1, 83, 108, 131, 155, 1001, 1003)\n2. 38번, 583번 '동원보라아파트' 정류장 하차 후\n도보 5분 (500m)\n\n• 마을버스\n남구1번 대남초등학교' 하차 후 도보 5분"
     },
     {
-      "title": "주차",
-      "description": "본 건물 지하주차장, 지상주차장, 타워 주차장 이용\n입차 후 3시간 무료 (파일첨부)"
+      "title": "셔틀버스 운행",
+      "description": "남천역 4번 출구 230m 앞 더샵 입구 (103동 근처)\n25인승 셔틀버스 15~20분 간격으로 운행"
+    },
+    {
+      "title": "자가용",
+      "description": "입차 후 3시간 무료\n※ 주말 정체구간으로 혼잡이 예상되오니\n참고 바랍니다."
     }
   ]
 }
@@ -12367,6 +12370,138 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1BwkoaJQNauZR6js4nTbY4l2vtiKMSaYG4TPE_b9el-A"
+}
+  },
+  "yjjh1024": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "09",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김영재 & 천지현 결혼식에 초대합니다",
+      "groomName": "김영재",
+      "brideName": "천지현",
+      "date": "2026년 10월 24일 토요일 오후 12시 50분",
+      "location": "롯데호텔 울산",
+      "message": "예쁜 예감이 들었다.\n우리는 언제나 손을 잡고 있게 될 것이다.\n\n8년의 연애 끝에 드디어 결혼합니다!\n오랜 시간 함께한 만큼,\n앞으로도 잘 살겠습니다.\n10월 24일 저희의 시작을 함께 축하해 주세요.",
+      "mainImage": "/images/yjjh1024/main.jpg",
+      "thumbnail": "/images/yjjh1024/thumbnail.jpg",
+      "kakaoThumbnail": "/images/yjjh1024/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김선곤",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "차영희",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "천정환",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박성미",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김영재", "relation": "신랑", "phone": "010-2599-9389" },
+        { "name": "김선곤", "relation": "아버님", "phone": "010-2241-9389" },
+        { "name": "차영희", "relation": "어머님", "phone": "010-8411-9389" }
+      ],
+      "bride": [
+        { "name": "천지현", "relation": "신부", "phone": "010-6515-2076" },
+        { "name": "천정환", "relation": "아버님", "phone": "010-6646-5959" },
+        { "name": "박성미", "relation": "어머님", "phone": "010-5499-2076" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-24T12:50:00+09:00"
+    },
+    "gallery": [
+      "/images/yjjh1024/gallery1.jpg",
+      "/images/yjjh1024/gallery2.jpg",
+      "/images/yjjh1024/gallery3.jpg",
+      "/images/yjjh1024/gallery4.jpg",
+      "/images/yjjh1024/gallery5.jpg",
+      "/images/yjjh1024/gallery6.jpg",
+      "/images/yjjh1024/gallery7.jpg",
+      "/images/yjjh1024/gallery8.jpg",
+      "/images/yjjh1024/gallery9.jpg",
+      "/images/yjjh1024/gallery10.jpg",
+      "/images/yjjh1024/gallery11.jpg",
+      "/images/yjjh1024/gallery12.jpg",
+      "/images/yjjh1024/gallery13.jpg",
+      "/images/yjjh1024/gallery14.jpg",
+      "/images/yjjh1024/gallery15.jpg",
+      "/images/yjjh1024/gallery16.jpg",
+      "/images/yjjh1024/gallery17.jpg",
+      "/images/yjjh1024/gallery18.jpg",
+      "/images/yjjh1024/gallery19.jpg",
+      "/images/yjjh1024/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "롯데호텔 울산",
+  "address": "2층 크리스탈볼룸홀\n울산 남구 삼산로 282",
+  "lat": 35.53879169257699,
+  "lng": 129.33804929090147,
+  "transport": {
+  "custom": [
+    {
+      "title": "주차",
+      "description": "롯데호텔,롯데시네마,영플라자,롯데백화점 주차 가능"
+    },
+    {
+      "title": "KTX",
+      "description": "서울역->울산역(2시간 30분 소요)\n롯데호텔 울산까지 택시로 40분\n울산역 리무진버스 5001번(40분 소요)\n보람병원 하차 후 도보 5분\n울산역 직행버스 1703번(1시간 10분 소요)\n시내고속버스터미널 하차"
+    },
+    {
+      "title": "비행기",
+      "description": "김포공항->울산공항(50분 소요)"
+    },
+    {
+      "title": "고속버스",
+      "description": "울산 삼산 시외버스터미널에서 도보 3분"
+    }
+  ]
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "김선곤", "bank": "농협은행", "number": "815813-56-068439" },
+        { "name": "차영희", "bank": "농협은행", "number": "815813-52-049873" },
+        { "name": "김영재", "bank": "케이뱅크", "number": "100-135-070112" }
+
+],
+      "bride": [
+        { "name": "천정환", "bank": "경남은행", "number": "540-22-0249350" },
+        { "name": "박성미", "bank": "경남은행", "number": "617-22-0054100" },
+        { "name": "천지현", "bank": "우리은행", "number": "1002-962-723112" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1lsWvdgnWyVZdzlX85V2snJblh6UsUAD7YlcRFc4kv9Q"
 }
   }
 }
