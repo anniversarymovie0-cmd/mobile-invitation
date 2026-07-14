@@ -11896,7 +11896,7 @@
       "brideName": "유문경",
       "date": "2026년 10월 25일 일요일 오전 11시",
       "location": "그라운드헤븐",
-      "message": "오랜 시간, 10년이 넘는 사랑을\n함께 키워온 저희 두 사람이\n이제 하나가 되는 날을 맞이하게 되었습니다.\n그동안 곁에서 따뜻한 마음으로\n지켜봐 주신 소중한 분들을 모시고,\n감사의 마음을 담아 이 자리에 초대드립니다.\n부디 함께하시어 저희의 새로운 시작을\n축복해 주시면 더없는 기쁨이 되겠습니다.",
+      "message": "오랜 시간, 10년이 넘는 사랑을\n함께 키워온 저희 두 사람이\n이제 하나가 되는 날을 맞이하게 되었습니다\n\n가족과 가까운 친지분들만 모시고\n조용히 예식을 올리게 되었습니다.\n\n직접 모든 분을 모시지 못하는 점\n너그러이 양해 부탁드리며,\n따뜻한 마음으로 축복해 주시면\n더없는 기쁨이 되겠습니다.",
       "mainImage": "/images/bgmk1025/main.jpg",
       "thumbnail": "/images/bgmk1025/thumbnail.jpg",
       "kakaoThumbnail": "/images/bgmk1025/thumbnail_kakao.jpg"
@@ -12343,6 +12343,133 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1rLEgMXHOOmCvIhoRYSDK1bqdpk7efMDDBS3ZpxiGSu8"
+}
+  },
+  "wwhe1017": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이원우 & 최하은 결혼식에 초대합니다",
+      "groomName": "이원우",
+      "brideName": "최하은",
+      "date": "2026년 10월 17일 토요일 오후 2시",
+      "location": "빌라드 아모르 이천",
+      "message": "7년이라는 시간 동안 서로를 아끼고\n사랑하며 함께 걸어온 저희가\n이제 부부라는 이름으로\n새로운 시작을 합니다.\n소중한 걸음 하시어\n저희의 가장 행복한 순간을\n함께 축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/wwhe1017/main.jpg",
+      "thumbnail": "/images/wwhe1017/thumbnail.jpg",
+      "kakaoThumbnail": "/images/wwhe1017/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이종기",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "강은정",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "최귀덕",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "양민정",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "이원우", "relation": "신랑", "phone": "010-5011-9466" },
+        { "name": "이종기", "relation": "아버님", "phone": "010-9240-9466" },
+        { "name": "강은정", "relation": "어머님", "phone": "010-6489-9485" }
+],
+      "bride": [
+        { "name": "최하은", "relation": "신부", "phone": "010-2493-7698" },
+        { "name": "최귀덕", "relation": "아버님", "phone": "010-4815-0775" },
+        { "name": "양민정", "relation": "어머님", "phone": "010-2414-8101" }
+]
+    },
+    "calendar": {
+      "date": "2026-10-17T14:00:00+09:00"
+    },
+    "gallery": [
+      "/images/wwhe1017/gallery1.jpg",
+      "/images/wwhe1017/gallery2.jpg",
+      "/images/wwhe1017/gallery3.jpg",
+      "/images/wwhe1017/gallery4.jpg",
+      "/images/wwhe1017/gallery5.jpg",
+      "/images/wwhe1017/gallery6.jpg",
+      "/images/wwhe1017/gallery7.jpg",
+      "/images/wwhe1017/gallery8.jpg",
+      "/images/wwhe1017/gallery9.jpg",
+      "/images/wwhe1017/gallery10.jpg",
+      "/images/wwhe1017/gallery11.jpg",
+      "/images/wwhe1017/gallery12.jpg",
+      "/images/wwhe1017/gallery13.jpg",
+      "/images/wwhe1017/gallery14.jpg",
+      "/images/wwhe1017/gallery15.jpg",
+      "/images/wwhe1017/gallery16.jpg",
+      "/images/wwhe1017/gallery17.jpg",
+      "/images/wwhe1017/gallery18.jpg",
+      "/images/wwhe1017/gallery19.jpg",
+      "/images/wwhe1017/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/zIMUVTbRmek",
+  "position": "afterCalendar"
+},
+    "map": {
+  "name": "빌라드 아모르 이천",
+  "address": "1층 르 블루 씨엘\n경기 이천시 율현동 이섭대천호921",
+  "lat": 37.253155768385795,
+  "lng": 127.44261491963081,
+  "transport": {
+  "custom": [
+    {
+      "title": "네비게이션",
+      "description": "지번주소 : 경기 이천시 율현동 215\n도로명주소 : 경기 이천시 이섭대천로921"
+    },
+    {
+      "title": "자가용",
+      "description": "중부고속도로\n서이천 IC>이천, 장호원 방향\n>이천사거리 우회전>약2.6km 직진"
+    },
+    {
+      "title": "버스",
+      "description": "이천역 3번, 12번, 12-1번\n\n이천터미널(SC제일은행 앞 정류장)\n22-3번, 22-9번\n\n증일2리 입구 하차>도보 300m"
+    }
+  ]
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "이원우", "bank": "신한은행", "number": "110-373-168948" },
+        { "name": "이종기", "bank": "농협은행", "number": "183-02-598780" },
+        { "name": "강은정", "bank": "농협은행", "number": "302-1090-7001-61" }
+
+],
+      "bride": [
+        { "name": "최하은", "bank": "신한은행", "number": "110-374-732597" },
+        { "name": "최귀덕", "bank": "농협은행", "number": "943-12-267466" },
+        { "name": "양민정", "bank": "농협은행", "number": "302-1505-090961" }
+]
+    },
+    "rsvp": {
+  "enabled": false
 }
   }
 }
