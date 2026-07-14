@@ -65,8 +65,14 @@ function Home() {
           text: '스마트스토어',
           link: 'https://mkt.shopping.naver.com/link/68b04396183bf64a8345aef3',
         },
-        { text: '인스타그램', link: 'https://instagram.com/anniversary.movie' },
-        { text: '카톡 문의하기', link: 'http://pf.kakao.com/_XySxoG' },
+        {
+          text: '인스타그램',
+          link: 'https://instagram.com/anniversary.movie',
+        },
+        {
+          text: '카톡 문의하기',
+          link: 'http://pf.kakao.com/_XySxoG',
+        },
       ].map((btn, idx) => (
         <a
           key={idx}
@@ -115,15 +121,59 @@ function PageLoader() {
 
   // 확대 제어: 기본은 차단, false인 경우에만 허용
   useLayoutEffect(() => {
-    const shouldDisableZoom = data?.settings?.disableZoom !== false;
+    if (!data) return;
+
+    const shouldDisableZoom = data.settings?.disableZoom !== false;
 
     if (shouldDisableZoom) {
       setViewportContent(
-        'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+        'width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'
       );
     } else {
       setViewportContent('width=device-width, initial-scale=1.0');
     }
+  }, [data]);
+
+  // Safari / 모바일 브라우저 핀치 확대 방지
+  useEffect(() => {
+    if (!data) return;
+
+    const shouldDisableZoom = data.settings?.disableZoom !== false;
+
+    if (!shouldDisableZoom) return;
+
+    const preventGesture = (event) => {
+      event.preventDefault();
+    };
+
+    const preventMultiTouch = (event) => {
+      if (event.touches && event.touches.length > 1) {
+        event.preventDefault();
+      }
+    };
+
+    document.addEventListener('gesturestart', preventGesture, {
+      passive: false,
+    });
+
+    document.addEventListener('gesturechange', preventGesture, {
+      passive: false,
+    });
+
+    document.addEventListener('gestureend', preventGesture, {
+      passive: false,
+    });
+
+    document.addEventListener('touchmove', preventMultiTouch, {
+      passive: false,
+    });
+
+    return () => {
+      document.removeEventListener('gesturestart', preventGesture);
+      document.removeEventListener('gesturechange', preventGesture);
+      document.removeEventListener('gestureend', preventGesture);
+      document.removeEventListener('touchmove', preventMultiTouch);
+    };
   }, [data]);
 
   if (!id) return <div>잘못된 접근입니다.</div>;
@@ -147,6 +197,7 @@ function PageLoader() {
         <p style={{ fontSize: '18px', marginBottom: '10px' }}>
           모바일 청첩장이 준비 중입니다
         </p>
+
         <p style={{ fontSize: '14px', color: '#888' }}>
           곧 공개될 예정입니다
         </p>
@@ -164,10 +215,10 @@ export default function App() {
     }
   }, []);
 
-  // 앱 기본값도 확대 차단으로 맞춤
+  // 데이터가 불러와지기 전 기본 확대 차단
   useLayoutEffect(() => {
     setViewportContent(
-      'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+      'width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'
     );
   }, []);
 
