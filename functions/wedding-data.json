@@ -12024,9 +12024,9 @@
       "date": "2026년 10월 17일 토요일 오후 2시",
       "location": "빌라드 아모르 이천",
       "message": "7년이라는 시간 동안 서로를 아끼고\n사랑하며 함께 걸어온 저희가\n이제 부부라는 이름으로\n새로운 시작을 합니다.\n소중한 걸음 하시어\n저희의 가장 행복한 순간을\n함께 축복해 주시면 감사하겠습니다.",
-      "mainImage": "/images/wwhe1017/main.jpg",
-      "thumbnail": "/images/wwhe1017/thumbnail.jpg",
-      "kakaoThumbnail": "/images/wwhe1017/thumbnail_kakao.jpg"
+      "mainImage": "/images/wwhe1017/main.jpg?v=1",
+      "thumbnail": "/images/wwhe1017/thumbnail.jpg?v=1",
+      "kakaoThumbnail": "/images/wwhe1017/thumbnail_kakao.jpg?v=1"
     },
   "parents": {
   "groom": {
@@ -12195,29 +12195,29 @@
       "date": "2026-10-11T14:00:00+09:00"
     },
     "gallery": [
-      "/images/himj1011/gallery1.jpg",
-      "/images/himj1011/gallery2.jpg",
-      "/images/himj1011/gallery3.jpg",
-      "/images/himj1011/gallery4.jpg",
-      "/images/himj1011/gallery5.jpg",
-      "/images/himj1011/gallery6.jpg",
-      "/images/himj1011/gallery7.jpg",
-      "/images/himj1011/gallery8.jpg",
-      "/images/himj1011/gallery9.jpg",
-      "/images/himj1011/gallery10.jpg",
-      "/images/himj1011/gallery11.jpg",
-      "/images/himj1011/gallery12.jpg",
-      "/images/himj1011/gallery13.jpg",
-      "/images/himj1011/gallery14.jpg",
-      "/images/himj1011/gallery15.jpg",
-      "/images/himj1011/gallery16.jpg",
-      "/images/himj1011/gallery17.jpg",
-      "/images/himj1011/gallery18.jpg",
-      "/images/himj1011/gallery19.jpg",
-      "/images/himj1011/gallery20.jpg",
-      "/images/himj1011/gallery21.jpg",
-      "/images/himj1011/gallery22.jpg",
-      "/images/himj1011/gallery23.jpg"
+      "/images/himj1011/gallery1.jpg?v=1",
+      "/images/himj1011/gallery2.jpg?v=1",
+      "/images/himj1011/gallery3.jpg?v=1",
+      "/images/himj1011/gallery4.jpg?v=1",
+      "/images/himj1011/gallery5.jpg?v=1",
+      "/images/himj1011/gallery6.jpg?v=1",
+      "/images/himj1011/gallery7.jpg?v=1",
+      "/images/himj1011/gallery8.jpg?v=1",
+      "/images/himj1011/gallery9.jpg?v=1",
+      "/images/himj1011/gallery10.jpg?v=1",
+      "/images/himj1011/gallery11.jpg?v=1",
+      "/images/himj1011/gallery12.jpg?v=1",
+      "/images/himj1011/gallery13.jpg?v=1",
+      "/images/himj1011/gallery14.jpg?v=1",
+      "/images/himj1011/gallery15.jpg?v=1",
+      "/images/himj1011/gallery16.jpg?v=1",
+      "/images/himj1011/gallery17.jpg?v=1",
+      "/images/himj1011/gallery18.jpg?v=1",
+      "/images/himj1011/gallery19.jpg?v=1",
+      "/images/himj1011/gallery20.jpg?v=1",
+      "/images/himj1011/gallery21.jpg?v=1",
+      "/images/himj1011/gallery22.jpg?v=1",
+      "/images/himj1011/gallery23.jpg?v=1"
     ],
    "video": {
   "enabled": false,
@@ -12774,7 +12774,7 @@
       "brideName": "김위령",
       "date": "2026년 9월 6일 일요일 오후 12시 10분",
       "location": "웨스턴베니비스 신도림",
-      "message": "계절이 바뀌어도\n늘 서로의 곁을 지켜주는 사람이 되겠습니다.\n\n설레는 시작 앞에 선 두 사람,\n소중한 분들을 모시고\n함께 웃고, 함께 축복받고 싶습니다.\n부디 오셔서 저희의 새로운 출발을\n축복해 주세요.",
+      "message": "계절이 바뀌어도\n늘 서로의 곁을 지켜주는 사람이 되겠습니다.\n\n설레는 시작 앞에 선 두 사람,\n소중한 분들을 모시고\n함께 웃고, 함께 축복받고 싶습니다.\n귀한 걸음으로 저희의 새로운 출발을\n축복해 주세요.",
       "mainImage": "/images/plkwr0906/main.jpg",
       "thumbnail": "/images/plkwr0906/thumbnail.jpg",
       "kakaoThumbnail": "/images/plkwr0906/thumbnail_kakao.jpg"
@@ -12973,7 +12973,7 @@
     },
     {
       "title": "신부 측 버스 타는 곳",
-      "description": "오전 9:30 청석고 정문 앞\n1호 본가 2호 외가"
+      "description": "오전 9시 상당구 용암동 청석고 앞\n1호 본가 2호 외가"
     }
   ]
 }
