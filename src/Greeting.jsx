@@ -82,8 +82,17 @@ export default function Greeting({ intro, parents }) {
   const hasBothBrideParents =
     hasBrideFather && hasBrideMother;
 
+  // ✅ 신랑 측 어머님 성함 앞에 국화꽃이 있는지 확인
+  const hasGroomMotherFlower =
+    hasGroomMother && groomMother?.symbol === 'flower';
+
+  // ✅ 신부 측 어머님 성함 앞에 국화꽃이 있는지 확인
+  const hasBrideMotherFlower =
+    hasBrideMother && brideMother?.symbol === 'flower';
+
   /*
-   * ✅ 신랑·신부가 동일한 Grid 열을 공유
+   * ✅ 일반적인 경우
+   * 신랑·신부가 동일한 Grid 열을 공유
    *
    * 1열: 아버지
    * 2열: 가운데점
@@ -127,7 +136,7 @@ export default function Greeting({ intro, parents }) {
   };
 
   /*
-   * ✅ 부모님 한 분만 입력된 경우
+   * ✅ 부모님 한 분만 입력된 일반적인 경우
    *
    * 부모님 영역 1~3열을 합치고 오른쪽 정렬하여
    * 뒤의 '의'와 불필요한 간격이 생기지 않도록 처리
@@ -148,7 +157,7 @@ export default function Greeting({ intro, parents }) {
   };
 
   /*
-   * ✅ 관계 영역
+   * ✅ 일반 Grid의 관계 영역
    *
    * 신랑·신부 중 가장 긴 관계 문구에 맞춰 자동 확장
    * 짧은 '딸'은 관계 영역 가운데 정렬
@@ -163,7 +172,7 @@ export default function Greeting({ intro, parents }) {
   };
 
   /*
-   * ✅ 신랑·신부 이름 영역
+   * ✅ 일반 Grid의 신랑·신부 이름 영역
    *
    * 외자·두 글자·세 글자 이름의 시작 위치를 동일하게 유지
    */
@@ -180,6 +189,44 @@ export default function Greeting({ intro, parents }) {
     justifyContent: 'center',
     whiteSpace: 'nowrap',
     lineHeight: '1.8'
+  };
+
+  /*
+   * ✅ 어머님 성함 앞에 국화꽃이 있는 행만 적용
+   *
+   * 기존 Grid의 6개 열 정렬을 사용하지 않고,
+   * 해당 줄 전체를 하나의 문장처럼 가운데 정렬합니다.
+   */
+  const motherFlowerRowStyle = {
+    gridColumn: '1 / 7',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    whiteSpace: 'nowrap',
+    lineHeight: '1.8'
+  };
+
+  // ✅ 국화 예외 행의 가운데점
+  const flowerRowDotStyle = {
+    margin: '0 4px'
+  };
+
+  // ✅ 국화 예외 행의 '의'
+  const flowerRowUiStyle = {
+    color: '#999',
+    marginLeft: '8px',
+    marginRight: '5px'
+  };
+
+  // ✅ 국화 예외 행의 관계
+  const flowerRowRelationStyle = {
+    color: '#999',
+    marginRight: '5px'
+  };
+
+  // ✅ 국화 예외 행의 신랑·신부 이름
+  const flowerRowNameStyle = {
+    fontWeight: 'bold'
   };
 
   return (
@@ -233,50 +280,90 @@ export default function Greeting({ intro, parents }) {
             {/* ================= 신랑 ================= */}
 
             {hasGroomParents ? (
-              <>
-                {hasBothGroomParents ? (
-                  <>
-                    {/* 신랑 아버지 */}
-                    <span style={fatherStyle}>
+              hasGroomMotherFlower ? (
+                /*
+                 * ✅ 신랑 측 어머님 성함 앞에 국화꽃이 있는 경우
+                 * 해당 신랑 줄만 전체 가운데 정렬
+                 */
+                <span style={motherFlowerRowStyle}>
+                  {hasGroomFather && (
+                    <>
                       {renderParentName(groomFather, true)}
-                    </span>
 
-                    {/* 가운데점 */}
-                    <span style={dotStyle}>
-                      ·
-                    </span>
+                      <span style={flowerRowDotStyle}>
+                        ·
+                      </span>
+                    </>
+                  )}
 
-                    {/* 신랑 어머니 */}
-                    <span style={motherStyle}>
-                      {renderParentName(groomMother, false)}
-                    </span>
-                  </>
-                ) : (
-                  <>
-                    {/* 신랑 부모님 한 분만 입력된 경우 */}
-                    <span style={singleParentStyle}>
-                      {hasGroomFather
-                        ? renderParentName(groomFather, true)
-                        : renderParentName(groomMother, true)}
-                    </span>
-                  </>
-                )}
+                  {/*
+                    어머님 국화는 inline 방식으로 표시하기 위해
+                    두 번째 인자를 false로 전달합니다.
+                  */}
+                  {renderParentName(groomMother, false)}
 
-                {/* 의 */}
-                <span style={uiStyle}>
-                  의
+                  <span style={flowerRowUiStyle}>
+                    의
+                  </span>
+
+                  <span style={flowerRowRelationStyle}>
+                    {parents.groom.relation}
+                  </span>
+
+                  <span style={flowerRowNameStyle}>
+                    {intro.groomName}
+                  </span>
                 </span>
+              ) : (
+                /*
+                 * ✅ 신랑 측 일반적인 경우
+                 * 지금까지 맞춰놓은 기존 Grid 배열 그대로 유지
+                 */
+                <>
+                  {hasBothGroomParents ? (
+                    <>
+                      {/* 신랑 아버지 */}
+                      <span style={fatherStyle}>
+                        {renderParentName(groomFather, true)}
+                      </span>
 
-                {/* 아들 / 장남 / 둘째아들 등 */}
-                <span style={relationStyle}>
-                  {parents.groom.relation}
-                </span>
+                      {/* 가운데점 */}
+                      <span style={dotStyle}>
+                        ·
+                      </span>
 
-                {/* 신랑 이름 */}
-                <span style={coupleNameStyle}>
-                  {intro.groomName}
-                </span>
-              </>
+                      {/* 신랑 어머니 */}
+                      <span style={motherStyle}>
+                        {renderParentName(groomMother, false)}
+                      </span>
+                    </>
+                  ) : (
+                    <>
+                      {/* 신랑 부모님 한 분만 입력된 경우 */}
+                      <span style={singleParentStyle}>
+                        {hasGroomFather
+                          ? renderParentName(groomFather, true)
+                          : renderParentName(groomMother, true)}
+                      </span>
+                    </>
+                  )}
+
+                  {/* 의 */}
+                  <span style={uiStyle}>
+                    의
+                  </span>
+
+                  {/* 아들 / 장남 / 둘째아들 등 */}
+                  <span style={relationStyle}>
+                    {parents.groom.relation}
+                  </span>
+
+                  {/* 신랑 이름 */}
+                  <span style={coupleNameStyle}>
+                    {intro.groomName}
+                  </span>
+                </>
+              )
             ) : (
               <span
                 style={{
@@ -302,50 +389,90 @@ export default function Greeting({ intro, parents }) {
             {/* ================= 신부 ================= */}
 
             {hasBrideParents ? (
-              <>
-                {hasBothBrideParents ? (
-                  <>
-                    {/* 신부 아버지 */}
-                    <span style={fatherStyle}>
+              hasBrideMotherFlower ? (
+                /*
+                 * ✅ 신부 측 어머님 성함 앞에 국화꽃이 있는 경우
+                 * 해당 신부 줄만 전체 가운데 정렬
+                 */
+                <span style={motherFlowerRowStyle}>
+                  {hasBrideFather && (
+                    <>
                       {renderParentName(brideFather, true)}
-                    </span>
 
-                    {/* 가운데점 */}
-                    <span style={dotStyle}>
-                      ·
-                    </span>
+                      <span style={flowerRowDotStyle}>
+                        ·
+                      </span>
+                    </>
+                  )}
 
-                    {/* 신부 어머니 */}
-                    <span style={motherStyle}>
-                      {renderParentName(brideMother, false)}
-                    </span>
-                  </>
-                ) : (
-                  <>
-                    {/* 신부 부모님 한 분만 입력된 경우 */}
-                    <span style={singleParentStyle}>
-                      {hasBrideFather
-                        ? renderParentName(brideFather, true)
-                        : renderParentName(brideMother, true)}
-                    </span>
-                  </>
-                )}
+                  {/*
+                    어머님 국화는 inline 방식으로 표시하기 위해
+                    두 번째 인자를 false로 전달합니다.
+                  */}
+                  {renderParentName(brideMother, false)}
 
-                {/* 의 */}
-                <span style={uiStyle}>
-                  의
+                  <span style={flowerRowUiStyle}>
+                    의
+                  </span>
+
+                  <span style={flowerRowRelationStyle}>
+                    {parents.bride.relation}
+                  </span>
+
+                  <span style={flowerRowNameStyle}>
+                    {intro.brideName}
+                  </span>
                 </span>
+              ) : (
+                /*
+                 * ✅ 신부 측 일반적인 경우
+                 * 지금까지 맞춰놓은 기존 Grid 배열 그대로 유지
+                 */
+                <>
+                  {hasBothBrideParents ? (
+                    <>
+                      {/* 신부 아버지 */}
+                      <span style={fatherStyle}>
+                        {renderParentName(brideFather, true)}
+                      </span>
 
-                {/* 딸 / 장녀 / 첫째딸 등 */}
-                <span style={relationStyle}>
-                  {parents.bride.relation}
-                </span>
+                      {/* 가운데점 */}
+                      <span style={dotStyle}>
+                        ·
+                      </span>
 
-                {/* 신부 이름 */}
-                <span style={coupleNameStyle}>
-                  {intro.brideName}
-                </span>
-              </>
+                      {/* 신부 어머니 */}
+                      <span style={motherStyle}>
+                        {renderParentName(brideMother, false)}
+                      </span>
+                    </>
+                  ) : (
+                    <>
+                      {/* 신부 부모님 한 분만 입력된 경우 */}
+                      <span style={singleParentStyle}>
+                        {hasBrideFather
+                          ? renderParentName(brideFather, true)
+                          : renderParentName(brideMother, true)}
+                      </span>
+                    </>
+                  )}
+
+                  {/* 의 */}
+                  <span style={uiStyle}>
+                    의
+                  </span>
+
+                  {/* 딸 / 장녀 / 첫째딸 등 */}
+                  <span style={relationStyle}>
+                    {parents.bride.relation}
+                  </span>
+
+                  {/* 신부 이름 */}
+                  <span style={coupleNameStyle}>
+                    {intro.brideName}
+                  </span>
+                </>
+              )
             ) : (
               <span
                 style={{

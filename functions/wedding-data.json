@@ -12355,11 +12355,15 @@
 "information": [],
     "accounts": {
       "groom": [
-        { "name": "이승수", "bank": "기업", "number": "21205099801011" }
+        { "name": "이승수", "bank": "기업은행", "number": "21205099801011" },
+        { "name": "이태우", "bank": "우리은행", "number": "1002-262-538885" },
+        { "name": "김영순", "bank": "국민은행", "number": "593101-04-047225" }
 
 ],
       "bride": [
-        { "name": "신희란", "bank": "토스뱅크", "number": "1001-8206-7662" }
+        { "name": "신희란", "bank": "토스뱅크", "number": "1001-8206-7662" },
+        { "name": "신복", "bank": "국민은행", "number": "038-7010-451-2251" },
+        { "name": "고갑남", "bank": "농협은행", "number": "356-1285-0659-13" }
 ]
     },
     "rsvp": {
@@ -13139,6 +13143,343 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "15ca_r3jKHJrffPRoMpZdjbM6gJduNVRpRfgM7rRzIAg"
+}
+  },
+  "ijya1003": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "정인준 & 이윤아 결혼식에 초대합니다",
+      "groomName": "정인준",
+      "brideName": "이윤아",
+      "date": "2026년 10월 3일 토요일 오후 12시 30분",
+      "location": "서귀포 애플컨벤션 웨딩홀",
+      "message": "너는 이 세상 어떤 것보다도\n나에게 의미 있는 존재야.\n- 영화 '피터팬'-\n\n함께하는 여섯 번째 가을,\n두 사람이 부부로서 첫걸음을 내딛습니다.\n따뜻한 축복으로 함께해 주세요.",
+      "mainImage": "/images/ijya1003/main.jpg?v=1",
+      "thumbnail": "/images/ijya1003/thumbnail.jpg",
+      "kakaoThumbnail": "/images/ijya1003/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "정재철",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "최혜란",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "이봉연",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "박선영",
+      "symbol": "flower"
+    },
+    "relation": "차녀"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-10-03T12:30:00+09:00"
+    },
+    "gallery": [
+      "/images/ijya1003/gallery1.jpg",
+      "/images/ijya1003/gallery2.jpg",
+      "/images/ijya1003/gallery3.jpg",
+      "/images/ijya1003/gallery4.jpg",
+      "/images/ijya1003/gallery5.jpg",
+      "/images/ijya1003/gallery6.jpg",
+      "/images/ijya1003/gallery7.jpg",
+      "/images/ijya1003/gallery8.jpg",
+      "/images/ijya1003/gallery9.jpg",
+      "/images/ijya1003/gallery10.jpg",
+      "/images/ijya1003/gallery11.jpg",
+      "/images/ijya1003/gallery12.jpg",
+      "/images/ijya1003/gallery13.jpg",
+      "/images/ijya1003/gallery14.jpg",
+      "/images/ijya1003/gallery15.jpg",
+      "/images/ijya1003/gallery16.jpg",
+      "/images/ijya1003/gallery17.jpg",
+      "/images/ijya1003/gallery18.jpg",
+      "/images/ijya1003/gallery19.jpg"
+    ],
+   "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/9Vvu6mFTpJ4",
+  "position": "afterCalendar"
+},
+    "map": {
+  "name": "서귀포 애플컨벤션 웨딩홀",
+  "address": "3F\n제주 서귀포시 일주동로 8796",
+  "lat": 33.253983488208796,
+  "lng": 126.54949794876458,
+  "transport": {
+  "custom": []
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "정인준", "bank": "우리은행", "number": "1002-365-370019" },
+        { "name": "정재철", "bank": "국민은행", "number": "402-21-1334-675" },
+        { "name": "최혜란", "bank": "농협", "number": "246-02-077453" }
+
+],
+      "bride": [
+        { "name": "이윤아", "bank": "농협", "number": "302-1492-6783-81" },
+        { "name": "이봉연", "bank": "농협", "number": "979-02-330031" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "bjsj1018": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "송병주 & 김수진 결혼식에 초대합니다",
+      "groomName": "송병주",
+      "brideName": "김수진",
+      "date": "2026년 10월 18일 일요일 오후 12시 30분",
+      "location": "그랜드모먼트",
+      "message": "평생 함께 걷고 싶은 사람이 있습니다.\n\n함께하던 작은 일상이 일생이 되는 날,\n나란히 같은 곳을 바라보며\n변함없는 마음으로 살아가겠습니다.\n\n10월 18일,\n저희의 가장 특별한 하루를 함께해 주세요.",
+      "mainImage": "/images/bjsj1018/main.jpg",
+      "thumbnail": "/images/bjsj1018/thumbnail.jpg",
+      "kakaoThumbnail": "/images/bjsj1018/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "송인근",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이강옥",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "김희중",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "우세미",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-10-18T12:30:00+09:00"
+    },
+    "gallery": [
+      "/images/bjsj1018/gallery1.jpg",
+      "/images/bjsj1018/gallery2.jpg",
+      "/images/bjsj1018/gallery3.jpg",
+      "/images/bjsj1018/gallery4.jpg",
+      "/images/bjsj1018/gallery5.jpg",
+      "/images/bjsj1018/gallery6.jpg",
+      "/images/bjsj1018/gallery7.jpg",
+      "/images/bjsj1018/gallery8.jpg",
+      "/images/bjsj1018/gallery9.jpg",
+      "/images/bjsj1018/gallery10.jpg",
+      "/images/bjsj1018/gallery11.jpg",
+      "/images/bjsj1018/gallery12.jpg",
+      "/images/bjsj1018/gallery13.jpg",
+      "/images/bjsj1018/gallery14.jpg",
+      "/images/bjsj1018/gallery15.jpg",
+      "/images/bjsj1018/gallery16.jpg",
+      "/images/bjsj1018/gallery17.jpg",
+      "/images/bjsj1018/gallery18.jpg",
+      "/images/bjsj1018/gallery19.jpg",
+      "/images/bjsj1018/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "그랜드모먼트",
+  "address": "6층 시그니처홀\n부산시 남구 황령대로 401-9",
+  "lat": 35.1455935244993,
+  "lng": 129.10026608889,
+  "transport": {
+  "custom": [
+    {
+      "title": "지하철",
+      "description": "부산2호선 남천역 4번 출구 셔틀버스 이용"
+    },
+    {
+      "title": "셔틀",
+      "description": "지하철 남천역 4번 출구 전방 230m\n더샵 입구 103동 근처(15-20분 간격 운행)"
+    },
+    {
+      "title": "주차",
+      "description": "본 건물 B5, B1, 지상주차장, 타워주차장 이용"
+    }
+]
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "송병주", "bank": "우리은행", "number": "1002540887768" },
+        { "name": "송인근", "bank": "농협은행", "number": "94612394230" },
+        { "name": "이강옥", "bank": "부산은행", "number": "093120162245" }
+
+],
+      "bride": [
+        { "name": "김수진", "bank": "기업은행", "number": "60204223201011" },
+        { "name": "우세미", "bank": "부산은행", "number": "031120581392" },
+        { "name": "김희중", "bank": "신한은행", "number": "110040544701" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "hjsr0912": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "임희준 & 이세리 결혼식에 초대합니다",
+      "groomName": "임희준",
+      "brideName": "이세리",
+      "date": "2026년 9월 12일 토요일 오후 12시 10분",
+      "location": "설악웨딩타운",
+      "message": "인생은 누구나 비슷한 길을 걸어간다.\n결국엔 늙어서 지난 날을 추억하는 것일 뿐이다.\n그러니 결혼은 따뜻한 사람과 하거라.\n-영화 '어바웃 타임'-\n\n부부라는 이름의 첫 시작,\n그 설렘의 순간에 소중한 분들을 초대합니다.",
+      "mainImage": "/images/hjsr0912/main.jpg",
+      "thumbnail": "/images/hjsr0912/thumbnail.jpg",
+      "kakaoThumbnail": "/images/hjsr0912/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "임효창",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "가순복",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "이효철",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "손은희",
+      "symbol": "none"
+    },
+    "relation": "차녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "임희준", "relation": "신랑", "phone": "010-6755-1818" },
+        { "name": "임효창", "relation": "아버님", "phone": "010-4301-3899" },
+        { "name": "가순복", "relation": "어머님", "phone": "010-9806-0080" }
+      ],
+      "bride": [
+        { "name": "이세리", "relation": "신부", "phone": "010-9883-3892" },
+        { "name": "이효철", "relation": "아버님", "phone": "010-2467-1478" },
+        { "name": "손은희", "relation": "어머님", "phone": "010-9833-3892" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-12T12:10:00+09:00"
+    },
+    "gallery": [
+      "/images/hjsr0912/gallery1.jpg",
+      "/images/hjsr0912/gallery2.jpg",
+      "/images/hjsr0912/gallery3.jpg",
+      "/images/hjsr0912/gallery4.jpg",
+      "/images/hjsr0912/gallery5.jpg",
+      "/images/hjsr0912/gallery6.jpg",
+      "/images/hjsr0912/gallery7.jpg",
+      "/images/hjsr0912/gallery8.jpg",
+      "/images/hjsr0912/gallery9.jpg",
+      "/images/hjsr0912/gallery10.jpg",
+      "/images/hjsr0912/gallery11.jpg",
+      "/images/hjsr0912/gallery12.jpg",
+      "/images/hjsr0912/gallery13.jpg",
+      "/images/hjsr0912/gallery14.jpg",
+      "/images/hjsr0912/gallery15.jpg",
+      "/images/hjsr0912/gallery16.jpg",
+      "/images/hjsr0912/gallery17.jpg",
+      "/images/hjsr0912/gallery18.jpg",
+      "/images/hjsr0912/gallery19.jpg",
+      "/images/hjsr0912/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "설악웨딩타운",
+  "address": "4층 아트그레이스홀\n충남 당진시 남부로 122",
+  "lat": 36.88398665866708,
+  "lng": 126.6297605293049,
+  "transport": {
+  "custom": []
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "임희준", "bank": "카카오뱅크", "number": "3333-31-6965318" },
+        { "name": "임효창", "bank": "수협", "number": "383-62-011937" },
+        { "name": "가순복", "bank": "수협", "number": "383-67-000429" }
+
+],
+      "bride": [
+        { "name": "이세리", "bank": "카카오뱅크", "number": "3333-09-4990956" },
+        { "name": "이효철", "bank": "기업은행", "number": "291-003033-02-012" },
+        { "name": "손은희", "bank": "농협", "number": "461-02-46022" }
+]
+    },
+    "rsvp": {
+  "enabled": false
 }
   }
 }
