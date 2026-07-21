@@ -13481,5 +13481,120 @@
     "rsvp": {
   "enabled": false
 }
+  },
+  "esgw1010": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "오은상 & 황금원 결혼식에 초대합니다",
+      "groomName": "오은상",
+      "brideName": "황금원",
+      "date": "2026년 10월 10일 토요일 오후 1시",
+      "location": "여수 디오션호텔",
+      "message": "예쁜 예감이 들었다.\n우리는 언제나\n손을 잡고 있게 될 것이다.\n-이이체 '연인' 中-\n\n함께 걸어온 시간 속에서\n어느덧 다섯 번 째 가을,\n서로를 닮아가는 시간이\n하나의 약속으로 이어집니다.\n\n새 출발의 발걸음을 내딛는 날 함께해 주시면\n따뜻한 추억으로 오래 간직하겠습니다.",
+      "mainImage": "/images/esgw1010/main.jpg",
+      "thumbnail": "/images/esgw1010/thumbnail.jpg",
+      "kakaoThumbnail": "/images/esgw1010/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "오영훈",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "지미경",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "황선균",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이수연",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "오은상", "relation": "신랑", "phone": "01065637282" },
+        { "name": "오영훈", "relation": "아버님", "phone": "01093027282" },
+        { "name": "지미경", "relation": "어머님", "phone": "01055677282" }
+      ],
+      "bride": [
+        { "name": "황금원", "relation": "신부", "phone": "01071966576" },
+        { "name": "황선균", "relation": "아버님", "phone": "01036346575" },
+        { "name": "이수연", "relation": "어머님", "phone": "01026086575" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-10T13:00:00+09:00"
+    },
+    "gallery": [
+      "/images/esgw1010/gallery1.jpg",
+      "/images/esgw1010/gallery2.jpg",
+      "/images/esgw1010/gallery3.jpg",
+      "/images/esgw1010/gallery4.jpg",
+      "/images/esgw1010/gallery5.jpg",
+      "/images/esgw1010/gallery6.jpg",
+      "/images/esgw1010/gallery7.jpg",
+      "/images/esgw1010/gallery8.jpg",
+      "/images/esgw1010/gallery9.jpg",
+      "/images/esgw1010/gallery10.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "여수 디오션호텔",
+  "address": "1층 그랜드볼룸홀\n전남광주 여수시 소호로 295",
+  "lat": 34.733379710095925,
+  "lng": 127.6433440366485,
+  "transport": {
+  "custom": [
+    {
+      "title": "주차",
+      "description": "디오션 호텔 주차장 이용"
+    }
+  ]
+}
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "당일 지정되는 장소에서 식사가 제공됩니다.\n모바일 청첩장을 통해\n참석여부를 꼭 응답해 주시면 감사하겠습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "오은상", "bank": "농협", "number": "302-0669-8197-51" },
+        { "name": "오영훈", "bank": "신협", "number": "132-061-659755" },
+        { "name": "지미경", "bank": "농협", "number": "177797-52-088301" }
+
+],
+      "bride": [
+        { "name": "황금원", "bank": "카카오뱅크", "number": "3333-07-1070863" },
+        { "name": "황선균", "bank": "농협", "number": "613817-52-023015" },
+        { "name": "이수연", "bank": "국민은행", "number": "786501-01-431865" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1WShSObUmeZ7I1fMA_lkhLS9z8Brn-iTWqabsWmQjtgU"
+}
   }
 }
