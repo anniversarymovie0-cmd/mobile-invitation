@@ -8581,19 +8581,26 @@
       "date": "2026-10-24T12:00:00+09:00"
     },
     "gallery": [
-      "/images/dyhe1024/gallery1.jpg",
-      "/images/dyhe1024/gallery2.jpg",
-      "/images/dyhe1024/gallery3.jpg",
-      "/images/dyhe1024/gallery4.jpg",
-      "/images/dyhe1024/gallery5.jpg",
-      "/images/dyhe1024/gallery6.jpg",
-      "/images/dyhe1024/gallery7.jpg",
-      "/images/dyhe1024/gallery8.jpg",
-      "/images/dyhe1024/gallery9.jpg",
-      "/images/dyhe1024/gallery10.jpg",
-      "/images/dyhe1024/gallery11.jpg",
-      "/images/dyhe1024/gallery12.jpg",
-      "/images/dyhe1024/gallery13.jpg"
+      "/images/dyhe1024/gallery1.jpg?v=1",
+      "/images/dyhe1024/gallery2.jpg?v=1",
+      "/images/dyhe1024/gallery3.jpg?v=1",
+      "/images/dyhe1024/gallery4.jpg?v=1",
+      "/images/dyhe1024/gallery5.jpg?v=1",
+      "/images/dyhe1024/gallery6.jpg?v=1",
+      "/images/dyhe1024/gallery7.jpg?v=1",
+      "/images/dyhe1024/gallery8.jpg?v=1",
+      "/images/dyhe1024/gallery9.jpg?v=1",
+      "/images/dyhe1024/gallery10.jpg?v=1",
+      "/images/dyhe1024/gallery11.jpg?v=1",
+      "/images/dyhe1024/gallery12.jpg?v=1",
+      "/images/dyhe1024/gallery13.jpg?v=1",
+      "/images/dyhe1024/gallery14.jpg?v=1",
+      "/images/dyhe1024/gallery15.jpg?v=1",
+      "/images/dyhe1024/gallery16.jpg?v=1",
+      "/images/dyhe1024/gallery17.jpg?v=1",
+      "/images/dyhe1024/gallery18.jpg?v=1",
+      "/images/dyhe1024/gallery19.jpg?v=1",
+      "/images/dyhe1024/gallery20.jpg?v=1"
     ],
    "video": {
   "enabled": true,
@@ -12140,7 +12147,6 @@
     "open": true,
     "keepForever": false,
     "bgm": "03",
-    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -13232,7 +13238,12 @@
   "custom": []
 }
 },
-"information": [],
+"information": [
+    {
+    "title": "양가피로연",
+    "content": "서귀포 애플컨벤션 웨딩홀 1층\n오전 10시부터 오후 6시까지 입니다."
+  }
+],
     "accounts": {
       "groom": [
         { "name": "정인준", "bank": "우리은행", "number": "1002-365-370019" },
@@ -13475,7 +13486,7 @@
       "bride": [
         { "name": "이세리", "bank": "카카오뱅크", "number": "3333-09-4990956" },
         { "name": "이효철", "bank": "기업은행", "number": "291-003033-02-012" },
-        { "name": "손은희", "bank": "농협", "number": "461-02-46022" }
+        { "name": "손은희", "bank": "농협", "number": "461-02-469022" }
 ]
     },
     "rsvp": {
@@ -13595,6 +13606,286 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1WShSObUmeZ7I1fMA_lkhLS9z8Brn-iTWqabsWmQjtgU"
+}
+  },
+  "macmaggie0906": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "지수현 & 주완청 결혼식에 초대합니다",
+      "groomName": "지수현",
+      "brideName": "주완청",
+      "date": "2026년 9월 6일 일요일 오전 11시",
+      "location": "남산 한남 웨딩가든",
+      "message": "함께 맞이하는 열 번째 여름,\n좋은 친구이자 든든한 연인으로 지내온\n두 사람이 이제 평생의 동반자로\n새 여정을 시작합니다.",
+      "mainImage": "/images/macmaggie0906/main.jpg",
+      "thumbnail": "/images/macmaggie0906/thumbnail.jpg",
+      "kakaoThumbnail": "/images/macmaggie0906/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "지장규",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김미화",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "주경복",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "진혜령",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "지수현", "relation": "신랑", "phone": "010-8809-3644" },
+        { "name": "지길성", "relation": "신랑 조부", "phone": "010-7730-1812" },
+        { "name": "배옥분", "relation": "신랑 조모", "phone": "010-2704-7110" },
+        { "name": "지장규", "relation": "아버님", "phone": "010-4813-3644" },
+        { "name": "김미화", "relation": "어머님", "phone": "010-5598-4550" }
+      ],
+      "bride": [
+        { "name": "주완청", "relation": "신부", "phone": "010-2912-5160" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-06T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/macmaggie0906/gallery1.jpg",
+      "/images/macmaggie0906/gallery2.jpg",
+      "/images/macmaggie0906/gallery3.jpg",
+      "/images/macmaggie0906/gallery4.jpg",
+      "/images/macmaggie0906/gallery5.jpg",
+      "/images/macmaggie0906/gallery6.jpg",
+      "/images/macmaggie0906/gallery7.jpg",
+      "/images/macmaggie0906/gallery8.jpg",
+      "/images/macmaggie0906/gallery9.jpg",
+      "/images/macmaggie0906/gallery10.jpg",
+      "/images/macmaggie0906/gallery11.jpg",
+      "/images/macmaggie0906/gallery12.jpg",
+      "/images/macmaggie0906/gallery13.jpg",
+      "/images/macmaggie0906/gallery14.jpg",
+      "/images/macmaggie0906/gallery15.jpg",
+      "/images/macmaggie0906/gallery16.jpg",
+      "/images/macmaggie0906/gallery17.jpg",
+      "/images/macmaggie0906/gallery18.jpg",
+      "/images/macmaggie0906/gallery19.jpg",
+      "/images/macmaggie0906/gallery20.jpg",
+      "/images/macmaggie0906/gallery21.jpg",
+      "/images/macmaggie0906/gallery22.jpg",
+      "/images/macmaggie0906/gallery23.jpg",
+      "/images/macmaggie0906/gallery24.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "남산 한남 웨딩가든",
+  "address": "서울 용산구 소월로 323",
+  "lat": 37.5414945425312,
+  "lng": 126.997089723732,
+  "transport": {
+  "custom": [
+    {
+      "title": "지하철",
+      "description": "한강진역(6호선) 2번 출구에서 셔틀버스(10분 간격)"
+    },
+    {
+      "title": "버스",
+      "description": "하얏트호텔(03175) 402, 405 도보 3분"
+    },
+    {
+      "title": "주차",
+      "description": "인근 외부 주차장 이용(남산야외식물원, 삼호민영, 이태원2동, 블루스퀘어민영)"
+    },
+    {
+      "title": "셔틀버스",
+      "description": "한강진역(6호선) 2번 출구 앞(10분 간격 운행)\n10:00 - 11:00 / 12:00 - 13:00"
+    }
+  ]
+}
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "식은 11시 시작이지만\n식장은 10시부터 열려있어요.\n일찍 오셔서 수다 떠실 분들 환영이에요\n(식사는 10시 30분부터 가능!)"
+  },
+  {
+    "title": "Dress code",
+    "content": "결혼식의 컬러는 화이트..!\n흰 옷이 없으시면,\n흰 스카프, 흰색 양말로\n포인트 주셔도 인정!\n베스트 드레서에게는 깜짝 선물이 있습니다."
+  },
+  {
+    "title": "신청곡 받습니다",
+    "content": "당일엔 Jazz 밴드가 함께해요.\n듣고 싶은 곡 있으면 살짝 알려주세요.\n음악이 나오면 플로어로 나올 준비 해두시길."
+  },
+  {
+    "title": "웰컴 선물",
+    "content": "작은 선물, 큰 마음\n여러분을 위해 웰컴 선물을 준비했어요.\n기대하셔도 좋아요!"
+  },
+  {
+    "title": "춤에 취하자",
+    "content": "저희 결혼식은 무알콜이에요.\n술은 없지만 - 오늘은 춤에 취해보자구요."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "지길성", "bank": "신한", "number": "110-013-254530" },
+        { "name": "지장규", "bank": "하나", "number": "182-910571-03007" },
+        { "name": "지수현", "bank": "우리", "number": "1002-763-044670" }
+
+],
+      "bride": [
+        { "name": "주완청", "bank": "우리", "number": "1002-156-834408" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1SpcPTt3vDLNMgrYl-M7QHqFRbHqNZjcsd7_xvtLnW2o"
+}
+  },
+  "ises1025": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "황인선 & 차은송 결혼식에 초대합니다",
+      "groomName": "황인선",
+      "brideName": "차은송",
+      "date": "2026년 10월 25일 일요일 오후 1시 40분",
+      "location": "세인트메리엘",
+      "message": "각자의 시간이 흘러\n우리라는 계절이 되었습니다.\n서로에 대한 믿음으로\n약속하는 그 시작의 자리에\n귀한 걸음 하시어\n축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/ises1025/main.jpg",
+      "thumbnail": "/images/ises1025/thumbnail.jpg",
+      "kakaoThumbnail": "/images/ises1025/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "황규환",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "유부림",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "차성찬",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "장영옥",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-10-25T13:40:00+09:00"
+    },
+    "gallery": [
+      "/images/ises1025/gallery1.jpg",
+      "/images/ises1025/gallery2.jpg",
+      "/images/ises1025/gallery3.jpg",
+      "/images/ises1025/gallery4.jpg",
+      "/images/ises1025/gallery5.jpg",
+      "/images/ises1025/gallery6.jpg",
+      "/images/ises1025/gallery7.jpg",
+      "/images/ises1025/gallery8.jpg",
+      "/images/ises1025/gallery9.jpg",
+      "/images/ises1025/gallery10.jpg",
+      "/images/ises1025/gallery11.jpg",
+      "/images/ises1025/gallery12.jpg",
+      "/images/ises1025/gallery13.jpg",
+      "/images/ises1025/gallery14.jpg",
+      "/images/ises1025/gallery15.jpg",
+      "/images/ises1025/gallery16.jpg",
+      "/images/ises1025/gallery17.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "세인트메리엘",
+  "address": "2층 세인트홀\n서울특별시 강남구 논현로 79길 72",
+  "lat": 37.4960605170476,
+  "lng": 127.032882472195,
+  "transport": {
+  "custom": [
+    {
+      "title": "자차",
+      "description": "네비게이션 '세인트 메리엘' 검색\n서울 강남구 논현로 79길 72 올림피아센터 빌딩"
+    },
+    {
+      "title": "주차",
+      "description": "하객 2시간 무료지원 (1F 안내 데스크)\n도착 시, 본관 또는 외부주차장으로\n주차요원이 안내 해드립니다."
+    },
+    {
+      "title": "지하철",
+      "description": "강남역 2호선 1번 출구 도보 약 8분\n강남역 신분당선 4번 출구 도보 약 7분"
+    },
+    {
+      "title": "셔틀버스",
+      "description": "강남역 1번 출구\n예식 1시간 전부터 10분 간격 순환운행"
+    }
+  ]
+}
+},
+"information": [
+  {
+    "title": "",
+    "content": "예식 당일 혼잡이 예상되오니\n대중교통 이용을 권장드립니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "황규환", "bank": "국민은행", "number": "5171-02-01014661" },
+        { "name": "유부림", "bank": "농협은행", "number": "3120-19-3996861" },
+        { "name": "황인선", "bank": "신한은행", "number": "110-230-877739" }
+
+],
+      "bride": [
+        { "name": "차성찬", "bank": "우리은행", "number": "1002-760-348970" },
+        { "name": "장영옥", "bank": "국민은행", "number": "594202-04-006129" },
+        { "name": "차은송", "bank": "국민은행", "number": "606402-04-204550" }
+]
+    },
+    "rsvp": {
+  "enabled": false
 }
   }
 }
