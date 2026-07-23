@@ -15012,5 +15012,489 @@
   "enabled": true,
   "sheetId": "1XL_JBmHTFvntGHIRopiHK-qfTKE3b79-1Fr3-0Vvm1o"
 }
+  },
+  "jyey1025": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "설재엽 & 길은영 결혼식에 초대합니다",
+      "groomName": "설재엽",
+      "brideName": "길은영",
+      "date": "2026년 10월 25일 일요일 오후 2시",
+      "location": "판교w스퀘어컨벤션",
+      "message": "문득 아름다운 것과 마주쳤을 때\n지금 곁에 있으면 얼마나 좋을까 하고\n떠오르는 얼굴이 있다면 그대는\n사랑하고 있는 것이다.\n- 이문재, 농담\n\n맛있는 것을 먹고 좋은 풍경을 볼 때면\n서로가 가장 먼저 생각나는 사람이 되었습니다.\n혼자 걷던 길의 작은 즐거움들을\n이제 둘이 함께 나누려 합니다.\n저희 두 사람의 다정한 일상이 시작되는 날,\n귀한 걸음 하시어 축복해 주시면\n감사하겠습니다.",
+      "mainImage": "/images/jyey1025/main.jpg",
+      "thumbnail": "/images/jyey1025/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jyey1025/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "설근식",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이미경",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "길환",
+      "symbol": "flower"
+    },
+    "mother": {
+      "name": "한재미",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "설재엽", "relation": "신랑", "phone": "010-7104-5146" },
+        { "name": "설근식", "relation": "아버님", "phone": "010-5012-5146" },
+        { "name": "이미경", "relation": "어머님", "phone": "010-5393-5146" }
+      ],
+      "bride": [
+        { "name": "길은영", "relation": "신부", "phone": "010-5639-4623" },
+        { "name": "한재미", "relation": "어머님", "phone": "010-6347-4623" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-25T14:00:00+09:00"
+    },
+    "gallery": [
+      "/images/jyey1025/gallery1.jpg",
+      "/images/jyey1025/gallery2.jpg",
+      "/images/jyey1025/gallery3.jpg",
+      "/images/jyey1025/gallery4.jpg",
+      "/images/jyey1025/gallery5.jpg",
+      "/images/jyey1025/gallery6.jpg",
+      "/images/jyey1025/gallery7.jpg",
+      "/images/jyey1025/gallery8.jpg",
+      "/images/jyey1025/gallery9.jpg",
+      "/images/jyey1025/gallery10.jpg",
+      "/images/jyey1025/gallery11.jpg",
+      "/images/jyey1025/gallery12.jpg",
+      "/images/jyey1025/gallery13.jpg",
+      "/images/jyey1025/gallery14.jpg",
+      "/images/jyey1025/gallery15.jpg",
+      "/images/jyey1025/gallery16.jpg",
+      "/images/jyey1025/gallery17.jpg",
+      "/images/jyey1025/gallery18.jpg",
+      "/images/jyey1025/gallery19.jpg",
+      "/images/jyey1025/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "판교W스퀘어컨벤션",
+  "address": "8층 채플홀\n경기 성남시 분당구 판교역로226번길 16",
+  "lat": 37.40056452397243,
+  "lng": 127.11147743565441,
+  "transport": {
+  "custom": [
+    {
+      "title": "주차",
+      "description": "3층부터 6층까지 모두 주차가능\n만차시 맞은편 스타벅스 건물 주차"
+    },
+    {
+      "title": "지하철",
+      "description": "신분당선.경강선 판교역\n1번출구로 나온 후, 직진 도보6분거리 (sk주유소 뒷 건물)"
+    },
+    {
+      "title": "버스",
+      "description": "동안교 정류장하차 (도보2분) 390번\n한국무역정보통신하차 (도보2분) 4000번 (수원-성남)\n차그룹컨소시엄 하차 (도보3분)\n101, 330, 350, 390번"
+    },
+    {
+      "title": "자가용",
+      "description": "경부고속도로\n판교IC 차출 후 좌회전 -> 약 700m 직진, 사거리에서 우회전 (sk주유소 뒷 건물)\n\n분당.수서간 도시고속도로\n성남아트센터방면 지하차도 옆길 -> 벌말사거리에서 우회전 -> 삼성테크원 삼거리에서 판교역 방면 좌회전"
+    }
+]
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "설근식", "bank": "농협", "number": "564-02-095036" },
+        { "name": "이미경", "bank": "농협", "number": "565-12-134333" },
+        { "name": "설재엽", "bank": "기업", "number": "00210373001015" }
+],
+      "bride": [
+        { "name": "한재미", "bank": "농협", "number": "565-02-129024" },
+        { "name": "길은영", "bank": "카카오뱅크", "number": "3333-26-6982324" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "hbsj1108": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김효빈 & 이수진 결혼식에 초대합니다",
+      "groomName": "김효빈",
+      "brideName": "이수진",
+      "date": "2026년 11월 8일 일요일 오후 2시",
+      "location": "아모르아트컨벤션",
+      "message": "저희 두 사람이\n사랑으로 하나 되어\n새로운 시작을 맞이합니다.\n\n소중한 날 함께하시어\n축복해 주시면 큰 기쁨이 되겠습니다.",
+      "mainImage": "/images/hbsj1108/main.jpg",
+      "thumbnail": "/images/hbsj1108/thumbnail.jpg",
+      "kakaoThumbnail": "/images/hbsj1108/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김동복",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "오은순",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "이금성",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "유선임",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김효빈", "relation": "신랑", "phone": "01043885516" }
+      ],
+      "bride": [
+        { "name": "이수진", "relation": "신부", "phone": "01050219974" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-11-08T14:00:00+09:00"
+    },
+    "gallery": [
+      "/images/hbsj1108/gallery1.jpg",
+      "/images/hbsj1108/gallery2.jpg",
+      "/images/hbsj1108/gallery3.jpg",
+      "/images/hbsj1108/gallery4.jpg",
+      "/images/hbsj1108/gallery5.jpg",
+      "/images/hbsj1108/gallery6.jpg",
+      "/images/hbsj1108/gallery7.jpg",
+      "/images/hbsj1108/gallery8.jpg",
+      "/images/hbsj1108/gallery9.jpg",
+      "/images/hbsj1108/gallery10.jpg",
+      "/images/hbsj1108/gallery11.jpg",
+      "/images/hbsj1108/gallery12.jpg",
+      "/images/hbsj1108/gallery13.jpg",
+      "/images/hbsj1108/gallery14.jpg",
+      "/images/hbsj1108/gallery15.jpg",
+      "/images/hbsj1108/gallery16.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "아모르아트컨벤션",
+  "address": "2F 아트홀\n충북 청주시 흥덕구 남석로 579",
+  "lat": 36.60642796396707,
+  "lng": 127.42092546166897,
+  "transport": {
+  "custom": [
+    {
+      "title": "• 자가용 이용시",
+      "description": "충북 청주시 흥덕구 남석로 579 (석곡동 305-2)\n아모르아트컨벤션"
+    },
+    {
+      "title": "• 주차",
+      "description": "건물 내 주차장 및 인근 외부 주차장 이용 가능"
+    },
+    {
+      "title": "• 버스 이용시",
+      "description": "동호암마을입구 하차\n512, 702, 813"
+    }
+]
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "김동복", "bank": "농협", "number": "403085-51-033974" },
+        { "name": "오은순", "bank": "신협", "number": "010-7600-5516" },
+        { "name": "김효빈", "bank": "신한", "number": "110-389-997333" }
+],
+      "bride": [
+        { "name": "이금성", "bank": "신협", "number": "132-059-938607" },
+        { "name": "유선임", "bank": "신협", "number": "131-002-810422" },
+        { "name": "이수진", "bank": "신협", "number": "05052-12-004687" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "mjbr1017": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "02",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "진명준 & 나보라 결혼식에 초대합니다",
+      "groomName": "진명준",
+      "brideName": "나보라",
+      "date": "2026년 10월 17일 토요일 오후 1시",
+      "location": "아모르아트컨벤션",
+      "message": "두 사람이 꽃과 나무처럼 걸어와서\n서로의 모든 것이 되기 위해\n오랜 기다림 끝에 혼례식을 치르는 날\n세상은 더욱 아름다워라\n-이해인, 사랑의 사람들이여-\n\n오랜 기다림 끝에 저희 두 사람,\n한곳을 바라보며 걸어가려 합니다.\n진실한 마음으로 맺는 약속의 자리에\n따뜻한 마음으로 함께해 주십시오",
+      "mainImage": "/images/mjbr1017/main.jpg",
+      "thumbnail": "/images/mjbr1017/thumbnail.jpg",
+      "kakaoThumbnail": "/images/mjbr1017/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이명순",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "나영수",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김미자",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "진명준", "relation": "신랑", "phone": "010-2011-3497" },
+        { "name": "이명순", "relation": "어머님", "phone": "010-7256-7075" }
+      ],
+      "bride": [
+        { "name": "나보라", "relation": "신부", "phone": "010-7748-7102" },
+        { "name": "나영수", "relation": "아버님", "phone": "010-5463-7102" },
+        { "name": "김미자", "relation": "어머님", "phone": "010-5589-7102" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-17T13:00:00+09:00"
+    },
+    "gallery": [
+      "/images/mjbr1017/gallery1.jpg",
+      "/images/mjbr1017/gallery2.jpg",
+      "/images/mjbr1017/gallery3.jpg",
+      "/images/mjbr1017/gallery4.jpg",
+      "/images/mjbr1017/gallery5.jpg",
+      "/images/mjbr1017/gallery6.jpg",
+      "/images/mjbr1017/gallery7.jpg",
+      "/images/mjbr1017/gallery8.jpg",
+      "/images/mjbr1017/gallery9.jpg",
+      "/images/mjbr1017/gallery10.jpg",
+      "/images/mjbr1017/gallery11.jpg",
+      "/images/mjbr1017/gallery12.jpg",
+      "/images/mjbr1017/gallery13.jpg",
+      "/images/mjbr1017/gallery14.jpg",
+      "/images/mjbr1017/gallery15.jpg",
+      "/images/mjbr1017/gallery16.jpg",
+      "/images/mjbr1017/gallery17.jpg",
+      "/images/mjbr1017/gallery18.jpg",
+      "/images/mjbr1017/gallery19.jpg",
+      "/images/mjbr1017/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "아모르아트컨벤션",
+  "address": "4층 아모르홀\n충북 청주시 흥덕구 남석로 579",
+  "lat": 36.60642796396707,
+  "lng": 127.42092546166897,
+  "transport": {
+  "custom": [
+    {
+      "title": "대중교통",
+      "description": "가경동 청주고속버스터미널 혹은\n청주시외버스터미널 하차 후 택시 이용"
+    },
+    {
+      "title": "KTX",
+      "description": "오송역 하차 후 버스대중교통\n(502, 509, 747, 511 이용 하나병원 정류장에서\n813, 702 환승 - 호암마을 입구 하차) 및 택시 이용"
+    },
+    {
+      "title": "주차",
+      "description": "아모르아트컨벤션 주차장 이용"
+    }
+]
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "진명준", "bank": "하나", "number": "354-910129-39307" },
+        { "name": "이명순", "bank": "농협", "number": "221136-56-005149" }
+],
+      "bride": [
+        { "name": "나보라", "bank": "신한", "number": "110-491-110025" },
+        { "name": "나영수", "bank": "농협", "number": "327-02-117370" },
+        { "name": "김미자", "bank": "농협", "number": "327-02-141824" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "13YcYSJqYfJQ3xAe76PFhmd23qeV8BA9_Da6iqkiDp_0"
+}
+  },
+  "msyj1107": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김민섭 & 김유진 결혼식에 초대합니다",
+      "groomName": "김민섭",
+      "brideName": "김유진",
+      "date": "2026년 11월 7일 토요일 오후 4시20분",
+      "location": "웨딩시그니처",
+      "message": "서로의 따뜻함을 닮아가며\n예쁘게 살겠습니다.\n귀한 발걸음 하시어 축복해 주시면\n감사하겠습니다.",
+      "mainImage": "/images/msyj1107/main.jpg",
+      "thumbnail": "/images/msyj1107/thumbnail.jpg",
+      "kakaoThumbnail": "/images/msyj1107/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김병철",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "심명숙",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "김용섭",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이서현",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-11-07T16:20:00+09:00"
+    },
+    "gallery": [
+      "/images/msyj1107/gallery1.jpg",
+      "/images/msyj1107/gallery2.jpg",
+      "/images/msyj1107/gallery3.jpg",
+      "/images/msyj1107/gallery4.jpg",
+      "/images/msyj1107/gallery5.jpg",
+      "/images/msyj1107/gallery6.jpg",
+      "/images/msyj1107/gallery7.jpg",
+      "/images/msyj1107/gallery8.jpg",
+      "/images/msyj1107/gallery9.jpg",
+      "/images/msyj1107/gallery10.jpg",
+      "/images/msyj1107/gallery11.jpg",
+      "/images/msyj1107/gallery12.jpg",
+      "/images/msyj1107/gallery13.jpg",
+      "/images/msyj1107/gallery14.jpg",
+      "/images/msyj1107/gallery15.jpg",
+      "/images/msyj1107/gallery16.jpg",
+      "/images/msyj1107/gallery17.jpg",
+      "/images/msyj1107/gallery18.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "웨딩시그니처",
+  "address": "2층 트리니티홀\n서울 마포구 양화로 87",
+  "lat": 37.55257044184424,
+  "lng": 126.91731872982476,
+  "transport": {
+  "custom": [
+    {
+      "title": "자가용",
+      "description": "제1주차장 : 본건물\n제2주차장 : H스퀘어\n제3주차장 : 서교빌딩 주차장\n* 2시간 무료"
+    },
+    {
+      "title": "지하철",
+      "description": "2호선, 6호선 합정역 2번 출구 도보 4분\n홍대입구, 공항철도, 경의선 1번 출구 도보 11분"
+    },
+    {
+      "title": "버스",
+      "description": "정류장 : 서교동 / 우리은행 서교동 지점 / 합정역​\n파랑(간선) : 271, 602, 603, 604, 761, 921, N26, N51, N62, N72\n초록(지선) : 마포08, 마포09, 마포15, 마포16, 5712, 5714, 6712, 6716, 7612, 7734, 7739\n빨간(광역) : 3100, 3100N, 1000, 1100, 1101,1200, 1300, 1301, 1302, 1601\n​삼화고속 : 인천 > 서울 (합정 전철역)"
+    }
+]
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "김민섭", "bank": "국민", "number": "84-240202-218290" }
+],
+      "bride": [
+        { "name": "김유진", "bank": "국민", "number": "71-820201-320529" },
+        { "name": "김용섭", "bank": "신한", "number": "110-380-784309" },
+        { "name": "이서현", "bank": "신한", "number": "110-273-280812" }
+]
+    },
+    "rsvp": {
+  "enabled": false
+}
   }
 }
