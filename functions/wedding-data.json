@@ -820,10 +820,12 @@
 ],
     "accounts": {
       "groom": [
-        { "name": "김진범", "bank": "신한은행", "number": "110-398-471879" }
+        { "name": "김진범", "bank": "신한은행", "number": "110-398-471879" },
+        { "name": "김영덕", "bank": "하나은행", "number": "566-910134-36607" }
       ],
       "bride": [
-        { "name": "김지영", "bank": "국민은행", "number": "855601-00-067758" }
+        { "name": "김지영", "bank": "국민은행", "number": "855601-00-067758" },
+        { "name": "김진덕", "bank": "국민은행", "number": "269101-04-004222" }
       ]
     },
     "rsvp": {
@@ -13622,7 +13624,7 @@
       "brideName": "주완청",
       "date": "2026년 9월 6일 일요일 오전 11시",
       "location": "남산 한남 웨딩가든",
-      "message": "함께 맞이하는 열 번째 여름,\n좋은 친구이자 든든한 연인으로 지내온\n두 사람이 이제 평생의 동반자로\n새 여정을 시작합니다.",
+      "message": "대만과 한국,\n서로 다른 공간에서 자란 두 사람이\n2017년 처음 만났습니다.\n좋은 친구이자 든든한 연인으로\n함께 걸어온 10년의 여정을 지나,\n이제 평생의 동반자로\n새로운 시작을 함께하려 합니다.",
       "mainImage": "/images/macmaggie0906/main.jpg",
       "thumbnail": "/images/macmaggie0906/thumbnail.jpg",
       "kakaoThumbnail": "/images/macmaggie0906/thumbnail_kakao.jpg"
@@ -13655,8 +13657,8 @@
       "enabled": true,
       "groom": [
         { "name": "지수현", "relation": "신랑", "phone": "010-8809-3644" },
-        { "name": "지길성", "relation": "신랑 조부", "phone": "010-7730-1812" },
-        { "name": "배옥분", "relation": "신랑 조모", "phone": "010-2704-7110" },
+        { "name": "지길성", "relation": "할아버지", "phone": "010-7730-1812" },
+        { "name": "배옥분", "relation": "할머니", "phone": "010-2704-7110" },
         { "name": "지장규", "relation": "아버님", "phone": "010-4813-3644" },
         { "name": "김미화", "relation": "어머님", "phone": "010-5598-4550" }
       ],
@@ -14070,8 +14072,8 @@
       "/images/srya1011/gallery4.jpg",
       "/images/srya1011/gallery5.jpg",
       "/images/srya1011/gallery6.jpg",
-      "/images/srya1011/gallery7.jpg",
-      "/images/srya1011/gallery8.jpg",
+      "/images/srya1011/gallery7.jpg?v=1",
+      "/images/srya1011/gallery8.jpg?v=1",
       "/images/srya1011/gallery9.jpg",
       "/images/srya1011/gallery10.jpg",
       "/images/srya1011/gallery11.jpg"
@@ -14091,19 +14093,19 @@
   "custom": [
     {
       "title": "주차안내",
-      "description": "'예식장 내에는 주차공간이 없습니다.\n너그러운 마음으로 양해 부탁드리며,\n자차 이용 시 공영주차장과 셔틀버스를\n이용해 주시면 감사하겠습니다.'"
+      "description": "식물관PH는 예식장 내 별도 주차장이 마련되어 있지 않아, 인근 공영주차장 주차 후 셔틀버스 이용을 부탁드립니다.\n(도보 이용 시 약 700m 거리)"
     },
     {
-      "title": "자가용",
-      "description": "* 네비게이션 찍는 곳 : 수서역 공영주차장 북측\n(서울시 강남구 수서동 735)\n'수서역 공영주차장' 에 주차 후 셔틀버스 탑승\n또는 도보 700m"
+      "title": "공영주차장",
+      "description": "네비게이션 찍는 곳 : **수서역 공영주차장 북측**"
     },
     {
       "title": "셔틀버스",
-      "description": "모든 하객께서 이용하실 수 있습니다.\n\n* 오실 때\n수서역 1번출구 30m 앞 신동아아파트 앞 탑승\n셔틀시간 16:00 ~ 19:20분 (10분 간격 운행)\n\n* 가실 때\n식장 맞은 편 강남 더샵포레스트 아파트 앞 탑승\n(10분 간격 운행)"
+      "description": "수서역 1번 출구 (공영주차장 입구) 에서\n예식장까지 셔틀버스가 운행됩니다.\n운행시간 16:00 ~ 19:20분 (10분 간격 운행)"
     },
     {
       "title": "지하철",
-      "description": "수서역 하차 후 , 1번 출구 (3호선/수인분당선) 앞 셔틀탑승\n(*SRT 수서역 출구 아님)"
+      "description": "3호선 수인분당선 '수서역' 하차 후\n1번출구 앞에서 셔틀버스 이용\n** SRT 수서역이 아닌 지하철 수서역입니다."
     }
   ]
 }
@@ -14401,7 +14403,7 @@
     "disableZoom": true
   },
     "intro": {
-      "title": "박상혁 & 봉다솜 결혼식에 초대합니다",
+      "title": "상혁 & 다솜 결혼식에 초대합니다",
       "groomName": "박상혁",
       "brideName": "봉다솜",
       "date": "2026년 11월 28일 토요일 오전 11시",
@@ -14501,10 +14503,13 @@
 "information": [],
     "accounts": {
       "groom": [
-        { "name": "박상혁", "bank": "국민", "number": "52490101172722" }
+        { "name": "박상혁", "bank": "국민", "number": "52490101172722" },
+        { "name": "박현수", "bank": "국민", "number": "22880104109355" }
 ],
       "bride": [
-        { "name": "봉다솜", "bank": "신한", "number": "110418199904" }
+        { "name": "봉다솜", "bank": "국민", "number": "29320204302690" },
+        { "name": "봉종현", "bank": "국민", "number": "251010020662" },
+        { "name": "나희정", "bank": "국민", "number": "832240042803" }
 ]
     },
     "rsvp": {
@@ -14765,6 +14770,247 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1fsbYqiEOqp68PLdEKx2rhLuDdciv_vXUynMmb160_Qg"
+}
+  },
+  "jhjh0822": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_jhjh0822.mp3",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "구진학 & 안지현 결혼식에 초대합니다",
+      "groomName": "구진학",
+      "brideName": "안지현",
+      "date": "2026년 8월 22일 토요일 오후 1시 30분",
+      "location": "라도무스 아트센터 웨딩홀",
+      "message": "두 사람이 하나 되어\n아름다운 가정을 꾸려나가는\n소중한 시작을 함께 축복해 주시면\n감사하겠습니다.\n\n바쁘신 와중에도 귀한 발걸음으로\n참석해 주시는 모든 분들께\n진심으로 감사드립니다.\n\n저희 두 사람의 앞날에 따뜻한 격려와\n축복을 부탁드립니다.",
+      "mainImage": "/images/jhjh0822/main.jpg",
+      "thumbnail": "/images/jhjh0822/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jhjh0822/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "구영준",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김영희",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "안영곤",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정정란",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "구진학", "relation": "신랑", "phone": "01022996320" },
+        { "name": "구영준", "relation": "아버님", "phone": "01054300691" },
+        { "name": "김영희", "relation": "어머님", "phone": "01082856320" }
+      ],
+      "bride": [
+        { "name": "안지현", "relation": "신부", "phone": "01084134046" },
+        { "name": "안영곤", "relation": "아버님", "phone": "01035034046" },
+        { "name": "정정란", "relation": "어머님", "phone": "01045214046" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-08-22T13:30:00+09:00"
+    },
+    "gallery": [
+      "/images/jhjh0822/gallery1.jpg",
+      "/images/jhjh0822/gallery2.jpg",
+      "/images/jhjh0822/gallery3.jpg",
+      "/images/jhjh0822/gallery4.jpg",
+      "/images/jhjh0822/gallery5.jpg",
+      "/images/jhjh0822/gallery6.jpg",
+      "/images/jhjh0822/gallery7.jpg",
+      "/images/jhjh0822/gallery8.jpg",
+      "/images/jhjh0822/gallery9.jpg",
+      "/images/jhjh0822/gallery10.jpg",
+      "/images/jhjh0822/gallery11.jpg",
+      "/images/jhjh0822/gallery12.jpg",
+      "/images/jhjh0822/gallery13.jpg",
+      "/images/jhjh0822/gallery14.jpg",
+      "/images/jhjh0822/gallery15.jpg",
+      "/images/jhjh0822/gallery16.jpg",
+      "/images/jhjh0822/gallery17.jpg",
+      "/images/jhjh0822/gallery18.jpg",
+      "/images/jhjh0822/gallery19.jpg",
+      "/images/jhjh0822/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "라도무스 아트센터 웨딩홀",
+  "address": "3층 라도무스홀\n대전 유성구 동서대로 639",
+  "lat": 36.333059454572336,
+  "lng": 127.33364262617584,
+  "transport": {
+  "custom": [
+    {
+      "title": "자차",
+      "description": "내비게이션: '라도무스아트센터웨딩홀' 검색\n도로명 주소: 대전 유성구 동서대로 639\n지번 주소: 원신흥동 578-6\n\n유성IC\n유성IC삼거리에서 '공주, 계룡산'방면 좌회전 후 직진\n→ '서대전, 유성' 방면 좌회전 후 직진 →\n구암역삼거리 좌회전 → 유성온천역사거리 우회전 → 도안고등학교 → 목원대사거리 우회전 500M"
+    },
+    {
+      "title": "지하철+버스",
+      "description": "유성온천역 6번 출구 → 106번, 706번 중 승차 → 106번 흥도초 하차, 706번 등기소/ 아이파크시티 하차 → 목원대사거리 우측방향 500M 도보"
+    },
+    {
+      "title": "주차",
+      "description": "주차타워 1층 - 6층 (2300대 주차가능)\n+ 인근 제2,3,4주차장 주차가능\n주차현장 주차 요원의 안내를 받아주세요."
+    }
+  ]
+}
+},
+"information": [
+  {
+    "title": "대절버스 이용안내",
+    "content": "일시 2026년 8월 22일 토요일 오전 11시 00분\n장소 김천시 농소면 행정복지센터 주차장\n\n대절버스 탑승 예정이신 경우,\n［신부 및 신부 혼주］에게\n반드시 '탑승여부' 를 전달해 주시기 바랍니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "구진학", "bank": "국민은행", "number": "92299632060" },
+        { "name": "구영준", "bank": "국민은행", "number": "72212592144349" },
+        { "name": "김영희", "bank": "농협", "number": "45309252036100" }
+],
+      "bride": [
+        { "name": "안지현", "bank": "농협", "number": "3528413404673" },
+        { "name": "안영곤", "bank": "농협", "number": "73704752035779" },
+        { "name": "정정란", "bank": "농협", "number": "73704752047286" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "14sLirUbMvXoaJVoU4VYVGi5ex_lZdRwiMjisBaD31Z4"
+}
+  },
+  "ebmj0905": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "09",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "이은배 & 신문정 결혼식에 초대합니다",
+      "groomName": "이은배",
+      "brideName": "신문정",
+      "date": "2026년 9월 5일 토요일 오전 11시",
+      "location": "네스트 웨딩홀",
+      "message": "은배 · 문정\n저희 결혼합니다.\n\n서로를 있는 그대로 사랑하고\n서로에게 가장 편안한 사람이 되겠습니다.\n\n저희 두 사람의 새로운 시작을\n따뜻한 마음으로 함께 축복해 주시면\n감사하겠습니다.",
+      "mainImage": "/images/ebmj0905/main.jpg",
+      "thumbnail": "/images/ebmj0905/thumbnail.jpg",
+      "kakaoThumbnail": "/images/ebmj0905/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "이상규",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이현자",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "신성주",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이은희",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "이은배", "relation": "신랑", "phone": "010-8443-0898" },
+        { "name": "이상규", "relation": "아버님", "phone": "010-7656-8845" },
+        { "name": "이현자", "relation": "어머님", "phone": "010-4355-0898" }
+      ],
+      "bride": [
+        { "name": "신문정", "relation": "신부", "phone": "010-4747-2459" },
+        { "name": "신성주", "relation": "아버님", "phone": "010-6415-3369" },
+        { "name": "이은희", "relation": "어머님", "phone": "010-4619-2459" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-09-05T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/ebmj0905/gallery1.jpg",
+      "/images/ebmj0905/gallery2.jpg",
+      "/images/ebmj0905/gallery3.jpg",
+      "/images/ebmj0905/gallery4.jpg",
+      "/images/ebmj0905/gallery5.jpg",
+      "/images/ebmj0905/gallery6.jpg",
+      "/images/ebmj0905/gallery7.jpg",
+      "/images/ebmj0905/gallery8.jpg",
+      "/images/ebmj0905/gallery9.jpg",
+      "/images/ebmj0905/gallery10.jpg",
+      "/images/ebmj0905/gallery11.jpg",
+      "/images/ebmj0905/gallery12.jpg",
+      "/images/ebmj0905/gallery13.jpg",
+      "/images/ebmj0905/gallery14.jpg",
+      "/images/ebmj0905/gallery15.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "네스트 웨딩홀",
+  "address": "2층 피렌체홀\n충북 충주시 국원대로 25",
+  "lat": 36.99507971479914,
+  "lng": 127.92742306100217,
+  "transport": {
+  "custom": []
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "이상규", "bank": "기업", "number": "135-055572-01-015" },
+        { "name": "이현자", "bank": "농협", "number": "417017-52-094147" },
+        { "name": "이은배", "bank": "농협", "number": "417015-56-137576" }
+],
+      "bride": [
+        { "name": "신성주", "bank": "새마을", "number": "9003-2110-6458-1" },
+        { "name": "이은희", "bank": "우체국", "number": "301416-02-082198" },
+        { "name": "신문정", "bank": "카카오", "number": "3333-10-6525343" }
+]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1XL_JBmHTFvntGHIRopiHK-qfTKE3b79-1Fr3-0Vvm1o"
 }
   }
 }
