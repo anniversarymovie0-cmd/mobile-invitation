@@ -178,7 +178,6 @@ export default function Gallery({ images }) {
             display: 'block',
             objectFit: 'contain',
             backgroundColor: '#ffffff',
-            transform: 'scale(1.07)',
             WebkitTouchCallout: 'none',
             WebkitUserSelect: 'none',
             userSelect: 'none',
