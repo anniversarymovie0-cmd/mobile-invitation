@@ -9,6 +9,8 @@ export default function Gallery({ images }) {
   // ✅ 메인 이미지 스와이프 시작 위치
   const touchStartXRef = useRef(null);
   const touchStartYRef = useRef(null);
+  // ✅ 두 손가락 확대 중인지 확인
+const isPinchingRef = useRef(false);
 
   // ✅ 갤러리 미사용 옵션
   const isGalleryEnabled = images?.enabled !== false;
@@ -67,22 +69,44 @@ export default function Gallery({ images }) {
 
   // ✅ 메인 이미지 터치 시작
   const handleTouchStart = (event) => {
-    const touch = event.touches[0];
+  // ✅ 두 손가락 이상이면 확대 동작으로 판단
+  if (event.touches.length >= 2) {
+    isPinchingRef.current = true;
+    touchStartXRef.current = null;
+    touchStartYRef.current = null;
+    return;
+  }
 
-    if (!touch) return;
+  isPinchingRef.current = false;
 
-    touchStartXRef.current = touch.clientX;
-    touchStartYRef.current = touch.clientY;
-  };
+  const touch = event.touches[0];
+
+  if (!touch) return;
+
+  touchStartXRef.current = touch.clientX;
+  touchStartYRef.current = touch.clientY;
+};
 
   // ✅ 메인 이미지 터치 종료
   const handleTouchEnd = (event) => {
-    if (
-      touchStartXRef.current === null ||
-      touchStartYRef.current === null
-    ) {
-      return;
+  // ✅ 확대 동작 중에는 이미지 넘김을 실행하지 않음
+  if (isPinchingRef.current) {
+    // 손가락이 모두 떨어진 경우 확대 상태 초기화
+    if (event.touches.length === 0) {
+      isPinchingRef.current = false;
     }
+
+    touchStartXRef.current = null;
+    touchStartYRef.current = null;
+    return;
+  }
+
+  if (
+    touchStartXRef.current === null ||
+    touchStartYRef.current === null
+  ) {
+    return;
+  }
 
     const touch = event.changedTouches[0];
 
@@ -154,7 +178,7 @@ export default function Gallery({ images }) {
           justifyContent: 'center',
 
           // ✅ 세로 스크롤은 허용하면서 좌우 스와이프 사용
-          touchAction: 'pan-y',
+          touchAction: 'pan-y pinch-zoom',
           overflow: 'hidden'
         }}
       >
