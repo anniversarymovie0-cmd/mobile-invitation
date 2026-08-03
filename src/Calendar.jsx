@@ -2,7 +2,18 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 export default function Calendar({ date }) {
-const weddingDate = new Date(date);
+// "2026-10-17", "2026-10-17T", "2026-10-17T12:30:00+09:00" 모두 지원
+const normalizedDate =
+  typeof date === 'string' && date.endsWith('T')
+    ? date.slice(0, -1)
+    : date;
+
+const weddingDate = new Date(normalizedDate);
+
+// 시간이 실제 입력되어 있는지 확인
+const hasTime =
+  typeof date === 'string' &&
+  /T\d{1,2}:\d{2}/.test(date);
 
 // D-day는 시간 제외, 날짜 기준으로만 계산
 const today = new Date();
@@ -61,11 +72,26 @@ const dDay = Math.ceil(diff / (1000 * 60 * 60 * 24));
   
 
       <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
-        <p style={{ fontSize: '0.95rem', letterSpacing: '1px', color: '#555', marginBottom: '30px', fontWeight: 'bold' }}>
-         {year}년 {month + 1}월 {weddingDate.getDate()}일{' '}
-{['일요일','월요일','화요일','수요일','목요일','금요일','토요일'][weddingDate.getDay()]}{' '}
-{ampm} {displayHour}시{minute === 0 ? '' : ` ${minute}분`}
-        </p>
+        <p
+  style={{
+    fontSize: '0.95rem',
+    letterSpacing: '1px',
+    color: '#555',
+    marginBottom: '30px',
+    fontWeight: 'bold'
+  }}
+>
+  {year}년 {month + 1}월 {weddingDate.getDate()}일{' '}
+  {['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'][weddingDate.getDay()]}
+
+  {hasTime && (
+    <>
+      {' '}
+      {ampm} {displayHour}시
+      {minute === 0 ? '' : ` ${minute}분`}
+    </>
+  )}
+</p>
       </motion.div>
 
       <div 

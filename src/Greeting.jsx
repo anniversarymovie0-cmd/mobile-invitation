@@ -53,7 +53,7 @@ export default function Greeting({ intro, parents }) {
           )
         )}
 
-        <span>{nameText}</span>
+        <span style={{ whiteSpace: 'pre' }}>{nameText}</span>
       </span>
     );
   };
@@ -359,9 +359,14 @@ export default function Greeting({ intro, parents }) {
                   </span>
 
                   {/* 신랑 이름 */}
-                  <span style={coupleNameStyle}>
-                    {intro.groomName}
-                  </span>
+                  <span
+  style={{
+    ...coupleNameStyle,
+    whiteSpace: 'pre'
+  }}
+>
+  {intro.groomName}
+</span>
                 </>
               )
             ) : (
@@ -468,9 +473,14 @@ export default function Greeting({ intro, parents }) {
                   </span>
 
                   {/* 신부 이름 */}
-                  <span style={coupleNameStyle}>
-                    {intro.brideName}
-                  </span>
+                  <span
+  style={{
+    ...coupleNameStyle,
+    whiteSpace: 'pre'
+  }}
+>
+  {intro.brideName}
+</span>
                 </>
               )
             ) : (

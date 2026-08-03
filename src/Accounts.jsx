@@ -103,8 +103,11 @@ export default function Accounts({ data }) {
                       {acc.bank} <b style={{ color: '#333' }}>{acc.number}</b>
                     </div>
                     <div style={{ fontSize: '0.85rem', color: '#888' }}>
-                      예금주: {acc.name}
-                    </div>
+  예금주:{' '}
+  <span style={{ whiteSpace: 'pre' }}>
+    {acc.name}
+  </span>
+</div>
                   </div>
                   
                   <button 

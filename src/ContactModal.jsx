@@ -20,8 +20,17 @@ const ContactModal = ({ isOpen, onClose, data }) => {
   const ContactRow = ({ title, person }) => (
     <div style={{ marginBottom: '18px', textAlign: 'center' }}>
       <p style={{ margin: '5px 0', fontSize: '13px', color: '#888' }}>
-        {title} <span style={{ color: '#333', marginLeft: '2px' }}>{person.name}</span>
-      </p>
+  {title}{' '}
+  <span
+    style={{
+      color: '#333',
+      marginLeft: '2px',
+      whiteSpace: 'pre'
+    }}
+  >
+    {person.name}
+  </span>
+</p>
       <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', marginTop: '8px' }}>
         <a href={`tel:${person.phone}`} style={{ display: 'flex', alignItems: 'center' }}>
           <PhoneIcon />
