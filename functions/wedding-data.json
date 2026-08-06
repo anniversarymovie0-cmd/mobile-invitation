@@ -19264,10 +19264,10 @@
       "title": "여태경 & 김혜주 결혼식에 초대합니다",
       "groomName": "여태경",
       "brideName": "김혜주",
-      "date": "2026년 9월 20일 토요일 오후 2시30분",
+      "date": "2026년 9월 20일 일요일 오후 2시30분",
       "location": "빌라드 지디 안산점",
       "message": "인생은 누구나 비슷한 길을 걸어간다.\n결국엔 늙어서 지난 날을 추억하는 것일 뿐이다.\n그러니 결혼은 따뜻한 사람과 하거라\n- 영화 '어바웃 타임' -\n\n부부라는 이름의 첫 시작,\n그 설렘의 순간에 소중한 분들을 초대합니다.",
-      "mainImage": "/images/tkhj0920/main.jpg",
+      "mainImage": "/images/tkhj0920/main.jpg?v=1",
       "thumbnail": "/images/tkhj0920/thumbnail.jpg",
       "kakaoThumbnail": "/images/tkhj0920/thumbnail_kakao.jpg"
     },
@@ -19442,30 +19442,31 @@
       "date": "2026-11-22T10:40:00+09:00"
     },
     "gallery": [
-      "/images/mhgr1122/gallery1.jpg",
-      "/images/mhgr1122/gallery2.jpg",
-      "/images/mhgr1122/gallery3.jpg",
-      "/images/mhgr1122/gallery4.jpg",
-      "/images/mhgr1122/gallery5.jpg",
-      "/images/mhgr1122/gallery6.jpg",
-      "/images/mhgr1122/gallery7.jpg",
-      "/images/mhgr1122/gallery8.jpg",
-      "/images/mhgr1122/gallery9.jpg",
-      "/images/mhgr1122/gallery10.jpg",
-      "/images/mhgr1122/gallery11.jpg",
-      "/images/mhgr1122/gallery12.jpg",
-      "/images/mhgr1122/gallery13.jpg",
-      "/images/mhgr1122/gallery14.jpg",
-      "/images/mhgr1122/gallery15.jpg",
-      "/images/mhgr1122/gallery16.jpg",
-      "/images/mhgr1122/gallery17.jpg",
-      "/images/mhgr1122/gallery18.jpg",
-      "/images/mhgr1122/gallery19.jpg",
-      "/images/mhgr1122/gallery20.jpg",
-      "/images/mhgr1122/gallery21.jpg",
-      "/images/mhgr1122/gallery22.jpg",
-      "/images/mhgr1122/gallery23.jpg",
-      "/images/mhgr1122/gallery24.jpg"
+      "/images/mhgr1122/gallery1.jpg?v=1",
+      "/images/mhgr1122/gallery2.jpg?v=1",
+      "/images/mhgr1122/gallery3.jpg?v=1",
+      "/images/mhgr1122/gallery4.jpg?v=1",
+      "/images/mhgr1122/gallery5.jpg?v=1",
+      "/images/mhgr1122/gallery6.jpg?v=1",
+      "/images/mhgr1122/gallery7.jpg?v=1",
+      "/images/mhgr1122/gallery8.jpg?v=1",
+      "/images/mhgr1122/gallery9.jpg?v=1",
+      "/images/mhgr1122/gallery10.jpg?v=1",
+      "/images/mhgr1122/gallery11.jpg?v=1",
+      "/images/mhgr1122/gallery12.jpg?v=1",
+      "/images/mhgr1122/gallery13.jpg?v=1",
+      "/images/mhgr1122/gallery14.jpg?v=1",
+      "/images/mhgr1122/gallery15.jpg?v=1",
+      "/images/mhgr1122/gallery16.jpg?v=1",
+      "/images/mhgr1122/gallery17.jpg?v=1",
+      "/images/mhgr1122/gallery18.jpg?v=1",
+      "/images/mhgr1122/gallery19.jpg?v=1",
+      "/images/mhgr1122/gallery20.jpg?v=1",
+      "/images/mhgr1122/gallery21.jpg?v=1",
+      "/images/mhgr1122/gallery22.jpg?v=1",
+      "/images/mhgr1122/gallery23.jpg?v=1",
+      "/images/mhgr1122/gallery24.jpg?v=1",
+      "/images/mhgr1122/gallery25.jpg?v=1"
     ],
    "video": {
   "enabled": false,
@@ -19871,7 +19872,7 @@
     },
     {
       "title": "주차",
-      "description": "웨딩홀 주차장 만차 시 제1주차장 이용\n*제1주차장: 원주시 행구로 481 (셔틀버스 수시 운행)"
+      "description": "웨딩홀 주차장 만차 시 주차요원의 안내에 따라\n제1주차장(행구로 481)을 이용해 주시기 바랍니다.\n\n제1주차장 이용객을 위해 웨딩홀과 제1주차장간\n셔틀차량을 수시 운행합니다.\n[도보 약 8분, 셔틀 약 1분 소요]"
     }
 ]
 }
@@ -19884,6 +19885,10 @@
     {
     "title": "식사 안내",
     "content": "2층 베로나홀은 예식 종료 후 식사가 가능하며,\n4층 연회장은 11시부터 1시까지\n이용 가능합니다."
+  },
+    {
+    "title": "꽃 포장 안내",
+    "content": "예식에 사용된 꽃은 예쁘게 포장될 예정입니다.\n가져가셔서 저희의 앞날을\n오래도록 축복해 주시면 감사하겠습니다."
   }
 ],
     "accounts": {
@@ -20152,6 +20157,120 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1MUJK81udcpqIv71RS6GzuVxm2-nhLid7Wv_wD2sqjgE"
+}
+  },
+  "jhnk1024": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "06",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김종현 & 이나경 결혼식에 초대합니다",
+      "groomName": "김종현",
+      "brideName": "이나경",
+      "date": "2026년 10월 24일 토요일 오후 5시",
+      "location": "전주 향교",
+      "message": "서로의 일상을 가장 따뜻하게\n채워주는 사람이 되어,\n함께 웃고 함께 기대며 살아가려 합니다.\n서로에게 가장 편안한 사람이 되어\n소소한 행복을 함께 만들어 가겠습니다.\n귀한 걸음으로 저희의 시작을\n축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/jhnk1024/main.jpg",
+      "thumbnail": "/images/jhnk1024/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jhnk1024/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김희곤",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김선정",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "이기곤",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정혜진",
+      "symbol": "none"
+    },
+    "relation": "차녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김종현", "relation": "신랑", "phone": "010-4169-5654" },
+        { "name": "김희곤", "relation": "아버님", "phone": "010-3652-5654" },
+        { "name": "김선정", "relation": "어머님", "phone": "010-4229-5654" }
+      ],
+      "bride": [
+        { "name": "이나경", "relation": "신부", "phone": "010-9976-3059" },
+        { "name": "이기곤", "relation": "아버님", "phone": "010-6220-1913" },
+        { "name": "정혜진", "relation": "어머님", "phone": "010-9477-1913" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-24T17:00:00+09:00"
+    },
+    "gallery": [
+      "/images/jhnk1024/gallery1.jpg",
+      "/images/jhnk1024/gallery2.jpg",
+      "/images/jhnk1024/gallery3.jpg",
+      "/images/jhnk1024/gallery4.jpg",
+      "/images/jhnk1024/gallery5.jpg",
+      "/images/jhnk1024/gallery7.jpg",
+      "/images/jhnk1024/gallery8.jpg",
+      "/images/jhnk1024/gallery9.jpg",
+      "/images/jhnk1024/gallery10.jpg",
+      "/images/jhnk1024/gallery11.jpg",
+      "/images/jhnk1024/gallery12.jpg",
+      "/images/jhnk1024/gallery13.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "전주 향교",
+  "address": "명륜당\n전북 전주시 완산구 향교길 139",
+  "lat": 35.81275813126205,
+  "lng": 127.15713397830652,
+  "transport": {
+  "custom": [
+    {
+      "title": "자가용 이용시",
+      "description": "주차장1. 국립무형유산원 지상 주차장(무료주차장)\n전북 전주시 완산구 서학로 95\n* 주차 후 오목교를 건너 향교로 오시면 됩니다.\n(도보 5분)\n\n주차장2. 남부시장천변주차장\n(60분 무료, 일 최대 5,000원)\n전북 전주시 완산구 팔달로 109 (도보 10분)\n\n* 향교 내 차량 진입은 불가하오니\n안내드린 주차장과 인근 주차장 이용을 부탁드립니다."
+    },
+    {
+      "title": "대중교통 이용시",
+      "description": "<시내 버스>\n'전동성당', '한옥마을', '국립무형유산원' 방면\n\n<택시>\n전주고속버스터미널 → 약 10분\n전주역 → 약 15분"
+    }
+]
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "김종현", "bank": "신한", "number": "110-419-967627" },
+        { "name": "김희곤", "bank": "우체국", "number": "402016-02-211776" },
+        { "name": "김선정", "bank": "농협", "number": "511-12-265056" }
+],
+      "bride": [
+        { "name": "이나경", "bank": "농협", "number": "351-0282-9270-83" },
+        { "name": "이기곤", "bank": "농협", "number": "523-01-017977" },
+        { "name": "정혜진", "bank": "농협", "number": "511054-52-141917" }
+]
+    },
+    "rsvp": {
+  "enabled": false
 }
   }
 }
