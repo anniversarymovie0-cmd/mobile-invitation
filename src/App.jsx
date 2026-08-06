@@ -110,12 +110,23 @@ function PageLoader() {
     if (!id) return;
 
     fetch(`https://anniversarymovie.kr/api/${id}`)
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`API 요청 실패: ${res.status}`);
+        }
+
+        return res.json();
+      })
       .then((result) => {
         setData(result);
       })
       .catch((err) => {
         console.error(err);
+
+        // API 오류 시 준비 중 화면으로 처리
+        setData({
+          status: 'preparing',
+        });
       });
   }, [id]);
 
@@ -134,7 +145,7 @@ function PageLoader() {
     }
   }, [data]);
 
-  // Safari / 모바일 브라우저 핀치 확대 방지
+  // Safari 및 모바일 브라우저 핀치 확대 방지
   useEffect(() => {
     if (!data) return;
 
@@ -176,16 +187,19 @@ function PageLoader() {
     };
   }, [data]);
 
-  if (!id) return <div>잘못된 접근입니다.</div>;
+  if (!id) {
+    return <div>잘못된 접근입니다.</div>;
+  }
 
   if (!data) return null;
 
-  if (!data.open && !isAdmin) {
+  // 삭제 완료 고객: 만료 안내
+  if (data.status === 'expired') {
     return (
       <div
         style={{
           display: 'flex',
-          height: '100vh',
+          minHeight: '100vh',
           justifyContent: 'center',
           alignItems: 'center',
           flexDirection: 'column',
@@ -194,11 +208,67 @@ function PageLoader() {
           padding: '20px',
         }}
       >
-        <p style={{ fontSize: '18px', marginBottom: '10px' }}>
+        <p
+          style={{
+            fontSize: '18px',
+            color: '#333',
+            marginBottom: '12px',
+          }}
+        >
+          유효기간이 만료된 모바일 청첩장입니다.
+        </p>
+
+        <p
+          style={{
+            fontSize: '14px',
+            color: '#888',
+            lineHeight: '1.7',
+            margin: 0,
+          }}
+        >
+          해당 페이지는 삭제되었거나
+          <br />
+          더 이상 제공되지 않습니다.
+        </p>
+      </div>
+    );
+  }
+
+  // QR 선발급 고객 또는 공개 전 고객: 준비 중 안내
+  if (
+    data.status === 'preparing' ||
+    (!data.open && !isAdmin)
+  ) {
+    return (
+      <div
+        style={{
+          display: 'flex',
+          minHeight: '100vh',
+          justifyContent: 'center',
+          alignItems: 'center',
+          flexDirection: 'column',
+          backgroundColor: '#fff',
+          textAlign: 'center',
+          padding: '20px',
+        }}
+      >
+        <p
+          style={{
+            fontSize: '18px',
+            color: '#333',
+            marginBottom: '10px',
+          }}
+        >
           모바일 청첩장이 준비 중입니다
         </p>
 
-        <p style={{ fontSize: '14px', color: '#888' }}>
+        <p
+          style={{
+            fontSize: '14px',
+            color: '#888',
+            margin: 0,
+          }}
+        >
           곧 공개될 예정입니다
         </p>
       </div>

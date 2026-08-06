@@ -29,6 +29,7 @@ export default function WeddingPage({ data }) {
     contacts,
     video
   } = data;
+  
 
   useEffect(() => {
     const elements = document.querySelectorAll('.fade-up');
@@ -107,35 +108,70 @@ export default function WeddingPage({ data }) {
         data={contacts}
       />
 
-      <div className="fade-up">
-        <Calendar date={calendar?.date} />
-      </div>
+    <div className="fade-up">
+  <Calendar date={calendar?.date} />
+</div>
 
-      {/* 🔥 영상 (캘린더 이후) */}
-      {video?.enabled && video?.position === 'afterCalendar' && (
-        <VideoSection data={video} setIsVideoPlaying={setIsVideoPlaying} />
-      )}
+{/* 🔥 영상 (캘린더 이후) */}
+{video?.enabled && video?.position === 'afterCalendar' && (
+  <VideoSection
+    data={video}
+    setIsVideoPlaying={setIsVideoPlaying}
+  />
+)}
 
-      <div className="fade-up">
-        <Gallery images={gallery} />
-      </div>
+{/* Location (Calendar 뒤) */}
+{map?.position === 'afterCalendar' && (
+  <div className="fade-up">
+    <Location data={map} />
+  </div>
+)}
 
-      {/* 🔥 영상 (갤러리 이후) */}
-      {video?.enabled && video?.position === 'afterGallery' && (
-        <VideoSection data={video} setIsVideoPlaying={setIsVideoPlaying} />
-      )}
+<div className="fade-up">
+  <Gallery images={gallery} />
+</div>
 
-      <div className="fade-up">
-        <Location data={map} />
-      </div>
+{/* 🔥 영상 (갤러리 이후) */}
+{video?.enabled && video?.position === 'afterGallery' && (
+  <VideoSection
+    data={video}
+    setIsVideoPlaying={setIsVideoPlaying}
+  />
+)}
 
+{/* Location (Gallery 뒤) */}
+{map?.position === 'afterGallery' && (
+  <div className="fade-up">
+    <Location data={map} />
+  </div>
+)}
+
+{/* 기본 위치 (position이 없으면 기존 위치 유지) */}
+{!map?.position && (
+  <div className="fade-up">
+    <Location data={map} />
+  </div>
+)}
       <div className="fade-up">
         <Information data={information} />
       </div>
 
+      {/* Location (Information 뒤) */}
+{map?.position === 'afterInformation' && (
+  <div className="fade-up">
+    <Location data={map} />
+  </div>
+)}
+
       <div className="fade-up">
         <Accounts data={accounts} />
       </div>
+      {/* Location (Accounts 뒤) */}
+{map?.position === 'afterAccounts' && (
+  <div className="fade-up">
+    <Location data={map} />
+  </div>
+)}
 
       {/* RSVP */}
       {data?.rsvp && (
@@ -143,6 +179,12 @@ export default function WeddingPage({ data }) {
           <Rsvp data={data.rsvp} />
         </div>
       )}
+      {/* Location (RSVP 뒤) */}
+{map?.position === 'afterRsvp' && (
+  <div className="fade-up">
+    <Location data={map} />
+  </div>
+)}
 
       <div className="fade-up">
         <Share data={data} />
