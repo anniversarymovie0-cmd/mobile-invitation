@@ -243,7 +243,8 @@ export default function Location({ data }) {
                       letterSpacing: '0.3px',
                       color: '#111',
                       marginBottom: '6px',
-                      fontSize: '1.05rem'
+                      fontSize: '1.05rem',
+                      whiteSpace: 'pre-line'
                     }}
                   >
                     {item.title}

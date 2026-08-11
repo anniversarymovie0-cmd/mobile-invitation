@@ -19244,8 +19244,12 @@
 },
 "information": [
   {
+    "title": "식사 안내",
+    "content": "식사는 뷔페로 준비되어 있습니다.\n오후 1시부터 3시 30분까지\n연회장 입장이 가능하오니,\n예식 전후 편하신 시간에\n식사하실 수 있습니다."
+  },
+  {
     "title": "화환 안내",
-    "content": "더빈컨벤션은 쌀화환만 반입 가능합니다.\n양해 부탁드립니다."
+    "content": "축하해 주시는 마음만으로도\n충분히 감사드립니다.\n화환은 정중히 사양하며,\n따뜻한 마음만 감사히 받겠습니다."
   }
 ],
     "accounts": {
@@ -20059,7 +20063,7 @@
   "gmjw1031": {
     "open": true,
     "keepForever": false,
-    "bgm": "01",
+    "bgm": "06",
     "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
@@ -20070,7 +20074,7 @@
       "brideName": "김지우",
       "date": "2026년 10월 31일 토요일 오후 6시",
       "location": "삼청각 일화당",
-      "message": "2019년 여름, 캠퍼스에서 시작된 인연은\n일곱 해의 시간을 지나\n깊고 단단한 사랑이 되었습니다.\n이제 평생을 함께하기로 약속하는 날,\n소중한 분들을 모시고자 합니다.\n부디 귀한 걸음 하시어 저희의 새로운 시작을\n축복해 주시면 감사하겠습니다.",
+      "message": "저희 두 사람,\n평생을 함께하려 합니다.\n귀한 걸음 하시어\n그 시작을 함께해 주시면 감사하겠습니다.",
       "mainImage": "/images/gmjw1031/main.jpg",
       "thumbnail": "/images/gmjw1031/thumbnail.jpg",
       "kakaoThumbnail": "/images/gmjw1031/thumbnail_kakao.jpg"
@@ -20114,8 +20118,8 @@
       "/images/gmjw1031/gallery4.jpg",
       "/images/gmjw1031/gallery5.jpg",
       "/images/gmjw1031/gallery6.jpg",
-      "/images/gmjw1031/gallery7.jpg",
-      "/images/gmjw1031/gallery8.jpg",
+      "/images/gmjw1031/gallery7.jpg?v=1",
+      "/images/gmjw1031/gallery8.jpg?v=1",
       "/images/gmjw1031/gallery9.jpg",
       "/images/gmjw1031/gallery10.jpg",
       "/images/gmjw1031/gallery11.jpg",
@@ -20123,12 +20127,12 @@
       "/images/gmjw1031/gallery13.jpg",
       "/images/gmjw1031/gallery14.jpg",
       "/images/gmjw1031/gallery15.jpg",
-      "/images/gmjw1031/gallery16.jpg",
-      "/images/gmjw1031/gallery17.jpg",
+      "/images/gmjw1031/gallery16.jpg?v=1",
       "/images/gmjw1031/gallery18.jpg",
       "/images/gmjw1031/gallery19.jpg",
       "/images/gmjw1031/gallery20.jpg",
       "/images/gmjw1031/gallery21.jpg",
+      "/images/gmjw1031/gallery22-1.jpg",
       "/images/gmjw1031/gallery22.jpg"
     ],
    "video": {
@@ -20150,7 +20154,7 @@
     },
     {
       "title": "셔틀버스",
-      "description": "삼청각 → 4호선 한성대입구역 6번 출구 → 삼청각\n운행시간 11:00~21:00 / 배차간격 15분"
+      "description": "삼청각 ↔ 4호선 한성대입구역 6번 출구\n운행시간 11:00~21:00 / 배차간격 15분"
     }
 ]
 }
@@ -20370,7 +20374,6 @@
       "/images/essr1017/gallery29.jpg",
       "/images/essr1017/gallery30.jpg",
       "/images/essr1017/gallery31.jpg",
-      "/images/essr1017/gallery32.jpg",
       "/images/essr1017/gallery33.jpg",
       "/images/essr1017/gallery34.jpg",
       "/images/essr1017/gallery35.jpg"
@@ -20399,6 +20402,14 @@
     {
       "title": "고창문화터미널에서 오시는 길",
       "description": "1) 택시비 10,800원 11분 4.9KM(실시간 추천)\n2) 351번 버스 탑승(20분)"
+    },
+    {
+      "title": "광주종합버스터미널(유.스퀘어)에서\n오시는 길",
+      "description": "고창문화터미널 하차(38분) → 351번 버스 탑승(20분)\n총 1시간 소요"
+    },
+    {
+      "title": "자가용 타고 오시는 길",
+      "description": "전북특별자치도 고창군 고창읍 석정2로 179\n웰파크호텔"
     }
 ]
 }
@@ -20695,8 +20706,8 @@
   },
     "intro": {
       "title": "박태현 & 조소라 결혼식에 초대합니다",
-      "groomName": "박태현",
-      "brideName": "조소라",
+      "groomName": "태현",
+      "brideName": "소라",
       "date": "2026년 11월 1일 일요일 오전 11시 20분",
       "location": "루이비스컨벤션",
       "message": "부부라는 이름의 첫시작,\n그 설렘의 순간에\n소중한 분들을 초대합니다.\n함께 자리하여 축복해 주시면\n더없는 기쁨이겠습니다.",
@@ -20826,7 +20837,7 @@
   "parents": {
   "groom": {
     "father": {
-      "name": "김현절",
+      "name": "김현철",
       "symbol": "flower"
     },
     "mother": {
@@ -20928,6 +20939,505 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "13hqhiLTT7tzU9NL8LhZhvndZmT1Lgg6W_WyxssT6BOE"
+}
+  },
+  "jwsh1010": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "최지웅 & 나세희 결혼식에 초대합니다",
+      "groomName": "최지웅",
+      "brideName": "나세희",
+      "date": "2026년 10월 10일 토요일 오후 12시 30분",
+      "location": "드레스가든",
+      "message": "서로에게 가장 든든한 편이자\n인생의 가장 좋은 친구가 되려 합니다.\n\n혼자보다 둘이기에\n더 단단해지는 마음으로\n다정하고 밝은 내일을 그려가겠습니다.\n\n귀한 발걸음 하시어\n축복해주시면 감사하겠습니다.",
+      "mainImage": "/images/jwsh1010/main.jpg",
+      "thumbnail": "/images/jwsh1010/thumbnail.jpg",
+      "kakaoThumbnail": "/images/jwsh1010/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "최봉훈",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "허정윤",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "나인기",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이현주",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "최지웅", "relation": "신랑", "phone": "01045913239" },
+        { "name": "최봉훈", "relation": "아버님", "phone": "01022506522" },
+        { "name": "허정윤", "relation": "어머님", "phone": "01053567717" }
+      ],
+      "bride": [
+        { "name": "나세희", "relation": "신부", "phone": "01025013795" },
+        { "name": "나인기", "relation": "아버님", "phone": "01032493795" },
+        { "name": "이현주", "relation": "어머님", "phone": "01092343794" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-10T12:30:00+09:00"
+    },
+    "gallery": [
+      "/images/jwsh1010/gallery1.jpg",
+      "/images/jwsh1010/gallery2.jpg",
+      "/images/jwsh1010/gallery3.jpg",
+      "/images/jwsh1010/gallery4.jpg",
+      "/images/jwsh1010/gallery5.jpg",
+      "/images/jwsh1010/gallery6.jpg",
+      "/images/jwsh1010/gallery7.jpg",
+      "/images/jwsh1010/gallery8.jpg",
+      "/images/jwsh1010/gallery9.jpg",
+      "/images/jwsh1010/gallery10.jpg",
+      "/images/jwsh1010/gallery11.jpg",
+      "/images/jwsh1010/gallery12.jpg",
+      "/images/jwsh1010/gallery13.jpg",
+      "/images/jwsh1010/gallery14.jpg",
+      "/images/jwsh1010/gallery15-1.jpg",
+      "/images/jwsh1010/gallery15.jpg",
+      "/images/jwsh1010/gallery16.jpg",
+      "/images/jwsh1010/gallery17.jpg",
+      "/images/jwsh1010/gallery18.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "드레스가든",
+  "address": "4층 블리스돔\n서울 강남구 영동대로 707",
+  "lat": 37.52070241959142,
+  "lng": 127.05597785505931,
+  "transport": {
+  "custom": [
+    {
+      "title": "지하철",
+      "description": "7호선 청담역 12번, 13번 출구 도보 1분 거리\n*개찰구에서 12번, 13번 출구까지 이동시간이 다소\n 소요되오니 여유 있게 도착해 주시기 바랍니다."
+    },
+    {
+      "title": "버스",
+      "description": "간선 : 143, 146, 345\n지선 : 2413, 3217, 4318"
+    },
+    {
+      "title": "주차장",
+      "description": "드레스가든 주차장 이용가능 (2시간 무료)"
+    }
+]
+}
+},
+"information": [
+    {
+    "title": "식사 안내",
+    "content": "연회장에서 코스로 준비되어 있습니다.\n식권은 4층 웨딩홀 로비 접수대에서\n수령해 주세요."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "최지웅", "bank": "카카오뱅크", "number": "3333025813274" },
+        { "name": "최봉훈", "bank": "신한은행", "number": "110-041-435942" },
+        { "name": "허정윤", "bank": "우리은행", "number": "1002-955-653564" }
+],
+      "bride": [
+        { "name": "나세희", "bank": "기업은행", "number": "600-022891-01-035" },
+        { "name": "나인기", "bank": "기업은행", "number": "600-016320-02-015" },
+        { "name": "이현주", "bank": "하나은행", "number": "620-230-75-602" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "16pKdTjmUevvOV13-c83TGWiSTuZlcDDrVDPP0969oJU"
+}
+  },
+  "tkny1003": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "01",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김태균 & 황나연 결혼식에 초대합니다",
+      "groomName": "김태균",
+      "brideName": "황나연",
+      "date": "2026년 10월 3일 토요일 오후 1시 30분",
+      "location": "광명역사컨벤션웨딩홀",
+      "message": "가을이 가장 깊어지는 날\n서로의 계절이 되어\n평생을 함께하기로 했습니다.\n소중한 분들과 그 기쁨을 나누고 싶습니다.\n부디 오셔서 저희의 시작을 축복해 주세요.",
+      "mainImage": "/images/tkny1003/main.jpg",
+      "thumbnail": "/images/tkny1003/thumbnail.jpg",
+      "kakaoThumbnail": "/images/tkny1003/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김정하",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "정순래",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "황명진",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "구묘순",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-10-03T13:30:00+09:00"
+    },
+    "gallery": [
+      "/images/tkny1003/gallery1.jpg",
+      "/images/tkny1003/gallery2.jpg",
+      "/images/tkny1003/gallery3.jpg",
+      "/images/tkny1003/gallery4.jpg",
+      "/images/tkny1003/gallery5.jpg",
+      "/images/tkny1003/gallery6.jpg",
+      "/images/tkny1003/gallery7.jpg",
+      "/images/tkny1003/gallery8.jpg",
+      "/images/tkny1003/gallery9.jpg",
+      "/images/tkny1003/gallery10.jpg",
+      "/images/tkny1003/gallery11.jpg",
+      "/images/tkny1003/gallery12.jpg",
+      "/images/tkny1003/gallery13.jpg",
+      "/images/tkny1003/gallery14.jpg",
+      "/images/tkny1003/gallery15.jpg",
+      "/images/tkny1003/gallery16.jpg",
+      "/images/tkny1003/gallery17.jpg",
+      "/images/tkny1003/gallery18.jpg",
+      "/images/tkny1003/gallery19.jpg",
+      "/images/tkny1003/gallery20.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "광명역사컨벤션웨딩홀",
+  "address": "B1층 라포에트\n경기도 광명시 광명역로 21 KTX광명역 동편",
+  "lat": 37.41688028389104,
+  "lng": 126.88579175757332,
+  "transport": {
+  "custom": [
+    {
+      "title": "지하철 이용시",
+      "description": "1호선 광명역 지하철 운행 (영등포 ↔ 광명역)\n1호선 관악역 1번 출구 (마을버스 1-1 운행)"
+    },
+    {
+      "title": "버스 이용시",
+      "description": "KTX 광명역 하차\n-KTX광명역 셔틀버스\n8507\n(사당역 4번출구 ↔ 서울대입구역 2번출구 ↔ KTX광명역)\n- 마을버스 : 1-1 (관악역), 1-3 (석수역), 88 (소하동)\n- 일반버스 : 12, 17, 22, 75, 3, 8-2, 11-3, 50, 77, 102\n- 간선버스 (파랑) : 505\n- 지선버스 (초록) : 5633, 5627\n- 광역버스 : G8808 (송내역남부)\n- 시외일반 : 3002, G9633 (양재역)\n- 공항버스 : 6004"
+    },
+    {
+      "title": "자가용 이용 시",
+      "description": "제1주차장) 센트럴자이 상가 주차장 B3층 (2시간 무료)\n경기도 광명시 광명역로 28\n(광명 센트럴자이 오피스텔) 입력\n\n제2주차장) 파크자이 상가 주차장 B2층 (2시간 무료)\n경기도 광명시 광명역로 26\n(광명 파크자이 오피스텔) 입력"
+    }
+]
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "김태균", "bank": "국민은행", "number": "11530204255144" },
+        { "name": "정순래", "bank": "농협은행", "number": "3020604711511" }
+],
+      "bride": [
+        { "name": "황나연", "bank": "우체국", "number": "200881-02-208489" },
+        { "name": "황명진", "bank": "국민은행", "number": "301201-04-060180" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1DDfTkJjP_TO784AymJROdShzD7KAfWVhW-qDyGpDiUw"
+}
+  },
+  "ejjm1025": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김은종 & 성정문 결혼식에 초대합니다",
+      "groomName": "김은종",
+      "brideName": "성정문",
+      "date": "2026년 10월 25일 일요일 오후 2시 30분",
+      "location": "더세인트",
+      "message": "오늘의 네가 아니었다면\n난 영영 사랑을 몰랐을거야.\n사랑하는 법을 알려줘서 고마워.\n또 사랑 받는 법도.\n\n-영화 '이프 온리'-",
+      "mainImage": "/images/ejjm1025/main.jpg",
+      "thumbnail": "/images/ejjm1025/thumbnail.jpg",
+      "kakaoThumbnail": "/images/ejjm1025/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "김선흥",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "신갑임",
+      "symbol": "none"
+    },
+    "relation": "장남"
+  },
+  "bride": {
+    "father": {
+      "name": "성경환",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이희승",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-10-25T14:30:00+09:00"
+    },
+    "gallery": [
+      "/images/ejjm1025/gallery1.jpg",
+      "/images/ejjm1025/gallery2.jpg",
+      "/images/ejjm1025/gallery3.jpg",
+      "/images/ejjm1025/gallery4.jpg",
+      "/images/ejjm1025/gallery5.jpg",
+      "/images/ejjm1025/gallery6.jpg",
+      "/images/ejjm1025/gallery7.jpg",
+      "/images/ejjm1025/gallery8.jpg",
+      "/images/ejjm1025/gallery9.jpg",
+      "/images/ejjm1025/gallery10.jpg",
+      "/images/ejjm1025/gallery11.jpg",
+      "/images/ejjm1025/gallery12.jpg",
+      "/images/ejjm1025/gallery13.jpg",
+      "/images/ejjm1025/gallery14.jpg",
+      "/images/ejjm1025/gallery15.jpg",
+      "/images/ejjm1025/gallery16.jpg",
+      "/images/ejjm1025/gallery17.jpg",
+      "/images/ejjm1025/gallery18.jpg",
+      "/images/ejjm1025/gallery19.jpg",
+      "/images/ejjm1025/gallery20.jpg",
+      "/images/ejjm1025/gallery21.jpg"
+    ],
+   "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "더세인트",
+  "address": "41층 파노라마홀\n서울특별시 구로구 경인로 662 디큐브시티",
+  "lat": 37.50909248012964,
+  "lng": 126.88957722970638,
+  "transport": {
+  "custom": [
+    {
+      "title": "자가용",
+      "description": "영등포 방향 디큐브시티를 지나 좌회전 신호 받고, 주차장 진입\n구로 방향 GS주유소 우측 진입로를 이용해\n우회전한 후 진입"
+    },
+    {
+      "title": "지하철",
+      "description": "1,2 호선 신도림역 1번출구에서 왼쪽 지하도로 연결"
+    }
+]
+}
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "식사는 14시부터 가능합니다."
+  },
+    {
+    "title": "화환 안내",
+    "content": "귀한 축하의 마음에 깊이 감사드립니다.\n화환은 정중히 사양하오니\n너른 양해 부탁드립니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "김은종", "bank": "우리은행", "number": "1002-050-714788" }
+],
+      "bride": [
+        { "name": "성정문", "bank": "국민은행", "number": "229302-04-147780" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1hFy_CZe7WlyOhyLGZwkAHr_j8Qu6RsASQvizAo27wTc"
+}
+  },
+  "khhm1212": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "김기현 & 구혜민 결혼식에 초대합니다",
+      "groomName": "김기현",
+      "brideName": "구혜민",
+      "date": "2026년 12월 12일 토요일 오전 11시",
+      "location": "용인 ICT밸리컨벤션",
+      "message": "일생의 가장 소중한 날\n영원히 기억될 첫걸음의 기쁨을\n함께 나누려 합니다.\n\n귀한 걸음 하시어 서로의 인생을\n아름답게 만들어 갈 수 있도록\n축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/khhm1212/main.jpg",
+      "thumbnail": "/images/khhm1212/thumbnail.jpg",
+      "kakaoThumbnail": "/images/khhm1212/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김학현",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "구계현",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "하윤서",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "김학현", "relation": "아버님", "phone": "010-4657-9133" }
+      ],
+      "bride": [
+        { "name": "구계현", "relation": "아버님", "phone": "010-5202-9756" },
+        { "name": "하윤서", "relation": "어머님", "phone": "010-2335-6688" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-12-12T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/khhm1212/gallery1.jpg",
+      "/images/khhm1212/gallery2.jpg",
+      "/images/khhm1212/gallery3.jpg",
+      "/images/khhm1212/gallery4.jpg",
+      "/images/khhm1212/gallery5.jpg",
+      "/images/khhm1212/gallery6.jpg",
+      "/images/khhm1212/gallery7.jpg",
+      "/images/khhm1212/gallery8.jpg",
+      "/images/khhm1212/gallery9.jpg",
+      "/images/khhm1212/gallery10.jpg",
+      "/images/khhm1212/gallery11.jpg",
+      "/images/khhm1212/gallery12.jpg",
+      "/images/khhm1212/gallery13.jpg",
+      "/images/khhm1212/gallery14.jpg",
+      "/images/khhm1212/gallery15.jpg",
+      "/images/khhm1212/gallery16.jpg",
+      "/images/khhm1212/gallery17.jpg",
+      "/images/khhm1212/gallery18.jpg",
+      "/images/khhm1212/gallery19.jpg",
+      "/images/khhm1212/gallery20.jpg",
+      "/images/khhm1212/gallery21.jpg",
+      "/images/khhm1212/gallery22.jpg",
+      "/images/khhm1212/gallery23.jpg",
+      "/images/khhm1212/gallery24.jpg",
+      "/images/khhm1212/gallery25.jpg"
+    ],
+    "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/R7TwQQ6iXGI",
+  "position": "afterCalendar",
+  "thumbnail": "https://img.youtube.com/vi/R7TwQQ6iXGI/hqdefault.jpg"
+},
+    "map": {
+  "name": "용인 ICT밸리컨벤션",
+  "address": "로비(Lobby)층 그랑데홀\n경기 용인시 기흥구 기흥로 58-1 기흥ICT밸리 A동",
+  "lat": 37.28001255348387,
+  "lng": 127.11933689898207,
+  "transport": {
+  "custom": [
+    {
+      "title": "자가용",
+      "description": "내비게이션<ICT밸리컨벤션>입력\nB2-B5층 동시 주차 1,300대 가능(무료)"
+    },
+    {
+      "title": "대중교통",
+      "description": "수인분당선 기흥역 1번 출구, 도보 800m\n10-15분 간격 셔틀버스 운행"
+    }
+]
+}
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "2층 연회장에서 뷔페로 준비되어 있습니다.\n식권은 로비(Lobby)층 축의대에서\n수령해 주세요."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "김학현", "bank": "신한은행", "number": "110-137-530289" },
+        { "name": "김기현", "bank": "신한은행", "number": "110-407-053971" }
+],
+      "bride": [
+        { "name": "구계현", "bank": "우체국", "number": "10747402017169" },
+        { "name": "하윤서", "bank": "신한은행", "number": "110-331-731306" },
+        { "name": "구혜민", "bank": "우리은행", "number": "1002-350-975098" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1DjhfU7w4yDNVTgoIaEGax19oziaL_uHUXjlaFcq3qHI"
 }
   }
 }
