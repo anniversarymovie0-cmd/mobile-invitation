@@ -375,27 +375,41 @@ export default function Location({ data }) {
         </button>
 
         {/* T맵 */}
-        <button
-          onClick={() => {
-            const isMobile =
-              /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+<button
+  onClick={() => {
+    const userAgent = navigator.userAgent;
 
-            if (isMobile) {
-              window.location.href =
-                `tmap://route?` +
-                `rGoName=${encodeURIComponent(destinationName)}` +
-                `&rGoX=${lng}` +
-                `&rGoY=${lat}`;
-            } else {
-              window.open(
-                'https://www.tmap.co.kr/',
-                '_blank',
-                'noopener,noreferrer'
-              );
-            }
-          }}
-          style={btnStyle}
-        >
+    const isAndroid = /Android/i.test(userAgent);
+    const isIOS = /iPhone|iPad|iPod/i.test(userAgent);
+
+    if (isAndroid) {
+      // ✅ Android T맵
+      window.location.href =
+        `tmap://route?` +
+        `referrer=com.skt.Tmap` +
+        `&goalname=${encodeURIComponent(destinationName)}` +
+        `&goalx=${lng}` +
+        `&goaly=${lat}`;
+
+    } else if (isIOS) {
+      // ✅ iPhone / iPad - 기존 정상 방식 유지
+      window.location.href =
+        `tmap://route?` +
+        `rGoName=${encodeURIComponent(destinationName)}` +
+        `&rGoX=${lng}` +
+        `&rGoY=${lat}`;
+
+    } else {
+      // ✅ PC
+      window.open(
+        'https://www.tmap.co.kr/',
+        '_blank',
+        'noopener,noreferrer'
+      );
+    }
+  }}
+  style={btnStyle}
+>
           <img
             src="/images/tmap_logo.png"
             alt=""
