@@ -90,6 +90,43 @@ export default function Location({ data }) {
     taxi: '택시'
   };
 
+  // ✅ 안내문 안의 URL을 자동으로 클릭 가능한 링크로 변환
+const renderTextWithLinks = (text) => {
+  if (!text) return null;
+
+  const urlRegex = /((?:https?:\/\/|www\.)[^\s]+)/g;
+  const parts = text.split(urlRegex);
+
+  return parts.map((part, index) => {
+    const isUrl = /^(?:https?:\/\/|www\.)/.test(part);
+
+    if (!isUrl) {
+      return <React.Fragment key={index}>{part}</React.Fragment>;
+    }
+
+    const href = part.startsWith('www.')
+      ? `https://${part}`
+      : part;
+
+    return (
+      <a
+        key={index}
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          color: '#555',
+          textDecoration: 'underline',
+          textUnderlineOffset: '2px',
+          wordBreak: 'break-all'
+        }}
+      >
+        {part}
+      </a>
+    );
+  });
+};
+
   /*
     신규 자유 입력 방식 확인
 
@@ -259,7 +296,7 @@ export default function Location({ data }) {
                       fontSize: '0.9rem'
                     }}
                   >
-                    {item.description}
+                    {renderTextWithLinks(item.description)}
                   </div>
                 )}
               </div>
@@ -296,7 +333,7 @@ export default function Location({ data }) {
                     fontSize: '0.9rem'
                   }}
                 >
-                  {value}
+                  {renderTextWithLinks(value)}
                 </div>
               </div>
             ))}
