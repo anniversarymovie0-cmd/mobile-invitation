@@ -13,6 +13,11 @@ export default function Accounts({ data }) {
   const hasGroom = groomAccounts.length > 0;
   const hasBride = brideAccounts.length > 0;
 
+  // ✅ 계좌 정보가 하나도 없으면 '마음 전하실 곳' 전체 숨김
+if (!hasGroom && !hasBride) {
+  return null;
+}
+
   // [수정됨] 강력한 복사 기능 (HTTP/HTTPS 모두 지원)
   const handleCopy = (text) => {
     // 1. 최신 방식 시도 (HTTPS 또는 localhost)

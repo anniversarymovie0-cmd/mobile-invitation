@@ -9,8 +9,9 @@ export default function Gallery({ images }) {
   // ✅ 메인 이미지 스와이프 시작 위치
   const touchStartXRef = useRef(null);
   const touchStartYRef = useRef(null);
+
   // ✅ 두 손가락 확대 중인지 확인
-const isPinchingRef = useRef(false);
+  const isPinchingRef = useRef(false);
 
   // ✅ 갤러리 미사용 옵션
   const isGalleryEnabled = images?.enabled !== false;
@@ -69,44 +70,44 @@ const isPinchingRef = useRef(false);
 
   // ✅ 메인 이미지 터치 시작
   const handleTouchStart = (event) => {
-  // ✅ 두 손가락 이상이면 확대 동작으로 판단
-  if (event.touches.length >= 2) {
-    isPinchingRef.current = true;
-    touchStartXRef.current = null;
-    touchStartYRef.current = null;
-    return;
-  }
+    // ✅ 두 손가락 이상이면 확대 동작으로 판단
+    if (event.touches.length >= 2) {
+      isPinchingRef.current = true;
+      touchStartXRef.current = null;
+      touchStartYRef.current = null;
+      return;
+    }
 
-  isPinchingRef.current = false;
+    isPinchingRef.current = false;
 
-  const touch = event.touches[0];
+    const touch = event.touches[0];
 
-  if (!touch) return;
+    if (!touch) return;
 
-  touchStartXRef.current = touch.clientX;
-  touchStartYRef.current = touch.clientY;
-};
+    touchStartXRef.current = touch.clientX;
+    touchStartYRef.current = touch.clientY;
+  };
 
   // ✅ 메인 이미지 터치 종료
   const handleTouchEnd = (event) => {
-  // ✅ 확대 동작 중에는 이미지 넘김을 실행하지 않음
-  if (isPinchingRef.current) {
-    // 손가락이 모두 떨어진 경우 확대 상태 초기화
-    if (event.touches.length === 0) {
-      isPinchingRef.current = false;
+    // ✅ 확대 동작 중에는 이미지 넘김을 실행하지 않음
+    if (isPinchingRef.current) {
+      // 손가락이 모두 떨어진 경우 확대 상태 초기화
+      if (event.touches.length === 0) {
+        isPinchingRef.current = false;
+      }
+
+      touchStartXRef.current = null;
+      touchStartYRef.current = null;
+      return;
     }
 
-    touchStartXRef.current = null;
-    touchStartYRef.current = null;
-    return;
-  }
-
-  if (
-    touchStartXRef.current === null ||
-    touchStartYRef.current === null
-  ) {
-    return;
-  }
+    if (
+      touchStartXRef.current === null ||
+      touchStartYRef.current === null
+    ) {
+      return;
+    }
 
     const touch = event.changedTouches[0];
 
@@ -171,8 +172,15 @@ const isPinchingRef = useRef(false);
         style={{
           width: '100%',
           marginBottom: '40px',
-          padding: '0 20px',
-          height: '430px',
+
+          // ✅ 기존 20px → 12px
+          // 가로 사진이 화면 폭을 조금 더 넓게 사용하도록 조정
+          padding: '0 12px',
+
+          // ✅ 기존 430px → 500px
+          // 세로 사진이 더 크게 보이도록 조정
+          height: '500px',
+
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
@@ -200,7 +208,11 @@ const isPinchingRef = useRef(false);
             width: 'auto',
             height: 'auto',
             display: 'block',
+
+            // ✅ 기존 그대로 유지
+            // 사진 비율 유지 + 잘림 없음
             objectFit: 'contain',
+
             backgroundColor: '#ffffff',
             WebkitTouchCallout: 'none',
             WebkitUserSelect: 'none',

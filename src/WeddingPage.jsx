@@ -102,13 +102,21 @@ export default function WeddingPage({ data }) {
   </div>
 )}
 
-      <ContactModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        data={contacts}
-      />
+<ContactModal
+  isOpen={isModalOpen}
+  onClose={() => setIsModalOpen(false)}
+  data={contacts}
+/>
 
-    <div className="fade-up">
+{/* 🔥 영상 (축하 연락하기 이후) */}
+{video?.enabled && video?.position === 'afterContactModal' && (
+  <VideoSection
+    data={video}
+    setIsVideoPlaying={setIsVideoPlaying}
+  />
+)}
+
+<div className="fade-up">
   <Calendar date={calendar?.date} />
 </div>
 
