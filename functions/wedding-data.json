@@ -22846,7 +22846,7 @@
       "brideName": "김소연",
       "date": "2026년 11월 1일 일요일 오후 12시 20분",
       "location": "팔레드 오페라",
-      "message": "소소한 온기로 서로의 매일을\n따스하게 채워가려 합니다.\n나다운 모습 그대로\n가장 예쁘게 사랑하겠습니다.\n서로에게 편안한 쉼터가 되어\n나답게 살아가겠습니다.\n\n귀한 걸음으로\n저희의 사랑 또한 물드는 가을날,\n첫 출발을 환하게 밝혀주세요.",
+      "message": "소소한 온기로 서로의 매일을\n따스하게 채워가려 합니다.\n나다운 모습 그대로\n가장 예쁘게 사랑하겠습니다.\n\n귀한 걸음으로\n저희의 사랑 또한 물드는 가을날,\n첫 출발을 환하게 밝혀주세요.",
       "mainImage": "/images/jhsy1101/main.jpg",
       "thumbnail": "/images/jhsy1101/thumbnail.jpg",
       "kakaoThumbnail": "/images/jhsy1101/thumbnail_kakao.jpg"
@@ -22892,15 +22892,15 @@
       "date": "2026-11-01T12:20:00+09:00"
     },
     "gallery": [
-      "/images/jhsy1101/gallery1.jpg",
-      "/images/jhsy1101/gallery2.jpg",
-      "/images/jhsy1101/gallery3.jpg",
-      "/images/jhsy1101/gallery4.jpg",
-      "/images/jhsy1101/gallery5.jpg",
-      "/images/jhsy1101/gallery6.jpg",
+      "/images/jhsy1101/gallery1.jpg?v=1",
+      "/images/jhsy1101/gallery2.jpg?v=1",
+      "/images/jhsy1101/gallery3.jpg?v=1",
+      "/images/jhsy1101/gallery4.jpg?v=1",
+      "/images/jhsy1101/gallery5.jpg?v=1",
+      "/images/jhsy1101/gallery6.jpg?v=1",
       "/images/jhsy1101/gallery7.jpg",
       "/images/jhsy1101/gallery8.jpg",
-      "/images/jhsy1101/gallery9.jpg",
+      "/images/jhsy1101/gallery9.jpg?v=1",
       "/images/jhsy1101/gallery10.jpg",
       "/images/jhsy1101/gallery11.jpg",
       "/images/jhsy1101/gallery12.jpg",
@@ -22914,10 +22914,10 @@
       "/images/jhsy1101/gallery20.jpg"
     ],
     "video": {
-  "enabled": false,
-  "type": "",
-  "url": "",
-  "position": ""
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/yzS_EsI1NsE",
+  "position": "afterCalendar"
 },
     "map": {
   "name": "팔레드 오페라",
@@ -22951,11 +22951,11 @@
       "groom": [
         { "name": "김정환", "bank": "국민", "number": "09890204239166" },
         { "name": "김길연", "bank": "농협", "number": "45306456203106" },
-        { "name": "윤연례", "bank": "농협", "number": "3562678724863" }
+        { "name": "윤연례", "bank": "농협", "number": "3562678724563" }
 ],
       "bride": [
         { "name": "김소연", "bank": "카카오뱅크", "number": "3333034119851" },
-        { "name": "김응회", "bank": "농협", "number": "45312152020888" }
+        { "name": "김응회", "bank": "농협", "number": "45312152020889" }
       ]
     },
     "rsvp": {
@@ -23460,15 +23460,15 @@
 },
 "information": [
    {
-    "title": "서산 출발 전세버스 안내",
+    "title": "1. 서산 출발 전세버스 안내",
     "content": "- 오전 11시에 서산시청 앞에서\n출발할 예정입니다.\n- 원활한 출발을 위해 시간에 맞춰\n도착해 주시면 감사드리겠습니다."
   },
   {
-    "title": "식사 안내",
+    "title": "2. 식사 안내",
     "content": "- 식사는 예식 시작 30분 전부터 가능하며,\n연회장은 2층에 위치해있습니다."
   },
   {
-    "title": "주차타워 이용 안내",
+    "title": "3. 주차타워 이용 안내",
     "content": "- 가르니에홀(예식장 4층)은\n주차타워 5층과 연결되어 있습니다.\n- 주차타워 3층은 예식장과\n직접 연결되어 있지 않으므로,\n2층 주차장 내 비상계단을 이용해\n이동해 주시기 바랍니다."
   }
 ],
@@ -24547,18 +24547,17 @@
       "/images/ohej1205/gallery3.jpg",
       "/images/ohej1205/gallery4.jpg",
       "/images/ohej1205/gallery5.jpg",
-      "/images/ohej1205/gallery6.jpg",
+      "/images/ohej1205/gallery6.jpg?v=1",
       "/images/ohej1205/gallery7.jpg",
       "/images/ohej1205/gallery8.jpg",
       "/images/ohej1205/gallery9.jpg",
-      "/images/ohej1205/gallery10.jpg",
       "/images/ohej1205/gallery11.jpg",
       "/images/ohej1205/gallery12.jpg",
-      "/images/ohej1205/gallery13.jpg",
-      "/images/ohej1205/gallery14.jpg",
+      "/images/ohej1205/gallery13.jpg?v=1",
+      "/images/ohej1205/gallery14.jpg?v=1",
       "/images/ohej1205/gallery15.jpg",
       "/images/ohej1205/gallery16.jpg",
-      "/images/ohej1205/gallery17.jpg",
+      "/images/ohej1205/gallery17.jpg?v=1",
       "/images/ohej1205/gallery18.jpg"
     ],
     "video": {
@@ -24585,7 +24584,7 @@
     },
     {
       "title": "자가용",
-      "description": "그랜드컨벤션센터 지상 주차장\n또는 이레빌딩 (서울시 영등포구 선유동2로 57)\n- 이레빌딩 지하 2층에서 셔틀차량 운행\n(셔틀 3분, 도보 7분)\n- 동승자는 웨딩홀 앞 하차하시고 운전자만 이레빌딩 주차장으로 이동하시면 편리합니다."
+      "description": "그랜드컨벤션센터 지상 주차장\n또는 이레빌딩 (서울시 영등포구 선유동2로 57)\n- 이레빌딩 지하 2층에서 셔틀차량 운행\n  (셔틀 3분, 도보 7분)\n- 동승자는 웨딩홀 앞 하차하시고 운전자만 이레빌딩\n   주차장으로 이동하시면 편리합니다."
     },
     {
       "title": "주차",
@@ -24597,15 +24596,11 @@
 "information": [
   {
     "title": "화환",
-    "content": "식장 로비의 혼잡을 줄이고\n안전한 예식을 진행하고자\n조심스럽게 축하 화환은 정중히 사양합니다.\n따뜻한 축하의 마음만 소중히 받겠습니다."
+    "content": "예식장의 혼잡을 줄이고 원활한 진행을 위해\n축하 화환은 정중히 사양하고자 합니다.\n보내주시는 따뜻한 마음만\n감사히 소중하게 받겠습니다."
   },
   {
     "title": "식사안내",
     "content": "2층 연회장에서 뷔페로 준비되어 있습니다.\n식권은 3층 축의대에서 수령해 주세요."
-  },
-  {
-    "title": "화동",
-    "content": "예식 진행시 '콩이'의 애견화동이\n준비되어 있습니다.\n넓은 이해와 사랑으로\n지켜봐 주시면 감사드리겠습니다."
   }
 ],
     "accounts": {
@@ -24913,10 +24908,10 @@
       "brideName": "김찬미",
       "date": "2026년 10월 3일 토요일 오후 4시 10분",
       "location": "송도 메리빌리아",
-      "message": "우리가 사랑함은 그가\n먼저 우리를 사랑하셨음이라\n-요한일서 4:19-\n\n서로를 바라보았던 7년의 시간을 지나\n이제 같은 곳을 바라보며 나아가려 합니다.\n\n우리의 만남이 완벽하신 하나님의 계획이자\n서로에게 주신 선물임을 알게 되었습니다.\n\n이제 그 크신 사랑 위에\n작은 가정을 이루려 합니다.\n\n새로운 시작을 맞이하는 저희의 첫 걸음에\n따뜻한 마음으로 함께해 주신다면\n그 사랑 오래도록 마음 깊이 간직하겠습니다.",
-      "mainImage": "/images/hscm1003/main.jpg",
+      "message": "우리가 사랑함은\n그가 먼저 우리를 사랑하셨음이라\n-요한일서 4:19-\n\n서로를 바라보았던 7년의 시간을 지나\n이제 같은 곳을 바라보며 나아가려 합니다.\n\n우리의 만남이 완벽하신 하나님의 계획이자\n서로에게 주신 선물임을 알게 되었습니다.\n\n이제 그 크신 사랑 위에\n작은 가정을 이루려 합니다.\n\n새로운 시작을 맞이하는 저희의 첫 걸음에\n따뜻한 마음으로 함께해 주신다면\n그 사랑 오래도록 마음 깊이 간직하겠습니다.",
+      "mainImage": "/images/hscm1003/main.jpg?v=1",
       "thumbnail": "/images/hscm1003/thumbnail.jpg",
-      "kakaoThumbnail": "/images/hscm1003/thumbnail_kakao.jpg"
+      "kakaoThumbnail": "/images/hscm1003/thumbnail_kakao.jpg?v=1"
     },
   "parents": {
   "groom": {
@@ -24983,7 +24978,7 @@
       "/images/hscm1003/gallery22.jpg",
       "/images/hscm1003/gallery23.jpg",
       "/images/hscm1003/gallery24.jpg",
-      "/images/hscm1003/gallery25.jpg",
+      "/images/hscm1003/gallery25.jpg?v=1",
       "/images/hscm1003/gallery26.jpg",
       "/images/hscm1003/gallery27.jpg",
       "/images/hscm1003/gallery28.jpg",
@@ -25021,11 +25016,11 @@
 },
 "information": [
   {
-    "title": "식사안내",
+    "title": "식사안내 ⊹˚. ♡",
     "content": "1층 연회장에서 뷔페가 준비되어 있습니다.\n식 30분 전부터 이용 가능합니다.\n(만 5세 이하 무료 / 만 6~10세 소인 식권)"
   },
   {
-    "title": "주차안내",
+    "title": "주차안내 ⊹˚. ♡",
     "content": "트리플스트리트 A~D동 및\n송도 테크노파크 IT센터\n5시간 무료 이용 가능\n주차장이 혼잡하오니 제2주차장\n(송도 테크노파크 IT센터) 이용을 부탁드립니다."
   }
 ],
@@ -25169,7 +25164,7 @@
     "disableZoom": true
   },
     "intro": {
-      "title": "백종현 & 조영화 결혼식에 초대합니다",
+      "title": "백종현 & 조영화 결혼식에 초대합니다.",
       "groomName": "백종현",
       "brideName": "조영화",
       "date": "2026년 11월 8일 일요일 오전 11시",
@@ -25299,6 +25294,656 @@
     "rsvp": {
   "enabled": true,
   "sheetId": "1IBSbCZXvzklv9BUOo7IrVzsVz437Qei_pdDlYIhH3eA"
+}
+  },
+  "ksji1212": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "03",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "한경석 & 정지인 결혼식에 초대합니다",
+      "groomName": "한경석",
+      "brideName": "정지인",
+      "date": "2026년 12월 12일 토요일 오전 11시",
+      "location": "라시따시어터",
+      "message": "\"인생은 모두가 함께하는 시간 여행이다.\n매일매일 살아가는 동안\n우리가 할 수 있는 건 최선을 다해\n이 멋진 여행을 만끽하는 것이다.\"\n- 영화 <어바웃타임 中>\n\n서로의 따뜻함을 닮아가며\n예쁘게 살겠습니다.\n귀한 발걸음 하시어\n축복해 주시면 감사하겠습니다.",
+      "mainImage": "/images/ksji1212/main.jpg",
+      "thumbnail": "/images/ksji1212/thumbnail.jpg",
+      "kakaoThumbnail": "/images/ksji1212/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "한규철",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "최명임",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "정노식",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "반미란",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "한경석", "relation": "신랑", "phone": "010-3676-1634" },
+        { "name": "한규철", "relation": "아버님", "phone": "010-3676-1159" },
+        { "name": "최명임", "relation": "어머님", "phone": "010-8629-0086" }
+      ],
+      "bride": [
+        { "name": "정지인", "relation": "신부", "phone": "010-4656-0779" },
+        { "name": "정노식", "relation": "아버님", "phone": "010-9669-7720" },
+        { "name": "반미란", "relation": "어머님", "phone": "010-2830-7018" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-12-12T11:00:00+09:00"
+    },
+    "gallery": [
+      "/images/ksji1212/gallery1.jpg",
+      "/images/ksji1212/gallery2.jpg",
+      "/images/ksji1212/gallery3.jpg",
+      "/images/ksji1212/gallery4.jpg",
+      "/images/ksji1212/gallery5.jpg",
+      "/images/ksji1212/gallery6.jpg",
+      "/images/ksji1212/gallery7.jpg",
+      "/images/ksji1212/gallery8.jpg",
+      "/images/ksji1212/gallery9.jpg",
+      "/images/ksji1212/gallery10.jpg",
+      "/images/ksji1212/gallery11.jpg",
+      "/images/ksji1212/gallery12.jpg",
+      "/images/ksji1212/gallery13.jpg",
+      "/images/ksji1212/gallery14.jpg",
+      "/images/ksji1212/gallery15.jpg",
+      "/images/ksji1212/gallery16.jpg",
+      "/images/ksji1212/gallery17.jpg",
+      "/images/ksji1212/gallery18.jpg",
+      "/images/ksji1212/gallery19.jpg",
+      "/images/ksji1212/gallery20.jpg",
+      "/images/ksji1212/gallery21.jpg",
+      "/images/ksji1212/gallery22.jpg",
+      "/images/ksji1212/gallery23.jpg",
+      "/images/ksji1212/gallery24.jpg"
+    ],
+    "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "라시따시어터",
+  "address": "1층 그랜드볼룸홀\n서울 서초구 매헌로 16",
+  "lat": 37.4632005071853,
+  "lng": 127.036640026566,
+  "transport": {
+  "custom": [
+    {
+      "title": "//지하철//",
+      "description": "신분당선 양재시민의숲역 5번 출구\n셔틀버스 운행 : 5번 출구\n- 예식 1시간 전부터 10분 간격으로 운행\n[마을버스] 5번 출구 - 횡단보도 건너편 서초20번\n→ [하이브랜드] 하차 → 라시따 A게이트"
+    },
+    {
+      "title": "//버스//",
+      "description": "하이브랜드 정류장 하차 [22384] → 라시따 A게이트\n마을버스 서초08, 서초20\n양곡도매시장 정류장 하차 [22299] → 라시따 A게이트\n간선버스 441\n지선버스 8442\n광역버스 9100, 9200, 9201, 9300\n일반버스 6, 11-3\n직행버스 1006, 3000, 3003, 3030, 3100, 3101, 6501, G9633"
+    },
+    {
+      "title": "//자가용//",
+      "description": "네비게이션 : \"라시따시어터\" 또는 \"하이브랜드\" 입력\n주소 검색 : \"매헌로 16\" 또는 \"양재동 215\" 검색"
+    },
+    {
+      "title": "//주차장 안내//",
+      "description": "동시 1,000대 주차 가능\n주차 유도선을 따라 진입\n파랑색 유도선 → 지하3층 주차장\n분홍색 유도선 → 타워주차장"
+    }
+]
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "한경석", "bank": "신한은행", "number": "110-268-845630" },
+        { "name": "한규철", "bank": "전북은행", "number": "557-13-0319378" },
+        { "name": "최명임", "bank": "농협은행", "number": "356-0859-7353-53" }
+],
+      "bride": [
+        { "name": "정지인", "bank": "토스뱅크", "number": "1001-3148-4311" },
+        { "name": "정노식", "bank": "토스뱅크", "number": "1001-8803-9543" },
+        { "name": "반미란", "bank": "토스뱅크", "number": "1002-4450-3836" }
+      ]
+    },
+    "rsvp": {
+  "enabled": false
+}
+  },
+  "dhsw1004": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "/music/custom_dhsw1004.mp3",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "추동형 & 양서우 결혼식에 초대합니다",
+      "groomName": "추동형",
+      "brideName": "양서우",
+      "date": "2026년 10월 4일 일요일 오후 4시 30분",
+      "location": "시그니엘 서울",
+      "message": "\"그때 기억나?\"\n하고 물으면 7년의 이야기를\n모두 꿰고 있는 한 사람.\n수많은 순간들을 함께 추억으로 쌓아온\n소중한 사람과 천사의 날,\n평생 서로의 수호천사가 되기로 약속합니다.\n오래도록 간직될 저희의 뜻깊은 순간에\n따뜻한 축복으로\n함께해 주시면 감사하겠습니다.",
+      "mainImage": "/images/dhsw1004/main.jpg",
+      "thumbnail": "/images/dhsw1004/thumbnail.jpg",
+      "kakaoThumbnail": "/images/dhsw1004/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "추경수",
+      "symbol": "flower"
+    },
+    "mother": {
+      "name": "장현량",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "양전성",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "임서정",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": false,
+      "groom": [],
+      "bride": []
+    },
+    "calendar": {
+      "date": "2026-10-04T16:30:00+09:00"
+    },
+    "gallery": [
+      "/images/dhsw1004/gallery1.jpg",
+      "/images/dhsw1004/gallery2.jpg",
+      "/images/dhsw1004/gallery3.jpg",
+      "/images/dhsw1004/gallery4.jpg",
+      "/images/dhsw1004/gallery6.jpg",
+      "/images/dhsw1004/gallery7.jpg",
+      "/images/dhsw1004/gallery8.jpg",
+      "/images/dhsw1004/gallery9.jpg",
+      "/images/dhsw1004/gallery10.jpg",
+      "/images/dhsw1004/gallery11.jpg",
+      "/images/dhsw1004/gallery12.jpg",
+      "/images/dhsw1004/gallery13.jpg",
+      "/images/dhsw1004/gallery14.jpg",
+      "/images/dhsw1004/gallery15.jpg",
+      "/images/dhsw1004/gallery16.jpg",
+      "/images/dhsw1004/gallery17.jpg",
+      "/images/dhsw1004/gallery18.jpg",
+      "/images/dhsw1004/gallery19.jpg",
+      "/images/dhsw1004/gallery20.jpg",
+      "/images/dhsw1004/gallery21.jpg",
+      "/images/dhsw1004/gallery22.jpg",
+      "/images/dhsw1004/gallery23.jpg",
+      "/images/dhsw1004/gallery24.jpg",
+      "/images/dhsw1004/gallery25.jpg",
+      "/images/dhsw1004/gallery26.jpg",
+      "/images/dhsw1004/gallery27.jpg",
+      "/images/dhsw1004/gallery28.jpg",
+      "/images/dhsw1004/gallery29.jpg",
+      "/images/dhsw1004/gallery30.jpg",
+      "/images/dhsw1004/gallery31.jpg"
+    ],
+    "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "시그니엘 서울",
+  "address": "롯데월드타워 76층 그랜드볼룸\n서울특별시 송파구 올림픽로 300\nT: 02-3213-1000",
+  "lat": 37.51244923250255,
+  "lng": 127.10286981538962,
+  "transport": {
+  "custom": [
+    {
+      "title": "지하철",
+      "description": "잠실역 1,2번 출구에서 직진 후 좌회전 (도보 3분)"
+    },
+    {
+      "title": "주차",
+      "description": "'시그니엘 서울' 검색\n지하 GATE3 주차장 (8시간 무료)"
+    }
+]
+}
+},
+"information": [
+  {
+    "title": "",
+    "content": "소중한 분들을 더욱 편안하게 모시고자\n전석 지정석으로 안내해 드립니다.\n정성껏 자리를 준비할 수 있도록\n참석 여부를 알려주시면 감사하겠습니다."
+  },
+  {
+    "title": "",
+    "content": "축의대 없이 진행되는 예식이오니,\n마음 전하실 곳은 모바일 안내를\n참고해 주시기 바랍니다."
+  },
+  {
+    "title": "",
+    "content": "식장 특성상 화환은 정중히 사양하며\n마음으로만 감사히 받겠습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "추동형", "bank": "우리은행", "number": "1002-955-015900" }
+],
+      "bride": [
+        { "name": "양서우", "bank": "하나은행", "number": "353-910305-30707" },
+        { "name": "양전성", "bank": "국민은행", "number": "470302-96-114530" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1k4KmBQQqJizeL0YQfysTSOIprr6CnYKsqw2eCBMMW1E"
+}
+  },
+  "ssjh1017": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "하성수 & 이주현 결혼식에 초대합니다",
+      "groomName": "하성수",
+      "brideName": "이주현",
+      "date": "2026년 10월 17일 토요일 오후 12시 10분",
+      "location": "동서울웨딩컨벤션",
+      "message": "변함없이, 순수한 사랑\n- 백합 꽃말 中 -\n\n처음의 설렘을 소중히 간직한 채,\n변함없는 순수한 사랑으로\n평생을 함께하기로 약속했습니다.\n\n귀한 걸음으로 저희의 시작을\n축복해주시면 감사하겠습니다.",
+      "mainImage": "/images/ssjh1017/main.jpg",
+      "thumbnail": "/images/ssjh1017/thumbnail.jpg",
+      "kakaoThumbnail": "/images/ssjh1017/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "하현호",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "계시자",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "이경주",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "권하정",
+      "symbol": "none"
+    },
+    "relation": "차녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "하성수", "relation": "신랑", "phone": "010-4482-2802" },
+        { "name": "하현호", "relation": "아버님", "phone": "010-3578-4764" },
+        { "name": "계시자", "relation": "어머님", "phone": "010-2692-4764" }
+      ],
+      "bride": [
+        { "name": "이주현", "relation": "신부", "phone": "010-2350-2717" },
+        { "name": "이경주", "relation": "아버님", "phone": "010-7510-2717" },
+        { "name": "권하정", "relation": "어머님", "phone": "010-5637-2717" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-10-17T12:10:00+09:00"
+    },
+    "gallery": [
+      "/images/ssjh1017/gallery1.jpg",
+      "/images/ssjh1017/gallery2.jpg",
+      "/images/ssjh1017/gallery3.jpg",
+      "/images/ssjh1017/gallery4.jpg",
+      "/images/ssjh1017/gallery5.jpg",
+      "/images/ssjh1017/gallery6.jpg",
+      "/images/ssjh1017/gallery7.jpg",
+      "/images/ssjh1017/gallery8.jpg",
+      "/images/ssjh1017/gallery9.jpg",
+      "/images/ssjh1017/gallery10.jpg",
+      "/images/ssjh1017/gallery11.jpg",
+      "/images/ssjh1017/gallery12.jpg",
+      "/images/ssjh1017/gallery13.jpg",
+      "/images/ssjh1017/gallery14.jpg",
+      "/images/ssjh1017/gallery15.jpg",
+      "/images/ssjh1017/gallery16.jpg",
+      "/images/ssjh1017/gallery17.jpg",
+      "/images/ssjh1017/gallery18.jpg",
+      "/images/ssjh1017/gallery19.jpg",
+      "/images/ssjh1017/gallery20.jpg"
+    ],
+    "video": {
+  "enabled": true,
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/lthzmlNP_JY",
+  "position": "afterCalendar"
+},
+    "map": {
+  "name": "동서울웨딩컨벤션",
+  "address": "그랜드볼룸홀\n경기도 성남시 수정구 복정로 76",
+  "lat": 37.457509580276394,
+  "lng": 127.12843096925731,
+  "transport": {
+  "custom": [
+    {
+      "title": "자가용",
+      "description": "경기도 성남시 수정구 복정로 76\n(복정동 423번지) '동서울 대학교'"
+    },
+    {
+      "title": "지하철",
+      "description": "복정역(수인분당선, 8호선) 2번 출구\n환승주차장에서 셔틀버스 이용(15분 간격 운행)"
+    },
+    {
+      "title": "버스",
+      "description": "버스 동서울 대학교 하차\n일반 : 100번, 119번, 30번, 32번, 357번\n좌석 : 500-1번, 500-2번, 1117번\n간선 : 302번, 303번, 452번, 422번\n지선 : 4425번\n※버스 노선 변경 또는 운행 중단으로 인하여\n상시 변경될 수 있다는 점 참고 부탁드립니다."
+    }
+]
+}
+},
+"information": [
+  {
+    "title": "식사 안내",
+    "content": "예식은 본관에서 진행되며,\n식사는 별관에서 준비됩니다.\n\n식권은 본관 축의대에서 받아주시기 바라며,\n식사는 예식 30분 전부터\n편하게 이용하실 수 있습니다."
+  },
+  {
+    "title": "신부대기실",
+    "content": "예식 전 신부와 인사를 나눌 수 있도록,\n본관 2층에 신부대기실을 마련했습니다.\n\n잠시 들러 소중한 순간을 함께해주세요."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "하성수", "bank": "국민은행", "number": "68080-20-1234383" },
+        { "name": "하현호", "bank": "새마을금고", "number": "9002-1849-3786-3" }
+],
+      "bride": [
+        { "name": "이주현", "bank": "농협", "number": "301-23502717-41" },
+        { "name": "이경주", "bank": "신한", "number": "110-066-622395" },
+        { "name": "권하정", "bank": "농협", "number": "225-12-091831" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1lBNYAYdtuqE_0LGWyJNzl11mdWVGnWnA_d8O3qH6AZY"
+}
+  },
+  "kmja0109": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "10",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "서경민 & 유진아 결혼식에 초대합니다",
+      "groomName": "서경민",
+      "brideName": "유진아",
+      "date": "2027년 1월 9일 토요일 오후 1시 10분",
+      "location": "로터스 101",
+      "message": "지나온 날보다\n앞으로의 모든 날들을\n\n평생 함께하고 싶은 사람과\n소중한 약속을 합니다.\n\n부부로서 내딛는 첫걸음에\n귀한 분들을 모십니다.",
+      "mainImage": "/images/kmja0109/main.jpg",
+      "thumbnail": "/images/kmja0109/thumbnail.jpg",
+      "kakaoThumbnail": "/images/kmja0109/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "서영돈",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "강숙자",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "유창재",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "손양희",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "서경민", "relation": "신랑", "phone": "01055292572" },
+        { "name": "서영돈", "relation": "아버님", "phone": "01040552572" },
+        { "name": "강숙자", "relation": "어머님", "phone": "01055252502" }
+      ],
+      "bride": [
+        { "name": "유진아", "relation": "신부", "phone": "01095792505" },
+        { "name": "유창재", "relation": "아버님", "phone": "01097302505" },
+        { "name": "손양희", "relation": "어머님", "phone": "01051222505" }
+      ]
+    },
+    "calendar": {
+      "date": "2027-01-09T13:10:00+09:00"
+    },
+    "gallery": [
+      "/images/kmja0109/gallery1.jpg",
+      "/images/kmja0109/gallery2.jpg",
+      "/images/kmja0109/gallery3.jpg",
+      "/images/kmja0109/gallery4.jpg",
+      "/images/kmja0109/gallery5.jpg",
+      "/images/kmja0109/gallery6.jpg",
+      "/images/kmja0109/gallery7.jpg",
+      "/images/kmja0109/gallery8.jpg",
+      "/images/kmja0109/gallery9.jpg",
+      "/images/kmja0109/gallery10.jpg",
+      "/images/kmja0109/gallery11.jpg",
+      "/images/kmja0109/gallery12.jpg",
+      "/images/kmja0109/gallery13.jpg",
+      "/images/kmja0109/gallery14.jpg",
+      "/images/kmja0109/gallery15.jpg",
+      "/images/kmja0109/gallery16.jpg",
+      "/images/kmja0109/gallery17.jpg",
+      "/images/kmja0109/gallery18.jpg",
+      "/images/kmja0109/gallery19.jpg",
+      "/images/kmja0109/gallery20.jpg"
+    ],
+    "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "로터스 101",
+  "address": "2층 단독홀\n경산시 화랑로 8길 200",
+  "lat": 35.83129231347076,
+  "lng": 128.77212218215476,
+  "transport": {
+  "custom": [
+    {
+      "title": "자차",
+      "description": "고속도로 경산IC ▶ 경산방향 10분 소요\n\n[영남대역 4번 출구 앞 무료셔틀버스 운행(5분소요)]"
+    },
+    {
+      "title": "*경산역(택시 15분)",
+      "description": "▶ 309, 609, 809, 894, 918, 999, 경산1-1 , 동구10, 압량1\"영남대 앞\"하차\n(영남대 역 4번 출구 셔틀버스 이용)"
+    },
+    {
+      "title": "*동대구역(택시 40분)",
+      "description": "▶ 지하철 2호선으로 환승 후 \"영남대 앞\"하차\n(영남대역 4번 출구 셔틀버스 이용)"
+    },
+    {
+      "title": "*지하철 2호선",
+      "description": "▶ \"영남대 앞\"하차\n(영남대역 4번 출구 셔틀버스 이용)"
+    }
+]
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "서영돈", "bank": "하나은행", "number": "036-38-06164-2" },
+        { "name": "강숙자", "bank": "농협", "number": "741105-52-118178" },
+        { "name": "서경민", "bank": "농협", "number": "352-0388-7927-93" }
+],
+      "bride": [
+        { "name": "유창재", "bank": "농협", "number": "351-0117-6109-13" },
+        { "name": "손양희", "bank": "IM뱅크", "number": "078-13-136303" },
+        { "name": "유진아", "bank": "국민", "number": "638102-04-229468" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1-MVxszptL7MjzshZCxRYBLIODtCLdKy4VFAIT2WRroA"
+}
+  },
+  "shdh1128": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "01",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "박상현 & 지다혜 결혼식에 초대합니다",
+      "groomName": "박상현",
+      "brideName": "지다혜",
+      "date": "2026년 11월 28일 토요일 오후 1시",
+      "location": "에스가든웨딩 청주",
+      "message": "우리는 모두 매일 시간 여행을 한다.\n우리가 할 수 있는 건\n이 멋진 여행을 즐기는 것뿐이다.\n- 영화 '어바웃 타임' 중에서 -\n\n평범한 하루도 소중히 여기며\n서로의 가장 좋은 동행이 되겠습니다.\n저희의 시작에 함께하시어\n따뜻한 축복을 보내주시면 감사하겠습니다.",
+      "mainImage": "/images/shdh1128/main.jpg",
+      "thumbnail": "/images/shdh1128/thumbnail.jpg",
+      "kakaoThumbnail": "/images/shdh1128/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "박대순",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "김명옥",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이지수",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "박상현", "relation": "신랑", "phone": "010-5572-6833" },
+        { "name": "박대순", "relation": "아버님", "phone": "010-5359-6833" },
+        { "name": "김명옥", "relation": "어머님", "phone": "010-2042-6833" }
+      ],
+      "bride": [
+        { "name": "지다혜", "relation": "신부", "phone": "010-4241-0450" },
+        { "name": "이지수", "relation": "어머님", "phone": "010-3467-0337" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-11-28T13:00:00+09:00"
+    },
+    "gallery": [
+      "/images/shdh1128/gallery1.jpg",
+      "/images/shdh1128/gallery2.jpg",
+      "/images/shdh1128/gallery3.jpg",
+      "/images/shdh1128/gallery4.jpg",
+      "/images/shdh1128/gallery5.jpg",
+      "/images/shdh1128/gallery6.jpg",
+      "/images/shdh1128/gallery7.jpg",
+      "/images/shdh1128/gallery8.jpg",
+      "/images/shdh1128/gallery9.jpg",
+      "/images/shdh1128/gallery10.jpg",
+      "/images/shdh1128/gallery11.jpg",
+      "/images/shdh1128/gallery12.jpg",
+      "/images/shdh1128/gallery13.jpg",
+      "/images/shdh1128/gallery14.jpg",
+      "/images/shdh1128/gallery15.jpg",
+      "/images/shdh1128/gallery16.jpg",
+      "/images/shdh1128/gallery17.jpg",
+      "/images/shdh1128/gallery18.jpg",
+      "/images/shdh1128/gallery19.jpg"
+    ],
+    "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "에스가든웨딩 청주",
+  "address": "3F 르씨엘홀\n충북 청주시 서원구 1순환로 854",
+  "lat": 36.6204444445269,
+  "lng": 127.467281856682,
+  "transport": {
+  "custom": [
+    {
+      "title": "",
+      "description": "- 남부터미널 자차 7분 / 대중교통 17분\n- 가경터미널(시외버스터미널) 자차 14분\n  / 대중교통 23분\n- 서청주 IC 19분\n- 버스노선 : 30-1, 30-2, 710, 823, 844, 851\n(청주우편집중국 하차 후 도보 3분)"
+    }
+]
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "박상현", "bank": "기업은행", "number": "423-050855-01-014" },
+        { "name": "박대순", "bank": "신한은행", "number": "110-005-618319" },
+        { "name": "김명옥", "bank": "국민은행", "number": "404-21-0782-060" }
+],
+      "bride": [
+        { "name": "지다혜", "bank": "국민은행", "number": "882802-00-001586" },
+        { "name": "이지수", "bank": "신한은행", "number": "110-511-411-215" }
+      ]
+    },
+    "rsvp": {
+  "enabled": false
 }
   }
 }
