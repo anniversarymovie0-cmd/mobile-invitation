@@ -7,6 +7,17 @@
       "**/node_modules/**"
     ],
     "cleanUrls": true,
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|png|gif|webp|svg|mp3)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=86400"
+          }
+        ]
+      }
+    ],
     "rewrites": [
       {
         "source": "/api/**",

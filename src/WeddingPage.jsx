@@ -171,10 +171,19 @@ export default function WeddingPage({ data }) {
   </div>
 )}
 
-      <div className="fade-up">
-        <Accounts data={accounts} />
-      </div>
-      {/* Location (Accounts 뒤) */}
+     <div className="fade-up">
+  <Accounts data={accounts} />
+</div>
+
+{/* 🔥 영상 (마음 전하실 곳 이후) */}
+{video?.enabled && video?.position === 'afterAccounts' && (
+  <VideoSection
+    data={video}
+    setIsVideoPlaying={setIsVideoPlaying}
+  />
+)}
+
+{/* Location (Accounts 뒤) */}
 {map?.position === 'afterAccounts' && (
   <div className="fade-up">
     <Location data={map} />

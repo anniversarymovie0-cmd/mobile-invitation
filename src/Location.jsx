@@ -6,7 +6,12 @@ export default function Location({ data }) {
     address = '',
     lat,
     lng,
-    transport
+    transport,
+
+    // ✅ 길찾기 앱 전용 목적지 (선택 옵션)
+    navigationName,
+    navigationLat,
+    navigationLng
   } = data || {};
 
   const btnStyle = {
@@ -74,7 +79,11 @@ export default function Location({ data }) {
   const addressLines = address ? address.split('\n') : [];
   const hasDetail = addressLines.length > 1;
 
-  const destinationName = name.replace(/,/g, ' ');
+  // ✅ 길찾기 앱 전용 목적지가 있으면 사용
+  // 없으면 기존 name / lat / lng 그대로 사용
+  const destinationName = (navigationName || name).replace(/,/g, ' ');
+  const destinationLat = navigationLat ?? lat;
+  const destinationLng = navigationLng ?? lng;
 
   const titleMap = {
     car: '자가용',
@@ -91,41 +100,41 @@ export default function Location({ data }) {
   };
 
   // ✅ 안내문 안의 URL을 자동으로 클릭 가능한 링크로 변환
-const renderTextWithLinks = (text) => {
-  if (!text) return null;
+  const renderTextWithLinks = (text) => {
+    if (!text) return null;
 
-  const urlRegex = /((?:https?:\/\/|www\.)[^\s]+)/g;
-  const parts = text.split(urlRegex);
+    const urlRegex = /((?:https?:\/\/|www\.)[^\s]+)/g;
+    const parts = text.split(urlRegex);
 
-  return parts.map((part, index) => {
-    const isUrl = /^(?:https?:\/\/|www\.)/.test(part);
+    return parts.map((part, index) => {
+      const isUrl = /^(?:https?:\/\/|www\.)/.test(part);
 
-    if (!isUrl) {
-      return <React.Fragment key={index}>{part}</React.Fragment>;
-    }
+      if (!isUrl) {
+        return <React.Fragment key={index}>{part}</React.Fragment>;
+      }
 
-    const href = part.startsWith('www.')
-      ? `https://${part}`
-      : part;
+      const href = part.startsWith('www.')
+        ? `https://${part}`
+        : part;
 
-    return (
-      <a
-        key={index}
-        href={href}
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{
-          color: '#555',
-          textDecoration: 'underline',
-          textUnderlineOffset: '2px',
-          wordBreak: 'break-all'
-        }}
-      >
-        {part}
-      </a>
-    );
-  });
-};
+      return (
+        <a
+          key={index}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: '#555',
+            textDecoration: 'underline',
+            textUnderlineOffset: '2px',
+            wordBreak: 'break-all'
+          }}
+        >
+          {part}
+        </a>
+      );
+    });
+  };
 
   /*
     신규 자유 입력 방식 확인
@@ -352,14 +361,14 @@ const renderTextWithLinks = (text) => {
         <button
           onClick={() => {
             const appUrl =
-              `nmap://route/car?dlat=${lat}` +
-              `&dlng=${lng}` +
+              `nmap://route/car?dlat=${destinationLat}` +
+              `&dlng=${destinationLng}` +
               `&dname=${encodeURIComponent(destinationName)}` +
               `&appname=wedding`;
 
             const webUrl =
               `https://map.naver.com/v5/directions/-/` +
-              `${lng},${lat},${encodeURIComponent(destinationName)},PLACE_POI/-/car`;
+              `${destinationLng},${destinationLat},${encodeURIComponent(destinationName)},PLACE_POI/-/car`;
 
             window.location.href = appUrl;
 
@@ -384,13 +393,13 @@ const renderTextWithLinks = (text) => {
         <button
           onClick={() => {
             const appUrl =
-              `kakaomap://route?ep=${lat},${lng}` +
+              `kakaomap://route?ep=${destinationLat},${destinationLng}` +
               `&epName=${encodeURIComponent(destinationName)}` +
               `&by=CAR`;
 
             const webUrl =
               `https://map.kakao.com/link/to/` +
-              `${encodeURIComponent(destinationName)},${lat},${lng}`;
+              `${encodeURIComponent(destinationName)},${destinationLat},${destinationLng}`;
 
             window.location.href = appUrl;
 
@@ -412,41 +421,41 @@ const renderTextWithLinks = (text) => {
         </button>
 
         {/* T맵 */}
-<button
-  onClick={() => {
-    const userAgent = navigator.userAgent;
+        <button
+          onClick={() => {
+            const userAgent = navigator.userAgent;
 
-    const isAndroid = /Android/i.test(userAgent);
-    const isIOS = /iPhone|iPad|iPod/i.test(userAgent);
+            const isAndroid = /Android/i.test(userAgent);
+            const isIOS = /iPhone|iPad|iPod/i.test(userAgent);
 
-    if (isAndroid) {
-      // ✅ Android T맵
-      window.location.href =
-        `tmap://route?` +
-        `referrer=com.skt.Tmap` +
-        `&goalname=${encodeURIComponent(destinationName)}` +
-        `&goalx=${lng}` +
-        `&goaly=${lat}`;
+            if (isAndroid) {
+              // ✅ Android T맵
+              window.location.href =
+                `tmap://route?` +
+                `referrer=com.skt.Tmap` +
+                `&goalname=${encodeURIComponent(destinationName)}` +
+                `&goalx=${destinationLng}` +
+                `&goaly=${destinationLat}`;
 
-    } else if (isIOS) {
-      // ✅ iPhone / iPad - 기존 정상 방식 유지
-      window.location.href =
-        `tmap://route?` +
-        `rGoName=${encodeURIComponent(destinationName)}` +
-        `&rGoX=${lng}` +
-        `&rGoY=${lat}`;
+            } else if (isIOS) {
+              // ✅ iPhone / iPad - 기존 정상 방식 유지
+              window.location.href =
+                `tmap://route?` +
+                `rGoName=${encodeURIComponent(destinationName)}` +
+                `&rGoX=${destinationLng}` +
+                `&rGoY=${destinationLat}`;
 
-    } else {
-      // ✅ PC
-      window.open(
-        'https://www.tmap.co.kr/',
-        '_blank',
-        'noopener,noreferrer'
-      );
-    }
-  }}
-  style={btnStyle}
->
+            } else {
+              // ✅ PC
+              window.open(
+                'https://www.tmap.co.kr/',
+                '_blank',
+                'noopener,noreferrer'
+              );
+            }
+          }}
+          style={btnStyle}
+        >
           <img
             src="/images/tmap_logo.png"
             alt=""
