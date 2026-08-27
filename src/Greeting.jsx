@@ -82,13 +82,37 @@ export default function Greeting({ intro, parents }) {
   const hasBothBrideParents =
     hasBrideFather && hasBrideMother;
 
-  // ✅ 신랑 측 어머님 성함 앞에 국화꽃이 있는지 확인
-  const hasGroomMotherFlower =
-    hasGroomMother && groomMother?.symbol === 'flower';
+  /*
+   * ✅ 신랑 측 어머님 성함 앞 특수 표기 확인
+   *
+   * flower : 국화꽃
+   * go     : 故
+   *
+   * 어머님 앞에 둘 중 하나가 들어가는 경우에만
+   * 해당 신랑 행을 독립 가운데 정렬합니다.
+   */
+  const hasGroomMotherSpecial =
+    hasGroomMother &&
+    (
+      groomMother?.symbol === 'flower' ||
+      groomMother?.symbol === 'go'
+    );
 
-  // ✅ 신부 측 어머님 성함 앞에 국화꽃이 있는지 확인
-  const hasBrideMotherFlower =
-    hasBrideMother && brideMother?.symbol === 'flower';
+  /*
+   * ✅ 신부 측 어머님 성함 앞 특수 표기 확인
+   *
+   * flower : 국화꽃
+   * go     : 故
+   *
+   * 어머님 앞에 둘 중 하나가 들어가는 경우에만
+   * 해당 신부 행을 독립 가운데 정렬합니다.
+   */
+  const hasBrideMotherSpecial =
+    hasBrideMother &&
+    (
+      brideMother?.symbol === 'flower' ||
+      brideMother?.symbol === 'go'
+    );
 
   /*
    * ✅ 일반적인 경우
@@ -192,12 +216,12 @@ export default function Greeting({ intro, parents }) {
   };
 
   /*
-   * ✅ 어머님 성함 앞에 국화꽃이 있는 행만 적용
+   * ✅ 어머님 성함 앞에 국화꽃 또는 故가 있는 행만 적용
    *
    * 기존 Grid의 6개 열 정렬을 사용하지 않고,
    * 해당 줄 전체를 하나의 문장처럼 가운데 정렬합니다.
    */
-  const motherFlowerRowStyle = {
+  const motherSpecialRowStyle = {
     gridColumn: '1 / 7',
     display: 'flex',
     alignItems: 'center',
@@ -206,27 +230,28 @@ export default function Greeting({ intro, parents }) {
     lineHeight: '1.8'
   };
 
-  // ✅ 국화 예외 행의 가운데점
-  const flowerRowDotStyle = {
+  // ✅ 예외 행의 가운데점
+  const specialRowDotStyle = {
     margin: '0 4px'
   };
 
-  // ✅ 국화 예외 행의 '의'
-  const flowerRowUiStyle = {
+  // ✅ 예외 행의 '의'
+  const specialRowUiStyle = {
     color: '#999',
     marginLeft: '8px',
     marginRight: '5px'
   };
 
-  // ✅ 국화 예외 행의 관계
-  const flowerRowRelationStyle = {
+  // ✅ 예외 행의 관계
+  const specialRowRelationStyle = {
     color: '#999',
     marginRight: '5px'
   };
 
-  // ✅ 국화 예외 행의 신랑·신부 이름
-  const flowerRowNameStyle = {
-    fontWeight: 'bold'
+  // ✅ 예외 행의 신랑·신부 이름
+  const specialRowNameStyle = {
+    fontWeight: 'bold',
+    whiteSpace: 'pre'
   };
 
   return (
@@ -280,37 +305,42 @@ export default function Greeting({ intro, parents }) {
             {/* ================= 신랑 ================= */}
 
             {hasGroomParents ? (
-              hasGroomMotherFlower ? (
+              hasGroomMotherSpecial ? (
                 /*
-                 * ✅ 신랑 측 어머님 성함 앞에 국화꽃이 있는 경우
+                 * ✅ 신랑 측 어머님 성함 앞에
+                 * 국화꽃 또는 故가 있는 경우
+                 *
                  * 해당 신랑 줄만 전체 가운데 정렬
                  */
-                <span style={motherFlowerRowStyle}>
+                <span style={motherSpecialRowStyle}>
                   {hasGroomFather && (
                     <>
                       {renderParentName(groomFather, true)}
 
-                      <span style={flowerRowDotStyle}>
+                      <span style={specialRowDotStyle}>
                         ·
                       </span>
                     </>
                   )}
 
                   {/*
-                    어머님 국화는 inline 방식으로 표시하기 위해
-                    두 번째 인자를 false로 전달합니다.
+                    어머님 국화꽃일 경우에는
+                    inline 방식으로 표시하기 위해 false 전달
+
+                    故일 경우에는 renderParentName 내부에서
+                    자동으로 "故 성함" 형태로 표시됩니다.
                   */}
                   {renderParentName(groomMother, false)}
 
-                  <span style={flowerRowUiStyle}>
+                  <span style={specialRowUiStyle}>
                     의
                   </span>
 
-                  <span style={flowerRowRelationStyle}>
+                  <span style={specialRowRelationStyle}>
                     {parents.groom.relation}
                   </span>
 
-                  <span style={flowerRowNameStyle}>
+                  <span style={specialRowNameStyle}>
                     {intro.groomName}
                   </span>
                 </span>
@@ -360,13 +390,13 @@ export default function Greeting({ intro, parents }) {
 
                   {/* 신랑 이름 */}
                   <span
-  style={{
-    ...coupleNameStyle,
-    whiteSpace: 'pre'
-  }}
->
-  {intro.groomName}
-</span>
+                    style={{
+                      ...coupleNameStyle,
+                      whiteSpace: 'pre'
+                    }}
+                  >
+                    {intro.groomName}
+                  </span>
                 </>
               )
             ) : (
@@ -385,7 +415,12 @@ export default function Greeting({ intro, parents }) {
                   신랑
                 </span>
 
-                <span style={{ fontWeight: 'bold' }}>
+                <span
+                  style={{
+                    fontWeight: 'bold',
+                    whiteSpace: 'pre'
+                  }}
+                >
                   {intro.groomName}
                 </span>
               </span>
@@ -394,37 +429,42 @@ export default function Greeting({ intro, parents }) {
             {/* ================= 신부 ================= */}
 
             {hasBrideParents ? (
-              hasBrideMotherFlower ? (
+              hasBrideMotherSpecial ? (
                 /*
-                 * ✅ 신부 측 어머님 성함 앞에 국화꽃이 있는 경우
+                 * ✅ 신부 측 어머님 성함 앞에
+                 * 국화꽃 또는 故가 있는 경우
+                 *
                  * 해당 신부 줄만 전체 가운데 정렬
                  */
-                <span style={motherFlowerRowStyle}>
+                <span style={motherSpecialRowStyle}>
                   {hasBrideFather && (
                     <>
                       {renderParentName(brideFather, true)}
 
-                      <span style={flowerRowDotStyle}>
+                      <span style={specialRowDotStyle}>
                         ·
                       </span>
                     </>
                   )}
 
                   {/*
-                    어머님 국화는 inline 방식으로 표시하기 위해
-                    두 번째 인자를 false로 전달합니다.
+                    어머님 국화꽃일 경우에는
+                    inline 방식으로 표시하기 위해 false 전달
+
+                    故일 경우에는 renderParentName 내부에서
+                    자동으로 "故 성함" 형태로 표시됩니다.
                   */}
                   {renderParentName(brideMother, false)}
 
-                  <span style={flowerRowUiStyle}>
+                  <span style={specialRowUiStyle}>
                     의
                   </span>
 
-                  <span style={flowerRowRelationStyle}>
+                  <span style={specialRowRelationStyle}>
                     {parents.bride.relation}
                   </span>
 
-                  <span style={flowerRowNameStyle}>
+                  <span style={specialRowNameStyle}>
                     {intro.brideName}
                   </span>
                 </span>
@@ -474,13 +514,13 @@ export default function Greeting({ intro, parents }) {
 
                   {/* 신부 이름 */}
                   <span
-  style={{
-    ...coupleNameStyle,
-    whiteSpace: 'pre'
-  }}
->
-  {intro.brideName}
-</span>
+                    style={{
+                      ...coupleNameStyle,
+                      whiteSpace: 'pre'
+                    }}
+                  >
+                    {intro.brideName}
+                  </span>
                 </>
               )
             ) : (
@@ -499,7 +539,12 @@ export default function Greeting({ intro, parents }) {
                   신부
                 </span>
 
-                <span style={{ fontWeight: 'bold' }}>
+                <span
+                  style={{
+                    fontWeight: 'bold',
+                    whiteSpace: 'pre'
+                  }}
+                >
                   {intro.brideName}
                 </span>
               </span>
@@ -523,7 +568,12 @@ export default function Greeting({ intro, parents }) {
                 신랑
               </span>
 
-              <span style={{ fontWeight: 'bold' }}>
+              <span
+                style={{
+                  fontWeight: 'bold',
+                  whiteSpace: 'pre'
+                }}
+              >
                 {intro.groomName}
               </span>
             </div>
@@ -538,7 +588,12 @@ export default function Greeting({ intro, parents }) {
                 신부
               </span>
 
-              <span style={{ fontWeight: 'bold' }}>
+              <span
+                style={{
+                  fontWeight: 'bold',
+                  whiteSpace: 'pre'
+                }}
+              >
                 {intro.brideName}
               </span>
             </div>
