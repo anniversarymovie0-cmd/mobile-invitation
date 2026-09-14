@@ -20,10 +20,9 @@ export default function VideoSection({ data, setIsVideoPlaying }) {
 
  const thumbnail =
   data.thumbnail?.trim()
-    ? `${data.thumbnail.trim()}?v=1`
+    ? data.thumbnail.trim()
     : `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
-
-const fallbackThumbnail = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg?v=1`;
+const fallbackThumbnail = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
 
   const embedUrl = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&playsinline=1&rel=0`;
 
