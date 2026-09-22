@@ -195,7 +195,7 @@ export default function Gallery({ images }) {
           src={galleryImages[selectedIndex]}
           alt="Main Gallery"
           loading="eager"
-          decoding="async"
+          decoding="sync"
           draggable={false}
           onContextMenu={(event) => event.preventDefault()}
           onDragStart={(event) => event.preventDefault()}
@@ -203,10 +203,8 @@ export default function Gallery({ images }) {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
           style={{
-            maxWidth: '100%',
-            maxHeight: '100%',
-            width: 'auto',
-            height: 'auto',
+            width: '100%',
+            height: '100%',
             display: 'block',
 
             // ✅ 기존 그대로 유지
