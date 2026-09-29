@@ -192,7 +192,8 @@ export default function Location({ data }) {
         <h3
           style={{
             fontSize: '1.1rem',
-            fontWeight: 'bold',
+            fontWeight: '400',
+            WebkitTextStroke: '0.2px currentColor',
             marginBottom: '8px',
             whiteSpace: 'pre-line'
           }}
@@ -208,7 +209,8 @@ export default function Location({ data }) {
                 fontSize: '0.95rem',
                 color: '#111',
                 marginBottom: '4px',
-                fontWeight: 'bold'
+                fontWeight: '400',
+                WebkitTextStroke: '0.2px currentColor'
               }}
             >
               {addressLines[0]}
@@ -285,7 +287,8 @@ export default function Location({ data }) {
                 {item.title && (
                   <div
                     style={{
-                      fontWeight: '600',
+                      fontWeight: '400',
+                      WebkitTextStroke: '0.2px currentColor',
                       letterSpacing: '0.3px',
                       color: '#111',
                       marginBottom: '6px',
@@ -325,7 +328,8 @@ export default function Location({ data }) {
               >
                 <div
                   style={{
-                    fontWeight: '600',
+                    fontWeight: '400',
+                    WebkitTextStroke: '0.2px currentColor',
                     letterSpacing: '0.3px',
                     color: '#111',
                     marginBottom: '6px',

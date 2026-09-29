@@ -104,9 +104,18 @@ if (!hasGroom && !hasBride) {
                   paddingBottom: i === list.length - 1 ? 0 : '15px'
                 }}>
                   <div style={{ textAlign: 'left' }}>
-                    <div style={{ marginBottom: '4px' }}>
-                      {acc.bank} <b style={{ color: '#333' }}>{acc.number}</b>
-                    </div>
+                  <div style={{ marginBottom: '4px' }}>
+                    {acc.bank}{' '}
+                    <span
+                      style={{
+                        color: '#333',
+                        fontWeight: '400',
+                        WebkitTextStroke: '0.2px currentColor'
+                      }}
+  >
+    {acc.number}
+  </span>
+</div>
                     <div style={{ fontSize: '0.85rem', color: '#888' }}>
   예금주:{' '}
   <span style={{ whiteSpace: 'pre' }}>

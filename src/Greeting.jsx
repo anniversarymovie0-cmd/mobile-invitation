@@ -87,9 +87,6 @@ export default function Greeting({ intro, parents }) {
    *
    * flower : 국화꽃
    * go     : 故
-   *
-   * 어머님 앞에 둘 중 하나가 들어가는 경우에만
-   * 해당 신랑 행을 독립 가운데 정렬합니다.
    */
   const hasGroomMotherSpecial =
     hasGroomMother &&
@@ -103,9 +100,6 @@ export default function Greeting({ intro, parents }) {
    *
    * flower : 국화꽃
    * go     : 故
-   *
-   * 어머님 앞에 둘 중 하나가 들어가는 경우에만
-   * 해당 신부 행을 독립 가운데 정렬합니다.
    */
   const hasBrideMotherSpecial =
     hasBrideMother &&
@@ -113,6 +107,39 @@ export default function Greeting({ intro, parents }) {
       brideMother?.symbol === 'flower' ||
       brideMother?.symbol === 'go'
     );
+
+  /*
+   * ✅ 부모님 성함이 4글자 이상인 경우 확인
+   *
+   * symbol은 포함하지 않고 실제 성함(parent.name)만 확인
+   *
+   * 예:
+   * 최윤화   → 3글자 → 기존 Grid
+   * 남궁옥희 → 4글자 → 해당 행만 독립 가운데 정렬
+   */
+  const hasGroomLongParentName =
+    (groomFather?.name?.trim().length || 0) >= 4 ||
+    (groomMother?.name?.trim().length || 0) >= 4;
+
+  const hasBrideLongParentName =
+    (brideFather?.name?.trim().length || 0) >= 4 ||
+    (brideMother?.name?.trim().length || 0) >= 4;
+
+  /*
+   * ✅ 해당 행을 독립 가운데 정렬해야 하는지 최종 확인
+   *
+   * 기존:
+   * - 어머님 국화
+   * - 어머님 故
+   *
+   * 추가:
+   * - 부모님 성함 중 한 분이라도 4글자 이상
+   */
+  const hasGroomSpecialRow =
+    hasGroomMotherSpecial || hasGroomLongParentName;
+
+  const hasBrideSpecialRow =
+    hasBrideMotherSpecial || hasBrideLongParentName;
 
   /*
    * ✅ 일반적인 경우
@@ -124,9 +151,6 @@ export default function Greeting({ intro, parents }) {
    * 4열: 의
    * 5열: 관계
    * 6열: 신랑·신부 이름
-   *
-   * 한 분만 입력된 경우에는 1~3열을 하나로 합쳐
-   * 부모님 성함을 '의' 바로 앞에 배치합니다.
    */
   const parentsGridStyle = {
     display: 'grid',
@@ -161,9 +185,6 @@ export default function Greeting({ intro, parents }) {
 
   /*
    * ✅ 부모님 한 분만 입력된 일반적인 경우
-   *
-   * 부모님 영역 1~3열을 합치고 오른쪽 정렬하여
-   * 뒤의 '의'와 불필요한 간격이 생기지 않도록 처리
    */
   const singleParentStyle = {
     gridColumn: '1 / 4',
@@ -182,9 +203,6 @@ export default function Greeting({ intro, parents }) {
 
   /*
    * ✅ 일반 Grid의 관계 영역
-   *
-   * 신랑·신부 중 가장 긴 관계 문구에 맞춰 자동 확장
-   * 짧은 '딸'은 관계 영역 가운데 정렬
    */
   const relationStyle = {
     display: 'block',
@@ -197,15 +215,14 @@ export default function Greeting({ intro, parents }) {
 
   /*
    * ✅ 일반 Grid의 신랑·신부 이름 영역
-   *
-   * 외자·두 글자·세 글자 이름의 시작 위치를 동일하게 유지
    */
   const coupleNameStyle = {
-    display: 'block',
-    minWidth: '3em',
-    textAlign: 'left',
-    fontWeight: 'bold'
-  };
+  display: 'block',
+  minWidth: '3em',
+  textAlign: 'left',
+  fontWeight: '400',
+  WebkitTextStroke: '0.2px currentColor'
+};
 
   const simpleRowStyle = {
     display: 'flex',
@@ -216,10 +233,13 @@ export default function Greeting({ intro, parents }) {
   };
 
   /*
-   * ✅ 어머님 성함 앞에 국화꽃 또는 故가 있는 행만 적용
+   * ✅ 예외 행
    *
-   * 기존 Grid의 6개 열 정렬을 사용하지 않고,
-   * 해당 줄 전체를 하나의 문장처럼 가운데 정렬합니다.
+   * - 어머님 국화
+   * - 어머님 故
+   * - 부모님 성함 4글자 이상
+   *
+   * 해당 줄만 하나의 문장처럼 가운데 정렬
    */
   const motherSpecialRowStyle = {
     gridColumn: '1 / 7',
@@ -305,32 +325,27 @@ export default function Greeting({ intro, parents }) {
             {/* ================= 신랑 ================= */}
 
             {hasGroomParents ? (
-              hasGroomMotherSpecial ? (
+              hasGroomSpecialRow ? (
                 /*
-                 * ✅ 신랑 측 어머님 성함 앞에
-                 * 국화꽃 또는 故가 있는 경우
+                 * ✅ 신랑 측 예외 행
                  *
-                 * 해당 신랑 줄만 전체 가운데 정렬
+                 * - 어머님 국화
+                 * - 어머님 故
+                 * - 부모님 성함 4글자 이상
                  */
                 <span style={motherSpecialRowStyle}>
-                  {hasGroomFather && (
-                    <>
-                      {renderParentName(groomFather, true)}
 
-                      <span style={specialRowDotStyle}>
-                        ·
-                      </span>
-                    </>
+                  {hasGroomFather &&
+                    renderParentName(groomFather, true)}
+
+                  {hasGroomFather && hasGroomMother && (
+                    <span style={specialRowDotStyle}>
+                      ·
+                    </span>
                   )}
 
-                  {/*
-                    어머님 국화꽃일 경우에는
-                    inline 방식으로 표시하기 위해 false 전달
-
-                    故일 경우에는 renderParentName 내부에서
-                    자동으로 "故 성함" 형태로 표시됩니다.
-                  */}
-                  {renderParentName(groomMother, false)}
+                  {hasGroomMother &&
+                    renderParentName(groomMother, false)}
 
                   <span style={specialRowUiStyle}>
                     의
@@ -347,7 +362,7 @@ export default function Greeting({ intro, parents }) {
               ) : (
                 /*
                  * ✅ 신랑 측 일반적인 경우
-                 * 지금까지 맞춰놓은 기존 Grid 배열 그대로 유지
+                 * 기존 Grid 배열 그대로 유지
                  */
                 <>
                   {hasBothGroomParents ? (
@@ -383,7 +398,7 @@ export default function Greeting({ intro, parents }) {
                     의
                   </span>
 
-                  {/* 아들 / 장남 / 둘째아들 등 */}
+                  {/* 관계 */}
                   <span style={relationStyle}>
                     {parents.groom.relation}
                   </span>
@@ -429,32 +444,27 @@ export default function Greeting({ intro, parents }) {
             {/* ================= 신부 ================= */}
 
             {hasBrideParents ? (
-              hasBrideMotherSpecial ? (
+              hasBrideSpecialRow ? (
                 /*
-                 * ✅ 신부 측 어머님 성함 앞에
-                 * 국화꽃 또는 故가 있는 경우
+                 * ✅ 신부 측 예외 행
                  *
-                 * 해당 신부 줄만 전체 가운데 정렬
+                 * - 어머님 국화
+                 * - 어머님 故
+                 * - 부모님 성함 4글자 이상
                  */
                 <span style={motherSpecialRowStyle}>
-                  {hasBrideFather && (
-                    <>
-                      {renderParentName(brideFather, true)}
 
-                      <span style={specialRowDotStyle}>
-                        ·
-                      </span>
-                    </>
+                  {hasBrideFather &&
+                    renderParentName(brideFather, true)}
+
+                  {hasBrideFather && hasBrideMother && (
+                    <span style={specialRowDotStyle}>
+                      ·
+                    </span>
                   )}
 
-                  {/*
-                    어머님 국화꽃일 경우에는
-                    inline 방식으로 표시하기 위해 false 전달
-
-                    故일 경우에는 renderParentName 내부에서
-                    자동으로 "故 성함" 형태로 표시됩니다.
-                  */}
-                  {renderParentName(brideMother, false)}
+                  {hasBrideMother &&
+                    renderParentName(brideMother, false)}
 
                   <span style={specialRowUiStyle}>
                     의
@@ -471,7 +481,7 @@ export default function Greeting({ intro, parents }) {
               ) : (
                 /*
                  * ✅ 신부 측 일반적인 경우
-                 * 지금까지 맞춰놓은 기존 Grid 배열 그대로 유지
+                 * 기존 Grid 배열 그대로 유지
                  */
                 <>
                   {hasBothBrideParents ? (
@@ -507,7 +517,7 @@ export default function Greeting({ intro, parents }) {
                     의
                   </span>
 
-                  {/* 딸 / 장녀 / 첫째딸 등 */}
+                  {/* 관계 */}
                   <span style={relationStyle}>
                     {parents.bride.relation}
                   </span>
@@ -549,6 +559,7 @@ export default function Greeting({ intro, parents }) {
                 </span>
               </span>
             )}
+
           </div>
         ) : (
           <>
