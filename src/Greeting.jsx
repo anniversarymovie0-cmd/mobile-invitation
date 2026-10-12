@@ -135,11 +135,14 @@ export default function Greeting({ intro, parents }) {
    * 추가:
    * - 부모님 성함 중 한 분이라도 4글자 이상
    */
+  const hasAnyLongParentName =
+  hasGroomLongParentName || hasBrideLongParentName;
+
   const hasGroomSpecialRow =
-    hasGroomMotherSpecial || hasGroomLongParentName;
+  hasGroomMotherSpecial || hasAnyLongParentName;
 
   const hasBrideSpecialRow =
-    hasBrideMotherSpecial || hasBrideLongParentName;
+  hasBrideMotherSpecial || hasAnyLongParentName;
 
   /*
    * ✅ 일반적인 경우
