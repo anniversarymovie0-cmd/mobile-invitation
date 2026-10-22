@@ -92,10 +92,10 @@ useEffect(() => {
     } else {
       audio.volume = 1;
       audio.play()
-        .then(() => {
-          setIsPlaying(true);
-        })
-        .catch(() => {});
+  .then(() => {
+    setIsPlaying(true);
+  })
+  .catch(() => {});
     }
   };
 

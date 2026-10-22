@@ -129,7 +129,7 @@ export default function WeddingPage({ data }) {
 )}
 
 {/* Location (Calendar 뒤) */}
-{map?.position === 'afterCalendar' && (
+{map?.enabled !== false && map?.position === 'afterCalendar' && (
   <div className="fade-up">
     <Location data={map} />
   </div>
@@ -148,14 +148,14 @@ export default function WeddingPage({ data }) {
 )}
 
 {/* Location (Gallery 뒤) */}
-{map?.position === 'afterGallery' && (
+{map?.enabled !== false && map?.position === 'afterGallery' && (
   <div className="fade-up">
     <Location data={map} />
   </div>
 )}
 
 {/* 기본 위치 (position이 없으면 기존 위치 유지) */}
-{!map?.position && (
+{map?.enabled !== false && !map?.position && (
   <div className="fade-up">
     <Location data={map} />
   </div>
@@ -165,7 +165,7 @@ export default function WeddingPage({ data }) {
       </div>
 
       {/* Location (Information 뒤) */}
-{map?.position === 'afterInformation' && (
+{map?.enabled !== false && map?.position === 'afterInformation' && (
   <div className="fade-up">
     <Location data={map} />
   </div>
@@ -184,7 +184,7 @@ export default function WeddingPage({ data }) {
 )}
 
 {/* Location (Accounts 뒤) */}
-{map?.position === 'afterAccounts' && (
+{map?.enabled !== false && map?.position === 'afterAccounts' && (
   <div className="fade-up">
     <Location data={map} />
   </div>
@@ -197,7 +197,7 @@ export default function WeddingPage({ data }) {
         </div>
       )}
       {/* Location (RSVP 뒤) */}
-{map?.position === 'afterRsvp' && (
+{map?.enabled !== false && map?.position === 'afterRsvp' && (
   <div className="fade-up">
     <Location data={map} />
   </div>
