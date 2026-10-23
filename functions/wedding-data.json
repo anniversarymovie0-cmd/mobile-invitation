@@ -29306,7 +29306,7 @@
 }
   },
   "hwksh1107": {
-    "open": true,
+    "open": false,
     "keepForever": false,
     "bgm": "08",
     "bgmAutoPlay": true,
@@ -32271,6 +32271,7 @@
     "open": true,
     "keepForever": false,
     "bgm": "/music/custom_yjms1212.mp3",
+    "bgmAutoPlay": true,
     "settings": {
     "disableZoom": true
   },
@@ -34518,26 +34519,26 @@
       "date": "2026-12-13T12:00:00+09:00"
     },
     "gallery": [
-      "/images/hwrw1213/gallery1.jpg",
-      "/images/hwrw1213/gallery2.jpg",
-      "/images/hwrw1213/gallery3.jpg",
-      "/images/hwrw1213/gallery4.jpg",
-      "/images/hwrw1213/gallery5.jpg",
-      "/images/hwrw1213/gallery6.jpg",
-      "/images/hwrw1213/gallery7.jpg",
-      "/images/hwrw1213/gallery8.jpg",
-      "/images/hwrw1213/gallery9.jpg",
-      "/images/hwrw1213/gallery10.jpg",
-      "/images/hwrw1213/gallery11.jpg",
-      "/images/hwrw1213/gallery12.jpg",
-      "/images/hwrw1213/gallery13.jpg",
-      "/images/hwrw1213/gallery14.jpg",
-      "/images/hwrw1213/gallery15.jpg",
-      "/images/hwrw1213/gallery16.jpg",
-      "/images/hwrw1213/gallery17.jpg",
-      "/images/hwrw1213/gallery18.jpg",
-      "/images/hwrw1213/gallery19.jpg?v=1",
-      "/images/hwrw1213/gallery20.jpg"
+      "/images/hwrw1213/gallery1.jpg?v=2",
+      "/images/hwrw1213/gallery2.jpg?v=2",
+      "/images/hwrw1213/gallery3.jpg?v=2",
+      "/images/hwrw1213/gallery4.jpg?v=2",
+      "/images/hwrw1213/gallery5.jpg?v=2",
+      "/images/hwrw1213/gallery6.jpg?v=2",
+      "/images/hwrw1213/gallery7.jpg?v=2",
+      "/images/hwrw1213/gallery8.jpg?v=2",
+      "/images/hwrw1213/gallery9.jpg?v=2",
+      "/images/hwrw1213/gallery10.jpg?v=2",
+      "/images/hwrw1213/gallery11.jpg?v=2",
+      "/images/hwrw1213/gallery12.jpg?v=2",
+      "/images/hwrw1213/gallery13.jpg?v=2",
+      "/images/hwrw1213/gallery14.jpg?v=2",
+      "/images/hwrw1213/gallery15.jpg?v=2",
+      "/images/hwrw1213/gallery16.jpg?v=2",
+      "/images/hwrw1213/gallery17.jpg?v=2",
+      "/images/hwrw1213/gallery18.jpg?v=2",
+      "/images/hwrw1213/gallery19.jpg?v=2",
+      "/images/hwrw1213/gallery20.jpg?v=2"
     ],
     "video": {
   "enabled": false,
@@ -35185,7 +35186,7 @@
 }
   },
   "twgw0214": {
-    "open": false,
+    "open": true,
     "keepForever": false,
     "bgm": "05",
     "settings": {
@@ -35295,7 +35296,7 @@
     },
     {
       "title": "대중교통 이용 안내",
-      "description": "지하철\n강남구청역(7호선,수인분당선)\n• 3-1번 출구 도보 570m\n• 3번 출구 웨딩홀 셔틀버스 운행, 10분 간격 수시운행\n  압구정로데오역(수인분당선)\n• 5번 출구 도보 500m\n\n버스\n간선 : 301, 342, 472 / 지선 : 3011, 4312\n영동고교 앞 하차 후, 학동사거리 방면 100m 내 건물"
+      "description": "지하철\n강남구청역(7호선,수인분당선)\n• 3-1번 출구 도보 570m\n• 3번 출구 웨딩홀 셔틀버스 운행, 10분 간격 수시운행\n압구정로데오역(수인분당선)\n• 5번 출구 도보 500m\n\n버스\n간선 : 301, 342, 472 / 지선 : 3011, 4312\n영동고교 앞 하차 후, 학동사거리 방면 100m 내 건물"
     }
 ]
 }
@@ -35320,6 +35321,351 @@
     },
     "rsvp": {
   "enabled": false
+}
+  },
+  "sikj1226": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "조성익 & 최기정 결혼식에 초대합니다",
+      "groomName": "조성익",
+      "brideName": "최기정",
+      "date": "2026년 12월 26일 토요일 오후 4시",
+      "location": "약현동 성당",
+      "message": "이 모든 것 위에 사랑을 입으십시오.\n사랑은 완전하게 묶어 주는 끈입니다.\n(콜로 3,14)\n\n누군가를 돕기 위해 내밀던 손이\n어느덧 서로를 향한 손이 되었습니다.\n하느님께서 맺어 주신 사랑의 끈으로\n이제 두 사람이 한 가정을 이루려 합니다.\n함께하시어 축복해 주십시오",
+      "mainImage": "/images/sikj1226/main.jpg",
+      "thumbnail": "/images/sikj1226/thumbnail.jpg",
+      "kakaoThumbnail": "/images/sikj1226/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "조창훈",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이경혜",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "최경주",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이근영",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "조성익", "relation": "신랑", "phone": "010-2616-6748" }
+      ],
+      "bride": [
+        { "name": "최기정", "relation": "신부", "phone": "010-3123-0355" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-12-26T16:00:00+09:00"
+    },
+    "gallery": [
+      "/images/sikj1226/gallery1.jpg",
+      "/images/sikj1226/gallery2.jpg",
+      "/images/sikj1226/gallery3.jpg",
+      "/images/sikj1226/gallery4.jpg",
+      "/images/sikj1226/gallery5.jpg",
+      "/images/sikj1226/gallery6.jpg",
+      "/images/sikj1226/gallery7.jpg",
+      "/images/sikj1226/gallery8.jpg",
+      "/images/sikj1226/gallery9.jpg",
+      "/images/sikj1226/gallery10.jpg",
+      "/images/sikj1226/gallery11.jpg",
+      "/images/sikj1226/gallery12.jpg"
+    ],
+    "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "약현동 성당",
+  "address": "대성전\n서울 중구 청파로 447-1",
+  "lat": 37.55910822297294,
+  "lng": 126.96747917654307,
+  "transport": {
+  "custom": [
+    {
+      "title": "주차 안내",
+      "description": "주차는 서소문 역사공원 주차장(중구 칠패로 5)을\n이용하시길 바랍니다.\n주차권은 당일 축의대에서 받아 가실 수 있습니다."
+    }
+]
+}
+},
+"information": [
+  {
+    "title": "화환 안내",
+    "content": "혼배미사가 거행되는 성당의 방침에 따라\n화환은 받지 않습니다.\n기도로 함께해 주시면 더없이 감사하겠습니다."
+  },
+  {
+    "title": "식사 안내",
+    "content": "서소문 순교자 기념관 피로연장에서\n뷔페로 준비되어 있습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "조창훈", "bank": "기업은행", "number": "020-036008-02-018" },
+        { "name": "조성익", "bank": "신한", "number": "060-11-177216" }
+      ],
+      "bride": [
+        { "name": "최기정", "bank": "농협", "number": "302-0330-5651-21" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1DB7WOJRRWgIiUUbmEcDgsbGLcFb_roMu_hx-mjdl6ZI"
+}
+  },
+  "sikj1226_p": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "08",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "조성익 & 최기정 결혼식에 초대합니다",
+      "groomName": "조성익",
+      "brideName": "최기정",
+      "date": "2026년 12월 26일 토요일 오후 4시",
+      "location": "약현동 성당",
+      "message": "이 모든 것 위에 사랑을 입으십시오.\n사랑은 완전하게 묶어 주는 끈입니다.\n(콜로 3,14)\n\n누군가를 돕기 위해 내밀던 손이\n어느덧 서로를 향한 손이 되었습니다.\n하느님께서 맺어 주신 사랑의 끈으로\n이제 두 사람이 한 가정을 이루려 합니다.\n함께하시어 축복해 주십시오",
+      "mainImage": "/images/sikj1226/main.jpg",
+      "thumbnail": "/images/sikj1226/thumbnail.jpg",
+      "kakaoThumbnail": "/images/sikj1226/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "조창훈",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이경혜",
+      "symbol": "none"
+    },
+    "relation": "아들"
+  },
+  "bride": {
+    "father": {
+      "name": "최경주",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "이근영",
+      "symbol": "none"
+    },
+    "relation": "딸"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [
+        { "name": "조성익", "relation": "신랑", "phone": "010-2616-6748" }
+      ],
+      "bride": [
+        { "name": "최기정", "relation": "신부", "phone": "010-3123-0355" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-12-26T16:00:00+09:00"
+    },
+    "gallery": [
+      "/images/sikj1226/gallery1.jpg",
+      "/images/sikj1226/gallery2.jpg",
+      "/images/sikj1226/gallery3.jpg",
+      "/images/sikj1226/gallery4.jpg",
+      "/images/sikj1226/gallery5.jpg",
+      "/images/sikj1226/gallery6.jpg",
+      "/images/sikj1226/gallery7.jpg",
+      "/images/sikj1226/gallery8.jpg",
+      "/images/sikj1226/gallery9.jpg",
+      "/images/sikj1226/gallery10.jpg",
+      "/images/sikj1226/gallery11.jpg",
+      "/images/sikj1226/gallery12.jpg"
+    ],
+    "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "약현동 성당",
+  "address": "대성전\n서울 중구 청파로 447-1",
+  "lat": 37.55910822297294,
+  "lng": 126.96747917654307,
+  "transport": {
+  "custom": [
+    {
+      "title": "주차 안내",
+      "description": "주차는 서소문 역사공원 주차장(중구 칠패로 5)을\n이용하시길 바랍니다.\n주차권은 당일 축의대에서 받아 가실 수 있습니다."
+    }
+]
+}
+},
+"information": [
+  {
+    "title": "안내 말씀",
+    "content": "혼배미사가 거행되는 성당의 방침에 따라\n화환은 받지 않습니다.\n기도로 함께해 주시면 더없이 감사하겠습니다.\n\n신부 측은 축의금을 정중히 사양하오니\n너그러이 양해해 주시기 바랍니다.\n축하해 주시는 마음만 감사히 받겠습니다."
+  },
+  {
+    "title": "식사 안내",
+    "content": "서소문 순교자 기념관 피로연장에서\n뷔페로 준비되어 있습니다."
+  }
+],
+    "accounts": {
+      "groom": [
+        { "name": "조창훈", "bank": "기업은행", "number": "020-036008-02-018" },
+        { "name": "조성익", "bank": "신한", "number": "060-11-177216" }
+      ],
+      "bride": []
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1DB7WOJRRWgIiUUbmEcDgsbGLcFb_roMu_hx-mjdl6ZI"
+}
+  },
+  "chonjeong1212": {
+    "open": true,
+    "keepForever": false,
+    "bgm": "07",
+    "bgmAutoPlay": true,
+    "settings": {
+    "disableZoom": true
+  },
+    "intro": {
+      "title": "전현성 & 정희현 결혼식에 초대합니다",
+      "groomName": "전현성",
+      "brideName": "정희현",
+      "date": "2026년 12월 12일 토요일 오후 1시",
+      "location": "웨스틴 서울 파르나스",
+      "message": "한 해의 끝자락,\n저희는 새로운 시작 앞에 섭니다.\n\n서로의 평범한 하루를 사랑하며\n앞으로의 모든 날을 함께하기로 했습니다.\n\n그 소중한 첫날에\n귀한 분들을 모시고자 합니다.",
+      "mainImage": "/images/chonjeong1212/main.jpg",
+      "thumbnail": "/images/chonjeong1212/thumbnail.jpg",
+      "kakaoThumbnail": "/images/chonjeong1212/thumbnail_kakao.jpg"
+    },
+  "parents": {
+  "groom": {
+    "father": {
+      "name": "전홍준",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "황인경",
+      "symbol": "none"
+    },
+    "relation": "차남"
+  },
+  "bride": {
+    "father": {
+      "name": "정홍섭",
+      "symbol": "none"
+    },
+    "mother": {
+      "name": "장영순",
+      "symbol": "none"
+    },
+    "relation": "장녀"
+  }
+},
+    "contacts": {
+      "enabled": true,
+      "groom": [],
+      "bride": [
+        { "name": "정희현", "relation": "신부", "phone": "01088256548" },
+        { "name": "정홍섭", "relation": "아버님", "phone": "01052604740" },
+        { "name": "장영순", "relation": "어머님", "phone": "01073586548" }
+      ]
+    },
+    "calendar": {
+      "date": "2026-12-12T13:00:00+09:00"
+    },
+    "gallery": [
+      "/images/chonjeong1212/gallery1.jpg",
+      "/images/chonjeong1212/gallery2.jpg",
+      "/images/chonjeong1212/gallery3.jpg",
+      "/images/chonjeong1212/gallery4.jpg",
+      "/images/chonjeong1212/gallery5.jpg",
+      "/images/chonjeong1212/gallery6.jpg",
+      "/images/chonjeong1212/gallery7.jpg",
+      "/images/chonjeong1212/gallery8.jpg",
+      "/images/chonjeong1212/gallery9.jpg",
+      "/images/chonjeong1212/gallery10.jpg?v=1",
+      "/images/chonjeong1212/gallery11.jpg",
+      "/images/chonjeong1212/gallery12.jpg",
+      "/images/chonjeong1212/gallery13.jpg",
+      "/images/chonjeong1212/gallery14.jpg",
+      "/images/chonjeong1212/gallery15.jpg",
+      "/images/chonjeong1212/gallery16.jpg",
+      "/images/chonjeong1212/gallery17.jpg",
+      "/images/chonjeong1212/gallery18.jpg",
+      "/images/chonjeong1212/gallery19.jpg",
+      "/images/chonjeong1212/gallery20.jpg"
+    ],
+    "video": {
+  "enabled": false,
+  "type": "",
+  "url": "",
+  "position": ""
+},
+    "map": {
+  "name": "웨스틴 서울 파르나스",
+  "address": "LL층 아틀라스홀\n서울특별시 강남구 봉은사로 524",
+  "lat": 37.51276935676325,
+  "lng": 127.05728851692382,
+  "transport": {
+  "custom": [
+    {
+      "title": "주소",
+      "description": "서울 강남구 봉은사로 524\n웨스틴 서울 파르나스 LL층 아틀라스홀\nT. 02-3452-2500"
+    },
+    {
+      "title": "주차",
+      "description": "호텔 내 주차장 이용 시 4시간 무료주차"
+    },
+    {
+      "title": "지하철",
+      "description": "9호선 봉은사역 7번 출구 도보 5분\n2호선 삼성역 6번 출구 봉은사 방향 도보 13분\n\n호텔 로비에서 에스컬레이터를 이용하여\n한 층 내려오시면 LL층 아틀라스홀입니다."
+    }
+]
+}
+},
+"information": [],
+    "accounts": {
+      "groom": [
+        { "name": "정희현", "bank": "신한은행", "number": "110-630-037153" }
+      ],
+      "bride": [
+        { "name": "정홍섭", "bank": "카카오뱅크", "number": "3333-27-6417691" },
+        { "name": "장영순", "bank": "하나은행", "number": "220-910012-56008" },
+        { "name": "정희현", "bank": "하나은행", "number": "220-910177-97807" }
+      ]
+    },
+    "rsvp": {
+  "enabled": true,
+  "sheetId": "1PpHYPhFma3pTvaaIIwCMbcWa6oHaYjBWLvRR5pY0ITs"
 }
   }
 }
